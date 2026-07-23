@@ -1,132 +1,111 @@
 import Link from "next/link";
-import { districts, services, posts } from "./site-data";
+import { districts, posts, services } from "./site-data";
+
+const Arrow = () => <span aria-hidden="true">↗</span>;
 
 export default function Home() {
-  return (
-    <main>
-      <header className="nav">
-        <Link href="/" className="brand" aria-label="CB İnşaat ana sayfa">
-          <span className="brand-mark">CB</span>
-          <span>CB <b>İNŞAAT</b><small>ELEKTRİK · MEKANİK · YAPI</small></span>
-        </Link>
-        <nav aria-label="Ana menü">
-          <Link href="#hizmetler">Hizmetler</Link>
-          <Link href="/malatya">Hizmet Bölgeleri</Link>
-          <Link href="/blog">Rehber</Link>
-          <Link href="#hakkimizda">Kurumsal</Link>
-        </nav>
-        <a className="nav-cta" href="#teklif">Ücretsiz keşif <span>→</span></a>
-      </header>
+  return <main>
+    <div className="topbar">
+      <div><span>●</span> Malatya’nın 13 ilçesine hizmet</div>
+      <div><a href="mailto:info@cbinsaat.com">✉ info@cbinsaat.com</a><span className="sep">|</span><b>Pzt–Cmt 08:00–19:00</b></div>
+    </div>
+    <Header />
 
-      <section className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow"><i /> MALATYA GENELİ HİZMET</p>
-          <h1>Bir yapının<br /><em>her işi,</em><br />tek ekipte.</h1>
-          <p className="lead">Elektrik, sıhhi tesisat, mekanik sistemler ve anahtar teslim inşaat işlerinizi başından sonuna planlıyor, uyguluyor ve teslim ediyoruz.</p>
-          <div className="hero-actions">
-            <a href="#teklif" className="button primary">Keşif talebi oluştur <span>↗</span></a>
-            <Link href="#hizmetler" className="button ghost">Hizmetleri incele</Link>
-          </div>
-          <div className="trust-row">
-            <span><b>01</b><small>Tek muhatap</small></span>
-            <span><b>02</b><small>Şeffaf teklif</small></span>
-            <span><b>03</b><small>Planlı teslim</small></span>
-          </div>
+    <section className="hero">
+      <div className="hero-inner">
+        <div className="hero-kicker"><span>⚡</span> MALATYA ELEKTRİK · TESİSAT · İNŞAAT</div>
+        <h1>Yapınızın<br /><mark>tüm teknik işleri</mark><br />tek ekipte.</h1>
+        <p>Elektrik, sıhhi tesisat, mekanik sistemler ve anahtar teslim inşaat. Keşiften uygulamaya, işi eksiksiz teslim ediyoruz.</p>
+        <div className="hero-buttons">
+          <a className="btn yellow" href="#teklif">ÜCRETSİZ KEŞİF AL <Arrow /></a>
+          <Link className="btn outline" href="#hizmetler">HİZMETLERİMİZ</Link>
         </div>
-        <div className="hero-art" aria-label="Elektrik ve su tesisatını temsil eden görsel düzen">
-          <div className="blueprint">
-            <span className="bp-label">PROJE / 01</span>
-            <div className="wire wire-a" />
-            <div className="wire wire-b" />
-            <div className="junction j1">⚡</div>
-            <div className="junction j2">●</div>
-            <div className="metric"><small>UYGULAMA</small><b>360°</b></div>
-            <div className="water-line" />
-            <div className="helmet">CB</div>
-          </div>
-          <div className="floating-note"><b>Malatya’nın 13 ilçesinde</b><span>yerinde keşif ve uygulama</span></div>
+        <div className="hero-proof">
+          <div className="faces"><i>CB</i><i>⚡</i><i>✓</i></div>
+          <div><b>Tek ekip, tek muhatap</b><small>Malatya geneli planlı uygulama</small></div>
         </div>
-      </section>
+      </div>
+      <div className="hero-side-label">ELEKTRİK • MEKANİK • YAPI</div>
+    </section>
 
-      <section className="ticker" aria-label="Hizmet özeti">
-        <span>ELEKTRİK TESİSATI</span><i>✦</i><span>SIHHİ TESİSAT</span><i>✦</i><span>MEKANİK</span><i>✦</i><span>ANAHTAR TESLİM</span><i>✦</i><span>AYDINLATMA</span>
-      </section>
+    <section className="quick-strip">
+      <div><span>01</span><i>ϟ</i><b>Elektrik Arıza</b><small>Güvenli tespit ve onarım</small></div>
+      <div><span>02</span><i>◉</i><b>Sıhhi Tesisat</b><small>Kaçak, tıkanıklık, montaj</small></div>
+      <div><span>03</span><i>⌂</i><b>Anahtar Teslim</b><small>Sıfırdan yapım ve tadilat</small></div>
+      <a href="#teklif"><small>İŞİNİZİ ANLATIN</small><b>Hızlı teklif alın</b><Arrow /></a>
+    </section>
 
-      <section className="services section" id="hizmetler">
-        <div className="section-head">
-          <div><p className="eyebrow"><i /> UZMANLIK ALANLARIMIZ</p><h2>Yapınız için<br />uçtan uca çözüm.</h2></div>
-          <p>Arızadan sıfır tesisata, mağaza aydınlatmasından komple yapıya kadar farklı ustalarla uğraşmadan tek ekip, tek plan ve tek muhatap.</p>
+    <section className="section services" id="hizmetler">
+      <SectionTitle eyebrow="NELER YAPIYORUZ?" title={<>Malatya’da profesyonel<br /><mark>teknik servis.</mark></>} text="Küçük bir arızadan komple yapı uygulamasına kadar ihtiyacınız olan tüm ekipler aynı çatı altında." />
+      <div className="service-grid">
+        {services.map((s, i) => <Link href={`/hizmetler/${s.slug}`} className="service-card" key={s.slug}>
+          <div className="service-photo"><span>{s.icon}</span><small>0{i + 1}</small></div>
+          <div className="service-body"><h3>{s.title}</h3><p>{s.short}</p><b>HİZMETİ İNCELE <Arrow /></b></div>
+        </Link>)}
+      </div>
+    </section>
+
+    <section className="about">
+      <div className="about-photo">
+        <div className="experience"><strong>10+</strong><span>YILDIR<br />SAHADAYIZ</span></div>
+      </div>
+      <div className="about-copy">
+        <p className="eyebrow">CB İNŞAAT HAKKINDA</p>
+        <h2>İşi bilen ekip,<br /><mark>sözünün arkasında.</mark></h2>
+        <p>Ev, iş yeri, mağaza ve şantiyelerde elektrik, su, mekanik ve yapı işlerini birbirinden koparmadan yönetiyoruz. Doğru keşif, uygun malzeme ve temiz işçilikle kalıcı çözümler üretiyoruz.</p>
+        <div className="about-points">
+          <div><i>✓</i><b>Yerinde keşif</b><small>İhtiyacı doğru tespit ederiz.</small></div>
+          <div><i>✓</i><b>Net iş kapsamı</b><small>Ne yapılacağını baştan bilirsiniz.</small></div>
+          <div><i>✓</i><b>Koordineli ekip</b><small>Farklı ustalarla uğraşmazsınız.</small></div>
+          <div><i>✓</i><b>Kontrollü teslim</b><small>Test eder, temiz teslim ederiz.</small></div>
         </div>
-        <div className="service-grid">
-          {services.map((service, index) => (
-            <Link href={`/hizmetler/${service.slug}`} className="service-card" key={service.slug}>
-              <span className="number">0{index + 1}</span>
-              <span className="service-icon">{service.icon}</span>
-              <h3>{service.title}</h3>
-              <p>{service.short}</p>
-              <b>Detayları gör <span>→</span></b>
-            </Link>
-          ))}
+        <a href="#teklif" className="text-button">BİZİMLE ÇALIŞIN <Arrow /></a>
+      </div>
+    </section>
+
+    <section className="stats">
+      <div><strong>13</strong><span>İLÇEDE<br />HİZMET</span></div>
+      <div><strong>6</strong><span>UZMANLIK<br />ALANI</span></div>
+      <div><strong>360°</strong><span>UÇTAN UCA<br />ÇÖZÜM</span></div>
+      <div><strong>1</strong><span>TEK<br />MUHATAP</span></div>
+    </section>
+
+    <section className="products section">
+      <div className="product-head">
+        <div><p className="eyebrow">AYDINLATMA MAĞAZASI</p><h2>Evinize yakışan<br /><mark>doğru ışık.</mark></h2></div>
+        <p>Avize, aplik, spot, LED ve elektrik malzemelerinde ürün seçimi, satış ve güvenli montaj hizmeti.</p>
+      </div>
+      <div className="product-showcase">
+        <div className="product-main"><div className="hanging-lamp"><i/><span/><b/></div><small>DEKORATİF AYDINLATMA</small><h3>Avize & Sarkıt</h3><a href="#teklif">ÜRÜN DANIŞMANLIĞI <Arrow /></a></div>
+        <div className="product-list">
+          {["LED & Spot Aydınlatma","Aplik & Bahçe Aydınlatma","Anahtar · Priz · Elektrik Malzemesi"].map((x,i)=><div key={x}><span>0{i+2}</span><h3>{x}</h3><Arrow /></div>)}
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section className="about" id="hakkimizda">
-        <div className="about-dark">
-          <p className="eyebrow light"><i /> NEDEN CB İNŞAAT?</p>
-          <h2>Sorunu değil,<br /><em>çözümü</em> büyütürüz.</h2>
-          <p>Keşiften malzeme seçimine, uygulamadan son kontrole kadar işin tamamını sahipleniriz. Konut, iş yeri, şantiye ve ticari alanlarda ihtiyaca uygun çözümler üretiriz.</p>
-          <div className="checklist">
-            <span>✓ Yerinde ihtiyaç analizi</span>
-            <span>✓ Kalem kalem anlaşılır teklif</span>
-            <span>✓ Elektrik + mekanik koordinasyonu</span>
-            <span>✓ İş bitiminde kontrol ve teslim</span>
-          </div>
-        </div>
-        <div className="process">
-          <p className="eyebrow"><i /> NASIL ÇALIŞIYORUZ?</p>
-          {[
-            ["01", "Talebi dinliyoruz", "İhtiyacınızı, yapının durumunu ve hedefinizi netleştiriyoruz."],
-            ["02", "Yerinde keşfediyoruz", "Ölçüleri, mevcut tesisatı ve uygulama koşullarını inceliyoruz."],
-            ["03", "Planlayıp uyguluyoruz", "Net kapsam ve iş programıyla uzman ekibi sahaya alıyoruz."],
-            ["04", "Kontrol edip teslim ediyoruz", "Sistemleri test ediyor, işi temiz ve kullanıma hazır bırakıyoruz."]
-          ].map(row => <div className="step" key={row[0]}><b>{row[0]}</b><div><h3>{row[1]}</h3><p>{row[2]}</p></div></div>)}
-        </div>
-      </section>
+    <section className="locations">
+      <div className="location-copy"><p className="eyebrow">HİZMET BÖLGELERİ</p><h2>Malatya’nın<br /><mark>her noktasındayız.</mark></h2><p>Merkez mahallelerden kırsal yerleşimlere kadar keşif, bakım, onarım ve uygulama desteği.</p><Link href="/malatya" className="btn yellow">TÜM BÖLGELER <Arrow /></Link></div>
+      <div className="district-list">{districts.map((d,i)=><Link href={`/malatya/${d.slug}`} key={d.slug}><small>{String(i+1).padStart(2,"0")}</small><b>{d.name}</b><Arrow /></Link>)}</div>
+    </section>
 
-      <section className="locations section">
-        <div className="section-head compact">
-          <div><p className="eyebrow"><i /> MALATYA HİZMET AĞI</p><h2>13 ilçede<br />aynı titizlik.</h2></div>
-          <p>Merkez mahallelerden kırsal yerleşimlere kadar Malatya genelinde keşif, uygulama, bakım ve onarım hizmeti.</p>
-        </div>
-        <div className="districts">
-          {districts.map((d, i) => <Link key={d.slug} href={`/malatya/${d.slug}`}><small>{String(i + 1).padStart(2, "0")}</small>{d.name}<span>↗</span></Link>)}
-        </div>
-        <Link className="text-link" href="/malatya">Tüm hizmet bölgelerini incele →</Link>
-      </section>
+    <section className="section blog">
+      <SectionTitle eyebrow="USTA REHBERİ" title={<>Eviniz için<br /><mark>yararlı bilgiler.</mark></>} text="Elektrik güvenliğinden su tesisatına, doğru ürün seçiminden periyodik bakıma pratik bilgiler." />
+      <div className="post-grid">{posts.slice(0,3).map((p,i)=><Link href={`/blog/${p.slug}`} key={p.slug} className="post"><div className={`post-cover cover-${i}`}><span>{p.category}</span></div><div><small>{p.reading} DK OKUMA</small><h3>{p.title}</h3><p>{p.excerpt}</p><b>DEVAMINI OKU <Arrow /></b></div></Link>)}</div>
+    </section>
 
-      <section className="shop-callout">
-        <div><p className="eyebrow light"><i /> AYDINLATMA & ELEKTRİK ÜRÜNLERİ</p><h2>Mekânınıza<br />doğru ışık.</h2><p>Avize, aplik, spot, LED aydınlatma ve elektrik malzemelerinde seçimden montaja kadar yanınızdayız.</p><a href="#teklif" className="button white">Ürün danışmanlığı al →</a></div>
-        <div className="lamp" aria-hidden="true"><span className="cord" /><span className="shade" /><span className="glow" /></div>
-      </section>
-
-      <section className="blog section">
-        <div className="section-head compact"><div><p className="eyebrow"><i /> USTA REHBERİ</p><h2>Bilmeniz gerekenler.</h2></div><Link className="text-link" href="/blog">Tüm yazılar →</Link></div>
-        <div className="post-grid">{posts.slice(0,3).map(p => <Link href={`/blog/${p.slug}`} key={p.slug} className="post"><span>{p.category}</span><h3>{p.title}</h3><p>{p.excerpt}</p><small>{p.reading} dk okuma · CB İnşaat</small></Link>)}</div>
-      </section>
-
-      <section className="contact section" id="teklif">
-        <div><p className="eyebrow light"><i /> PROJENİZİ KONUŞALIM</p><h2>İşinizi<br /><em>sağlama</em> alalım.</h2><p>İhtiyacınızı kısaca anlatın. Ekibimiz keşif ve teklif için sizinle iletişime geçsin.</p><a href="mailto:info@cbinsaat.com">info@cbinsaat.com</a></div>
-        <form action="mailto:info@cbinsaat.com" method="post" encType="text/plain">
-          <label>Adınız soyadınız<input name="ad" required placeholder="Adınız Soyadınız" /></label>
-          <label>Telefon numaranız<input name="telefon" required inputMode="tel" placeholder="05__ ___ __ __" /></label>
-          <label>İhtiyacınız<select name="hizmet" defaultValue=""><option value="" disabled>Hizmet seçin</option>{services.map(s=><option key={s.slug}>{s.title}</option>)}</select></label>
-          <label>Proje / arıza detayı<textarea name="mesaj" placeholder="Kısaca anlatın..." rows={4} /></label>
-          <button className="button primary">Talebimi gönder <span>→</span></button>
-          <small>Gönderdiğiniz bilgiler yalnızca talebinize dönüş yapmak için kullanılır.</small>
-        </form>
-      </section>
-
-      <footer><Link href="/" className="brand"><span className="brand-mark">CB</span><span>CB <b>İNŞAAT</b><small>ELEKTRİK · MEKANİK · YAPI</small></span></Link><p>Malatya’da elektrik, sıhhi tesisat, mekanik ve anahtar teslim inşaat çözümleri.</p><div><Link href="/malatya">Hizmet Bölgeleri</Link><Link href="/blog">Blog</Link><a href="mailto:info@cbinsaat.com">İletişim</a></div><small>© 2026 CB İnşaat. Tüm hakları saklıdır.</small></footer>
-    </main>
-  );
+    <section className="quote" id="teklif">
+      <div className="quote-copy"><p className="eyebrow">ÜCRETSİZ KEŞİF TALEBİ</p><h2>İşinizi anlatın,<br /><mark>biz çözelim.</mark></h2><p>Formu doldurun; işinizin kapsamını konuşmak ve uygun keşif zamanını belirlemek için sizinle iletişime geçelim.</p><a href="mailto:info@cbinsaat.com">✉ info@cbinsaat.com</a></div>
+      <form action="mailto:info@cbinsaat.com" method="post" encType="text/plain">
+        <div><label>ADINIZ SOYADINIZ<input name="ad" required placeholder="Adınız Soyadınız" /></label><label>TELEFON<input name="telefon" required inputMode="tel" placeholder="05__ ___ __ __" /></label></div>
+        <label>HİZMET<select name="hizmet" defaultValue=""><option value="" disabled>Hizmet seçin</option>{services.map(s=><option key={s.slug}>{s.title}</option>)}</select></label>
+        <label>İŞİNİZİ KISACA ANLATIN<textarea name="mesaj" rows={3} placeholder="Örn. daire elektrik tesisatı yenilenecek..." /></label>
+        <button className="btn yellow">TALEBİ GÖNDER <Arrow /></button>
+      </form>
+    </section>
+    <Footer />
+  </main>
 }
+
+function Header(){return <header className="nav"><Link href="/" className="brand"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><nav><Link href="/">ANA SAYFA</Link><Link href="#hizmetler">HİZMETLER</Link><Link href="/malatya">BÖLGELER</Link><Link href="/blog">BLOG</Link><Link href="#teklif">İLETİŞİM</Link></nav><a href="#teklif" className="header-cta"><small>KEŞİF & TEKLİF</small><b>Hemen Talep Oluştur</b><Arrow /></a></header>}
+function SectionTitle({eyebrow,title,text}:{eyebrow:string,title:React.ReactNode,text:string}){return <div className="section-title"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2></div><p>{text}</p></div>}
+function Footer(){return <footer><div className="footer-main"><Link href="/" className="brand light"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><p>Malatya’da elektrik, sıhhi tesisat, mekanik sistemler, aydınlatma ve anahtar teslim yapı çözümleri.</p></div><div><h4>HİZMETLER</h4>{services.slice(0,4).map(s=><Link href={`/hizmetler/${s.slug}`} key={s.slug}>{s.title}</Link>)}</div><div><h4>KURUMSAL</h4><Link href="/malatya">Hizmet Bölgeleri</Link><Link href="/blog">Usta Rehberi</Link><a href="#teklif">Teklif Al</a></div><div><h4>İLETİŞİM</h4><a href="mailto:info@cbinsaat.com">info@cbinsaat.com</a><span>Malatya / Türkiye</span></div><small>© 2026 CB İnşaat. Tüm hakları saklıdır.</small></footer>}
