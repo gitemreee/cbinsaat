@@ -1,5 +1,6 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import { districts, posts, services } from "./site-data";
+import { localities } from "./localities";
 
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
@@ -65,7 +66,7 @@ export default function Home() {
 
     <section className="stats">
       <div><strong>13</strong><span>İLÇEDE<br />HİZMET</span></div>
-      <div><strong>6</strong><span>UZMANLIK<br />ALANI</span></div>
+      <div><strong>{services.length}</strong><span>HİZMET<br />KALEMİ</span></div>
       <div><strong>360°</strong><span>UÇTAN UCA<br />ÇÖZÜM</span></div>
       <div><strong>1</strong><span>TEK<br />MUHATAP</span></div>
     </section>
@@ -83,10 +84,17 @@ export default function Home() {
       </div>
     </section>
 
+    <section className="malatya-showcase">
+      <div className="malatya-photo"><span>MALATYA</span><small>Fotoğraf: okandemir / Wikimedia Commons, CC BY-SA 3.0</small></div>
+      <div className="malatya-seo-copy"><p className="eyebrow">YEREL USTA AĞI</p><h2>Malatya elektrikçi,<br/><mark>sucu ve tesisatçı.</mark></h2><p>Acil elektrik arızasından priz tamirine, hidrofor ve pompadan sıfırdan ev tesisatına kadar merkez ve ilçelerde hizmet kapsamını yerleşim bazında inceleyin.</p><div className="keyword-cloud">{["Acil Elektrikçi Malatya","Malatya Sucu","Malatya Su Tesisatçısı","Priz Tamiri","Hidrofor Tamiri","Pompa Sistemleri","Kompanzasyon Panosu","Sulama Sistemleri","Avize Montajı","Sıfırdan Ev Tesisatı"].map(x=><span key={x}>{x}</span>)}</div><Link className="btn yellow" href="/malatya">MAHALLE VE İLÇELER →</Link></div>
+    </section>
+
     <section className="locations">
       <div className="location-copy"><p className="eyebrow">HİZMET BÖLGELERİ</p><h2>Malatya’nın<br /><mark>her noktasındayız.</mark></h2><p>Merkez mahallelerden kırsal yerleşimlere kadar keşif, bakım, onarım ve uygulama desteği.</p><Link href="/malatya" className="btn yellow">TÜM BÖLGELER <Arrow /></Link></div>
       <div className="district-list">{districts.map((d,i)=><Link href={`/malatya/${d.slug}`} key={d.slug}><small>{String(i+1).padStart(2,"0")}</small><b>{d.name}</b><Arrow /></Link>)}</div>
     </section>
+
+    <section className="popular-places section"><div className="section-title"><div><p className="eyebrow">POPÜLER HİZMET BÖLGELERİ</p><h2>Mahallenizde<br/><mark>CB İnşaat.</mark></h2></div><p>Merkez mahalleler, kırsal yerleşimler ve organize sanayi bölgeleri için hazırlanan yerel hizmet sayfaları.</p></div><div>{localities.slice(0,24).map(l=><Link href={`/malatya/${l.district}/${l.slug}`} key={`${l.district}-${l.slug}`}><small>{l.type}</small><b>{l.name} Elektrikçi & Tesisatçı</b><span>→</span></Link>)}</div></section>
 
     <section className="section blog">
       <SectionTitle eyebrow="USTA REHBERİ" title={<>Eviniz için<br /><mark>yararlı bilgiler.</mark></>} text="Elektrik güvenliğinden su tesisatına, doğru ürün seçiminden periyodik bakıma pratik bilgiler." />
@@ -106,6 +114,7 @@ export default function Home() {
   </main>
 }
 
-function Header(){return <header className="nav"><Link href="/" className="brand"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><nav><Link href="/">ANA SAYFA</Link><div className="nav-drop"><Link href="/#hizmetler">HİZMETLER <i>⌄</i></Link><div className="mega services-menu"><div><small>ELEKTRİK</small>{services.slice(0,4).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}</div><div><small>SU & MEKANİK</small>{services.slice(4,10).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}</div><div><small>YAPI & BAKIM</small>{services.slice(10).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}<Link className="mega-cta" href="/teklif">Projenizi anlatın →</Link></div></div></div><div className="nav-drop"><Link href="/malatya">BÖLGELER <i>⌄</i></Link><div className="mega district-menu"><small>MALATYA’NIN 13 İLÇESİ</small><div>{districts.map(d=><Link href={`/malatya/${d.slug}`} key={d.slug}>{d.name}<span>→</span></Link>)}</div></div></div><div className="nav-drop"><Link href="/blog">BLOG <i>⌄</i></Link><div className="mega mini-menu"><small>USTA REHBERİ</small>{posts.slice(0,4).map(p=><Link href={`/blog/${p.slug}`} key={p.slug}>{p.title}</Link>)}</div></div><Link href="/teklif">TEKLİF AL</Link></nav><Link href="/teklif" className="header-cta"><small>PROJENİ ANLAT</small><b>Hemen Teklif Al</b><Arrow /></Link></header>}
+function Header(){return <header className="nav"><Link href="/" className="brand"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><nav><Link href="/">ANA SAYFA</Link><div className="nav-drop"><Link href="/#hizmetler">HİZMETLER <i>⌄</i></Link><div className="mega services-menu"><div><small>ELEKTRİK</small>{services.slice(0,10).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}</div><div><small>SU & MEKANİK</small>{services.slice(10,20).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}</div><div><small>YAPI & BAKIM</small>{services.slice(20).map(s=><Link key={s.slug} href={`/hizmetler/${s.slug}`}><span>{s.icon}</span>{s.title}</Link>)}<Link className="mega-cta" href="/teklif">Projenizi anlatın →</Link></div></div></div><div className="nav-drop"><Link href="/malatya">BÖLGELER <i>⌄</i></Link><div className="mega district-menu"><small>MALATYA’NIN 13 İLÇESİ</small><div>{districts.map(d=><Link href={`/malatya/${d.slug}`} key={d.slug}>{d.name}<span>→</span></Link>)}</div></div></div><div className="nav-drop"><Link href="/blog">BLOG <i>⌄</i></Link><div className="mega mini-menu"><small>USTA REHBERİ</small>{posts.slice(0,4).map(p=><Link href={`/blog/${p.slug}`} key={p.slug}>{p.title}</Link>)}</div></div><Link href="/teklif">TEKLİF AL</Link></nav><Link href="/teklif" className="header-cta"><small>PROJENİ ANLAT</small><b>Hemen Teklif Al</b><Arrow /></Link></header>}
 function SectionTitle({eyebrow,title,text}:{eyebrow:string,title:React.ReactNode,text:string}){return <div className="section-title"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2></div><p>{text}</p></div>}
 function Footer(){return <footer><div className="footer-main"><Link href="/" className="brand light"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><p>Malatya’da elektrik, sıhhi tesisat, mekanik sistemler, aydınlatma ve anahtar teslim yapı çözümleri.</p></div><div><h4>HİZMETLER</h4>{services.slice(0,6).map(s=><Link href={`/hizmetler/${s.slug}`} key={s.slug}>{s.title}</Link>)}</div><div><h4>KURUMSAL</h4><Link href="/malatya">Hizmet Bölgeleri</Link><Link href="/blog">Usta Rehberi</Link><Link href="/teklif">Projenizi Anlatın</Link></div><div><h4>İLETİŞİM</h4><a href="mailto:info@cbinsaat.com">info@cbinsaat.com</a><span>Malatya / Türkiye</span></div><small>© 2026 CB İnşaat. Tüm hakları saklıdır.</small></footer>}
+
