@@ -17,7 +17,7 @@ export default function Home() {
         <h1>Yapınızın<br /><mark>tüm teknik işleri</mark><br />tek ekipte.</h1>
         <p>Elektrik, sıhhi tesisat, mekanik sistemler ve anahtar teslim inşaat. Keşiften uygulamaya, işi eksiksiz teslim ediyoruz.</p>
         <div className="hero-buttons">
-          <a className="btn yellow" href="#teklif">ÜCRETSİZ KEŞİF AL <Arrow /></a>
+          <Link className="btn yellow" href="/teklif">PROJENİ ANLAT, TEKLİF AL <Arrow /></Link>
           <Link className="btn outline" href="#hizmetler">HİZMETLERİMİZ</Link>
         </div>
         <div className="hero-proof">
@@ -32,7 +32,7 @@ export default function Home() {
       <div><span>01</span><i>ϟ</i><b>Elektrik Arıza</b><small>Güvenli tespit ve onarım</small></div>
       <div><span>02</span><i>◉</i><b>Sıhhi Tesisat</b><small>Kaçak, tıkanıklık, montaj</small></div>
       <div><span>03</span><i>⌂</i><b>Anahtar Teslim</b><small>Sıfırdan yapım ve tadilat</small></div>
-      <a href="#teklif"><small>İŞİNİZİ ANLATIN</small><b>Hızlı teklif alın</b><Arrow /></a>
+      <Link href="/teklif"><small>İŞİNİZİ ANLATIN</small><b>Hızlı teklif alın</b><Arrow /></Link>
     </section>
 
     <section className="section services" id="hizmetler">
@@ -106,6 +106,6 @@ export default function Home() {
   </main>
 }
 
-function Header(){return <header className="nav"><Link href="/" className="brand"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><nav><Link href="/">ANA SAYFA</Link><Link href="#hizmetler">HİZMETLER</Link><Link href="/malatya">BÖLGELER</Link><Link href="/blog">BLOG</Link><Link href="#teklif">İLETİŞİM</Link></nav><a href="#teklif" className="header-cta"><small>KEŞİF & TEKLİF</small><b>Hemen Talep Oluştur</b><Arrow /></a></header>}
+function Header(){return <header className="nav"><Link href="/" className="brand"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><nav><Link href="/">ANA SAYFA</Link><Link href="#hizmetler">HİZMETLER</Link><Link href="/malatya">BÖLGELER</Link><Link href="/blog">BLOG</Link><Link href="/teklif">TEKLİF AL</Link></nav><Link href="/teklif" className="header-cta"><small>PROJENİ ANLAT</small><b>Hemen Teklif Al</b><Arrow /></Link></header>}
 function SectionTitle({eyebrow,title,text}:{eyebrow:string,title:React.ReactNode,text:string}){return <div className="section-title"><div><p className="eyebrow">{eyebrow}</p><h2>{title}</h2></div><p>{text}</p></div>}
-function Footer(){return <footer><div className="footer-main"><Link href="/" className="brand light"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><p>Malatya’da elektrik, sıhhi tesisat, mekanik sistemler, aydınlatma ve anahtar teslim yapı çözümleri.</p></div><div><h4>HİZMETLER</h4>{services.slice(0,4).map(s=><Link href={`/hizmetler/${s.slug}`} key={s.slug}>{s.title}</Link>)}</div><div><h4>KURUMSAL</h4><Link href="/malatya">Hizmet Bölgeleri</Link><Link href="/blog">Usta Rehberi</Link><a href="#teklif">Teklif Al</a></div><div><h4>İLETİŞİM</h4><a href="mailto:info@cbinsaat.com">info@cbinsaat.com</a><span>Malatya / Türkiye</span></div><small>© 2026 CB İnşaat. Tüm hakları saklıdır.</small></footer>}
+function Footer(){return <footer><div className="footer-main"><Link href="/" className="brand light"><span className="brand-bolt">ϟ</span><span><b>CB</b> İNŞAAT<small>ELEKTRİK • MEKANİK • YAPI</small></span></Link><p>Malatya’da elektrik, sıhhi tesisat, mekanik sistemler, aydınlatma ve anahtar teslim yapı çözümleri.</p></div><div><h4>HİZMETLER</h4>{services.slice(0,6).map(s=><Link href={`/hizmetler/${s.slug}`} key={s.slug}>{s.title}</Link>)}</div><div><h4>KURUMSAL</h4><Link href="/malatya">Hizmet Bölgeleri</Link><Link href="/blog">Usta Rehberi</Link><Link href="/teklif">Projenizi Anlatın</Link></div><div><h4>İLETİŞİM</h4><a href="mailto:info@cbinsaat.com">info@cbinsaat.com</a><span>Malatya / Türkiye</span></div><small>© 2026 CB İnşaat. Tüm hakları saklıdır.</small></footer>}
