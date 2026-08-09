@@ -15,11 +15,16 @@ node site/check.mjs     # kırık link + SEO kontrolü
 
 ## Yayına alma
 
-`dist-site` klasörünü (veya `cb-insaat-netlify.zip` dosyasını)
-<https://app.netlify.com/drop> adresine sürükleyin.
+Otomatik. Site Netlify'daki `cbinsaat` projesine `main` dalı üzerinden bağlı:
+`main`'e push ettiğiniz anda build başlıyor ve yaklaşık 6 dakika içinde
+<https://cbinsaat.com> güncelleniyor. Build komutu (`node site/build.mjs`) ve
+publish klasörü (`dist-site`) kökteki `netlify.toml` içinde tanımlı.
 
-Git ile bağlamak isterseniz kök dizindeki `netlify.toml` build komutunu ve publish
-klasörünü zaten tanımlıyor; ek ayar gerekmez.
+Yan dallara atılan push'lar yayına çıkmaz; değişikliğin canlıya gitmesi için
+`main`'e merge edilmesi gerekir.
+
+Elle deploy gerekirse `dist-site` klasörünü (veya `cb-insaat-netlify.zip`
+dosyasını) <https://app.netlify.com/drop> adresine sürükleyebilirsiniz.
 
 ## Ne nerede?
 
