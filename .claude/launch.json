@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "cb-insaat-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["site/serve.mjs"],
+      "port": 4321
+    }
+  ]
+}

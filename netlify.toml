@@ -1,0 +1,39 @@
+# Git tabanlı Netlify dağıtımı için.
+# (Sürükle-bırak kullanıyorsanız bu dosyaya gerek yok; dist-site içinde ayrı bir
+#  netlify.toml zaten üretiliyor.)
+
+[build]
+  command = "node site/build.mjs"
+  publish = "dist-site"
+
+[build.environment]
+  NODE_VERSION = "22"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Eski site yapısından yönlendirmeler
+[[redirects]]
+  from = "/malatya"
+  to = "/bolgeler/"
+  status = 301
+
+[[redirects]]
+  from = "/malatya/:ilce"
+  to = "/bolgeler/:ilce/"
+  status = 301
+
+[[redirects]]
+  from = "/malatya/:ilce/:yer"
+  to = "/bolgeler/:ilce/:yer/"
+  status = 301

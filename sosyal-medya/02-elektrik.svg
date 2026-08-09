@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1080" viewBox="0 0 1080 1080">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="0.9" y2="1">
+    <stop offset="0" stop-color="#0b0e12"/>
+    <stop offset="1" stop-color="#181d23"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.86" cy="0.16" r="0.6">
+    <stop offset="0" stop-color="#d3271e" stop-opacity="0.3"/>
+    <stop offset="1" stop-color="#d3271e" stop-opacity="0"/>
+  </radialGradient>
+  <pattern id="dots" width="32" height="32" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.6" fill="#d3271e" fill-opacity="0.16"/>
+  </pattern>
+  <!-- Fotoğraf üzerine perde: sol taraf koyu, sağda fotoğraf görünür kalır -->
+  <linearGradient id="scrimX" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#070a0d" stop-opacity="0.95"/>
+    <stop offset="0.44" stop-color="#070a0d" stop-opacity="0.88"/>
+    <stop offset="0.72" stop-color="#070a0d" stop-opacity="0.5"/>
+    <stop offset="1" stop-color="#070a0d" stop-opacity="0.3"/>
+  </linearGradient>
+  <linearGradient id="scrimY" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#070a0d" stop-opacity="0.75"/>
+    <stop offset="0.32" stop-color="#070a0d" stop-opacity="0.2"/>
+    <stop offset="0.72" stop-color="#070a0d" stop-opacity="0.35"/>
+    <stop offset="1" stop-color="#070a0d" stop-opacity="0.85"/>
+  </linearGradient>
+</defs>
+
+<rect width="1080" height="1080" fill="url(#scrimY)"/>
+<rect width="1080" height="1080" fill="url(#scrimX)"/>
+<rect width="1080" height="1080" fill="#d3271e" fill-opacity="0.1"/>
+
+<rect width="1080" height="14" fill="#d3271e"/>
+
+<!-- marka satırı -->
+<g transform="translate(84 112)">
+  <rect x="-2" y="-36" width="54" height="58" fill="#d3271e"/>
+  <g transform="translate(9 -24) scale(1.4)" fill="#ffffff" stroke="none">
+    <path d="M13 2 4.5 13.5H11L10 22l8.5-11.5H12L13 2Z"/>
+  </g>
+  <text x="70" y="-6" fill="#ffffff" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="40">CB İNŞAAT</text>
+  <text x="70" y="22" fill="#c3cad2" font-family="'Segoe UI', Arial, sans-serif" font-size="20" letter-spacing="3">MALATYA · ELEKTRİK · SU · MEKANİK</text>
+</g>
+
+<!-- kategori etiketi -->
+<g transform="translate(84 186)">
+  <rect x="0" y="0" width="210" height="54" rx="27"
+        fill="#ffffff" fill-opacity="0.1"
+        stroke="#d3271e" stroke-width="2.5"/>
+  <text x="29" y="36" fill="#ffffff" font-family="'Segoe UI', Arial, sans-serif" font-size="23" font-weight="600" letter-spacing="1.5">ELEKTRİK</text>
+</g>
+
+<text x="84" y="356" fill="#ffffff" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="96">PRİZ</text>
+  <text x="84" y="454" fill="#ffffff" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="96">ISINIYORSA</text>
+  <text x="84" y="552" fill="#ffffff" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="96">BEKLEMEYİN</text>
+
+<line x1="84" y1="660" x2="240" y2="660" stroke="#d3271e" stroke-width="5"/>
+
+<circle cx="95" cy="706" r="7" fill="#d3271e"/>
+  <text x="124" y="716" fill="#c3cad2" font-family="'Segoe UI', Arial, sans-serif" font-size="32">Sağlam çalışan bir priz ısınmaz</text>
+  <circle cx="95" cy="782" r="7" fill="#d3271e"/>
+  <text x="124" y="792" fill="#c3cad2" font-family="'Segoe UI', Arial, sans-serif" font-size="32">Kararma ve is izi varsa ark başlamıştır</text>
+  <circle cx="95" cy="858" r="7" fill="#d3271e"/>
+  <text x="124" y="868" fill="#c3cad2" font-family="'Segoe UI', Arial, sans-serif" font-size="32">Yanık kokusunda sigortayı indirin</text>
+
+<!-- alt marka bandı -->
+<rect y="972" width="1080" height="108" fill="#d3271e"/>
+<text x="84" y="1038" fill="#ffffff" font-family="Impact, 'Arial Narrow', Arial, sans-serif" font-size="46">0530 734 60 00</text>
+<text x="996" y="1038" fill="#ffffff" fill-opacity="0.92" font-family="'Segoe UI', Arial, sans-serif" font-size="27" text-anchor="end">cbinsaat.com</text>
+</svg>

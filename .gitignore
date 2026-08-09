@@ -40,5 +40,17 @@ yarn-error.log*
 next-env.d.ts
 /dist/
 /.wrangler/
-/outputs/
+/outputs/*
+# Malatya yerleşim listeleri ve karşılaştırma raporu sürümlensin:
+# scripts/gen-localities.mjs bu klasördeki CSV'yi okuyor.
+!/outputs/seo-yerel/
 /work/
+
+# statik site çıktısı (node site/build.mjs ile yeniden üretilir)
+/dist-site/
+/netlify-drag-drop/
+/cb-insaat-netlify.zip
+/dist-site.zip
+
+# zip icinden acilan gecici kopya
+/outputs/seo-yerel/malatya-yerlesim-listeleri/_acilan/

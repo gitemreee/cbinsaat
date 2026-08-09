@@ -1,0 +1,893 @@
+MALATYA GÜNCEL İLÇE VE MAHALLELERİ
+=================================
+
+[Akçadağ]
+Aksaray Mahallesi, Akçadağ, Malatya
+Aksüt Mahallesi, Akçadağ, Malatya
+Aktepe Mahallesi, Akçadağ, Malatya
+Aliçeri Mahallesi, Akçadağ, Malatya
+Altunlu Mahallesi, Akçadağ, Malatya
+Ancar Mahallesi, Akçadağ, Malatya
+Aşağıörükçü Mahallesi, Akçadağ, Malatya
+Aydınlar Mahallesi, Akçadağ, Malatya
+Bağköy Mahallesi, Akçadağ, Malatya
+Bahri Mahallesi, Akçadağ, Malatya
+Başpınar Mahallesi, Akçadağ, Malatya
+Bayramuşağı Mahallesi, Akçadağ, Malatya
+Bekiruşağı Mahallesi, Akçadağ, Malatya
+Bölüklü Mahallesi, Akçadağ, Malatya
+Büyükçimiş Mahallesi, Akçadağ, Malatya
+Büyükköy Mahallesi, Akçadağ, Malatya
+Çakıllıpınar Mahallesi, Akçadağ, Malatya
+Çatalbahçe Mahallesi, Akçadağ, Malatya
+Çevirme Mahallesi, Akçadağ, Malatya
+Çobanuşağı Mahallesi, Akçadağ, Malatya
+Darıca Mahallesi, Akçadağ, Malatya
+Dedeköy Mahallesi, Akçadağ, Malatya
+Demirciler Mahallesi, Akçadağ, Malatya
+Develi Mahallesi, Akçadağ, Malatya
+Doğanlar Mahallesi, Akçadağ, Malatya
+Doğantepe Mahallesi, Akçadağ, Malatya
+Doğu Mahallesi, Akçadağ, Malatya
+Durulova Mahallesi, Akçadağ, Malatya
+Dutlu Mahallesi, Akçadağ, Malatya
+Dümüklü Mahallesi, Akçadağ, Malatya
+Eğin Mahallesi, Akçadağ, Malatya
+Esenbey Mahallesi, Akçadağ, Malatya
+Esenli Mahallesi, Akçadağ, Malatya
+Fatih Mahallesi, Akçadağ, Malatya
+Gölpınar Mahallesi, Akçadağ, Malatya
+Güneşli Mahallesi, Akçadağ, Malatya
+Gürkaynak Mahallesi, Akçadağ, Malatya
+Hançerli Mahallesi, Akçadağ, Malatya
+Hartut Mahallesi, Akçadağ, Malatya
+Harunuşağı Mahallesi, Akçadağ, Malatya
+Ilıcak Mahallesi, Akçadağ, Malatya
+İkinciler Mahallesi, Akçadağ, Malatya
+Kadıibrahim Mahallesi, Akçadağ, Malatya
+Kahyalı Mahallesi, Akçadağ, Malatya
+Karamağara Mahallesi, Akçadağ, Malatya
+Karapınar Mahallesi, Akçadağ, Malatya
+Kasımuşağı Mahallesi, Akçadağ, Malatya
+Kayadibi Mahallesi, Akçadağ, Malatya
+Keklikpınar Mahallesi, Akçadağ, Malatya
+Keller Mahallesi, Akçadağ, Malatya
+Kepez Mahallesi, Akçadağ, Malatya
+Kolköy Mahallesi, Akçadağ, Malatya
+Kotangölü Mahallesi, Akçadağ, Malatya
+Kozluca Mahallesi, Akçadağ, Malatya
+Kömekavak Mahallesi, Akçadağ, Malatya
+Kurtuşağı Mahallesi, Akçadağ, Malatya
+Küçükkürne Mahallesi, Akçadağ, Malatya
+Kültür Mahallesi, Akçadağ, Malatya
+Levent Mahallesi, Akçadağ, Malatya
+Mezra Mahallesi, Akçadağ, Malatya
+Mihmanlı Mahallesi, Akçadağ, Malatya
+Muratlı Mahallesi, Akçadağ, Malatya
+Ortaköy Mahallesi, Akçadağ, Malatya
+Ören Mahallesi, Akçadağ, Malatya
+Resuluşağı Mahallesi, Akçadağ, Malatya
+Sahilköy Mahallesi, Akçadağ, Malatya
+Sakalıuzun Mahallesi, Akçadağ, Malatya
+Sarıhacı Mahallesi, Akçadağ, Malatya
+Şeyhler Mahallesi, Akçadağ, Malatya
+Taşevler Mahallesi, Akçadağ, Malatya
+Taşolar Mahallesi, Akçadağ, Malatya
+Tataruşağı Mahallesi, Akçadağ, Malatya
+Yağmurlu Mahallesi, Akçadağ, Malatya
+Yalınbudak Mahallesi, Akçadağ, Malatya
+Yalınkaya Mahallesi, Akçadağ, Malatya
+Yaylımlı Mahallesi, Akçadağ, Malatya
+Yukarıörükçü Mahallesi, Akçadağ, Malatya
+
+[Arapgir]
+Aktaş Mahallesi, Arapgir, Malatya
+Alıçlı Mahallesi, Arapgir, Malatya
+Aşağı Çörenge Mahallesi, Arapgir, Malatya
+Aşağı Ulupınar Mahallesi, Arapgir, Malatya
+Aşağı Yenice Mahallesi, Arapgir, Malatya
+Berenge Mahallesi, Arapgir, Malatya
+Boğazlı Mahallesi, Arapgir, Malatya
+Bostancık Mahallesi, Arapgir, Malatya
+Budak Mahallesi, Arapgir, Malatya
+Cömertli Mahallesi, Arapgir, Malatya
+Çakırsu Mahallesi, Arapgir, Malatya
+Çarşı Mahallesi, Arapgir, Malatya
+Çaybaşı Mahallesi, Arapgir, Malatya
+Çiğnir Mahallesi, Arapgir, Malatya
+Çimen Mahallesi, Arapgir, Malatya
+Çobanlı Mahallesi, Arapgir, Malatya
+Deregezen Mahallesi, Arapgir, Malatya
+Düzce Mahallesi, Arapgir, Malatya
+Esikli Mahallesi, Arapgir, Malatya
+Eskiarapgir Mahallesi, Arapgir, Malatya
+Eynir Mahallesi, Arapgir, Malatya
+Gebeli Mahallesi, Arapgir, Malatya
+Göz Mahallesi, Arapgir, Malatya
+Gözeli Mahallesi, Arapgir, Malatya
+Günyüzü Mahallesi, Arapgir, Malatya
+Hezenek Mahallesi, Arapgir, Malatya
+Hocaali Mahallesi, Arapgir, Malatya
+Kayakesen Mahallesi, Arapgir, Malatya
+Kaynak Mahallesi, Arapgir, Malatya
+Kazanç Mahallesi, Arapgir, Malatya
+Kılıçlı Mahallesi, Arapgir, Malatya
+Konducak Mahallesi, Arapgir, Malatya
+Koru Mahallesi, Arapgir, Malatya
+Köseoğlu Mahallesi, Arapgir, Malatya
+Mehmet Akif Mahallesi, Arapgir, Malatya
+Meşeli Mahallesi, Arapgir, Malatya
+Onar Mahallesi, Arapgir, Malatya
+Ormansırtı Mahallesi, Arapgir, Malatya
+Osmanpaşa Mahallesi, Arapgir, Malatya
+Pacalı Mahallesi, Arapgir, Malatya
+Pirali Mahallesi, Arapgir, Malatya
+Sağıluşağı Mahallesi, Arapgir, Malatya
+Sekisu Mahallesi, Arapgir, Malatya
+Selamlı Mahallesi, Arapgir, Malatya
+Serge Mahallesi, Arapgir, Malatya
+Sinikli Nah. Mahallesi, Arapgir, Malatya
+Sipahi Uşağı Mahallesi, Arapgir, Malatya
+Suceyin Mahallesi, Arapgir, Malatya
+Sugeçti Mahallesi, Arapgir, Malatya
+Şıhlar Mahallesi, Arapgir, Malatya
+Tarhan Mahallesi, Arapgir, Malatya
+Taşdelen Mahallesi, Arapgir, Malatya
+Taşdibek Mahallesi, Arapgir, Malatya
+Ulaçlı Mahallesi, Arapgir, Malatya
+Yaylacık Mahallesi, Arapgir, Malatya
+Yazılı Mahallesi, Arapgir, Malatya
+Yeni Mahallesi, Arapgir, Malatya
+Yeşilyayla Mahallesi, Arapgir, Malatya
+Yukarıçörenge Mahallesi, Arapgir, Malatya
+Yukarıulupınar Mahallesi, Arapgir, Malatya
+Yukarıyabanlı Mahallesi, Arapgir, Malatya
+Yukarıyenice Mahallesi, Arapgir, Malatya
+Zöhrap Mahallesi, Arapgir, Malatya
+
+[Arguvan]
+Akören Mahallesi, Arguvan, Malatya
+Alhasuşağı Mahallesi, Arguvan, Malatya
+Armutlu Mahallesi, Arguvan, Malatya
+Asar Mahallesi, Arguvan, Malatya
+Asmaca Mahallesi, Arguvan, Malatya
+Aşağısürmenli Mahallesi, Arguvan, Malatya
+Bahçeli Mahallesi, Arguvan, Malatya
+Bahçelievler Mahallesi, Arguvan, Malatya
+Bozan Mahallesi, Arguvan, Malatya
+Çakmak Mahallesi, Arguvan, Malatya
+Çavuş Mahallesi, Arguvan, Malatya
+Çayırlı Mahallesi, Arguvan, Malatya
+Çevreli Mahallesi, Arguvan, Malatya
+Çiftlik Mahallesi, Arguvan, Malatya
+Dolaylı Mahallesi, Arguvan, Malatya
+Doydum Mahallesi, Arguvan, Malatya
+Ermişli Mahallesi, Arguvan, Malatya
+Eymir Mahallesi, Arguvan, Malatya
+Göçeruşağı Mahallesi, Arguvan, Malatya
+Gökağaç Mahallesi, Arguvan, Malatya
+Gümüşlü Mahallesi, Arguvan, Malatya
+Güngören Mahallesi, Arguvan, Malatya
+Gürge Mahallesi, Arguvan, Malatya
+Güveçli Mahallesi, Arguvan, Malatya
+Hakverdi Mahallesi, Arguvan, Malatya
+İçmece Mahallesi, Arguvan, Malatya
+İsaköy Mahallesi, Arguvan, Malatya
+Karababa Mahallesi, Arguvan, Malatya
+Karahüyük Mahallesi, Arguvan, Malatya
+Kızık Mahallesi, Arguvan, Malatya
+Koçak Mahallesi, Arguvan, Malatya
+Konakbaşı Mahallesi, Arguvan, Malatya
+Kömürlük Mahallesi, Arguvan, Malatya
+Kurutaş Mahallesi, Arguvan, Malatya
+Kuyudere Mahallesi, Arguvan, Malatya
+Morhamam Mahallesi, Arguvan, Malatya
+Narmikan Mahallesi, Arguvan, Malatya
+Parçikan Mahallesi, Arguvan, Malatya
+Şotik Mahallesi, Arguvan, Malatya
+Tarlacık Mahallesi, Arguvan, Malatya
+Tatkınık Mahallesi, Arguvan, Malatya
+Tepebağ Mahallesi, Arguvan, Malatya
+Yamaç Mahallesi, Arguvan, Malatya
+Yeni Mahallesi, Arguvan, Malatya
+Yeniköy Mahallesi, Arguvan, Malatya
+Yenisu Mahallesi, Arguvan, Malatya
+Yoncalı Mahallesi, Arguvan, Malatya
+Yukarısürmenli Mahallesi, Arguvan, Malatya
+Yürekteşı Mahallesi, Arguvan, Malatya
+
+[Battalgazi]
+Adagören Mahallesi, Battalgazi, Malatya
+Ağılyazı Mahallesi, Battalgazi, Malatya
+Akpınar Mahallesi, Battalgazi, Malatya
+Alacakapı Mahallesi, Battalgazi, Malatya
+Alhanuşağı Mahallesi, Battalgazi, Malatya
+Alişar Mahallesi, Battalgazi, Malatya
+Aslanbey Mahallesi, Battalgazi, Malatya
+Ataköy Mahallesi, Battalgazi, Malatya
+Bağtepe Mahallesi, Battalgazi, Malatya
+Bahçelievler Mahallesi, Battalgazi, Malatya
+Bahri (Erenli) Mahallesi, Battalgazi, Malatya
+Başharık Mahallesi, Battalgazi, Malatya
+Battalgazi Mahallesi, Battalgazi, Malatya
+Beydağı Mahallesi, Battalgazi, Malatya
+Beylerbaşı Mahallesi, Battalgazi, Malatya
+Boran Mahallesi, Battalgazi, Malatya
+Bulgurlu Mahallesi, Battalgazi, Malatya
+Bulutlu Mahallesi, Battalgazi, Malatya
+Büyükhüseyinbey Mahallesi, Battalgazi, Malatya
+Büyükmustafapaşa Mahallesi, Battalgazi, Malatya
+Cevherizade Mahallesi, Battalgazi, Malatya
+Cirikpınar Mahallesi, Battalgazi, Malatya
+Çamurlu Mahallesi, Battalgazi, Malatya
+Çolaklı Mahallesi, Battalgazi, Malatya
+Çolakoğlu Mahallesi, Battalgazi, Malatya
+Çöşnük Mahallesi, Battalgazi, Malatya
+Dabakhane Mahallesi, Battalgazi, Malatya
+Dolamantepe Mahallesi, Battalgazi, Malatya
+Düzyol Mahallesi, Battalgazi, Malatya
+Ferhadiye Mahallesi, Battalgazi, Malatya
+Fırat Mahallesi, Battalgazi, Malatya
+Fırıncı Mahallesi, Battalgazi, Malatya
+Göller Mahallesi, Battalgazi, Malatya
+Göztepe Mahallesi, Battalgazi, Malatya
+Gülümuşağı Mahallesi, Battalgazi, Malatya
+Hacıabdi Mahallesi, Battalgazi, Malatya
+Hacıhaliloğluçifliği Mahallesi, Battalgazi, Malatya
+Hacıyusuflar Mahallesi, Battalgazi, Malatya
+Halfettin Mahallesi, Battalgazi, Malatya
+Hamidiye Mahallesi, Battalgazi, Malatya
+Hanımınçiftliği Mahallesi, Battalgazi, Malatya
+Hasanvarol Mahallesi, Battalgazi, Malatya
+Hasırcılar Mahallesi, Battalgazi, Malatya
+Hatunsuyu Mahallesi, Battalgazi, Malatya
+Hidayet Mahallesi, Battalgazi, Malatya
+Hisartepe Mahallesi, Battalgazi, Malatya
+İskender Mahallesi, Battalgazi, Malatya
+İsmetiye Mahallesi, Battalgazi, Malatya
+İstiklal Mahallesi, Battalgazi, Malatya
+İzzetiye Mahallesi, Battalgazi, Malatya
+Kadıçayırı Mahallesi, Battalgazi, Malatya
+Kamıştaş Mahallesi, Battalgazi, Malatya
+Kapıkaya Mahallesi, Battalgazi, Malatya
+Karabağlar Mahallesi, Battalgazi, Malatya
+Karagöz Mahallesi, Battalgazi, Malatya
+Karahan Mahallesi, Battalgazi, Malatya
+Karakaşçiftliği Mahallesi, Battalgazi, Malatya
+Karaköy Mahallesi, Battalgazi, Malatya
+Karatepe Mahallesi, Battalgazi, Malatya
+Kavaklıbağ Mahallesi, Battalgazi, Malatya
+Kemerköprü Mahallesi, Battalgazi, Malatya
+Kernek Mahallesi, Battalgazi, Malatya
+Kıraç Mahallesi, Battalgazi, Malatya
+Kırçuval Mahallesi, Battalgazi, Malatya
+Kuluşağı Mahallesi, Battalgazi, Malatya
+Küçükhüseyinbey Mahallesi, Battalgazi, Malatya
+Küçükmustafapaşa Mahallesi, Battalgazi, Malatya
+Merdivenler Mahallesi, Battalgazi, Malatya
+Merkezbeydağı Mahallesi, Battalgazi, Malatya
+Meydanbaşı Mahallesi, Battalgazi, Malatya
+Meydancık Mahallesi, Battalgazi, Malatya
+Niyazi Mahallesi, Battalgazi, Malatya
+Nuriye Mahallesi, Battalgazi, Malatya
+Orduzu Mahallesi, Battalgazi, Malatya
+Paşaköşkü Mahallesi, Battalgazi, Malatya
+Pelitli Mahallesi, Battalgazi, Malatya
+Sancaktar Mahallesi, Battalgazi, Malatya
+Saray Mahallesi, Battalgazi, Malatya
+Sarıcıoğlu Mahallesi, Battalgazi, Malatya
+Selçuklu Mahallesi, Battalgazi, Malatya
+Selvidağ Mahallesi, Battalgazi, Malatya
+Serintepe Mahallesi, Battalgazi, Malatya
+Şehitfevzi Mahallesi, Battalgazi, Malatya
+Şıkşık Mahallesi, Battalgazi, Malatya
+Şifa Mahallesi, Battalgazi, Malatya
+Şişman Mahallesi, Battalgazi, Malatya
+Tandoğan Mahallesi, Battalgazi, Malatya
+Tanışık Mahallesi, Battalgazi, Malatya
+Taştepe Mahallesi, Battalgazi, Malatya
+Tokluca Mahallesi, Battalgazi, Malatya
+Toptaş Mahallesi, Battalgazi, Malatya
+Toygar Mahallesi, Battalgazi, Malatya
+Uçbağlar Mahallesi, Battalgazi, Malatya
+Uluköy Mahallesi, Battalgazi, Malatya
+Üniversite Mahallesi, Battalgazi, Malatya
+Üzümlü Mahallesi, Battalgazi, Malatya
+Yamaç Mahallesi, Battalgazi, Malatya
+Yarımcahan Mahallesi, Battalgazi, Malatya
+Yaygın Mahallesi, Battalgazi, Malatya
+Yenice Mahallesi, Battalgazi, Malatya
+Yenihamam Mahallesi, Battalgazi, Malatya
+Yeniköy Mahallesi, Battalgazi, Malatya
+Yıldıztepe Mahallesi, Battalgazi, Malatya
+Zafer Mahallesi, Battalgazi, Malatya
+
+[Darende]
+Ağılbaşı Mahallesi, Darende, Malatya
+Ağılyazı Mahallesi, Darende, Malatya
+Akbaba Mahallesi, Darende, Malatya
+Akçatoprak Mahallesi, Darende, Malatya
+Akova Mahallesi, Darende, Malatya
+Ayvalı Mahallesi, Darende, Malatya
+Balaban Mahallesi, Darende, Malatya
+Barındır Mahallesi, Darende, Malatya
+Başkaya Mahallesi, Darende, Malatya
+Baytarbağı Mahallesi, Darende, Malatya
+Beybağı Mahallesi, Darende, Malatya
+Çaybaşı Mahallesi, Darende, Malatya
+Çınar Mahallesi, Darende, Malatya
+Çukurkaya Mahallesi, Darende, Malatya
+Gaziköy Mahallesi, Darende, Malatya
+Gökçeören Mahallesi, Darende, Malatya
+Gökyar Mahallesi, Darende, Malatya
+Göllüce Mahallesi, Darende, Malatya
+Güdül Mahallesi, Darende, Malatya
+Günerli Mahallesi, Darende, Malatya
+Günpınar Mahallesi, Darende, Malatya
+Hacıderviş Mahallesi, Darende, Malatya
+Hacılar Sıragoz Mahallesi, Darende, Malatya
+Hacılar Şeyhli Mahallesi, Darende, Malatya
+Hacolar Mahallesi, Darende, Malatya
+Heyiketeği Mahallesi, Darende, Malatya
+Hisarcık Mahallesi, Darende, Malatya
+Hisarkale Mahallesi, Darende, Malatya
+Ilıca Mahallesi, Darende, Malatya
+Irmaklı Mahallesi, Darende, Malatya
+İbrahimpaşa Mahallesi, Darende, Malatya
+Kaldırım Mahallesi, Darende, Malatya
+Karabacak Mahallesi, Darende, Malatya
+Karabayır Mahallesi, Darende, Malatya
+Karaoğuz Mahallesi, Darende, Malatya
+Kavak Mahallesi, Darende, Malatya
+Kaynak Mahallesi, Darende, Malatya
+Kerimli Mahallesi, Darende, Malatya
+Kılıçbağı Mahallesi, Darende, Malatya
+Kölükler Mahallesi, Darende, Malatya
+Kurudere Mahallesi, Darende, Malatya
+Kuzpınar Mahallesi, Darende, Malatya
+Medişeyh Mahallesi, Darende, Malatya
+Mehmetpaşa Mahallesi, Darende, Malatya
+Mollauşağı Mahallesi, Darende, Malatya
+Nadir Mahallesi, Darende, Malatya
+Nurkuyusu Mahallesi, Darende, Malatya
+Ozan Mahallesi, Darende, Malatya
+Palanga Mahallesi, Darende, Malatya
+Sakarya Mahallesi, Darende, Malatya
+Sandıkkaya Mahallesi, Darende, Malatya
+Sayfiye Mahallesi, Darende, Malatya
+Sungur Mahallesi, Darende, Malatya
+Şendere Mahallesi, Darende, Malatya
+Şuğul Mahallesi, Darende, Malatya
+Ulupınar Mahallesi, Darende, Malatya
+Uzunhasan Mahallesi, Darende, Malatya
+Üçpınar Mahallesi, Darende, Malatya
+Yarımca Mahallesi, Darende, Malatya
+Yavuzlar Mahallesi, Darende, Malatya
+Yazıköy Mahallesi, Darende, Malatya
+Yenice Mahallesi, Darende, Malatya
+Yeniköy Mahallesi, Darende, Malatya
+Yenipınar Mahallesi, Darende, Malatya
+Yeşiltaş Mahallesi, Darende, Malatya
+Yukarıulupınar Mahallesi, Darende, Malatya
+Zaviye Mahallesi, Darende, Malatya
+
+[Doğanşehir]
+Altıntop Mahallesi, Doğanşehir, Malatya
+Beğre Mahallesi, Doğanşehir, Malatya
+Bıçakçı Mahallesi, Doğanşehir, Malatya
+Çavuşlu Mahallesi, Doğanşehir, Malatya
+Çığlık Mahallesi, Doğanşehir, Malatya
+Çömlekoba Mahallesi, Doğanşehir, Malatya
+Dedeyazı Mahallesi, Doğanşehir, Malatya
+Doğu Mahallesi, Doğanşehir, Malatya
+Elmalı Mahallesi, Doğanşehir, Malatya
+Erkenek Mahallesi, Doğanşehir, Malatya
+Esentepe Mahallesi, Doğanşehir, Malatya
+Eskiköy Mahallesi, Doğanşehir, Malatya
+Fındık Mahallesi, Doğanşehir, Malatya
+Gövdeli Mahallesi, Doğanşehir, Malatya
+Günedoğru Mahallesi, Doğanşehir, Malatya
+Gürobası Mahallesi, Doğanşehir, Malatya
+Güzelköy Mahallesi, Doğanşehir, Malatya
+Hudut Mahallesi, Doğanşehir, Malatya
+Kadılı Mahallesi, Doğanşehir, Malatya
+Kapıdere Mahallesi, Doğanşehir, Malatya
+Karanlıkdere Mahallesi, Doğanşehir, Malatya
+Karaterzi Mahallesi, Doğanşehir, Malatya
+Karşıyaka Mahallesi, Doğanşehir, Malatya
+Kelhalil Mahallesi, Doğanşehir, Malatya
+Kurucaova Mahallesi, Doğanşehir, Malatya
+Küçüklü Mahallesi, Doğanşehir, Malatya
+Örencik Mahallesi, Doğanşehir, Malatya
+Polat Mahallesi, Doğanşehir, Malatya
+Polatderesi Mahallesi, Doğanşehir, Malatya
+Reşadiye Mahallesi, Doğanşehir, Malatya
+Savaklı Mahallesi, Doğanşehir, Malatya
+Söğüt Mahallesi, Doğanşehir, Malatya
+Suçatı Mahallesi, Doğanşehir, Malatya
+Sürgü Mahallesi, Doğanşehir, Malatya
+Şatırobası Mahallesi, Doğanşehir, Malatya
+Topraktepe Mahallesi, Doğanşehir, Malatya
+Yeni Mahallesi, Doğanşehir, Malatya
+Yolkoru Mahallesi, Doğanşehir, Malatya
+Yuvalı Mahallesi, Doğanşehir, Malatya
+
+[Doğanyol]
+Akkent Mahallesi, Doğanyol, Malatya
+Behramlı Mahallesi, Doğanyol, Malatya
+Burçköy Mahallesi, Doğanyol, Malatya
+Çolak Mahallesi, Doğanyol, Malatya
+Damlı Mahallesi, Doğanyol, Malatya
+Gevheruşağı Mahallesi, Doğanyol, Malatya
+Gökçe Mahallesi, Doğanyol, Malatya
+Gümüşsu Mahallesi, Doğanyol, Malatya
+İshak Mahallesi, Doğanyol, Malatya
+Koldere Mahallesi, Doğanyol, Malatya
+Konurtay Mahallesi, Doğanyol, Malatya
+Mezraa Mahallesi, Doğanyol, Malatya
+Poyraz Mahallesi, Doğanyol, Malatya
+Ulutaş Mahallesi, Doğanyol, Malatya
+Yalınca Mahallesi, Doğanyol, Malatya
+Yeşilköy Mahallesi, Doğanyol, Malatya
+
+[Hekimhan]
+Akmağara Mahallesi, Hekimhan, Malatya
+Aksütlü Mahallesi, Hekimhan, Malatya
+Aşağı Sazlıca Mahallesi, Hekimhan, Malatya
+Bağyolu Mahallesi, Hekimhan, Malatya
+Bahçedamı Mahallesi, Hekimhan, Malatya
+Bahçelievler Mahallesi, Hekimhan, Malatya
+Ballıkaya Mahallesi, Hekimhan, Malatya
+Basak Mahallesi, Hekimhan, Malatya
+Başkavak Mahallesi, Hekimhan, Malatya
+Başkınık Mahallesi, Hekimhan, Malatya
+Beykent Mahallesi, Hekimhan, Malatya
+Boğazgören Mahallesi, Hekimhan, Malatya
+Budaklı Mahallesi, Hekimhan, Malatya
+Çanakpınar Mahallesi, Hekimhan, Malatya
+Çimenlik Mahallesi, Hekimhan, Malatya
+Çulhalı Mahallesi, Hekimhan, Malatya
+Davulku Mahallesi, Hekimhan, Malatya
+Delihasanyurdu Mahallesi, Hekimhan, Malatya
+Dereköy Mahallesi, Hekimhan, Malatya
+Deveci Mahallesi, Hekimhan, Malatya
+Dikenli Mahallesi, Hekimhan, Malatya
+Dikili Mahallesi, Hekimhan, Malatya
+Dumlu Mahallesi, Hekimhan, Malatya
+Dursunlu Mahallesi, Hekimhan, Malatya
+Fatih Mahallesi, Hekimhan, Malatya
+Girmana Mahallesi, Hekimhan, Malatya
+Güçlü Mahallesi, Hekimhan, Malatya
+Güvenç Mahallesi, Hekimhan, Malatya
+Güzelyayla Mahallesi, Hekimhan, Malatya
+Güzelyurt Mahallesi, Hekimhan, Malatya
+Hacılar Mahallesi, Hekimhan, Malatya
+Hasançelebi Mahallesi, Hekimhan, Malatya
+Haydaroğlu Mahallesi, Hekimhan, Malatya
+Işıklı Mahallesi, Hekimhan, Malatya
+İgdir Mahallesi, Hekimhan, Malatya
+Karadere Mahallesi, Hekimhan, Malatya
+Karaköcek Mahallesi, Hekimhan, Malatya
+Karapınar Mahallesi, Hekimhan, Malatya
+Karslılar Mahallesi, Hekimhan, Malatya
+Karşıyaka Mahallesi, Hekimhan, Malatya
+Kavacık Mahallesi, Hekimhan, Malatya
+Kocaözü Mahallesi, Hekimhan, Malatya
+Kozdere Mahallesi, Hekimhan, Malatya
+Köprülü Mehmet Paşa Mahallesi, Hekimhan, Malatya
+Köylü Köyü Mahallesi, Hekimhan, Malatya
+Kurşunlu Mahallesi, Hekimhan, Malatya
+Mimar Sinan Mahallesi, Hekimhan, Malatya
+Mollaibrahim Mahallesi, Hekimhan, Malatya
+Salıcık Mahallesi, Hekimhan, Malatya
+Saraylı Mahallesi, Hekimhan, Malatya
+Sarıkız Mahallesi, Hekimhan, Malatya
+Sögüt Mahallesi, Hekimhan, Malatya
+Şehit Fethi Akyüz Mahallesi, Hekimhan, Malatya
+Taşbaşı Mahallesi, Hekimhan, Malatya
+Taşoluk Mahallesi, Hekimhan, Malatya
+Turgut Özal Mahallesi, Hekimhan, Malatya
+Uğurlu Mahallesi, Hekimhan, Malatya
+Yağca Mahallesi, Hekimhan, Malatya
+Yayladamı Mahallesi, Hekimhan, Malatya
+Yeni Mahallesi, Hekimhan, Malatya
+Yeşilkale Mahallesi, Hekimhan, Malatya
+Yeşilköy Mahallesi, Hekimhan, Malatya
+Yeşilpınar Mahallesi, Hekimhan, Malatya
+Yukarı Saz Mahallesi, Hekimhan, Malatya
+Yukarı Selimli Mahallesi, Hekimhan, Malatya
+
+[Kale]
+Abuşoğlu Mahallesi, Kale, Malatya
+Akça Mahallesi, Kale, Malatya
+Akuşağı Mahallesi, Kale, Malatya
+Bağlıca Mahallesi, Kale, Malatya
+Bent Mahallesi, Kale, Malatya
+Çanakçı Mahallesi, Kale, Malatya
+Darıpınar Mahallesi, Kale, Malatya
+Dedeköy Mahallesi, Kale, Malatya
+Düztarla Mahallesi, Kale, Malatya
+Erdemli Mahallesi, Kale, Malatya
+Gülenköy Mahallesi, Kale, Malatya
+Güneyce Mahallesi, Kale, Malatya
+İkizpınar Mahallesi, Kale, Malatya
+Kale Mahallesi, Kale, Malatya
+Karaağaç Mahallesi, Kale, Malatya
+Karahüseyin Mahallesi, Kale, Malatya
+Kıyıcak Mahallesi, Kale, Malatya
+Kozluk Mahallesi, Kale, Malatya
+Kumluyazı Mahallesi, Kale, Malatya
+Mahmutdursun Mahallesi, Kale, Malatya
+Salkımlı Mahallesi, Kale, Malatya
+Sarıot Mahallesi, Kale, Malatya
+Soğukpınar Mahallesi, Kale, Malatya
+Tepebaşı Mahallesi, Kale, Malatya
+Uyanık Mahallesi, Kale, Malatya
+Uzunhüseyin Mahallesi, Kale, Malatya
+Üçdeğirmen Mahallesi, Kale, Malatya
+Yenidamlar Mahallesi, Kale, Malatya
+
+[Kuluncak]
+Alvar Mahallesi, Kuluncak, Malatya
+Aşağıselimli Mahallesi, Kuluncak, Malatya
+Bahçelievler Mahallesi, Kuluncak, Malatya
+Başören Mahallesi, Kuluncak, Malatya
+Bıyıkboğazı Mahallesi, Kuluncak, Malatya
+Bicir Mahallesi, Kuluncak, Malatya
+Boğaziçi Mahallesi, Kuluncak, Malatya
+Ciritbelen Mahallesi, Kuluncak, Malatya
+Çayköy (Vekaleten) Mahallesi, Kuluncak, Malatya
+Çörmü Mahallesi, Kuluncak, Malatya
+Göğebakan Mahallesi, Kuluncak, Malatya
+İlisuluk Mahallesi, Kuluncak, Malatya
+İsmetpaşa Mahallesi, Kuluncak, Malatya
+İstiklal Mahallesi, Kuluncak, Malatya
+Karabük Mah Mahallesi, Kuluncak, Malatya
+Karaçayır Mahallesi, Kuluncak, Malatya
+Karıncalık Mahallesi, Kuluncak, Malatya
+Karlık Mahallesi, Kuluncak, Malatya
+Kaynarca Mahallesi, Kuluncak, Malatya
+Kızılhisar Mahallesi, Kuluncak, Malatya
+Kızılmağara Mahallesi, Kuluncak, Malatya
+Konaktepe Mahallesi, Kuluncak, Malatya
+Kömüklü Mahallesi, Kuluncak, Malatya
+Ortapınar Mahallesi, Kuluncak, Malatya
+Sofular Mahallesi, Kuluncak, Malatya
+Sultanlı Mahallesi, Kuluncak, Malatya
+Temüklü Mahallesi, Kuluncak, Malatya
+Yeni Mahallesi, Kuluncak, Malatya
+
+[Pütürge]
+Ağalar Mahallesi, Pütürge, Malatya
+Aktarla Mahallesi, Pütürge, Malatya
+Aliçeri Mahallesi, Pütürge, Malatya
+Alihan Mahallesi, Pütürge, Malatya
+Arınlı Mahallesi, Pütürge, Malatya
+Arıtoprak Mahallesi, Pütürge, Malatya
+Arslankent Mahallesi, Pütürge, Malatya
+Bakımlı Mahallesi, Pütürge, Malatya
+Balpınarı Mahallesi, Pütürge, Malatya
+Başmezra Mahallesi, Pütürge, Malatya
+Bayırköy Mahallesi, Pütürge, Malatya
+Belenköy Mahallesi, Pütürge, Malatya
+Bölükkaya Mahallesi, Pütürge, Malatya
+Bölünmez Mahallesi, Pütürge, Malatya
+Büyüköz Mahallesi, Pütürge, Malatya
+Çamlıdere Mahallesi, Pütürge, Malatya
+Çayköy Mahallesi, Pütürge, Malatya
+Çengelli Mahallesi, Pütürge, Malatya
+Çığırlı Mahallesi, Pütürge, Malatya
+Çukuroymağı Mahallesi, Pütürge, Malatya
+Deredüzü Mahallesi, Pütürge, Malatya
+Erdemler Mahallesi, Pütürge, Malatya
+Ersele Mahallesi, Pütürge, Malatya
+Esencik Mahallesi, Pütürge, Malatya
+Esenlik Mahallesi, Pütürge, Malatya
+Gertan Mahallesi, Pütürge, Malatya
+Gözlüce Mahallesi, Pütürge, Malatya
+Gündeğer Mahallesi, Pütürge, Malatya
+Gündüz Mahallesi, Pütürge, Malatya
+Hatip Mahallesi, Pütürge, Malatya
+Karakaya Mahallesi, Pütürge, Malatya
+Karşıyaka Mahallesi, Pütürge, Malatya
+Kavaklıdere Mahallesi, Pütürge, Malatya
+Kayadere Mahallesi, Pütürge, Malatya
+Koçköy Mahallesi, Pütürge, Malatya
+Korucak Mahallesi, Pütürge, Malatya
+Kozluk Mahallesi, Pütürge, Malatya
+Köklükaya Mahallesi, Pütürge, Malatya
+Körme Mahallesi, Pütürge, Malatya
+Köylü Mahallesi, Pütürge, Malatya
+Meşedibi Mahallesi, Pütürge, Malatya
+Nohutlu Mahallesi, Pütürge, Malatya
+Ormaniçi Mahallesi, Pütürge, Malatya
+Örencik Mahallesi, Pütürge, Malatya
+Örmeli Mahallesi, Pütürge, Malatya
+Örnekköy Mahallesi, Pütürge, Malatya
+Pazarcık Mahallesi, Pütürge, Malatya
+Poskıran Mahallesi, Pütürge, Malatya
+Sahilköy Mahallesi, Pütürge, Malatya
+Söğütlü Mahallesi, Pütürge, Malatya
+Şiro Taraksu Mahallesi, Pütürge, Malatya
+Şükan Mahallesi, Pütürge, Malatya
+Taşbaşı Mahallesi, Pütürge, Malatya
+Taşmış Mahallesi, Pütürge, Malatya
+Taştepe Mahallesi, Pütürge, Malatya
+Tatlıcak Mahallesi, Pütürge, Malatya
+Tekederesi Mahallesi, Pütürge, Malatya
+Teluşağı Mahallesi, Pütürge, Malatya
+Tepehan Mahallesi, Pütürge, Malatya
+Ulutaş Mahallesi, Pütürge, Malatya
+Uzunkoru Mahallesi, Pütürge, Malatya
+Uzuntaş Mahallesi, Pütürge, Malatya
+Üçyaka Mahallesi, Pütürge, Malatya
+Yamaç Mahallesi, Pütürge, Malatya
+Yandere Mahallesi, Pütürge, Malatya
+Yazıca Mahallesi, Pütürge, Malatya
+Yediyol Mahallesi, Pütürge, Malatya
+Yeşildere Mahallesi, Pütürge, Malatya
+
+[Yazıhan]
+Akyazı Mahallesi, Yazıhan, Malatya
+Alican Mahallesi, Yazıhan, Malatya
+Ambarcık Mahallesi, Yazıhan, Malatya
+Bahçelievler Mahallesi, Yazıhan, Malatya
+Balaban Mahallesi, Yazıhan, Malatya
+Bereketli Mahallesi, Yazıhan, Malatya
+Boyaca Mahallesi, Yazıhan, Malatya
+Boztepe Mahallesi, Yazıhan, Malatya
+Böğürtlen Mahallesi, Yazıhan, Malatya
+Buzluk Mahallesi, Yazıhan, Malatya
+Çavuş Mahallesi, Yazıhan, Malatya
+Çivril Mahallesi, Yazıhan, Malatya
+Dedekargın Mahallesi, Yazıhan, Malatya
+Doğuş Mahallesi, Yazıhan, Malatya
+Durucasu Mahallesi, Yazıhan, Malatya
+Eğribük Mahallesi, Yazıhan, Malatya
+Epreme Mahallesi, Yazıhan, Malatya
+Erecek Mahallesi, Yazıhan, Malatya
+Fethiye Mahallesi, Yazıhan, Malatya
+Gayret Mahallesi, Yazıhan, Malatya
+Gövük Mahallesi, Yazıhan, Malatya
+Hamidiye Mahallesi, Yazıhan, Malatya
+İriağaç Mahallesi, Yazıhan, Malatya
+Karaca Mahallesi, Yazıhan, Malatya
+Koşar Mahallesi, Yazıhan, Malatya
+Kömüşhan Mahallesi, Yazıhan, Malatya
+Mısırdere Mahallesi, Yazıhan, Malatya
+Sadıklı Mahallesi, Yazıhan, Malatya
+Sinanlı Mahallesi, Yazıhan, Malatya
+Sürür Mahallesi, Yazıhan, Malatya
+Tahtalı Mahallesi, Yazıhan, Malatya
+Tecirli Mahallesi, Yazıhan, Malatya
+Yeni Mahallesi, Yazıhan, Malatya
+
+[Yeşilyurt]
+Abdulgaffar Mahallesi, Yeşilyurt, Malatya
+Aşağıbağlar Mahallesi, Yeşilyurt, Malatya
+Aşağıköy Mahallesi, Yeşilyurt, Malatya
+Atalar Mahallesi, Yeşilyurt, Malatya
+Atatürk Mahallesi, Yeşilyurt, Malatya
+Banazı Mahallesi, Yeşilyurt, Malatya
+Bentbaşı Mahallesi, Yeşilyurt, Malatya
+Bindal Mahallesi, Yeşilyurt, Malatya
+Bostanbaşı Mahallesi, Yeşilyurt, Malatya
+Cafana Mahallesi, Yeşilyurt, Malatya
+Cemal Gürsel Mahallesi, Yeşilyurt, Malatya
+Cevatpaşa Mahallesi, Yeşilyurt, Malatya
+Cumhuriyet Mahallesi, Yeşilyurt, Malatya
+Cumhuriyet Örnek Mahallesi, Yeşilyurt, Malatya
+Çarmuzu Mahallesi, Yeşilyurt, Malatya
+Çavuşoğlu Mahallesi, Yeşilyurt, Malatya
+Çayırköy Mahallesi, Yeşilyurt, Malatya
+Çilesiz Mahallesi, Yeşilyurt, Malatya
+Çukurdere Mahallesi, Yeşilyurt, Malatya
+Dilek Mahallesi, Yeşilyurt, Malatya
+Duranlar Mahallesi, Yeşilyurt, Malatya
+Duruldu Mahallesi, Yeşilyurt, Malatya
+Fatih Mahallesi, Yeşilyurt, Malatya
+Gazi Mahallesi, Yeşilyurt, Malatya
+Gedik Mahallesi, Yeşilyurt, Malatya
+Göktarla Mahallesi, Yeşilyurt, Malatya
+Gözene Mahallesi, Yeşilyurt, Malatya
+Gündüzbey Mahallesi, Yeşilyurt, Malatya
+Hamidiye Mahallesi, Yeşilyurt, Malatya
+Hıroğlu Mahallesi, Yeşilyurt, Malatya
+Hocaahmetyesevi Mahallesi, Yeşilyurt, Malatya
+Horata Mahallesi, Yeşilyurt, Malatya
+Işıklı Mahallesi, Yeşilyurt, Malatya
+İkizce Mahallesi, Yeşilyurt, Malatya
+İlyas Mahallesi, Yeşilyurt, Malatya
+İnönü Mahallesi, Yeşilyurt, Malatya
+Kadiruşağı Mahallesi, Yeşilyurt, Malatya
+Karahan Mahallesi, Yeşilyurt, Malatya
+Karakavak Mahallesi, Yeşilyurt, Malatya
+Kaynarca Mahallesi, Yeşilyurt, Malatya
+Kendirli Mahallesi, Yeşilyurt, Malatya
+Kırkpınar Mahallesi, Yeşilyurt, Malatya
+Kırlangıç Mahallesi, Yeşilyurt, Malatya
+Kiltepe Mahallesi, Yeşilyurt, Malatya
+Konak Mahallesi, Yeşilyurt, Malatya
+Koşu Mahallesi, Yeşilyurt, Malatya
+Koyunoğlu Mahallesi, Yeşilyurt, Malatya
+Kozluk Mahallesi, Yeşilyurt, Malatya
+Kuşdoğan Mahallesi, Yeşilyurt, Malatya
+Kuyulu Mahallesi, Yeşilyurt, Malatya
+Mahmutlu Mahallesi, Yeşilyurt, Malatya
+Melekbaba Mahallesi, Yeşilyurt, Malatya
+Merkez Fatih Mahallesi, Yeşilyurt, Malatya
+Mullakassım Mahallesi, Yeşilyurt, Malatya
+Oluklu Mahallesi, Yeşilyurt, Malatya
+Ortaköy Mahallesi, Yeşilyurt, Malatya
+Öncü Mahallesi, Yeşilyurt, Malatya
+Özal Mahallesi, Yeşilyurt, Malatya
+Özalper Mahallesi, Yeşilyurt, Malatya
+Salkonak Mahallesi, Yeşilyurt, Malatya
+Salköprü Mahallesi, Yeşilyurt, Malatya
+Samanköy Mahallesi, Yeşilyurt, Malatya
+Samanlı Mahallesi, Yeşilyurt, Malatya
+Seyituşağı Mahallesi, Yeşilyurt, Malatya
+Seyran Mahallesi, Yeşilyurt, Malatya
+Suluköy Mahallesi, Yeşilyurt, Malatya
+Sütlüce Mahallesi, Yeşilyurt, Malatya
+Şahnahan Mahallesi, Yeşilyurt, Malatya
+Şeyhbayram Mahallesi, Yeşilyurt, Malatya
+Tecde Mahallesi, Yeşilyurt, Malatya
+Tepeköy Mahallesi, Yeşilyurt, Malatya
+Tohma Mahallesi, Yeşilyurt, Malatya
+Topraktepe Mahallesi, Yeşilyurt, Malatya
+Topsöğüt Mahallesi, Yeşilyurt, Malatya
+Turgut Özal Mahallesi, Yeşilyurt, Malatya
+Üçgöze Mahallesi, Yeşilyurt, Malatya
+Yaka Mahallesi, Yeşilyurt, Malatya
+Yakınca Mahallesi, Yeşilyurt, Malatya
+Yalınkaya Mahallesi, Yeşilyurt, Malatya
+Yavuz Selim Mahallesi, Yeşilyurt, Malatya
+Yeşilkaynak Mahallesi, Yeşilyurt, Malatya
+Zaviye Mahallesi, Yeşilyurt, Malatya
+
+ESKİ BELDE / KASABA BELEDİYELERİ (39)
+======================================
+Beydağı — eski bağlılık: Merkez; bugünkü ilçe: Battalgazi
+Dilek — eski bağlılık: Merkez; bugünkü ilçe: Yeşilyurt
+Erenli — eski bağlılık: Merkez; bugünkü ilçe: Battalgazi
+Hanımınçiftliği — eski bağlılık: Merkez; bugünkü ilçe: Battalgazi
+Orduzu — eski bağlılık: Merkez; bugünkü ilçe: Battalgazi
+Topsöğüt — eski bağlılık: Merkez; bugünkü ilçe: Yeşilyurt
+Şahnahan — eski bağlılık: Merkez; bugünkü ilçe: Yeşilyurt
+Yaygın — eski bağlılık: Merkez; bugünkü ilçe: Battalgazi
+Bahri — eski bağlılık: Akçadağ; bugünkü ilçe: Akçadağ
+Kozluca — eski bağlılık: Akçadağ; bugünkü ilçe: Akçadağ
+Ören — eski bağlılık: Akçadağ; bugünkü ilçe: Akçadağ
+Hasırcılar — eski bağlılık: Battalgazi; bugünkü ilçe: Battalgazi
+Hatunsuyu — eski bağlılık: Battalgazi; bugünkü ilçe: Battalgazi
+Ağılbaşı — eski bağlılık: Darende; bugünkü ilçe: Darende
+Aşağı Ulupınar — eski bağlılık: Darende; bugünkü ilçe: Darende
+Ayvalı — eski bağlılık: Darende; bugünkü ilçe: Darende
+Balaban — eski bağlılık: Darende; bugünkü ilçe: Darende
+Ilıca — eski bağlılık: Darende; bugünkü ilçe: Darende
+Yenice — eski bağlılık: Darende; bugünkü ilçe: Darende
+Erkenek — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Gövdeli — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Polat — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Söğüt — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Sürgü — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Kurucaova — eski bağlılık: Doğanşehir; bugünkü ilçe: Doğanşehir
+Gökçe — eski bağlılık: Doğanyol; bugünkü ilçe: Doğanyol
+Güzelyurt — eski bağlılık: Hekimhan; bugünkü ilçe: Hekimhan
+Hasançelebi — eski bağlılık: Hekimhan; bugünkü ilçe: Hekimhan
+Kocaözü — eski bağlılık: Hekimhan; bugünkü ilçe: Hekimhan
+Kurşunlu — eski bağlılık: Hekimhan; bugünkü ilçe: Hekimhan
+Girmana — eski bağlılık: Hekimhan; bugünkü ilçe: Hekimhan
+Sofular — eski bağlılık: Kuluncak; bugünkü ilçe: Kuluncak
+Nohutlu — eski bağlılık: Pütürge; bugünkü ilçe: Pütürge
+Tepehan — eski bağlılık: Pütürge; bugünkü ilçe: Pütürge
+Durucasu — eski bağlılık: Yazıhan; bugünkü ilçe: Yazıhan
+Fethiye — eski bağlılık: Yazıhan; bugünkü ilçe: Yazıhan
+Bostanbaşı — eski bağlılık: Yeşilyurt; bugünkü ilçe: Yeşilyurt
+Gündüzbey — eski bağlılık: Yeşilyurt; bugünkü ilçe: Yeşilyurt
+Yakınca — eski bağlılık: Yeşilyurt; bugünkü ilçe: Yeşilyurt
+
+ESKİ MALATYA MERKEZ KÖYLERİ (44)
+================================
+Bindal — bugün: Yeşilyurt
+Duranlar — bugün: Yeşilyurt
+Duruldu — bugün: Yeşilyurt
+Fatih — bugün: Yeşilyurt
+Göktarla — bugün: Yeşilyurt
+Karahan — bugün: Yeşilyurt
+Kendirli — bugün: Yeşilyurt
+Kırkpınar — bugün: Yeşilyurt
+Mahmutlu — bugün: Yeşilyurt
+Özal — bugün: Yeşilyurt
+Samanköy — bugün: Yeşilyurt
+Suluköy — bugün: Yeşilyurt
+Sütlüce — bugün: Yeşilyurt
+Tepeköy — bugün: Yeşilyurt
+Tohma — bugün: Yeşilyurt
+Topraktepe — bugün: Yeşilyurt
+Bağtepe — bugün: Battalgazi
+Bulgurlu — bugün: Battalgazi
+Çamurlu — bugün: Battalgazi
+Fırıncı — bugün: Battalgazi
+Göller — bugün: Battalgazi
+Hacıhaliloğluçiftliği — bugün: Battalgazi
+Karagöz — bugün: Battalgazi
+Karakaşçiftliği — bugün: Battalgazi
+Karaköy — bugün: Battalgazi
+Üzümlü — bugün: Battalgazi
+Alhanuşağı — bugün: Battalgazi
+Bulutlu — bugün: Battalgazi
+Çolaklı — bugün: Battalgazi
+Düzyol — bugün: Battalgazi
+Gülümuşağı — bugün: Battalgazi
+Hacıyusuflar — bugün: Battalgazi
+Hisartepe — bugün: Battalgazi
+Kamıştaş — bugün: Battalgazi
+Kapıkaya — bugün: Battalgazi
+Karatepe — bugün: Battalgazi
+Merdivenler — bugün: Battalgazi
+Pelitli — bugün: Battalgazi
+Selvidağ — bugün: Battalgazi
+Tanışık — bugün: Battalgazi
+Tokluca — bugün: Battalgazi
+Uluköy — bugün: Battalgazi
+Yenice — bugün: Battalgazi
+Yeniköy — bugün: Battalgazi
+
+HARİTA TABANLI MEZRA ADAYLARI (54)
+Not: Bu bölüm resmî ve eksiksiz değildir; yerel doğrulama gerekir.
+Aduşağı — Arapgir, Malatya
+Ağaç — Arapgir, Malatya
+Alanli — Arapgir, Malatya
+Aydoğdu — Arapgir, Malatya
+Bahçeler — Arapgir, Malatya
+Ballıca — Arapgir, Malatya
+Beygirli — Arapgir, Malatya
+Bulgurlu — Arapgir, Malatya
+Dilo — Arapgir, Malatya
+Dişterik — Arapgir, Malatya
+Hacı Uşağı — Arapgir, Malatya
+Haraç — Arapgir, Malatya
+Harpuzik — Arapgir, Malatya
+İlyas Kâhya — Arapgir, Malatya
+İn — Arapgir, Malatya
+Kalınharman — Arapgir, Malatya
+Kayalısu Çiftliği — Arapgir, Malatya
+Kebir Uşağı — Arapgir, Malatya
+Kozer Çiftliği — Arapgir, Malatya
+Levenge — Arapgir, Malatya
+Mehmetuşağı — Arapgir, Malatya
+Rutop — Arapgir, Malatya
+Suceyin — Arapgir, Malatya
+Tanışa — Arapgir, Malatya
+Tosunlu — Arapgir, Malatya
+Üçtepe — Arapgir, Malatya
+Yayla — Arapgir, Malatya
+Yenibağ — Arapgir, Malatya
+Yıldız — Arapgir, Malatya
+Yoluklu — Arapgir, Malatya
+Aşağıkonak — Arguvan, Malatya
+Çiftlik — Arguvan, Malatya
+Dalhançer — Arguvan, Malatya
+Gecekondu — Arguvan, Malatya
+Güvercinlik — Arguvan, Malatya
+Hacılar — Arguvan, Malatya
+Hacımusa — Arguvan, Malatya
+Horumhan — Arguvan, Malatya
+Karakaya — Arguvan, Malatya
+Kınık — Arguvan, Malatya
+Sedefuşağı — Arguvan, Malatya
+Uru — Arguvan, Malatya
+Çay — Doğanşehir, Malatya
+Sarıdanışma — Doğanşehir, Malatya
+Aliağalar — Hekimhan, Malatya
+Bağyolu — Hekimhan, Malatya
+Çeki — Hekimhan, Malatya
+Çobanpınarı — Hekimhan, Malatya
+Darıyeri — Hekimhan, Malatya
+Karamukça — Hekimhan, Malatya
+Kaymak — Hekimhan, Malatya
+Kurbağalı — Hekimhan, Malatya
+Seydimehmet — Hekimhan, Malatya
+Köklükaya — Pütürge, Malatya

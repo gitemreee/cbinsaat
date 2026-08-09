@@ -1,0 +1,816 @@
+// Elektrik grubu hizmetleri.
+// body: {h2}|{p}|{ul}|{ol}|{table}|{quote} bloklarından oluşur; TOC h2'lerden üretilir.
+
+export const elektrikServices = [
+  {
+    slug: "elektrik-tesisati",
+    title: "Elektrik Tesisatı",
+    group: "Elektrik",
+    icon: "plug",
+    featured: true,
+    core: true,
+    short: "Sıfırdan daire ve bina tesisatı, kolon hattı, pano, topraklama ve eski tesisat yenileme.",
+    metaTitle: "Malatya Elektrik Tesisatı | Sıfırdan Kurulum ve Yenileme",
+    metaDesc:
+      "Malatya'da daire, bina, iş yeri ve şantiye elektrik tesisatı. Sıfırdan kurulum, kolon hattı, pano, topraklama ve eski tesisat yenileme. Yerinde keşif ve yazılı teklif.",
+    keywords: ["Malatya elektrik tesisatı", "Malatya elektrikçi", "daire elektrik tesisatı", "bina kolon hattı", "elektrik tesisatı yenileme"],
+    intro:
+      "Elektrik tesisatı bir yapının en uzun ömürlü, ama en zor değiştirilen kısmıdır. Duvar kapandıktan sonra yapılan her düzeltme kırım demektir. Onun için kablo kesitinden priz sayısına, pano düzeninden topraklamaya kadar her kalemi baştan, kullanım senaryosuna göre planlıyoruz.",
+    symptoms: [
+      { title: "Sigorta sık sık atıyor", text: "Hat kapasitesi bugünkü cihaz yüküne yetmiyor olabilir. Çoğu eski tesisatta mutfak ve banyo tek hattan besleniyor." },
+      { title: "Priz veya anahtar ısınıyor", text: "Gevşek klemens ve yetersiz kesit ısınmaya yol açar. Isınan nokta yangının ilk aşamasıdır." },
+      { title: "Topraklama hattı yok", text: "1990 öncesi tesisatların büyük kısmında koruma topraklaması ya hiç yok ya da kopuk durumda." },
+      { title: "Uzatma kablosuyla yaşıyorsunuz", text: "Priz sayısı yetmiyorsa sorun cihazda değil, hat planındadır. Çoklu priz kalıcı çözüm değildir." },
+    ],
+    scope: [
+      "Sıfırdan daire, villa ve bina elektrik tesisatı",
+      "Kolon hattı ve ana besleme kablosu yenileme",
+      "Daire ve kat panosu kurulumu, sigorta grubu düzenleme",
+      "Kaçak akım rölesi ve aşırı akım koruması",
+      "Koruma topraklaması ve eş potansiyel bağlantı",
+      "Aydınlatma, priz ve güçlü cihaz hatlarının ayrılması",
+      "Zayıf akım altyapısı: data, TV, diafon, kamera boruları",
+      "Eski tesisat sökümü ve kanal açma dahil komple yenileme",
+    ],
+    body: [
+      { h2: "Elektrik tesisatı nasıl planlanır?" },
+      { p: "Planlama, mekânın nasıl kullanılacağını konuşmakla başlar. Salonda televizyon ünitesinin nereye geleceği, mutfakta ankastre fırın ve bulaşık makinesinin konumu, yatak odasında yatağın iki yanına priz gerekip gerekmediği; bunların tamamı kablo çekilmeden önce belli olmalıdır. Kaba tesisat aşamasında yapılan on dakikalık bir konuşma, sonradan yapılacak yarım günlük kırımı sıfırlar." },
+      { p: "Ardından yük dağılımı çıkarılır. Aydınlatma, normal priz, mutfak prizi, banyo prizi, klima ve elektrikli ısıtıcı gibi yüksek çekişli cihazlar ayrı hatlara alınır. Amaç şudur: bir hatta çıkan arıza tüm daireyi karanlıkta bırakmasın, bir cihazın çekişi diğerini etkilemesin." },
+      { p: "Kablo kesiti yükün büyüklüğüne ve hattın uzunluğuna göre seçilir. Aydınlatma hatlarında 1,5 mm², priz hatlarında 2,5 mm², elektrikli fırın ve ısıtıcı gibi yüksek güçlü tekil cihazlarda 4 mm² ve üzeri kesit tipik uygulamadır. Uzun mesafelerde gerilim düşümü hesaba katılarak bir üst kesite çıkılır." },
+
+      { h2: "Yeni tesisat mı, yenileme mi?" },
+      { p: "Kaba inşaat aşamasındaki bir yapıda tesisat sıfırdan kurulur; boru güzergâhları, buatlar ve pano yeri serbestçe belirlenir. Bu en ucuz ve en temiz senaryodur." },
+      { p: "Oturulan bir dairede ise iki yol vardır. Birincisi komple yenileme: eski kablolar sökülür, kanal açılır, yeni boru ve kablo çekilir, sıva ve boya yenilenir. İkincisi kısmi yenileme: mevcut borulardan kablo değişimi yapılır, sadece pano ve kritik hatlar elden geçirilir. Boruların içi kullanılabilir durumdaysa ikinci yöntem kırım gerektirmediği için hem hızlı hem ekonomiktir." },
+      { p: "Hangi yolun uygun olduğuna keşifte karar veriyoruz. Buat kapaklarının açılması, birkaç noktadan kablo yalıtımının kontrol edilmesi ve pano incelemesi genelde yeterli oluyor." },
+
+      { h2: "Bir dairede kaç priz olmalı?" },
+      { p: "Sayı kadar konum da önemlidir. Aşağıdaki dağılım, Malatya'da yaptığımız 3+1 daire uygulamalarında hem yeterli hem de israfa kaçmayan bir başlangıç noktasıdır:" },
+      {
+        table: {
+          head: ["Mekân", "Priz", "Notlar"],
+          rows: [
+            ["Salon", "8–10", "TV ünitesi arkasında 4'lü grup, kanepe yanlarında ikişer nokta"],
+            ["Mutfak", "8–12", "Tezgâh üstü ayrı hat, ankastre cihazlar için bağımsız besleme"],
+            ["Yatak odası", "5–6", "Yatağın iki yanı, çalışma masası, TV"],
+            ["Banyo", "1–2", "Lavabo yanında, sıçrama alanı dışında, kapaklı tip"],
+            ["Antre / koridor", "2–3", "Süpürge ve şarj noktası için"],
+            ["Balkon", "1–2", "Dış mekân tipi, kapaklı"],
+          ],
+        },
+      },
+      { p: "Priz sayısını artırmak, tesisat kapanmadan önce en ucuz iyileştirmedir. Sonradan tek bir priz eklemek, kaba tesisatta on priz eklemekten pahalıya gelir." },
+
+      { h2: "Pano ve koruma elemanları" },
+      { p: "Panonun görevi sadece sigorta barındırmak değildir; arıza anında hangi bölümün etkileneceğini belirler. Doğru kurulmuş bir panoda mutfak arızası salonun ışığını söndürmez, banyodaki kaçak tüm daireyi etkilemez." },
+      { ul: [
+        "Ana şalter: dairenin tamamını tek noktadan kesebilmek için",
+        "Kaçak akım rölesi (30 mA): can güvenliği için zorunlu kabul edilmeli",
+        "Otomatik sigortalar: her hat için ayrı, hattın kesitine uygun amperajda",
+        "Etiketleme: hangi sigortanın nereyi beslediği yazılı olmalı",
+      ] },
+      { p: "Kaçak akım rölesinin test butonuna altı ayda bir basılmasını öneriyoruz. Bastığınızda atmıyorsa röle görevini yapmıyor demektir; bu kontrol otuz saniye sürer." },
+
+      { h2: "Malatya'da tesisat yenilerken dikkat ettiklerimiz" },
+      { p: "Malatya'nın eski yapı stoğu, özellikle Battalgazi ve Yeşilyurt'un merkez mahallelerinde, tesisat açısından belirli bir profil gösteriyor: alüminyum iletken, topraklamasız hat, tek sigorta grubu ve buat yerine döşeme altından geçirilmiş ekler. Bu tip yapılarda kablo değişimi kadar buat düzeninin yeniden kurulması da gerekiyor." },
+      { p: "Deprem sonrası güçlendirme veya tadilat gören binalarda ise kolon hattının bütünlüğü ayrıca kontrol edilmeli. Kırım sırasında zarar gören besleme kabloları, ilk bakışta çalışıyor görünse bile yalıtımı zedelenmiş olabilir." },
+    ],
+    priceFactors: [
+      "Dairenin brüt metrekaresi ve oda sayısı",
+      "Sıfır tesisat mı, mevcut borudan kablo yenileme mi",
+      "Kanal açma ve sıva onarımının işe dahil olup olmadığı",
+      "Priz, anahtar ve aydınlatma noktası sayısı",
+      "Pano kapasitesi ve koruma elemanı seçimi",
+      "Zayıf akım (data, kamera, diafon) altyapısının kapsamı",
+    ],
+    faqs: [
+      { q: "Bir dairenin elektrik tesisatı kaç günde biter?", a: "Kaba tesisat aşamasındaki 3+1 bir dairede boru ve kablo çekimi ortalama 3–5 gün sürer. Oturulan bir dairede kanal açma, sıva ve boya kalemleriyle birlikte süre 7–12 güne çıkar. Kesin süre keşifte, iş kalemleriyle birlikte yazılı verilir." },
+      { q: "Tesisat yenilenirken evde oturulabilir mi?", a: "Kısmi yenilemede genelde oturulabilir; oda oda ilerlenir ve akşam enerji verilir. Komple yenilemede kırım ve toz nedeniyle en az birkaç gün boşaltılması daha sağlıklı olur. Programı sizin kullanım durumunuza göre kuruyoruz." },
+      { q: "Eski tesisatın kabloları kullanılabilir mi?", a: "Bakır iletkenli, yalıtımı sağlam ve kesiti yeterli kablolar hattın bir bölümünde kalabilir. Ancak alüminyum iletken, sertleşmiş veya çatlamış yalıtım ve topraklamasız hat varsa kablo değişimi zorunludur. Karar keşifte örnekleme yapılarak verilir." },
+      { q: "Topraklama hattı sonradan çekilebilir mi?", a: "Evet. Boru güzergâhı uygunsa mevcut hatlara topraklama iletkeni ilave edilebilir; uygun değilse kanal açılarak yeni hat çekilir. Bina ortak topraklama barası yoksa önce onun kurulması gerekir." },
+      { q: "İş bitiminde belge veriyor musunuz?", a: "Yapılan işin kalemleri, kullanılan malzeme markaları ve pano etiket şeması yazılı olarak teslim edilir. Kapatılmadan önce hat güzergâhlarının fotoğrafları da size bırakılır; sonraki tadilatlarda kırım gerektirmeden işe başlanabilir." },
+    ],
+    localAngle:
+      "eski yapı stoğunda alüminyum iletken ve topraklamasız hat oranının yüksek olması, yeni yapılarda ise ankastre mutfak ve klima yükleri için ayrı hat ihtiyacı",
+    related: ["elektrik-panosu", "elektrik-ariza", "topraklama-paratoner", "komple-ev-tadilati"],
+  },
+
+  {
+    slug: "elektrik-ariza",
+    title: "Elektrik Arıza",
+    group: "Elektrik",
+    icon: "alert",
+    featured: true,
+    core: true,
+    short: "Sigorta atması, kısa devre, enerji kesintisi ve hat arızalarında kontrollü müdahale.",
+    metaTitle: "Malatya Elektrik Arıza Servisi | Aynı Gün Müdahale",
+    metaDesc:
+      "Malatya'da elektrik arıza servisi: sürekli atan sigorta, kısa devre, kaçak akım, yanık kokusu ve enerji kesintisi. Ölçümle arıza tespiti, aynı gün müdahale.",
+    keywords: ["Malatya elektrik arıza", "Malatya elektrikçi acil", "sigorta atıyor", "kısa devre tespiti", "kaçak akım arızası"],
+    intro:
+      "Elektrik arızasında en pahalı yöntem deneme yanılmadır. Sigorta değiştirip \"bakalım tutacak mı\" demek, çoğu zaman arızayı bir süre sonra daha büyük hâliyle geri getirir. Biz önce ölçüyor, arızanın hangi hatta ve hangi bölümde olduğunu daraltıyor, sonra müdahale ediyoruz.",
+    symptoms: [
+      { title: "Sigorta atıyor ve tutmuyor", text: "Kaldırdığınızda hemen tekrar atıyorsa hatta kısa devre veya ciddi kaçak var demektir. Zorlamayın." },
+      { title: "Yanık kokusu var", text: "Priz, anahtar veya pano bölgesinden gelen yanık kokusu acil durumdur. Ana şalteri indirip arayın." },
+      { title: "Işıklar titriyor", text: "Gevşek nötr bağlantısı veya kolon hattı sorunu olabilir. Cihazlarınız için de risklidir." },
+      { title: "Bir oda tamamen enerjisiz", text: "Hat kopukluğu veya buat içinde ayrılmış klemens en sık nedendir." },
+    ],
+    scope: [
+      "Sürekli atan sigorta ve kaçak akım rölesi arızası",
+      "Kısa devre noktası tespiti ve onarımı",
+      "Kopuk hat, arızalı buat ve gevşek klemens tamiri",
+      "Isınan priz, anahtar ve kablo değişimi",
+      "Daire içi kısmi enerji kesintisi",
+      "Pano arızası, sigorta ve şalter değişimi",
+      "Aydınlatma ve otomatik devre arızaları",
+      "Apartman ortak alan ve merdiven otomatiği arızası",
+    ],
+    body: [
+      { h2: "Arıza nasıl bulunur?" },
+      { p: "Elektrik arızası aramanın mantığı, sorunu adım adım daraltmaktır. Önce arızanın panonun öncesinde mi sonrasında mı olduğu belirlenir. Sonra hangi sigorta grubunda olduğu bulunur. Ardından o gruptaki cihazlar tek tek devre dışı bırakılarak arıza cihazda mı hatta mı olduğu ayrıştırılır." },
+      { ol: [
+        "Pano incelemesi: hangi koruma elemanı devrede, ısınma veya kararma izi var mı",
+        "Yalıtım ölçümü: hattın toprağa ve nötre karşı direnci ölçülür, kaçak varsa değer düşük çıkar",
+        "Yük ayrıştırma: gruptaki cihazlar sırayla çıkarılarak arızanın kaynağı daraltılır",
+        "Nokta tespiti: buat ve priz kutuları açılarak gevşek, yanmış veya kopmuş bağlantı aranır",
+        "Onarım ve doğrulama: müdahale sonrası hat tekrar ölçülür, yük altında test edilir",
+      ] },
+      { p: "Bu sıra atlandığında, örneğin doğrudan priz değiştirildiğinde, arıza kaybolmuş gibi görünür ama asıl neden hatta durmaya devam eder." },
+
+      { h2: "Sigorta atmasının üç farklı nedeni" },
+      { p: "Halk arasında hepsine \"sigorta attı\" denir, ama üç ayrı durum vardır ve çözümleri farklıdır." },
+      {
+        table: {
+          head: ["Durum", "Belirti", "Tipik neden"],
+          rows: [
+            ["Aşırı yük", "Birkaç cihaz aynı anda çalışınca atıyor", "Hat kapasitesi yetersiz, cihaz sayısı fazla"],
+            ["Kısa devre", "Anında atıyor, kaldırılmıyor", "Kablo teması, yanmış cihaz, çivi/matkap darbesi"],
+            ["Kaçak akım", "Kaçak akım rölesi atıyor, sigortalar duruyor", "Nem, bozuk cihaz, yalıtım zayıflaması"],
+          ],
+        },
+      },
+      { p: "Kaçak akım rölesinin atması bir arıza değil, koruma sisteminin çalıştığının göstergesidir. Röleyi devre dışı bırakmak yerine kaçağın kaynağını bulmak gerekir; bu genellikle bir su ısıtıcısı, çamaşır makinesi ya da nem almış bir dış mekân hattıdır." },
+
+      { h2: "Müdahale öncesi yapmanız gerekenler" },
+      { ul: [
+        "Yanık kokusu veya kıvılcım varsa ana şalteri indirin",
+        "Su temas etmiş bir prize veya cihaza dokunmayın",
+        "Atan sigortayı ikiden fazla kaldırmayı denemeyin",
+        "Hangi cihaz çalışırken attığını not edin, tespiti hızlandırır",
+        "Islak zeminde elektrikli cihazla işlem yapmayın",
+      ] },
+      { p: "Bu bilgiler telefonda paylaşıldığında ekip gerekli malzemeyle geldiği için ikinci bir gidiş gelişi bitiriyor." },
+
+      { h2: "Acil olan ve olmayan arızalar" },
+      { p: "Yanık kokusu, kıvılcım, ısınan pano, su temas etmiş hat ve tüm dairenin enerjisiz kalması acil kategoridedir; bunlarda aynı gün müdahale ediyoruz. Tek bir prizin çalışmaması, bir avizenin yanmaması veya arada bir atan sigorta ise planlı randevu ile çözülebilir. Aciliyet ayrımını telefonda birlikte yapıyoruz; gereksiz acil ücreti çıkarmıyoruz." },
+    ],
+    priceFactors: [
+      "Arızanın acil mi planlı mı olduğu",
+      "Tespit süresi ve ölçüm gerektiren hat sayısı",
+      "Değişecek malzeme (sigorta, priz, kablo, şalter)",
+      "Kanal açma veya kırım gerekip gerekmediği",
+      "Daire içi mi, kolon hattı veya ortak alan mı",
+    ],
+    faqs: [
+      { q: "Aynı gün gelebiliyor musunuz?", a: "Merkez ilçelerde (Battalgazi, Yeşilyurt) acil arızalarda aynı gün müdahale ediyoruz. Diğer ilçelerde gün içi program durumuna göre aynı gün veya ertesi sabah randevu veriyoruz. Telefonda net saat aralığı söylüyoruz." },
+      { q: "Arıza bulunamazsa ücret alıyor musunuz?", a: "Keşif ve ölçüm yapıldıysa yol ve iş gücü karşılığı bir tespit bedeli oluşur; bu bedeli aramadan önce söylüyoruz. Onarım tarafımızca yapılırsa tespit bedeli toplam tutardan düşülür." },
+      { q: "Sigortayı kendim değiştirebilir miyim?", a: "Aynı amperajda bir otomatik sigortanın değişimi teknik olarak basittir, ancak sigortanın neden attığı bilinmeden yapılan değişim riski gizler. Özellikle daha yüksek amperajlı sigorta takmak, kabloyu korumasız bırakır ve yangın riski oluşturur." },
+      { q: "Kaçak akım rölesi sürekli atıyor, ne yapmalıyım?", a: "Önce tüm cihazların fişini çekin ve röleyi kaldırın. Duruyorsa cihazları tek tek takarak hangisinde attığını bulabilirsiniz. Cihazsız hâlde de atıyorsa kaçak hattadır ve ölçümle bulunması gerekir." },
+      { q: "Apartman ortak alan arızasına bakıyor musunuz?", a: "Evet. Merdiven otomatiği, ortak alan aydınlatması, sayaç panosu ve kolon hattı arızalarında yönetim veya bina sorumlusu ile çalışıyoruz; iş öncesi yazılı teklif veriyoruz." },
+    ],
+    localAngle:
+      "kış aylarında elektrikli ısıtıcı yükünün artmasıyla eski hatlarda görülen aşırı yük atmaları ve nem kaynaklı kaçak akım arızaları",
+    related: ["elektrik-tesisati", "elektrik-panosu", "priz-tamiri", "topraklama-paratoner"],
+  },
+
+  {
+    slug: "priz-tamiri",
+    title: "Priz Tamiri ve Montajı",
+    group: "Elektrik",
+    icon: "plug",
+    featured: false,
+    short: "Çalışmayan, gevşeyen veya ısınan prizlerin yenilenmesi ve yeni priz hattı çekimi.",
+    metaTitle: "Malatya Priz Tamiri ve Montajı | Yeni Priz Hattı",
+    metaDesc:
+      "Malatya'da priz tamiri, priz değişimi ve yeni priz hattı çekimi. Isınan, gevşeyen, kıvılcım yapan prizler ve tezgâh üstü priz montajı.",
+    keywords: ["Malatya priz tamiri", "priz değişimi", "yeni priz hattı", "priz ısınıyor", "anahtar değişimi"],
+    intro:
+      "Priz, tesisatın en çok yorulan parçasıdır. Her fiş takıp çıkarma mekanizmayı biraz daha gevşetir. Gevşeyen bağlantı ise direnç, direnç ise ısı üretir. Bu nedenle priz değişimini kozmetik bir iş değil, küçük ama gerçek bir güvenlik işi olarak ele alıyoruz.",
+    symptoms: [
+      { title: "Priz gövdesi ısınıyor", text: "Normalde priz ısınmaz. Isınma varsa bağlantı gevşek ya da kesit yetersizdir." },
+      { title: "Fiş takarken kıvılcım çıkıyor", text: "Kontak yüzeyleri aşınmış, ark oluşuyor demektir. Değişmesi gerekir." },
+      { title: "Priz kararmış veya erimiş", text: "Aşırı ısınma yaşanmış. Sadece priz değil, arkasındaki kablo ucu da kontrol edilmeli." },
+      { title: "Fiş prizde durmuyor", text: "Yay gücünü kaybetmiş; kötü temas ısınmaya yol açar." },
+    ],
+    scope: [
+      "Yanmış, kararmış ve gevşemiş priz değişimi",
+      "Anahtar, dimmer ve komütatör değişimi",
+      "Yeni priz noktası açma ve hat çekimi",
+      "Tezgâh üstü, USB'li ve kapaklı priz montajı",
+      "Banyo ve dış mekân için korumalı priz uygulaması",
+      "Çerçeve ve kapak grubu yenileme",
+      "Priz hattı topraklama kontrolü",
+      "Ofis ve mağazalarda yer altı / kanal priz sistemleri",
+    ],
+    body: [
+      { h2: "Priz neden ısınır?" },
+      { p: "Isınmanın kaynağı neredeyse her zaman kötü temastır. Kablonun ucu klemense tam oturmamışsa veya vida zamanla gevşemişse, akım küçük bir yüzeyden geçmek zorunda kalır. Bu noktada direnç artar ve enerji ısıya dönüşür. Yıllar içinde bu ısı önce plastiği sarartır, sonra karartır, en sonunda eritir." },
+      { p: "İkinci neden yetersiz kesittir. 1,5 mm² bir hattın ucundaki prize elektrikli ısıtıcı takıldığında kablo sürekli sınırında çalışır. Bu durumda priz değiştirmek sorunu çözmez; hattın kendisi yenilenmeli veya cihaz için ayrı hat çekilmelidir." },
+      { p: "Üçüncüsü, çoklu priz kullanımıdır. Tek bir noktadan dört beş yüksek çekişli cihaz beslendiğinde ilk yorulan yer duvardaki prizdir." },
+
+      { h2: "Priz değişimi ne zaman yetmez?" },
+      { p: "Prizi değiştirdikten sonra hâlâ ısınma varsa sorun mekanizmada değildir. Bu durumda kablo ucu kesilip yeniden soyulur, gerekirse buata kadar geri gidilerek ek noktaları kontrol edilir. Isınmanın buat içindeki bir ekten kaynaklandığı vakalar hiç de az değildir." },
+      { p: "Aynı hattaki birden fazla prizde ısınma varsa hattın tamamı ve besleyen sigorta gözden geçirilir. Bu artık priz tamiri değil, hat yenilemesi kapsamına girer." },
+
+      { h2: "Yeni priz eklerken" },
+      { p: "Var olan bir prizden zincirleme yeni priz almak kolay yoldur, ancak hattın toplam yükü artacağı için her zaman doğru değildir. Mutfak tezgâhı, klima veya çalışma odası gibi yükü yüksek noktalarda panodan ayrı hat çekilmesini öneriyoruz." },
+      { ul: [
+        "Tezgâh üstü prizler su sıçramasına karşı en az 15 cm yükseklikte konumlandırılır",
+        "Banyoda priz, duş ve küvet sınırının dışında ve kapaklı tip olmalıdır",
+        "Dış mekân prizlerinde IP44 ve üzeri koruma sınıfı aranır",
+        "Çocuk güvenliği için otomatik kapaklı (perdeli) priz tercih edilir",
+      ] },
+    ],
+    priceFactors: [
+      "Değişecek priz / anahtar adedi",
+      "Malzeme sınıfı (ekonomik, orta, üst segment seri)",
+      "Yeni nokta açılıyorsa kanal ve hat uzunluğu",
+      "Buat ve besleme hattı kontrolünün gerekip gerekmediği",
+      "Sıva onarımı ve boya rötuşunun dahil olup olmadığı",
+    ],
+    faqs: [
+      { q: "Tek bir prizin değişimi için geliyor musunuz?", a: "Geliyoruz, ancak yol ve iş gücü nedeniyle tek kalemlik işlerde minimum servis bedeli uygulanır. O yüzden evdeki tüm gevşek priz ve anahtarların aynı ziyarette elden geçirilmesini öneriyoruz; kalem başına maliyet ciddi biçimde düşer." },
+      { q: "Priz markası fark eder mi?", a: "Mekanizmanın kontak kalitesi ve vida tutuşu fark eder. Bilinen üreticilerin orta segment serileri, ekonomik ürünlere göre gözle görülür şekilde uzun ömürlüdür. Kapak ve çerçeve tarafı ise büyük oranda estetik tercihtir." },
+      { q: "Eski çerçeveye yeni mekanizma takılabilir mi?", a: "Aynı üreticinin aynı serisi içinde genelde takılabilir. Farklı marka ve serilerde ölçü uyuşmadığı için çerçevenin de değişmesi gerekir; keşifte mevcut seriye bakarak söylüyoruz." },
+      { q: "USB'li priz taktırmak mantıklı mı?", a: "Sık kullanılan noktalarda (yatak başı, çalışma masası) pratiktir. Ancak USB modülünün ömrü priz mekanizmasından kısadır ve şarj hızı adaptörlere göre düşük kalabilir. Tüm evde değil, iki üç noktada kullanılmasını öneriyoruz." },
+    ],
+    localAngle: "eski dairelerde priz sayısının yetersiz kalması ve çoklu priz kullanımının yaygınlığı",
+    related: ["elektrik-ariza", "elektrik-tesisati", "avize-aydinlatma"],
+  },
+
+  {
+    slug: "avize-aydinlatma",
+    title: "Avize ve Aydınlatma",
+    group: "Elektrik",
+    icon: "lamp",
+    featured: true,
+    core: true,
+    short: "Avize, aplik, spot ve LED ürün seçimi, tedariki ve güvenli montajı.",
+    metaTitle: "Malatya Avize Montajı ve Aydınlatma Çözümleri",
+    metaDesc:
+      "Malatya'da avize montajı, spot ve LED aydınlatma uygulaması, aplik ve sarkıt montajı, bahçe ve cephe aydınlatması. Ürün seçiminden montaja kadar tek elden.",
+    keywords: ["Malatya avize montajı", "Malatya aydınlatma", "spot montajı", "LED aydınlatma", "avize takma"],
+    intro:
+      "Aydınlatma, bir mekânın algılanan kalitesini en hızlı değiştiren kalemdir. Aynı odada yanlış renk sıcaklığı huzursuz, doğru kurgulanmış katmanlı bir aydınlatma ise ferah bir his verir. Ürün seçiminden montajın güvenliğine kadar süreci birlikte yürütüyoruz.",
+    symptoms: [
+      { title: "Oda yeterince aydınlık değil", text: "Genelde tek merkezi armatürle çözülmeye çalışılan mekânlarda görülür; katmanlı aydınlatma gerekir." },
+      { title: "Işık gözü yoruyor", text: "Renk sıcaklığı ve kamaşma kontrolü yanlış seçilmiştir." },
+      { title: "LED'ler titriyor veya erken bitiyor", text: "Sürücü kalitesi veya dimmer uyumsuzluğu en sık nedendir." },
+      { title: "Avize sallanıyor / tavan tutmuyor", text: "Bağlantı elemanı ürün ağırlığına uygun değildir. Acilen kontrol edilmeli." },
+    ],
+    scope: [
+      "Avize, sarkıt ve lüster montajı",
+      "Aplik, spot ve şerit LED uygulaması",
+      "Alçıpan tavanda spot delme ve kablolama",
+      "Bahçe, cephe ve giriş aydınlatması",
+      "Sensörlü ve zaman ayarlı aydınlatma",
+      "Dimmer ve senaryolu anahtar kurulumu",
+      "Arızalı LED sürücü ve balast değişimi",
+      "Mağaza ve vitrin aydınlatma düzeni",
+    ],
+    body: [
+      { h2: "Renk sıcaklığı: 3000K mi, 4000K mi?" },
+      { p: "Renk sıcaklığı Kelvin (K) ile ölçülür ve mekânın karakterini belirler. Yanlış seçim, pahalı armatürü bile başarısız gösterir." },
+      {
+        table: {
+          head: ["Renk sıcaklığı", "Görünüm", "Uygun mekân"],
+          rows: [
+            ["2700–3000K", "Sıcak sarı", "Salon, yatak odası, restoran"],
+            ["3500–4000K", "Doğal beyaz", "Mutfak, banyo, çalışma odası, ofis"],
+            ["5000–6500K", "Gün ışığı / soğuk beyaz", "Atölye, depo, teknik alan, vitrin"],
+          ],
+        },
+      },
+      { p: "Aynı mekânda farklı renk sıcaklıkları karıştırılmamalıdır. Salonda 3000K avize varken tavanda 5000K spot kullanmak, gözün sürekli adaptasyon yapmasına ve yorgunluğa neden olur." },
+
+      { h2: "Katmanlı aydınlatma nedir?" },
+      { p: "İyi aydınlatılmış bir mekânda üç katman bulunur. Genel aydınlatma odanın temel ışık seviyesini verir (avize, tavan armatürü). İş aydınlatması belirli bir eylemi destekler (tezgâh üstü LED, okuma lambası). Vurgu aydınlatması ise mekâna derinlik katar (duvar yıkayıcı spot, gizli şerit LED)." },
+      { p: "Tek katmanla kurulan mekânlar aydınlık olsa bile düz ve steril görünür. Üç katmanın anahtarları ayrı devrelere alındığında, aynı oda gün içinde farklı senaryolarda kullanılabilir." },
+
+      { h2: "Avize montajında güvenlik" },
+      { p: "Avize montajının en önemli kısmı elektrik değil, taşıma kapasitesidir. Ağır bir kristal avize 15–25 kg gelebilir ve alçıpan tavanda standart dübelle taşınamaz. Bu tür ürünlerde beton tavana ulaşan ankraj veya alçıpan içine gizlenmiş takviye profili gerekir." },
+      { ul: [
+        "Montajdan önce ilgili sigorta indirilir ve kalem tipi kontak ile teyit edilir",
+        "Tavan tipi (beton, alçıpan, ahşap) ve ürün ağırlığına göre bağlantı elemanı seçilir",
+        "Kablo uçları klemensle bağlanır, bant ile ek yapılmaz",
+        "Topraklama iletkeni metal gövdeli armatürlerde mutlaka bağlanır",
+        "Montaj sonrası ürün elle yüklenerek sağlamlığı test edilir",
+      ] },
+
+      { h2: "Kaç lümen gerekir?" },
+      { p: "Watt artık ışık miktarını göstermiyor; ölçü lümen. Kaba bir başlangıç olarak metrekare başına 100–150 lümen genel aydınlatma için yeterlidir. 20 m² bir salon için 2.000–3.000 lümen toplam ışık hedeflenir; bu, tek bir avize yerine avize artı birkaç spot ile daha dengeli sağlanır. Mutfak tezgâhı ve çalışma alanlarında bu değer 300 lümen/m² seviyesine çıkarılır." },
+    ],
+    priceFactors: [
+      "Armatür sayısı ve montaj yüksekliği",
+      "Tavan tipi (beton, alçıpan) ve delme gereksinimi",
+      "Yeni hat / anahtar çekilip çekilmeyeceği",
+      "Ürünün tarafımızdan mı temin edileceği",
+      "Dimmer, sensör veya senaryo kurulumu",
+    ],
+    faqs: [
+      { q: "Avizeyi ben alsam montajını yapar mısınız?", a: "Evet, sadece montaj hizmeti de veriyoruz. Ürünü siz aldıysanız montaj öncesi ağırlık ve bağlantı tipi konusunda bilgi almanız iyi olur; özellikle alçıpan tavanlarda 8 kg üzeri ürünlerde ek takviye gerekebilir." },
+      { q: "Spot sayısını nasıl belirliyorsunuz?", a: "Oda alanı, tavan yüksekliği, duvar renkleri ve mekânın kullanım amacına göre hesaplıyoruz. Tipik olarak 3 metre tavan aralığında 1–1,5 m'de bir spot dengeli bir dağılım verir. Keşifte yerleşim krokisi çıkarıyoruz." },
+      { q: "LED şerit ne kadar dayanır?", a: "Kaliteli bir şerit LED ve uygun güç kaynağıyla 30.000–50.000 saat beklenir. Erken bitmelerin ana nedeni yetersiz soğutma (alüminyum profil kullanılmaması) ve düşük kaliteli güç kaynağıdır." },
+      { q: "Dimmer her LED ile çalışır mı?", a: "Hayır. Ürünün \"dimmable\" olması ve dimmer tipinin (leading edge / trailing edge) sürücüyle uyumlu olması gerekir. Uyumsuz kombinasyonlarda titreme ve uğultu görülür. Ürün seçiminde bu uyumu kontrol ediyoruz." },
+    ],
+    localAngle: "yeni teslim edilen konut projelerinde spot ve şerit LED talebinin yoğunluğu",
+    related: ["elektrik-tesisati", "priz-tamiri", "komple-ev-tadilati"],
+  },
+
+  {
+    slug: "elektrik-panosu",
+    title: "Elektrik Panosu",
+    group: "Elektrik",
+    icon: "panel",
+    featured: true,
+    short: "Daire, bina, iş yeri ve sanayi tesislerinde dağıtım ve kumanda panoları.",
+    metaTitle: "Malatya Elektrik Panosu Kurulumu ve Bakımı",
+    metaDesc:
+      "Malatya'da elektrik panosu kurulumu, yenileme ve bakımı. Daire panosu, bina dağıtım panosu, kumanda panosu, kaçak akım koruması ve etiketleme.",
+    keywords: ["Malatya elektrik panosu", "dağıtım panosu", "sigorta panosu yenileme", "kumanda panosu", "kaçak akım rölesi"],
+    intro:
+      "Pano, tesisatın beynidir. Arıza anında neyin kesileceğini, hangi bölümün etkileneceğini ve müdahalenin ne kadar süreceğini pano düzeni belirler. Düzensiz bir panoda beş dakikalık bir iş yarım saat sürer; etiketlenmiş bir panoda sorun anında bulunur.",
+    symptoms: [
+      { title: "Hangi sigortanın nereyi beslediği belli değil", text: "Etiketsiz pano, her arızada deneme yanılma demektir." },
+      { title: "Pano ısınıyor veya cızırtı geliyor", text: "Gevşek bara veya klemens bağlantısı vardır. Acil müdahale gerektirir." },
+      { title: "Kaçak akım rölesi yok", text: "Can güvenliği açısından en can alıcı eksiklik budur." },
+      { title: "Pano dolmuş, yer kalmamış", text: "Yeni hat eklenemiyorsa pano kapasitesi büyütülmelidir." },
+    ],
+    scope: [
+      "Daire ve kat dağıtım panosu kurulumu",
+      "Eski sigorta kutusunun modern panoyla değişimi",
+      "Kaçak akım rölesi ve aşırı akım koruması ilavesi",
+      "Bina ana pano ve sayaç panosu düzenlemesi",
+      "Pompa, hidrofor ve makine kumanda panosu",
+      "Bara, klemens ve bağlantı sıkma bakımı",
+      "Pano etiketleme ve devre şeması çıkarma",
+      "Termal kontrol ve yük dengesi ölçümü",
+    ],
+    body: [
+      { h2: "Panoda ne bulunmalı?" },
+      { p: "Bir daire panosunun asgari içeriği şudur: ana şalter, kaçak akım rölesi, hat sayısı kadar otomatik sigorta ve topraklama–nötr baraları. Bunların ötesinde parafudr (aşırı gerilim koruması), zaman rölesi ve ayrı kaçak akım grupları ihtiyaca göre eklenir." },
+      { p: "Kaçak akım rölesinin tek bir tane olması yaygın bir uygulamadır ama pratikte sorunludur: bir kaçak tüm daireyi karartır. Aydınlatma ve priz gruplarını iki ayrı röleye bölmek, arıza anında en azından ışıkların kalmasını sağlar." },
+
+      { h2: "Yük dengesi neden önemli?" },
+      { p: "Üç fazlı beslenen bir iş yerinde veya binada, yükün fazlara dengeli dağıtılması gerekir. Bir faz aşırı yüklenirken diğerleri boşta kalırsa nötr hattında akım artar, gerilim dalgalanır ve cihazlar zarar görür." },
+      { p: "Pano bakımında ölçü aleti ile faz akımlarını okuyor, ciddi dengesizlik varsa hatları yeniden dağıtıyoruz. Bu işlem çoğu zaman ek malzeme gerektirmez ama enerji kalitesini gözle görülür şekilde iyileştirir." },
+
+      { h2: "Pano bakımı ne sıklıkla yapılmalı?" },
+      { p: "Konutlarda 3–5 yılda bir görsel kontrol ve bağlantı sıkma yeterlidir. İş yerlerinde yılda bir, sanayi tesislerinde ise yılda iki kez bakım öneriyoruz. Bakımın özü şudur:" },
+      { ul: [
+        "Tüm vida ve klemens bağlantılarının tork kontrolü",
+        "Isınma izi, kararma ve koku kontrolü",
+        "Kaçak akım rölesi test butonu denemesi",
+        "Faz akımı ölçümü ve yük dengesi değerlendirmesi",
+        "Etiketlerin güncelliği ve devre şemasının yenilenmesi",
+        "Pano içi toz ve nem temizliği",
+      ] },
+      { p: "Bakım sonrası ölçüm değerlerini yazılı olarak bırakıyoruz; bir sonraki bakımda değişim izlenebiliyor." },
+
+      { h2: "Etiketleme: en ucuz iyileştirme" },
+      { p: "Panoyu etiketlemek malzeme olarak neredeyse bedava, faydası ise büyüktür. Bir su baskınında veya yangın başlangıcında doğru sigortayı saniyeler içinde bulmak, tüm daireyi kesmekten çok daha iyi bir senaryodur. Her panoyu, iş bitiminde kalıcı etiketle ve pano kapağının içine yapıştırılan bir devre listesiyle teslim ediyoruz." },
+    ],
+    priceFactors: [
+      "Pano boyutu ve modül (sigorta) sayısı",
+      "Yeni kurulum mu, mevcut panonun yenilenmesi mi",
+      "Koruma elemanlarının markası ve kesme kapasitesi",
+      "Kolon hattı ve bara değişimi gerekip gerekmediği",
+      "Kumanda panosu ise otomasyon bileşenleri",
+    ],
+    faqs: [
+      { q: "Eski seramik sigortalı kutu değişmeli mi?", a: "Evet. Buşonlu (seramik) sigortalar aşırı akıma karşı korur ama kaçak akım koruması sağlamaz ve seçicilikleri düşüktür. Modern bir panoya geçiş, tesisatın tamamı yenilenmese bile güvenlik açısından en yüksek getirili adımdır." },
+      { q: "Pano değişimi sırasında elektrik ne kadar kesilir?", a: "Standart bir daire panosu değişiminde enerji kesintisi 2–4 saat sürer. Bina ana panosunda bu süre uzayabilir; bu durumda çalışmayı bina yönetimiyle planlayarak duyuru yapılmasını sağlıyoruz." },
+      { q: "Parafudr (yıldırım koruması) gerekli mi?", a: "Müstakil yapılar, üst katlar, açık arazideki binalar ve hassas cihaz bulunduran iş yerleri için önerilir. Şebeke kaynaklı ani gerilim yükselmeleri de cihazlara zarar verdiği için parafudr sadece yıldırıma karşı değil, genel bir koruma sağlar." },
+      { q: "Sigorta amperajını yükseltmek çözüm mü?", a: "Hayır, tam tersine tehlikelidir. Sigortanın görevi kabloyu korumaktır; kablo kesiti değişmeden amperaj yükseltilirse kablo, sigorta atmadan önce ısınmaya başlar. Doğru çözüm hat kesitini büyütmek veya yeni hat çekmektir." },
+    ],
+    localAngle: "eski apartmanlarda hâlâ buşonlu sigorta kutularının bulunması ve kaçak akım rölesi eksikliği",
+    related: ["elektrik-tesisati", "elektrik-ariza", "kompanzasyon-panosu", "topraklama-paratoner"],
+  },
+
+  {
+    slug: "topraklama-paratoner",
+    title: "Topraklama ve Paratoner",
+    group: "Elektrik",
+    icon: "ground",
+    featured: false,
+    short: "Koruma topraklaması, eş potansiyel bağlantı ve yıldırımdan korunma sistemleri.",
+    metaTitle: "Malatya Topraklama Tesisatı ve Paratoner Uygulaması",
+    metaDesc:
+      "Malatya'da topraklama tesisatı, topraklama ölçümü, eş potansiyel bağlantı ve paratoner uygulaması. Konut, iş yeri ve sanayi tesisleri için.",
+    keywords: ["Malatya topraklama", "topraklama ölçümü", "paratoner montajı", "eş potansiyel bağlantı", "topraklama raporu"],
+    intro:
+      "Topraklama, elektrikte görünmeyen ama en çok hayat kurtaran bileşendir. Kaçak akım rölesi bile ancak sağlam bir topraklama ile birlikte tam işlevini görür. Yeni tesisatlarda kurulumunu, eski yapılarda ise ölçüm ve iyileştirmesini yapıyoruz.",
+    symptoms: [
+      { title: "Cihaza dokununca çarpıyor", text: "Metal gövdede kaçak var ve topraklama görevini yapmıyor demektir. Acil kontrol gerekir." },
+      { title: "Prizde toprak ucu bağlı değil", text: "Eski tesisatlarda çok yaygındır; priz üç uçlu görünse de arkada hat olmayabilir." },
+      { title: "Kaçak akım rölesi hiç atmıyor", text: "Test butonuna basıldığında atmıyorsa sistem çalışmıyordur." },
+      { title: "Sanayi tesisinde topraklama raporu isteniyor", text: "Periyodik ölçüm ve raporlama yaptırılması gerekir." },
+    ],
+    scope: [
+      "Yeni yapılarda temel topraklaması",
+      "Topraklama elektrodu (çubuk/plaka) uygulaması",
+      "Mevcut tesisatta topraklama hattı ilavesi",
+      "Eş potansiyel bara kurulumu ve metal aksam bağlantısı",
+      "Topraklama direnci ölçümü",
+      "Paratoner ve iniş iletkeni montajı",
+      "Pano topraklama baraları ve bağlantı kontrolü",
+      "Sanayi tesislerinde periyodik ölçüm ve raporlama",
+    ],
+    body: [
+      { h2: "Topraklama tam olarak ne yapar?" },
+      { p: "Bir cihazın içindeki kablo yalıtımı bozulup metal gövdeye temas ettiğinde, gövde tehlikeli bir gerilime çıkar. Topraklama iletkeni bu akıma çok düşük dirençli bir yol sunar. Akım toprak hattı üzerinden akmaya başlar, kaçak akım rölesi bu dengesizliği görür ve devreyi keser. Bu zincirin herhangi bir halkası eksikse koruma çalışmaz." },
+      { p: "Topraklamanın yokluğunda ise gövdedeki gerilim, ona dokunan kişi üzerinden toprağa akmaya çalışır. \"Çarpma\" dediğimiz durum tam olarak budur." },
+
+      { h2: "Topraklama direnci ve ölçüm" },
+      { p: "Topraklamanın etkinliği, ölçülen direnç değeriyle belirlenir. Değer ne kadar düşükse koruma o kadar iyidir. Ölçüm, özel topraklama megeri ile ve toprağın kuru olduğu dönemde yapılmalıdır; yağmurdan hemen sonra yapılan ölçüm gerçekte olduğundan iyi sonuç verir." },
+      { p: "Toprak direnci zeminin cinsine göre değişir. Malatya'nın kırsal mahallelerinde sık karşılaşılan taşlı ve kuru zeminlerde tek bir çubuk elektrot yeterli olmayabilir; birden fazla elektrot veya kimyasal iyileştirme gerekebilir." },
+
+      { h2: "Eş potansiyel bağlantı" },
+      { p: "Banyo gibi ıslak hacimlerde, su boruları, kalorifer boruları, küvet ve metal duş teknesi gibi iletken parçalar birbirine ve topraklamaya bağlanır. Buna eş potansiyel bağlantı denir. Amaç, iki metal yüzey arasında gerilim farkı oluşmasını engellemektir. Banyoda dokunduğunuz iki metal parça arasında fark yoksa akım da geçmez." },
+      { p: "Tadilatta boru değiştirildiğinde bu bağlantı çoğu kez unutuluyor. Plastik boruya geçilmiş bir binada eski metal hattın sağladığı süreklilik de ortadan kalkmış oluyor. Banyo tadilatlarında bu kalemi ayrıca kontrol ediyoruz." },
+
+      { h2: "Paratoner ne zaman gerekir?" },
+      { p: "Paratoner, yıldırımın binaya doğrudan düşmesi hâlinde akımı kontrollü biçimde toprağa aktarır. Açık arazideki müstakil yapılar, çevresindeki binalardan yüksek yapılar, sanayi tesisleri, depolar ve tarımsal işletmeler için önerilir." },
+      { p: "Paratoner sisteminin üç parçası vardır: yakalama ucu, iniş iletkeni ve topraklama. Üçünün de bakımlı olması gerekir; iniş iletkeni kopmuş bir paratoner koruma sağlamaz, hatta riski artırır. Kurulum kadar yıllık kontrolü de öneriyoruz." },
+    ],
+    priceFactors: [
+      "Elektrot sayısı ve zemin yapısı",
+      "Mevcut yapıda hat çekimi gerekip gerekmediği",
+      "Ölçüm ve raporlama talebi",
+      "Paratoner sistemi için bina yüksekliği ve çatı tipi",
+      "Eş potansiyel bağlantı yapılacak nokta sayısı",
+    ],
+    faqs: [
+      { q: "Topraklamam var mı, nasıl anlarım?", a: "Prizin toprak uçlarında iletken bir bağlantı olup olmadığı basit bir test cihazıyla anlaşılır. Prizde toprak fişi görünmesi bağlantı olduğu anlamına gelmez; eski tesisatlarda uçlar boşta bırakılmış olabilir. Ölçüm tek kesin yöntemdir." },
+      { q: "Topraklama ölçüm raporu ne kadar geçerli?", a: "Sanayi ve iş yerlerinde genel uygulama yılda bir ölçüm ve raporlamadır. Konutlarda yasal bir periyot zorunluluğu bulunmasa da tesisat yenileme sonrasında ve 5 yılda bir kontrol öneriyoruz." },
+      { q: "Nötr hattını toprak olarak kullanmak olur mu?", a: "Kesinlikle olmaz. Nötrü toprak yerine kullanmak, nötr kopması durumunda cihaz gövdesine faz gerilimi bindirir. Bu, karşılaşılan en tehlikeli hatalı uygulamalardan biridir ve maalesef eski tesisatlarda görülür." },
+      { q: "Apartmanda topraklama yoksa daire içinde çözebilir miyim?", a: "Kalıcı çözüm bina ortak topraklamasının kurulmasıdır. Daire içinde alınabilecek geçici tedbirler (kaçak akım rölesi ilavesi gibi) riski azaltır ama topraklamanın yerini tutmaz. Bina yönetimiyle ortak çalışma öneriyoruz." },
+    ],
+    localAngle: "kırsal mahallelerdeki taşlı ve kuru zeminlerde topraklama direncinin yüksek çıkması",
+    related: ["elektrik-panosu", "elektrik-tesisati", "jenerator-ups"],
+  },
+
+  {
+    slug: "kompanzasyon-panosu",
+    title: "Kompanzasyon Panosu",
+    group: "Elektrik",
+    icon: "gauge",
+    featured: false,
+    short: "İşletmelerde reaktif güç kontrolü, kondansatör kademeleri ve pano bakımı.",
+    metaTitle: "Malatya Kompanzasyon Panosu Kurulumu ve Bakımı",
+    metaDesc:
+      "Malatya'da kompanzasyon panosu kurulumu, kondansatör değişimi, reaktif röle ayarı ve periyodik bakım. Reaktif ceza faturalarını önleyin.",
+    keywords: ["Malatya kompanzasyon", "kompanzasyon panosu", "reaktif ceza", "kondansatör değişimi", "reaktif güç kontrol rölesi"],
+    intro:
+      "Reaktif ceza, faturaya sessizce eklenen ve çoğu işletmenin fark etmeden ödediği bir kalemdir. Kompanzasyon panosu bu cezayı bitirmek için vardır, ancak kurulduğu gibi bırakıldığında birkaç yıl içinde işlevini kaybeder. Kurulum kadar bakım da bu işin parçasıdır.",
+    symptoms: [
+      { title: "Faturada reaktif bedeli görünüyor", text: "Kompanzasyon ya yok ya da devre dışı kalmış demektir." },
+      { title: "Kondansatörler şişmiş veya sıcak", text: "Ömrünü tamamlamış kondansatör kapasitesini kaybeder ve risk oluşturur." },
+      { title: "Röle sürekli alarm veriyor", text: "Kademeler devreye giremiyor, kontaktör veya sigorta arızası olabilir." },
+      { title: "Kademe ışıkları hep açık veya hep kapalı", text: "Röle ayarları ya da akım trafosu bağlantısı hatalıdır." },
+    ],
+    scope: [
+      "Yeni kompanzasyon panosu projelendirme ve kurulumu",
+      "Kondansatör kademesi hesabı ve seçimi",
+      "Reaktif güç kontrol rölesi ayarı ve devreye alma",
+      "Şişmiş / kapasitesi düşmüş kondansatör değişimi",
+      "Kontaktör, sigorta ve deşarj direnci kontrolü",
+      "Akım trafosu bağlantı ve oran kontrolü",
+      "Harmonik değerlendirmesi ve reaktör ihtiyacı analizi",
+      "Periyodik bakım ve ölçüm raporu",
+    ],
+    body: [
+      { h2: "Reaktif güç nedir, neden ceza kesilir?" },
+      { p: "Motor, trafo ve balast gibi endüktif yükler çalışmak için manyetik alan kurar. Bu alanın kurulması için çekilen enerjiye reaktif enerji denir; iş üretmez ama şebekeden çekilir ve hatları meşgul eder. Dağıtım şirketleri bu yükü sınırlamak için belirli oranın üzerindeki reaktif tüketimi faturaya yansıtır." },
+      { p: "Kompanzasyon panosu, kondansatörler aracılığıyla bu reaktif ihtiyacı tesisin içinde karşılar. Böylece şebekeden çekilen reaktif enerji düşer ve ceza kalkar." },
+
+      { h2: "Kompanzasyon neden zamanla bozulur?" },
+      { p: "Kondansatörler tüketim malzemesidir. Sıcaklık, sık devreye girme ve harmonik bozulma altında kapasiteleri yıldan yıla düşer. Beş yıl önce 25 kVAr veren bir kondansatör bugün 15 kVAr veriyor olabilir; pano çalışıyor görünür ama ceza geri gelir." },
+      { p: "İkinci neden kontaktör aşınmasıdır. Kompanzasyon kontaktörleri günde onlarca kez devreye girer; kontakları yandığında kademe devreye giremez. Üçüncüsü, işletmenin yük profilinin değişmesidir: yeni makine alındığında mevcut kademe yapısı yetersiz kalır." },
+
+      { h2: "Bakımda ne yapılır?" },
+      { ol: [
+        "Faturaların son 12 aylık reaktif değerleri incelenir",
+        "Pano enerjisiz hâlde görsel kontrol edilir; şişme, kararma, koku aranır",
+        "Her kondansatörün kapasitesi tek tek ölçülür ve etiket değeriyle karşılaştırılır",
+        "Kontaktör kontakları ve sigortalar kontrol edilir",
+        "Röle ayarları (hedef cos φ, kademe süresi, C/K değeri) gözden geçirilir",
+        "Akım trafosunun oranı ve bağlantı yönü doğrulanır",
+        "Tesis yük altındayken ölçüm alınır ve sonuç raporlanır",
+      ] },
+      { p: "Bu kontrolün yılda bir yapılması, ödenen reaktif cezasının yanında çok küçük bir maliyettir. Çoğu işletmede bakım bedeli bir–iki aylık ceza tutarına eşit çıkıyor." },
+
+      { h2: "Harmonik sorunu" },
+      { p: "Sürücülü motorlar, invertörler, LED sürücüler ve UPS'ler şebekeye harmonik bozulma verir. Harmoniklerin yüksek olduğu tesislerde standart kondansatörler aşırı ısınır ve hızla bozulur. Bu durumda kondansatör önüne harmonik reaktör (detuned reaktör) konulması gerekir." },
+      { p: "Bir tesiste kondansatörler sürekli ve erken bozuluyorsa, sorun ürün kalitesinden çok harmonik olabilir. Ölçümle bunu ayırt ediyoruz." },
+    ],
+    priceFactors: [
+      "Tesisin kurulu gücü ve hedeflenen kVAr kapasitesi",
+      "Kademe sayısı ve kondansatör tipi",
+      "Harmonik reaktör gerekip gerekmediği",
+      "Yeni pano mu, mevcut panonun revizyonu mu",
+      "Ölçüm ve raporlama kapsamı",
+    ],
+    faqs: [
+      { q: "Kompanzasyon panosu bana ne kazandırır?", a: "Doğrudan kazanç, faturadaki reaktif ceza kaleminin ortadan kalkmasıdır. Dolaylı olarak da hat akımı düştüğü için kablo ve trafo daha az yüklenir, gerilim düşümü azalır. Yatırım genelde kısa sürede kendini amorti eder." },
+      { q: "Küçük bir dükkân için gerekli mi?", a: "Tek fazlı, motor yükü olmayan küçük işletmelerde genelde gerekmez. Soğutma kompresörü, büyük motorlu ekipman veya çok sayıda balastlı armatür varsa fatura kontrolü yapılmalıdır. Son 12 ayın faturasına bakarak ücretsiz değerlendiriyoruz." },
+      { q: "Kondansatörlerin ömrü ne kadar?", a: "Uygun sıcaklık ve harmonik koşullarda 8–10 yıl beklenir. Sıcak ve harmonik yoğun ortamlarda bu süre 3–4 yıla kadar düşebilir. Yıllık kapasite ölçümü, değişim zamanını tahmin etmenin en sağlıklı yoludur." },
+      { q: "Bakım sırasında üretim durur mu?", a: "Kompanzasyon panosunun bakımı için tesisin tamamının durması gerekmez; pano beslemesi kesilerek çalışılır. Tesis bu sırada kompanzasyonsuz çalışır, birkaç saatlik sürenin faturaya etkisi sayılmayacak kadar azdır." },
+    ],
+    localAngle: "organize sanayi bölgelerindeki üretim tesislerinde reaktif ceza ve harmonik kaynaklı kondansatör arızaları",
+    related: ["elektrik-panosu", "fabrika-elektrik-tesisati", "jenerator-ups"],
+  },
+
+  {
+    slug: "jenerator-ups",
+    title: "Jeneratör ve UPS",
+    group: "Elektrik",
+    icon: "battery",
+    featured: false,
+    short: "Kesintisiz enerji için jeneratör, otomatik transfer panosu ve UPS bağlantıları.",
+    metaTitle: "Malatya Jeneratör ve UPS Kurulumu | Transfer Panosu",
+    metaDesc:
+      "Malatya'da jeneratör bağlantısı, otomatik transfer panosu (ATS) kurulumu ve UPS hattı çekimi. Kritik yük belirleme ve devreye alma hizmeti.",
+    keywords: ["Malatya jeneratör", "otomatik transfer panosu", "ATS panosu", "UPS kurulumu", "kesintisiz güç kaynağı"],
+    intro:
+      "Kesintisiz enerji, jeneratör satın almakla değil kritik yükü doğru belirlemekle başlar. Her prizin jeneratörden beslenmesi gerekmez; sunucu, soğuk hava deposu, güvenlik sistemi ve acil aydınlatma gibi hatların ayrılması hem yatırımı hem işletme maliyetini düşürür.",
+    symptoms: [
+      { title: "Kesintide üretim veya soğutma duruyor", text: "Kritik yükler ayrılmamış, yedek besleme yok demektir." },
+      { title: "Jeneratör var ama elle devreye alınıyor", text: "Otomatik transfer panosu eksik; kesintide gecikme yaşanır." },
+      { title: "UPS aküsü çabuk bitiyor", text: "Akü ömrünü tamamlamış veya UPS gereğinden fazla yüklenmiştir." },
+      { title: "Kesinti sonrası cihazlar bozuluyor", text: "Geri dönüşteki ani gerilim korunmuyor; parafudr ve doğru transfer düzeni gerekir." },
+    ],
+    scope: [
+      "Kritik yük analizi ve ayrı hat planlaması",
+      "Jeneratör enerji bağlantısı ve kablolama",
+      "Otomatik transfer panosu (ATS) kurulumu",
+      "Şebeke–jeneratör kilitlemesi ve güvenlik önlemleri",
+      "UPS hattı çekimi ve özel priz gruplarının ayrılması",
+      "Akü grubu değerlendirmesi ve değişimi",
+      "Acil aydınlatma ve yönlendirme armatürleri",
+      "Devreye alma testi ve periyodik kontrol",
+    ],
+    body: [
+      { h2: "Kritik yük nasıl belirlenir?" },
+      { p: "Kritik yük analizi üç soruyla yapılır: bu cihaz durursa ne kaybederiz, ne kadar süre dayanabilir, yeniden başlatması ne kadar sürer? Cevaplar cihazları üç gruba ayırır." },
+      {
+        table: {
+          head: ["Grup", "Beslenme", "Örnek"],
+          rows: [
+            ["Kesintisiz", "UPS + jeneratör", "Sunucu, kasa sistemi, kontrol PLC'si"],
+            ["Kısa kesinti kabul edilir", "Jeneratör", "Soğuk oda, üretim hattı, asansör, su pompası"],
+            ["Beslenmeyebilir", "Sadece şebeke", "Genel aydınlatma fazlası, konfor prizleri, klima"],
+          ],
+        },
+      },
+      { p: "Bu ayrım yapılmadan alınan jeneratör, ya gereğinden büyük olduğu için yakıt yakar ya da gereğinden küçük olduğu için yükü kaldıramaz." },
+
+      { h2: "Otomatik transfer panosu (ATS)" },
+      { p: "ATS, şebeke kesildiğinde jeneratöre çalışma emri verir, gerilim kararlı hâle gelince yükü jeneratöre aktarır ve şebeke geri geldiğinde işlemi tersine yapar. En kritik işlevi ise mekanik ve elektriksel kilitlemedir: şebeke ile jeneratörün aynı anda hatta bağlanmasını fiziksel olarak engeller." },
+      { p: "Bu kilitleme olmadan yapılan bağlantılarda jeneratör enerjisi şebeke hattına geri basar. Bu, hatta çalışan kişiler için ölümcül bir tehlikedir ve kesinlikle kabul edilemez. Elle prizden prize yapılan \"geri besleme\" uygulamalarına hiçbir koşulda onay vermiyoruz." },
+
+      { h2: "UPS seçimi ve akü ömrü" },
+      { p: "UPS kapasitesi hem güç (kVA) hem de süre (dakika) olarak belirlenir. 10 dakikalık bir yedekleme, kontrollü kapatma için genelde yeterlidir; jeneratörle birlikte kullanılıyorsa 5–10 dakika ideal aralıktır. Jeneratör yoksa ve iş sürekliliği isteniyorsa akü grubu büyütülür." },
+      { p: "Akü ömrü ortam sıcaklığına çok duyarlıdır. 25 °C'de 4–5 yıl dayanan bir akü, 35 °C'de bu sürenin yarısını görür. UPS'in serin ve havalandırmalı bir alanda konumlandırılması, akü değişim maliyetini doğrudan düşürür." },
+
+      { h2: "Devreye alma ve periyodik test" },
+      { p: "Kurulum sonrası mutlaka yük altında test yapıyoruz: şebeke kesilir, jeneratörün çalışma süresi ve transfer zamanı ölçülür, kritik hatların beslendiği doğrulanır. Bu testi yılda en az iki kez tekrarlamanızı öneriyoruz. Hiç çalıştırılmayan bir jeneratör, ihtiyaç anında çalışmama eğilimindedir." },
+    ],
+    priceFactors: [
+      "Kritik yük toplamı ve jeneratör kapasitesi",
+      "ATS panosu tipi ve akım değeri",
+      "Kablo mesafesi ve kesiti",
+      "UPS kapasitesi ve istenen yedekleme süresi",
+      "Ayrı hat çekimi gereken nokta sayısı",
+    ],
+    faqs: [
+      { q: "Apartman için jeneratör mantıklı mı?", a: "Genellikle asansör, hidrofor, ortak alan aydınlatması ve yangın pompası için sınırlı kapasiteli bir jeneratör tercih ediliyor. Dairelerin tamamını beslemek hem yatırım hem yakıt açısından zorlayıcı olur. Kritik yük listesini yönetimle birlikte çıkarıyoruz." },
+      { q: "Jeneratör bağlantısını elektrikçi yapabilir mi?", a: "Kablolama ve transfer panosu tarafı elektrik işidir ve tarafımızca yapılır. Motor, yakıt sistemi ve egzoz tarafı ise jeneratör üreticisinin servisiyle koordineli yürütülür. İki tarafı birbirine bağlayan devreye alma testini birlikte yapıyoruz." },
+      { q: "UPS aküsünü ben değiştirebilir miyim?", a: "Küçük ofis tipi UPS'lerde mümkündür ancak akülerin aynı marka, aynı kapasite ve tercihen aynı üretim partisinden olması gerekir. Karışık akü grubu, en zayıf aküye göre performans verir ve hızla bozulur." },
+      { q: "Jeneratör ne sıklıkla çalıştırılmalı?", a: "Ayda bir, 15–20 dakika yük altında çalıştırılması önerilir. Bu hem yakıt sisteminin hem akünün hem de motorun sağlıklı kalmasını sağlar. Otomatik test fonksiyonu olan panolarda bu işlem programlanabilir." },
+    ],
+    localAngle: "sanayi tesisleri, soğuk hava depoları ve tarımsal sulama işletmelerinde kesinti maliyeti",
+    related: ["elektrik-panosu", "kompanzasyon-panosu", "fabrika-elektrik-tesisati", "topraklama-paratoner"],
+  },
+
+  {
+    slug: "fabrika-elektrik-tesisati",
+    title: "Fabrika Elektrik Tesisatı",
+    group: "Elektrik",
+    icon: "factory",
+    featured: false,
+    short: "Sanayi tesislerinde kuvvet, aydınlatma, pano, kablo tavası ve makine beslemeleri.",
+    metaTitle: "Malatya Fabrika Elektrik Tesisatı | Sanayi Elektrik",
+    metaDesc:
+      "Malatya OSB ve sanayi tesisleri için elektrik tesisatı: makine beslemeleri, kablo tavası, kuvvet panosu, endüstriyel aydınlatma ve kompanzasyon.",
+    keywords: ["Malatya fabrika elektrik", "sanayi elektrik tesisatı", "OSB elektrik", "kablo tavası", "makine besleme hattı"],
+    intro:
+      "Üretim alanında elektrik tesisatının ölçüsü yalnızca güç değildir; erişilebilirlik, esneklik ve duruş süresidir. Makine yeri değiştiğinde hattın da değişmesi gerekiyorsa tesisat baştan yanlış kurulmuştur. Sanayi işlerinde büyümeye açık bir altyapı kurmayı esas alıyoruz.",
+    symptoms: [
+      { title: "Yeni makine için hat çekilemiyor", text: "Pano kapasitesi ve tava altyapısı dolmuş demektir." },
+      { title: "Motor koruma sık atıyor", text: "Yük dengesizliği, gerilim düşümü veya mekanik zorlanma olabilir." },
+      { title: "Kablolar yerde ve serbest", text: "İş güvenliği riski ve arıza kaynağıdır; tava sistemine alınmalıdır." },
+      { title: "Üretim alanı yetersiz aydınlık", text: "Hem verimi hem iş güvenliğini doğrudan etkiler." },
+    ],
+    scope: [
+      "Kuvvet ve dağıtım panoları",
+      "Makine besleme hatları ve motor koruma",
+      "Kablo tavası, kanal ve busbar altyapısı",
+      "Endüstriyel aydınlatma projelendirme ve montajı",
+      "Kompanzasyon ve enerji analizi",
+      "Jeneratör ve yedek besleme entegrasyonu",
+      "Topraklama, eş potansiyel ve paratoner",
+      "Bakım planı ve termal kontrol",
+    ],
+    body: [
+      { h2: "Büyümeye açık altyapı" },
+      { p: "Sanayi tesislerinde en sık karşılaştığımız sorun, ilk kurulumda \"bugünün ihtiyacına\" göre boyutlandırma yapılmasıdır. Üç yıl sonra iki makine daha alındığında pano yer vermez, tava dolmuştur, ana besleme kesiti yetmez." },
+      { p: "Bunun önüne geçmek için ana besleme ve tava kapasitesinde %30–40 yedek pay bırakıyoruz. Pano tarafında da boş modül yeri ve boş bara noktası ayrılıyor. Bu, ilk yatırımı bir miktar artırır ancak ilerideki tadilat maliyetinin yanında küçük kalır." },
+
+      { h2: "Kablo tavası ve güzergâh" },
+      { p: "Kabloların düzenli bir tava sisteminde taşınması, sadece görüntü meselesi değildir. Doğru kurulmuş bir güzergâhta kablo değiştirmek yarım gün sürer; serbest çekilmiş bir tesiste aynı iş üretimi durdurur." },
+      { ul: [
+        "Kuvvet ve zayıf akım kabloları ayrı tavalarda veya bölmeli tavada taşınır",
+        "Tava doluluk oranı sınırlı tutulur, ısınma ve ileride ekleme payı bırakılır",
+        "Güzergâh üzerinde etiketleme yapılır; her kablo iki ucundan işaretlenir",
+        "Makine bağlantıları esnek boru veya sürüklenmeye dayanıklı kablo ile tamamlanır",
+      ] },
+
+      { h2: "Endüstriyel aydınlatma" },
+      { p: "Üretim alanında aydınlık seviyesi işin türüne göre değişir. Genel montaj alanlarında 300–500 lüks, hassas montaj ve kalite kontrol noktalarında 750–1000 lüks hedeflenir. Depo ve koridorlarda 150–200 lüks yeterlidir." },
+      { p: "Yüksek tavanlı alanlarda armatür seçimi kadar montaj yüksekliği ve ışık dağılım açısı da önemlidir. Yanlış açı seçimi, tabanda gölgeli bölgeler ve makine üzerinde parlama yaratır. Aydınlatma yenilemelerinde ölçüm yaparak mevcut durumu belgeliyor, sonrasında tekrar ölçerek farkı gösteriyoruz." },
+
+      { h2: "Duruş süresini azaltmak" },
+      { p: "Sanayide elektrik arızasının maliyeti, tamir bedeli değil üretim kaybıdır. Bunu azaltmanın yolu planlı bakımdır: pano bağlantılarının yıllık tork kontrolü, termal kamera ile ısınma taraması, motor koruma ayarlarının doğrulanması ve kritik yedek parçanın (kontaktör, sigorta, sürücü) stokta tutulması." },
+      { p: "Tesisinizin kritik ekipman listesini birlikte çıkarıp, hangi parçanın yedeğinin bulundurulması gerektiğini belirliyoruz." },
+    ],
+    priceFactors: [
+      "Tesis alanı ve makine sayısı",
+      "Toplam kurulu güç ve pano kapasitesi",
+      "Kablo tavası metrajı ve güzergâh zorluğu",
+      "Aydınlatma armatürü sayısı ve montaj yüksekliği",
+      "Kompanzasyon ve yedek besleme kapsamı",
+    ],
+    faqs: [
+      { q: "Üretimi durdurmadan çalışabilir misiniz?", a: "Çoğu işte evet. Vardiya dışı saatlerde ve hafta sonlarında çalışarak, bölüm bölüm devreye alma yaparak duruşu en aza indiriyoruz. İş programını üretim planınıza göre kuruyoruz." },
+      { q: "Proje çizimi de yapıyor musunuz?", a: "Tesisat yerleşimi, pano şeması ve tava güzergâh planını çıkarıyoruz. Resmî onay gerektiren projelerde ilgili proje müellifi ile koordineli çalışıyoruz." },
+      { q: "Mevcut tesisatın kapasitesini ölçüyor musunuz?", a: "Evet. Enerji analizörü ile faz akımları, gerilim, güç faktörü ve harmonik değerleri belirli bir süre kaydedilir. Bu ölçüm, kapasite artışı planlarken tahmin yerine veriyle karar vermeyi sağlar." },
+      { q: "Termal kamera taraması yapıyor musunuz?", a: "Yıllık bakım kapsamında pano ve bağlantı noktalarının termal taraması yapılıyor. Isınan noktalar arıza çıkmadan tespit edildiği için plansız duruşların önemli bir kısmı önlenebiliyor." },
+    ],
+    localAngle: "1. ve 2. Organize Sanayi Bölgesi ile ilçe OSB'lerindeki üretim tesislerinin kapasite artırımı",
+    related: ["kompanzasyon-panosu", "elektrik-panosu", "jenerator-ups", "topraklama-paratoner"],
+  },
+
+  {
+    slug: "kamera-guvenlik-sistemleri",
+    title: "Kamera ve Güvenlik Sistemleri",
+    group: "Elektrik",
+    icon: "camera",
+    featured: true,
+    short: "Konut, iş yeri ve tesislerde kamera, kayıt cihazı ve zayıf akım altyapısı.",
+    metaTitle: "Malatya Güvenlik Kamerası Kurulumu | IP ve Analog Sistem",
+    metaDesc:
+      "Malatya'da güvenlik kamerası kurulumu, kayıt cihazı, gece görüşlü IP kamera, apartman ve iş yeri güvenlik sistemleri. Keşif, kablolama ve devreye alma.",
+    keywords: ["Malatya güvenlik kamerası", "Malatya kamera sistemi", "IP kamera kurulumu", "apartman kamera", "iş yeri güvenlik sistemi"],
+    intro:
+      "Kamera sisteminin değeri, kamera sayısında değil doğru noktalarda ve yeterli çözünürlükte görüntü almasındadır. Yüz tanınamayan, plaka okunamayan bir kayıt, olay anında hiçbir işe yaramaz. Kurulumdan önce hangi noktada neyi görmek istediğinizi netleştiriyoruz.",
+    symptoms: [
+      { title: "Gece görüntüler kullanılamıyor", text: "IR mesafesi yetersiz veya kamera aydınlatma karşısında konumlanmıştır." },
+      { title: "Kayıt süresi kısa", text: "Disk kapasitesi veya kayıt ayarları yetersizdir." },
+      { title: "Uzaktan bağlanılamıyor", text: "Ağ ayarları, port veya bulut hesabı düzgün yapılandırılmamıştır." },
+      { title: "Kameralar sık sık kopuyor", text: "Kablolama, besleme veya switch kapasitesi sorunludur." },
+    ],
+    scope: [
+      "Keşif ve kamera yerleşim planı",
+      "IP ve analog (AHD/TVI) kamera sistemleri",
+      "Kayıt cihazı (NVR/DVR) ve disk boyutlandırma",
+      "PoE switch ve ağ altyapısı",
+      "Data, TV ve zayıf akım kablolama",
+      "Uzaktan izleme ve mobil erişim kurulumu",
+      "Apartman, site ve otopark uygulamaları",
+      "Mevcut sistemde arıza, bakım ve kamera ilavesi",
+    ],
+    body: [
+      { h2: "Kamera yerleşimi: sayı değil açı" },
+      { p: "Bir sistemin kalitesini belirleyen ilk şey yerleşimdir. Her kamera bir soruya cevap vermelidir: bu kamera kimi, nerede, hangi mesafede görecek? Geniş açıyla her yeri gören tek bir kamera, hiçbir yüzü tanınır kılmaz." },
+      { ul: [
+        "Giriş kapıları: yüz tanıma için 2–3 m mesafede, göz hizasına yakın açı",
+        "Otopark ve bahçe girişi: plaka okuma için dar açı ve düşük montaj yüksekliği",
+        "Koridor ve genel alan: geniş açı, hareket ve genel görünüm",
+        "Kasa ve depo: hem üstten hem karşıdan olmak üzere iki kamera",
+      ] },
+      { p: "Kameranın güneşe veya güçlü ışığa karşı bakması, en sık yapılan yerleşim hatasıdır. Gündüz saatlerinde görüntü tamamen siluete döner. WDR özellikli kameralar bunu bir miktar telafi eder ama en iyi çözüm doğru yönlendirmedir." },
+
+      { h2: "IP mi analog mu?" },
+      {
+        table: {
+          head: ["Kriter", "IP sistem", "Analog (AHD/TVI)"],
+          rows: [
+            ["Çözünürlük", "4MP–8MP ve üzeri", "2MP–5MP"],
+            ["Kablolama", "Cat6, PoE ile tek kablo", "Koaksiyel + ayrı besleme"],
+            ["Maliyet", "Daha yüksek", "Daha ekonomik"],
+            ["Mevcut kabloyla yükseltme", "Kablo değişimi gerekir", "Mevcut koaksiyel kullanılabilir"],
+            ["Uygun olduğu yer", "Yeni kurulum, geniş alan, plaka okuma", "Mevcut sistemin yenilenmesi, küçük ölçek"],
+          ],
+        },
+      },
+      { p: "Mevcut analog sistemi olan bir binada, kablolar sağlamsa AHD kameralarla yükseltme yapmak en hızlı ve ekonomik yoldur. Yeni bir yapıda ise Cat6 çekip IP sisteme geçmek uzun vadede daha esnektir." },
+
+      { h2: "Kayıt süresi ve disk hesabı" },
+      { p: "Kayıt süresi; kamera sayısı, çözünürlük, kare hızı ve sıkıştırma formatına bağlıdır. Örnek vermek gerekirse: 8 adet 4MP kamera, H.265 sıkıştırma ve sürekli kayıtla 4 TB diskte yaklaşık 20–25 gün kayıt tutar. Hareket algılamalı kayıtta bu süre iki katına çıkabilir." },
+      { p: "Yasal ve pratik ihtiyaç genelde 30 gün olarak konuşuluyor. Disk boyutunu bu hedefe göre seçiyor, ayrıca kritik kameralar için ayrı kayıt profili tanımlıyoruz." },
+
+      { h2: "Gizlilik ve KVKK" },
+      { p: "Kamera kaydı kişisel veri niteliğindedir. Apartman ve iş yeri uygulamalarında görüş alanının komşu mülkleri ve kamusal alanı gereksiz biçimde kapsamaması, giriş noktalarına bilgilendirme levhası konulması ve kayıtlara erişimin sınırlı tutulması gerekir. Kurulum sırasında görüş alanlarını bu çerçevede ayarlıyor, bilgilendirme levhası konumlarını öneriyoruz." },
+    ],
+    priceFactors: [
+      "Kamera sayısı ve çözünürlüğü",
+      "IP mi analog mu, PoE switch ihtiyacı",
+      "Kablo metrajı ve güzergâh zorluğu",
+      "Kayıt cihazı kanal sayısı ve disk kapasitesi",
+      "Uzaktan erişim ve ağ altyapısı düzenlemesi",
+    ],
+    faqs: [
+      { q: "Kaç kamera gerekir?", a: "Alan büyüklüğünden çok asıl mesele sayısı belirleyicidir. Tipik bir daire girişi ve bahçe için 2–4, orta ölçekli bir dükkân için 4–6, apartman için 4–8 kamera yaygın çözümdür. Keşifte kroki üzerinde noktaları birlikte işaretliyoruz." },
+      { q: "İnternet olmadan çalışır mı?", a: "Evet. Kayıt cihazı internetten bağımsız çalışır ve kayıt tutar. İnternet yalnızca uzaktan izleme ve bildirim için gerekir. Kamera sistemi internet kesildiğinde kayıt almaya devam eder." },
+      { q: "Telefondan izleyebilir miyim?", a: "Kayıt cihazının uygulaması üzerinden izleyebilirsiniz. Kurulumda mobil erişimi yapılandırıp size gösteriyoruz. Statik IP gerekmeyen bulut tabanlı bağlantı yöntemleri çoğu cihazda destekleniyor." },
+      { q: "Mevcut sistemime kamera ekleyebilir misiniz?", a: "Kayıt cihazının boş kanalı ve kablolama imkânı varsa ekleyebiliriz. Kanal doluysa cihaz değişimi gerekir; bu durumda mevcut kameraları koruyarak sadece kayıt cihazını yükseltmek çoğu zaman mümkün oluyor." },
+    ],
+    localAngle: "site ve apartman otoparklarında plaka okuma ile iş yeri girişlerinde yüz tanıma odaklı yerleşim ihtiyacı",
+    related: ["diafon-goruntulu-konusma", "elektrik-tesisati", "dukkan-ofis-tadilati"],
+  },
+
+  {
+    slug: "diafon-goruntulu-konusma",
+    title: "Diafon ve Görüntülü Konuşma",
+    group: "Elektrik",
+    icon: "antenna",
+    featured: false,
+    short: "Apartman ve müstakil yapılarda zil, diafon ve görüntülü konuşma sistemleri.",
+    metaTitle: "Malatya Diafon ve Görüntülü Diafon Kurulumu",
+    metaDesc:
+      "Malatya'da diafon tamiri, görüntülü diafon kurulumu, apartman zil sistemi ve kapı otomatiği. Daire içi ünite değişimi ve komple sistem yenileme.",
+    keywords: ["Malatya diafon", "görüntülü diafon", "apartman diafon tamiri", "kapı otomatiği", "zil sistemi"],
+    intro:
+      "Diafon, apartmanın en çok kullanılan ama en az bakım gören sistemidir. Ünitelerden biri bozulduğunda çoğu zaman \"idare ederiz\" denir; oysa arızanın kaynağı genelde tek daire değil, hat veya merkezi ünitedir ve zamanla diğer daireleri de etkiler.",
+    symptoms: [
+      { title: "Bazı dairelerde çalışmıyor", text: "Hat kopukluğu veya daire ünitesi arızası olabilir; ayırt etmek için ölçüm gerekir." },
+      { title: "Ses cızırtılı veya çok kısık", text: "Hat üzerinde temassızlık ya da besleme zayıflığı vardır." },
+      { title: "Kapı otomatiği açmıyor", text: "Kilit bobini, besleme veya buton hattı arızalıdır." },
+      { title: "Sistem çok eski, parça bulunamıyor", text: "Komple yenileme, tek tek parça aramaktan hem hızlı hem ekonomik olur." },
+    ],
+    scope: [
+      "Görüntülü ve sesli diafon sistemi kurulumu",
+      "Apartman merkezi ünite ve zil paneli değişimi",
+      "Daire içi ünite (ahize/monitör) değişimi",
+      "Kapı otomatiği ve elektrikli kilit montajı",
+      "Diafon hattı arıza tespiti ve tesisat yenileme",
+      "Müstakil ev ve villa için görüntülü kapı sistemi",
+      "Bahçe kapısı ikinci panel uygulaması",
+      "Mevcut sisteme daire ilavesi",
+    ],
+    body: [
+      { h2: "Arıza tek dairede mi, sistemde mi?" },
+      { p: "Diafon arızalarında ilk adım, sorunun kapsamını belirlemektir. Tek dairede sorun varsa daire ünitesi veya o daireye giden hat; birden fazla dairede varsa merkezi ünite, besleme veya ana hat şüphelidir. Bu ayrım yapılmadan yapılan ünite değişimleri boşa masraf çıkarıyor." },
+      { p: "Ölçümde ana hattaki gerilim, hat direnci ve buton sinyalleri kontrol edilir. Eski binalarda çoğu arızanın kaynağı, kat buatlarındaki oksitlenmiş ek noktalarıdır; bunlar temizlenip yenilendiğinde sistem ek malzeme gerektirmeden düzelebiliyor." },
+
+      { h2: "Sesli sistemden görüntülüye geçiş" },
+      { p: "Mevcut sesli diafon hattı üzerinden görüntülü sisteme geçmek her zaman mümkün değildir; görüntü sinyali daha fazla iletken ve daha iyi kablo kalitesi ister. Ancak iki telle çalışan modern sistemler, uygun koşullarda mevcut kablonun kullanılmasına izin verebiliyor." },
+      { p: "Keşifte mevcut kablo tipini ve kat buatlarının durumunu kontrol ederek, kablo değişimi gerekip gerekmediğini net olarak söylüyoruz. Kablo değişimi gerekiyorsa maliyetin önemli kısmı bu kalemden geliyor; baştan bilinmesi bütçe açısından önemli." },
+
+      { h2: "Apartman uygulamalarında dikkat edilenler" },
+      { ul: [
+        "Merkezi ünite besleme hattının ayrı sigortadan alınması",
+        "Zil panelinin yağmur ve doğrudan güneşten korunması",
+        "Daire numaralandırmasının panelde ve merkezde tutarlı olması",
+        "Kapı otomatiği için ayrı transformatör kullanılması",
+        "Sistem yenilemede tüm dairelerin aynı anda devreye alınması",
+      ] },
+      { p: "Apartman işlerinde çalışmayı hafta içi gündüz saatlerine planlıyor, dairelere önceden bilgi verilmesini rica ediyoruz. Tüm daire ünitelerinin aynı gün takılması, sistemin bölünmüş şekilde çalışmasını önlüyor." },
+    ],
+    priceFactors: [
+      "Daire sayısı",
+      "Sesli mi görüntülü mü sistem",
+      "Mevcut kablonun kullanılıp kullanılamayacağı",
+      "Panel tipi ve daire ünitesi modeli",
+      "Kapı otomatiği ve ek panel talebi",
+    ],
+    faqs: [
+      { q: "Sadece benim dairemin ünitesini değiştirebilir misiniz?", a: "Mevcut sistemle uyumlu bir ünite bulunabiliyorsa evet. Sistem çok eskiyse uyumlu ünite bulunamayabilir; bu durumda geçici çözümler yerine bina yönetimiyle komple yenilemeyi konuşmak daha doğru oluyor." },
+      { q: "Görüntülü diafon kaydediyor mu?", a: "Bazı monitör modelleri hareket veya çağrı anında fotoğraf/video kaydı yapabiliyor. Bu özellik isteğe bağlıdır ve model seçiminde belirtilir. Sürekli kayıt isteniyorsa kamera sistemiyle birlikte planlanması daha doğru olur." },
+      { q: "Bahçe kapısı için ikinci panel takılabilir mi?", a: "Evet, çoğu sistem iki panel destekler. Müstakil ev ve villalarda bahçe kapısı + bina girişi şeklinde iki panelli kurulum yaygın bir uygulamadır." },
+      { q: "Apartmanda kaç günde biter?", a: "12–16 daireli bir apartmanda mevcut kablo kullanılabiliyorsa 1–2 gün, kablo yenilemesi gerekiyorsa 3–4 gün sürer. Program dairelerin müsaitliğine göre yapılır." },
+    ],
+    localAngle: "merkez mahallelerdeki 20–30 yaşındaki apartmanlarda parça bulunamayan eski diafon sistemleri",
+    related: ["kamera-guvenlik-sistemleri", "elektrik-tesisati", "elektrik-ariza"],
+  },
+];
