@@ -16,8 +16,9 @@ node site/check.mjs     # kırık link + SEO kontrolü
 ## Yayına alma
 
 Otomatik. Site Netlify'daki `cbinsaat` projesine `main` dalı üzerinden bağlı:
-`main`'e push ettiğiniz anda build başlıyor ve yaklaşık 6 dakika içinde
-<https://cbinsaat.com> güncelleniyor. Build komutu (`node site/build.mjs`) ve
+`main`'e push ettiğinizden ~2 saniye sonra build başlıyor, yaklaşık 40 saniye
+içinde <https://cbinsaat.com> güncelleniyor. Netlify yalnızca değişen sayfaları
+yüklediği için süre kısa. Build komutu (`node site/build.mjs`) ve
 publish klasörü (`dist-site`) kökteki `netlify.toml` içinde tanımlı.
 
 Yan dallara atılan push'lar yayına çıkmaz; değişikliğin canlıya gitmesi için

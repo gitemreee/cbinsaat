@@ -3,8 +3,10 @@
 ## Yayına alma: her değişiklik canlıya gitmeli
 
 Site Netlify'da `cbinsaat` projesinde ve **`main` dalına git ile bağlı**.
-`main`'e push edildiği saniye Netlify build'i başlıyor, ~6 dakikada
-<https://cbinsaat.com> güncelleniyor. Build komutu ve publish klasörü kökteki
+`main`'e push edildikten ~2 saniye sonra Netlify build'i başlıyor ve yaklaşık
+40 saniyede <https://cbinsaat.com> güncelleniyor (ölçüldü: push 18:10:01,
+yayın 18:10:43). Netlify sadece değişen sayfaları yüklüyor; ilk kurulum
+build'i birkaç dakika sürebilir. Build komutu ve publish klasörü kökteki
 `netlify.toml` içinde tanımlı; elle deploy, sürükle-bırak veya zip yükleme
 gerekmiyor.
 
