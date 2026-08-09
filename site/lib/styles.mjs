@@ -201,7 +201,11 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 
 /* Başlık / navigasyon */
 .header{background:var(--white);position:sticky;top:0;z-index:60;border-bottom:1px solid var(--line)}
-.header-in{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:78px;min-width:0}
+.header-in{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:78px;min-width:0;
+  /* Başlık gövdeden daha geniş: logo sol kenara yaklaşsın, menüye de yer kalsın */
+  max-width:1560px;padding:0 clamp(16px,2vw,32px);
+}
 /* min-width:0 olmadan logo ve CTA küçülemiyor, dar ekranda sayfayı taşırıyorlar */
 .logo{display:flex;align-items:center;flex:none;background:#000;border-radius:10px;padding:8px 14px}
 .logo img{width:auto;object-fit:contain}
@@ -214,12 +218,6 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 .logo-slogan{
   display:flex;flex-direction:column;font-family:var(--f-hand);font-weight:700;
   line-height:1;transform:rotate(-5deg);flex:none;
-}
-@media (min-width:1101px) and (max-width:1499px){
-  .brand{flex-direction:column;align-items:flex-start;gap:3px}
-  .header-in .logo-slogan{transform:rotate(-4deg) translateX(8px)}
-  .header-in .logo-slogan b{font-size:.92rem}
-  .header-in .logo-slogan i{font-size:1.04rem}
 }
 .logo-slogan b{font-weight:700;font-size:1.18rem;color:var(--ink);white-space:nowrap}
 .logo-slogan i{font-style:normal;font-weight:700;font-size:1.34rem;color:var(--amber-dark);white-space:nowrap;margin-top:1px}
@@ -273,7 +271,7 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
   .header-cta .btn svg{display:none}
   .header-phone small{display:none}
   .header-phone b{font-size:1.15rem}
-  .nav-link{padding:0 10px;font-size:.85rem}
+  .nav-link{padding:0 9px;font-size:.84rem}
   .mega--services .mega-cols{column-count:3}
   .mega--regions .mega-cols{grid-template-columns:repeat(3,minmax(0,1fr))}
   .mega-flow{column-count:2}
@@ -737,6 +735,23 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 .center{text-align:center}
 
 /* 7. Duyarlı ------------------------------------------------------------- */
+/* Dar masaüstü: logo + slogan + menü + CTA aynı satıra sığmalı.
+   Bantlar daraldıkça sırayla slogan, menü ve logo küçülür. */
+@media (min-width:1101px) and (max-width:1439px){
+  .header-in{gap:12px}
+  .brand{gap:9px}
+  .header-in .logo-slogan b{font-size:.88rem}
+  .header-in .logo-slogan i{font-size:1rem}
+}
+@media (min-width:1101px) and (max-width:1260px){
+  .header-in{gap:10px}
+  .brand{gap:8px}
+  .nav-link{padding:0 6px;font-size:.82rem}
+  .logo{padding:7px 11px}
+  .logo .logo-wide{height:42px}
+  .header-in .logo-slogan b{font-size:.8rem}
+  .header-in .logo-slogan i{font-size:.92rem}
+}
 @media (max-width:1220px){
   .header-phone{display:none}
 }
