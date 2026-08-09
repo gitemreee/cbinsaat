@@ -89,16 +89,24 @@ function megaServices() {
   );
 }
 
-function megaRegions(districts) {
-  const per = Math.ceil(districts.length / 4);
-  const cols = [0, 1, 2, 3].map((i) => {
-    const list = districts.slice(i * per, (i + 1) * per);
-    return `<div>${list.map((d) => `<a href="/bolgeler/${d.slug}/">${esc(d.name)}</a>`).join("")}</div>`;
-  });
+function megaRegions(districts, localities) {
+  // İki seviyeli: ilçeye tıklayınca mahalleleri açılır (mobil menüyle aynı davranış).
+  const tree = districts
+    .map((d) => {
+      const list = localities.filter((l) => l.district === d.slug);
+      return `<details><summary>${esc(d.name)}</summary>
+        <div class="reg-links">
+          <a href="/bolgeler/${d.slug}/"><strong>Tümü: ${esc(d.name)}</strong></a>
+          ${list.map((l) => `<a href="/bolgeler/${d.slug}/${l.slug}/">${esc(l.name)}</a>`).join("")}
+        </div>
+      </details>`;
+    })
+    .join("");
   return megaShell(
     "regions",
-    `<p class="mega-title">Malatya ilçeleri</p><div class="mega-cols">${cols.join("")}</div>`,
-    `<span class="text-muted">Mahalle bazında hizmet sayfaları</span>
+    `<p class="mega-title">Malatya ilçeleri — ilçeye tıklayın, mahalleler açılsın</p>
+     <div class="reg-tree">${tree}</div>`,
+    `<span class="text-muted">${localities.length} mahalle ve yerleşim için ayrı sayfa</span>
      <a class="arrow-link" href="/bolgeler/">Bölge rehberi ${icon("arrow")}</a>`
   );
 }
@@ -151,7 +159,7 @@ function header(ctx, path) {
     .map((n) => {
       const mega =
         n.mega === "services" ? megaServices() :
-        n.mega === "regions" ? megaRegions(districts) :
+        n.mega === "regions" ? megaRegions(districts, localities) :
         n.mega === "blog" ? megaBlog(posts) :
         n.mega === "corporate" ? megaCorporate() : "";
       return `<div class="nav-item">
@@ -176,7 +184,7 @@ function header(ctx, path) {
       label: "Bölgeler",
       href: "/bolgeler/",
       sub: districts.map((d) => {
-        const list = localities.filter((l) => l.district === d.slug && l.featured);
+        const list = localities.filter((l) => l.district === d.slug);
         return {
           name: d.name,
           href: `/bolgeler/${d.slug}/`,
@@ -203,10 +211,12 @@ function header(ctx, path) {
 
   return `<header class="header">
   <div class="wrap header-in">
-    <a class="logo" href="/" aria-label="${esc(site.name)} — Malatya anahtar teslim tadilat ve yapı, ana sayfa">
-      <img class="logo-wide" src="/cb-insaat-logo.png" alt="CB İnşaat — Elektrik, Mekanik, Yapı" width="644" height="164" decoding="async">
-    </a>
-    <span class="logo-slogan"><b>${new Date().getFullYear() - site.founded} yıllık tecrübeyle</b><i>hizmetinizdeyiz</i></span>
+    <div class="brand">
+      <a class="logo" href="/" aria-label="${esc(site.name)} — Malatya anahtar teslim tadilat ve yapı, ana sayfa">
+        <img class="logo-wide" src="/cb-insaat-logo.png" alt="CB İnşaat — Elektrik, Mekanik, Yapı" width="644" height="164" decoding="async">
+      </a>
+      <span class="logo-slogan"><b>${new Date().getFullYear() - site.founded} yıllık tecrübeyle</b><i>hizmetinizdeyiz</i></span>
+    </div>
     <nav class="nav" aria-label="Ana menü">${items}</nav>
     <div class="header-cta">
       <a class="header-phone" href="tel:${site.phoneHref}">
@@ -229,7 +239,7 @@ function header(ctx, path) {
               .map(
                 (sg) => `<details><summary>${esc(sg.name)}</summary>
                 <a href="${sg.href}"><strong>Tümü: ${esc(sg.name)}</strong></a>
-                ${sg.links.map((l) => `<a href="${l.href}">${esc(l.label)}</a>`).join("")}
+                <div class="m-links">${sg.links.map((l) => `<a href="${l.href}">${esc(l.label)}</a>`).join("")}</div>
               </details>`
               )
               .join("")}</div>

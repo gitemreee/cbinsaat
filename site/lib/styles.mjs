@@ -208,18 +208,23 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 .logo .logo-wide{display:block;height:46px}
 
 .logo-text{min-width:0}
-/* Logonun yanındaki el yazısı slogan — hafif çapraz, siyah + sarı */
-/* Slogan: mobil/tablet başlıkta (hamburger modunda) ve çok geniş masaüstünde
-   görünür. 1100–1499 arasında tam menü yer kapladığı için gizlenir. */
+/* Logo + el yazısı slogan tek blok. Geniş ekranda yan yana, menünün yer
+   kapladığı orta bantta (1101–1499) logonun altına iner ki başlık taşmasın. */
+.brand{display:flex;align-items:center;gap:12px;flex:none;min-width:0}
 .logo-slogan{
-  display:none;flex-direction:column;font-family:var(--f-hand);font-weight:700;
-  line-height:1;transform:rotate(-5deg);margin-left:12px;flex:none;
+  display:flex;flex-direction:column;font-family:var(--f-hand);font-weight:700;
+  line-height:1;transform:rotate(-5deg);flex:none;
 }
-@media (min-width:1500px){ .logo-slogan{display:flex} }
+@media (min-width:1101px) and (max-width:1499px){
+  .brand{flex-direction:column;align-items:flex-start;gap:3px}
+  .header-in .logo-slogan{transform:rotate(-4deg) translateX(8px)}
+  .header-in .logo-slogan b{font-size:.92rem}
+  .header-in .logo-slogan i{font-size:1.04rem}
+}
 .logo-slogan b{font-weight:700;font-size:1.18rem;color:var(--ink);white-space:nowrap}
 .logo-slogan i{font-style:normal;font-weight:700;font-size:1.34rem;color:var(--amber-dark);white-space:nowrap;margin-top:1px}
 .footer-brand-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
-.logo-slogan--footer{display:flex;margin-left:10px}
+.logo-slogan--footer{display:flex;margin-left:10px;transform:rotate(-5deg)}
 .logo-slogan--footer b{color:#fff;font-size:1.24rem}
 .logo-slogan--footer i{color:var(--amber);font-size:1.4rem}
 .logo--footer{background:transparent;padding:0;border-radius:0}
@@ -302,6 +307,29 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 }
 .mobile-nav .m-sub>details>summary::after{font-size:1.25rem}
 .mobile-nav .m-sub a{padding:10px 0 10px 14px;font-size:.9rem}
+/* Uzun mahalle listeleri menüyü şişirmesin: kendi içinde kaysın */
+.mobile-nav .m-links{max-height:46vh;overflow-y:auto;overscroll-behavior:contain}
+/* Masaüstü Bölgeler mega menüsü: ilçe > mahalle iki seviyeli ağaç */
+.reg-tree{columns:2;column-gap:28px}
+.reg-tree>details{break-inside:avoid;margin-bottom:2px}
+.reg-tree summary{
+  display:flex;align-items:center;gap:8px;cursor:pointer;list-style:none;
+  padding:9px 10px;border-radius:var(--r);font-weight:700;font-size:.95rem;color:var(--ink);
+}
+.reg-tree summary::-webkit-details-marker{display:none}
+.reg-tree summary::before{content:"+";font-family:var(--f-display);font-size:1.25rem;color:var(--amber-dark);width:12px}
+.reg-tree details[open]>summary{background:var(--amber-soft)}
+.reg-tree details[open]>summary::before{content:"–"}
+.reg-tree summary:hover{background:var(--paper)}
+.reg-links{columns:2;column-gap:20px;padding:4px 0 10px 22px}
+.reg-links a{
+  display:block;break-inside:avoid;padding:5px 0;font-size:.86rem;color:var(--muted);
+  font-weight:500;line-height:1.3;
+}
+.reg-links a:hover{color:var(--ink)}
+.reg-links a strong{color:var(--ink);font-weight:700}
+@media (max-width:1300px){ .reg-tree{columns:1} .reg-links{columns:3} }
+.mobile-nav .m-links>a:last-child{border-bottom:0}
 .mobile-nav .mobile-cta{
   display:flex;align-items:center;justify-content:center;gap:9px;margin:14px 0 4px;
   background:var(--amber);color:var(--ink);font-weight:800;border:0;border-radius:var(--r);
@@ -714,7 +742,6 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 }
 @media (max-width:1100px){
   .nav{display:none}
-  .logo-slogan{display:flex}
   .burger{display:flex}
   .with-aside{grid-template-columns:1fr}
   .with-aside>aside{position:static}
@@ -745,7 +772,6 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
   .header-in{gap:10px;min-height:66px}
   .logo{padding:7px 12px;border-radius:9px}
   .logo .logo-wide{height:44px}
-  .logo-slogan{margin-left:10px}
   .logo-slogan b{font-size:.95rem}
   .logo-slogan i{font-size:1.08rem}
   .header-cta{gap:8px}
@@ -777,7 +803,6 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
   .header-cta .btn{display:none}   /* alt sabit şerit ara/WhatsApp'ı zaten veriyor */
   .logo{padding:6px 10px}
   .logo .logo-wide{height:34px}
-  .logo-slogan{margin-left:8px}
   .logo-slogan b{font-size:.8rem}
   .logo-slogan i{font-size:.92rem}
   .hero h1{font-size:clamp(2.3rem,10vw,2.9rem)}
