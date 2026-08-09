@@ -18,7 +18,7 @@ export function aboutPage(ctx) {
 ${pageHead({
   eyebrow: "Hakkımızda",
   title: `Bir yapının her işi,<br><em class="hl">tek ekipte.</em>`,
-  lead: `${site.founded}'dan beri Malatya'da elektrik, su ve mekanik iş yapıyoruz. Kurulduğumuzdan beri değişmeyen tek kuralımız var: işi bölmüyoruz.`,
+  lead: `${site.founded}'den beri Malatya'da elektrik, su ve mekanik iş yapıyoruz. Kurulduğumuzdan beri değişmeyen tek kuralımız var: işi bölmüyoruz.`,
   meta: [
     { icon: "calendar", text: `${new Date().getFullYear() - site.founded}+ yıl saha tecrübesi` },
     { icon: "pin", text: "13 ilçede hizmet" },
@@ -84,7 +84,7 @@ ${ctaBlock({ title: "Bir işiniz için görüşelim", text: "Gelip bakıyoruz, k
 
   return page({
     title: `Hakkımızda | ${site.name} Malatya`,
-    description: `${site.founded}'dan beri Malatya'da elektrik, sıhhi tesisat, mekanik ve yapı işleri. Tek ekip, yazılı teklif, kayıt altında teslim. 13 ilçede hizmet.`,
+    description: `${site.founded}'den beri Malatya'da elektrik, sıhhi tesisat, mekanik ve yapı işleri. Tek ekip, yazılı teklif, kayıt altında teslim. 13 ilçede hizmet.`,
     path: "/hakkimizda/",
     ctx,
     crumbs: [{ label: "Hakkımızda", href: "/hakkimizda/" }],
