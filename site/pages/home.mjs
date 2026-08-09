@@ -74,7 +74,7 @@ export function homePage(ctx) {
       .join("")}
   </div>
   <div class="wrap hero-in">
-    <p class="eyebrow">Malatya'nın 13 ilçesine hizmet · ${site.founded}'dan beri</p>
+    <p class="eyebrow">Malatya'nın 13 ilçesine hizmet · ${site.founded}'den beri</p>
     <h1>Anahtar teslim<br><em>tadilat.</em></h1>
     <p class="hero-rotator" aria-hidden="true">${heroSlides
       .map((h, i) => `<span class="r-${i + 1}">${icon("check")} ${esc(h.label)}</span>`)
