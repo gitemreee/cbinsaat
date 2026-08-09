@@ -37,7 +37,7 @@ export const site = {
   priceRange: "₺₺",
   // Sosyal hesaplar. Boş bırakılanlar şemaya, footer'a ve iletişim sayfasına yazılmaz.
   social: {
-    instagram: "https://www.instagram.com/cbinsaatmalatya/",
+    instagram: "https://www.instagram.com/cbelektrikinsaat/",
     facebook: "https://www.facebook.com/cbelektrikinsaat/",
     youtube: "",
     googleMaps: "",
