@@ -146,7 +146,7 @@ export const yapiPosts = [
       { q: "Pompa çalışıyor ama su gelmiyor, neden?", a: "Kuyu su seviyesi pompanın emiş noktasının altına düşmüş olabilir, çark aşınmıştır veya çıkış hattında bir tıkanma ya da kapalı vana vardır. Ayrıca çekvalf takılı kalmışsa da su gelmez. Sırayla kontrol edilmeli." },
       { q: "Pompa sık sık termikten atıyor, ne yapmalıyım?", a: "Termik ayarı motor etiket akımına göre kontrol edilmeli. Ayar doğruysa neden aşırı yüktür: gerilim düşümü, faz dengesizliği, mekanik sıkışma veya pompanın çalışma noktasının dışında zorlanması. Ölçümle ayırt edilir." },
     ],
-    related: ["kuyu-pompasi-basinc-sorunu", "hidrofor-secimi-nasil-yapilir", "tarimsal-sulama-pompa-secimi"],
+    related: ["kuru-calisma-korumasi", "dalgic-pompa-kablo-kesiti", "dalgic-pompa-kuyudan-cikarma", "kuyu-pompasi-basinc-sorunu", "hidrofor-secimi-nasil-yapilir"],
   },
 
   {
@@ -352,7 +352,7 @@ export const yapiPosts = [
       { q: "Tıkalı damlatıcıyı temizlemek mümkün mü?", a: "Az sayıda damlatıcı tıkalıysa iğne ile açmayı denemek yerine değiştirmek daha sağlıklı; iğne deliği genişletebilir ve debiyi bozar. Yaygın tıkanmada ise tek tek uğraşmak yerine kimyasal temizlik uygulanır." },
       { q: "Ne sıklıkla asit uygulaması yapmalıyım?", a: "Suyun sertliğine bağlı. Çok sert sularda sezonda 2–3 kez, orta sertlikte sezon sonunda bir kez yeterli olabilir. Su analizi sonucuna göre program çıkarıyoruz." },
     ],
-    related: ["tarimsal-sulama-pompa-secimi", "otomatik-bahce-sulama", "kuyu-pompasi-basinc-sorunu"],
+    related: ["sulama-filtresi-secimi", "damlama-sulama-nasil-kurulur", "otomatik-bahce-sulama", "tarimsal-sulama-pompa-secimi"],
   },
 
   {
@@ -422,7 +422,7 @@ export const yapiPosts = [
       { q: "Mevcut çimi bozmadan sistem kurulabilir mi?", a: "Dar kanal açan makinelerle çim neredeyse tamamen korunarak hat döşenebilir; kesim hatları birkaç hafta içinde kapanır. Yine de yeni çim ekimiyle birlikte yapılan kurulum en temiz sonucu verir." },
       { q: "Şebeke suyu yeterli mi, pompa gerekir mi?", a: "Şebeke basıncı ve debisi ölçülerek karar verilir. Küçük bahçelerde şebeke genelde yeterlidir. Büyük alanlarda veya basıncın düşük olduğu bölgelerde depo ve pompa ile sabit basınç sağlanması gerekir." },
     ],
-    related: ["damlama-sulama-tikaniklik", "tarimsal-sulama-pompa-secimi", "hidrofor-secimi-nasil-yapilir"],
+    related: ["sulama-otomasyonu-secimi", "bahce-sulama-suresi", "damlama-sulama-tikaniklik", "tarimsal-sulama-pompa-secimi"],
   },
 
   {
@@ -591,7 +591,7 @@ export const yapiPosts = [
       { q: "Keşif ücretli mi?", a: "Malatya merkez ilçelerde ilk keşif ücretsizdir. Diğer ilçelerde yol mesafesine göre bir keşif bedeli oluşabilir; iş tarafımızca yapıldığında bu bedel toplam tutardan düşülür." },
       { q: "İş sırasında ek iş çıkarsa ne olur?", a: "Söküm sonrası görünen gizli sorunlar olabilir. Bu durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz; sözleşmede bu prosedür tanımlı." },
     ],
-    related: ["ev-tadilati-nereden-baslanir", "dukkan-tadilati-elektrik-aydinlatma", "banyo-tadilati-siralama"],
+    related: ["anahtar-teslim-fiyat-nasil-hesaplanir", "komple-ev-tadilati-ne-kadar-surer", "ev-tadilati-nereden-baslanir", "banyo-tadilati-siralama"],
   },
 
   {

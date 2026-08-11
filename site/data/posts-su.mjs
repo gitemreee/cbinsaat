@@ -534,7 +534,7 @@ export const suPosts = [
       { q: "Hidrofor gürültüsü azaltılabilir mi?", a: "Çoğu durumda evet. Titreşim takozu, esnek bağlantı elemanı ve doğru montaj yüksekliği gürültüyü belirgin azaltır. Ses kavitasyondan geliyorsa emiş hattının çapı ve dirsek sayısı gözden geçirilmelidir." },
       { q: "Frekans kontrollü hidrofor sık devreye girme sorununu çözer mi?", a: "Büyük ölçüde çözer. Frekans kontrollü sistemde pompa açılıp kapanmak yerine devrini ayarlayarak sabit basınç tutar. Hem gürültü hem yıpranma azalır; ilk maliyeti klasik sistemden yüksektir." },
     ],
-    related: ["su-deposu-hidrofor-birlikte", "su-deposu-ne-zaman-temizlenmeli", "kuyu-pompasi-basinc-sorunu"],
+    related: ["hidrofor-tank-havasi-ayari", "hidrofor-basinc-salteri-ayari", "su-deposu-hidrofor-birlikte", "su-deposu-ne-zaman-temizlenmeli", "kuyu-pompasi-basinc-sorunu"],
   },
 
   {
@@ -603,7 +603,7 @@ export const suPosts = [
       { q: "Depo olmadan sadece hidrofor kurulabilir mi?", a: "Şebeke doğrudan basılıyorsa mümkündür, ancak birçok yerde şebekeden doğrudan emiş yapmak uygun değildir ve komşulara da etki eder. Ayrıca kesintide sistem tamamen durur. Depo, hem yedek hem de düzenli emiş için önerilir." },
       { q: "Depo çatıda mı bodrumda mı olmalı?", a: "Bodrum deposu + hidrofor en yaygın çözümdür; yapıya ek yük bindirmez ve bakımı kolaydır. Çatı deposu ise yerçekimiyle basınç sağlar ama üst katlarda basınç yetersiz kalır ve yapısal yük getirir." },
     ],
-    related: ["hidrofor-surekli-calisiyor", "su-deposu-ne-zaman-temizlenmeli", "kuyu-pompasi-basinc-sorunu"],
+    related: ["hidrofor-surekli-calisiyor", "su-deposu-secimi", "hidrofor-tank-havasi-ayari", "su-deposu-ne-zaman-temizlenmeli", "kuyu-pompasi-basinc-sorunu"],
   },
 
   {

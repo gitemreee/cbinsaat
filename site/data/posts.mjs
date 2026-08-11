@@ -9,8 +9,17 @@ import { cephePosts } from "./posts-cephe.mjs";
 import { incePosts } from "./posts-ince.mjs";
 import { bahcePosts } from "./posts-bahce.mjs";
 import { yapimPosts } from "./posts-yapim.mjs";
+import { hidroforPosts } from "./posts-hidrofor.mjs";
+import { kuyuPosts } from "./posts-kuyu.mjs";
+import { sulamaPosts } from "./posts-sulama.mjs";
+import { tesisatPosts } from "./posts-tesisat.mjs";
+import { planPosts } from "./posts-plan.mjs";
 
-const all = [...elektrikPosts, ...suPosts, ...yapiPosts, ...dogalgazPosts, ...tadilatPosts, ...yapimPosts, ...cephePosts, ...incePosts, ...bahcePosts];
+const all = [
+  ...elektrikPosts, ...suPosts, ...yapiPosts, ...dogalgazPosts, ...tadilatPosts,
+  ...yapimPosts, ...cephePosts, ...incePosts, ...bahcePosts,
+  ...hidroforPosts, ...kuyuPosts, ...sulamaPosts, ...tesisatPosts, ...planPosts,
+];
 
 // Yayın tarihine göre yeniden eskiye.
 export const posts = all.sort((a, b) => (a.published < b.published ? 1 : -1));

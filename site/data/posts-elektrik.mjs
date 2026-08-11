@@ -637,6 +637,6 @@ export const elektrikPosts = [
       { q: "Elektrik projesi yaptırmalı mıyım?", a: "Ruhsatlı yapılarda proje zaten zorunludur. Tadilat kapsamındaki işlerde ise resmî proje gerekmese bile bir yerleşim krokisi çıkarılması işi iyice kolaylaştırır ve eksikleri önler." },
       { q: "Akıllı ev altyapısı şimdiden bırakılmalı mı?", a: "Kablolu akıllı ev sistemi düşünüyorsanız evet, altyapı şimdi bırakılmalı. Kablosuz sistemler düşünüyorsanız ek kablo gerekmez, ancak anahtar kutularında nötr hattının bulunması önemlidir, birçok akıllı anahtar nötr ister." },
     ],
-    related: ["elektrik-tesisati-yenileme-belirtileri", "elektrik-panosu-bakimi", "avize-secim-rehberi"],
+    related: ["kablo-kesiti-ve-sigorta-secimi", "elektrik-tesisati-yenileme-belirtileri", "elektrik-panosu-bakimi", "avize-secim-rehberi"],
   },
 ];
