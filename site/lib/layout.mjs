@@ -63,11 +63,10 @@ function head({ title, description, path, ogImage, ogType = "website", noindex, 
     `<link rel="apple-touch-icon" href="/apple-touch-icon.png">`,
     `<link rel="manifest" href="/site.webmanifest">`,
     // Yazı tipleri
-    `<link rel="preconnect" href="https://fonts.googleapis.com">`,
-    `<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>`,
-    `<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap">`,
-    `<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap" media="print" onload="this.media='all'">`,
-    `<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700;800&display=swap"></noscript>`,
+    // Yazı tipleri kendi sunucumuzda (bkz. styles.mjs @font-face). Metnin ilk
+    // boyanmasında kullanılan iki dosya önceden çekiliyor; gerisi CSS'ten gelir.
+    `<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter.woff2" crossorigin>`,
+    `<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/barlow-condensed-700.woff2" crossorigin>`,
     `<link rel="stylesheet" href="/assets/site.css?v=${assetVersion}">`,
     `<link rel="sitemap" type="application/xml" href="/sitemap.xml">`,
     ...schemas.map(jsonLd),

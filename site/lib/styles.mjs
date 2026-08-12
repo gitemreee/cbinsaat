@@ -4,9 +4,35 @@
 export const css = String.raw`
 /* ============================================================
    CB İnşaat — tasarım sistemi
-   1. Değişkenler  2. Reset  3. Tipografi  4. Yerleşim
-   5. Bileşenler   6. Bölümler  7. Duyarlı  8. Yazdırma
+   0. Yazı tipleri  1. Değişkenler  2. Reset  3. Tipografi
+   4. Yerleşim  5. Bileşenler  6. Bölümler  7. Duyarlı  8. Yazdırma
    ============================================================ */
+
+/* 0. Yazı tipleri --------------------------------------------------------
+   Kendi sunucumuzdan servis ediliyor: üçüncü taraf bağlantısı (DNS + TLS)
+   yok, dosyalar bir yıl önbelleklenebiliyor. Sitede kullanılan karakterlere
+   indirgendiler; Türkçe harfler (ğ ı İ ş) ve ₺ dâhil.
+   Inter değişken font olarak tek dosyada 400–800 aralığını kapsıyor. */
+@font-face{
+  font-family:"Inter";font-style:normal;font-weight:400 800;font-display:swap;
+  src:url("/assets/fonts/inter.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Barlow Condensed";font-style:normal;font-weight:600;font-display:swap;
+  src:url("/assets/fonts/barlow-condensed-600.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Barlow Condensed";font-style:normal;font-weight:700;font-display:swap;
+  src:url("/assets/fonts/barlow-condensed-700.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Barlow Condensed";font-style:normal;font-weight:800;font-display:swap;
+  src:url("/assets/fonts/barlow-condensed-800.woff2") format("woff2");
+}
+@font-face{
+  font-family:"Caveat";font-style:normal;font-weight:700;font-display:swap;
+  src:url("/assets/fonts/caveat-700.woff2") format("woff2");
+}
 
 /* 1. Değişkenler --------------------------------------------------------- */
 :root{

@@ -139,6 +139,21 @@ await image("og.png", "og", { width: 1200, height: 630, jpgQuality: 82 });
 await image("malatya-panorama.jpg", "malatya", { width: 1600 });
 await image("neden-biz.jpg", "neden-biz", { width: 1920, jpgQuality: 80 });
 
+// 2a. Yazı tipleri — public/fonts/*.woff2 → /assets/fonts/
+//     Dosyalar siteye özel alt kümelenmiş halde depoda duruyor; burada sadece
+//     kopyalanıyorlar. /assets/* için bir yıllık immutable önbellek geçerli.
+if (await exists(join(PUBLIC, "fonts"))) {
+  await mkdir(join(OUT, "assets", "fonts"), { recursive: true });
+  let fontCount = 0;
+  for (const file of await readdir(join(PUBLIC, "fonts"))) {
+    // OFL.txt de kopyalanıyor: lisans, dağıtılan font dosyalarına eşlik etmeli.
+    if (!/\.(woff2|txt)$/.test(file)) continue;
+    await copyFile(join(PUBLIC, "fonts", file), join(OUT, "assets", "fonts", file));
+    fontCount++;
+  }
+  console.log(`  ✓ ${fontCount} yazı tipi dosyası kopyalandı`);
+}
+
 // 2b. Gerçek fotoğraflar — public/photos/<slug>.jpg varsa kapak yerine o kullanılır.
 const photoSlugs = new Set();
 if (await exists(join(PUBLIC, "photos"))) {
