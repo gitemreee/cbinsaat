@@ -499,7 +499,7 @@ export const tadilatPosts = [
       { q: "Ödeme nasıl yapılıyor?", a: "Hakediş esaslı; tamamlanan iş kalemlerine göre kademeli. Yönetimle birlikte kat maliki başına düşen tutarı ve takvimi baştan yazıyoruz." },
       { q: "Sadece aydınlatma yaptırabilir miyiz?", a: "Yaptırabilirsiniz. Ortak alan aydınlatma yenileme tek başına en hızlı geri dönen kalem; boyayı sonraya bırakabilirsiniz." },
     ],
-    related: ["eski-ev-tadilatinda-oncelik", "cephe-boyasi-ne-zaman-yenilenmeli", "ortak-alan-elektrigi"],
+    related: ["eski-ev-tadilatinda-oncelik", "cephe-boyasi-ne-zaman-yenilenmeli", "ic-mekan-aydinlatma-planlama"],
   },
 
   {

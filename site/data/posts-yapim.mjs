@@ -484,7 +484,7 @@ export const yapimPosts = [
       { q: "Jeneratör gerekli mi?", a: "Kesintinin doğrudan zarar yazdığı işletmelerde (soğuk zincir, üretim hattı) gerekli olabiliyor. Kritik yükleri ayırıp sadece onları besleyen bir çözüm çoğu zaman yeterli." },
       { q: "Kompanzasyon her iş yerinde gerekli mi?", a: "Motor yükü düşük olan ofis ve mağazalarda genelde gerekmiyor. Atölye, üretim ve büyük soğutma sistemi olan yerlerde gerekiyor." },
     ],
-    related: ["dukkan-tadilatinda-acilis-takvimi", "depo-atolye-zemini", "pano-neden-yenilenmeli"],
+    related: ["dukkan-tadilatinda-acilis-takvimi", "depo-atolye-zemini", "kablo-kesiti-ve-sigorta-secimi"],
   },
 
   {
