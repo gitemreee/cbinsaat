@@ -15,7 +15,7 @@ export const yapimServices = [
     short: "Temelden oturuma hazır teslime kadar müstakil ev yapımı; kaba inşaat, ince işler ve tesisat tek ekipte.",
     metaTitle: "Malatya Anahtar Teslim Müstakil Ev Yapımı",
     metaDesc:
-      "Malatya'da anahtar teslim müstakil ev yapımı: temel, betonarme, çatı, ince işler, elektrik ve tesisat. Yetkili proje ekipleriyle koordinasyon, kalem kalem yazılı teklif.",
+      "Malatya'da anahtar teslim müstakil ev yapımı: temel, betonarme, çatı, ince işler, elektrik ve tesisat. Proje koordinasyonu ve yazılı teklif.",
     keywords: [
       "Malatya anahtar teslim ev yapımı",
       "Malatya müstakil ev inşaatı",
@@ -82,7 +82,7 @@ export const yapimServices = [
     short: "Villa ve dubleks yapımı; betonarme, ince işler, yerden ısıtma, akıllı ev altyapısı ve peyzaj.",
     metaTitle: "Malatya Anahtar Teslim Villa Yapımı ve Dubleks İnşaat",
     metaDesc:
-      "Malatya'da anahtar teslim villa yapımı: betonarme, çatı, dış cephe, yerden ısıtma, akıllı ev altyapısı ve bahçe düzenlemesi. Yazılı teklif, hakediş esaslı ödeme.",
+      "Malatya'da anahtar teslim villa yapımı: betonarme, çatı, dış cephe, yerden ısıtma ve bahçe düzenlemesi. Yazılı teklif, hakediş esaslı ödeme.",
     keywords: ["Malatya villa yapımı", "Malatya anahtar teslim villa", "dubleks villa inşaat Malatya", "villa müteahhit Malatya"],
     intro:
       "Villada işin zorluğu büyüklükten değil, detay sayısından geliyor. Yerden ısıtma, akıllı ev altyapısı, havuz tesisatı, bahçe aydınlatması; her biri kaba inşaat aşamasında yerini almazsa sonradan eklemek hem pahalı hem çirkin oluyor.",

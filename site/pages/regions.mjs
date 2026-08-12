@@ -218,7 +218,7 @@ ${ctaBlock({
 
   return page({
     title: `${d.name} Elektrikçi, Tesisatçı ve Tadilat | Malatya ${d.name}`,
-    description: `${d.name} Malatya'da elektrik tesisatı, arıza, sıhhi tesisat, su kaçağı, hidrofor ve tadilat hizmeti. ${d.metaExtra} yerinde keşif ve yazılı teklif.`,
+    description: `${d.name} Malatya'da elektrik, sıhhi tesisat, su kaçağı, hidrofor ve tadilat hizmeti. Yerinde keşif, yazılı teklif ve işçilik garantisi.`,
     path: `/bolgeler/${d.slug}/`,
     ctx,
     keywords: [...localTerms(`Malatya ${d.name}`), ...localTerms(d.name)],
@@ -373,7 +373,7 @@ ${ctaBlock({
       l.name.length > 20
         ? `${l.name} Elektrik ve Tesisat | Malatya`
         : `${l.name} Elektrikçi ve Tesisatçı | ${d.name} Malatya`,
-    description: `${l.name} (${d.name} / Malatya) elektrik tesisatı, arıza, su tesisatı, kaçak tespiti, gider açma, hidrofor ve tadilat hizmeti. Yerinde keşif ve yazılı teklif.`,
+    description: `${l.name.includes(d.name) ? l.name : `${l.name} ${d.name}`} Malatya'da elektrik, su tesisatı, hidrofor ve tadilat hizmeti. Yerinde keşif, yazılı teklif. ${site.phoneDisplay}`,
     path: `/bolgeler/${d.slug}/${l.slug}/`,
     keywords: [...localTerms(l.name), ...localTerms(`${l.name} ${d.name}`), `${l.name} Malatya`],
     ctx,

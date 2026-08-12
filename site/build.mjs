@@ -10,7 +10,7 @@ import { site } from "./data/site.mjs";
 import { services, coreServices, groupsOrdered } from "./data/services.mjs";
 import { districts } from "./data/districts.mjs";
 import { localities, localitiesOf } from "./data/localities.mjs";
-import { posts, categoryList } from "./data/posts.mjs";
+import { posts, categoryList, postsByCategory } from "./data/posts.mjs";
 import { intents } from "./data/intents.mjs";
 import { css } from "./lib/styles.mjs";
 import { cover } from "./lib/covers.mjs";
@@ -76,6 +76,16 @@ async function copyIfExists(from, to) {
 
 const today = new Date().toISOString().slice(0, 10);
 
+// Sitemap lastmod yalnızca gerçek içerik tarihi bilinen sayfalara yazılır.
+// Şablondan üretilen sayfalara her build'de "bugün" yazmak, Google'a
+// 8000 sayfanın değiştiğini söyleyen yanlış bir sinyal oluyordu.
+const newestIn = (list) =>
+  list.reduce((max, p) => {
+    const d = p.updated || p.published;
+    return d > max ? d : max;
+  }, "");
+const newestPost = newestIn(posts);
+
 /* ------------------------------------------------------------------- build */
 console.log("\nCB İnşaat — statik site derleniyor\n");
 
@@ -138,10 +148,14 @@ if (await exists(join(PUBLIC, "photos"))) {
     if (!m) continue;
     const slug = m[1];
     if (sharp) {
-      await sharp(join(PUBLIC, "photos", file))
-        .resize({ width: 1200, height: 675, fit: "cover", withoutEnlargement: true })
-        .jpeg({ quality: 78, mozjpeg: true, progressive: true })
+      // Aynı kaynaktan hem JPEG hem WebP: kapak görselleri sayfaların LCP
+      // öğesi olduğu için WebP ile ~%40 daha az bayt iniyor.
+      const base = sharp(join(PUBLIC, "photos", file))
+        .resize({ width: 1200, height: 675, fit: "cover", withoutEnlargement: true });
+      await base.clone().jpeg({ quality: 78, mozjpeg: true, progressive: true })
         .toFile(join(OUT, "assets", "photos", `${slug}.jpg`));
+      await base.clone().webp({ quality: 72 })
+        .toFile(join(OUT, "assets", "photos", `${slug}.webp`));
     } else {
       await copyFile(join(PUBLIC, "photos", file), join(OUT, "assets", "photos", `${slug}.jpg`));
     }
@@ -226,16 +240,16 @@ if (sharp && (await exists(MARK))) {
 // 4. Sayfalar --------------------------------------------------------------
 console.log("Sayfalar üretiliyor…");
 
-await emit("/", homePage(ctx), { priority: 1.0, changefreq: "weekly", lastmod: today });
+await emit("/", homePage(ctx), { priority: 1.0, changefreq: "weekly", lastmod: newestPost });
 
 // Hizmetler
-await emit("/hizmetler/", servicesIndex(ctx), { priority: 0.9, changefreq: "monthly", lastmod: today });
+await emit("/hizmetler/", servicesIndex(ctx), { priority: 0.9, changefreq: "monthly" });
 for (const g of groupsOrdered) {
-  await emit(g.href, serviceGroupPage(g, ctx), { priority: 0.88, changefreq: "monthly", lastmod: today });
+  await emit(g.href, serviceGroupPage(g, ctx), { priority: 0.88, changefreq: "monthly" });
 }
 console.log(`  ✓ ${groupsOrdered.length} hizmet alanı sayfası`);
 for (const s of services) {
-  await emit(`/hizmetler/${s.slug}/`, servicePage(s, ctx), { priority: 0.85, changefreq: "monthly", lastmod: today });
+  await emit(`/hizmetler/${s.slug}/`, servicePage(s, ctx), { priority: 0.85, changefreq: "monthly" });
 }
 console.log(`  ✓ ${services.length} hizmet sayfası`);
 
@@ -244,7 +258,7 @@ let sd = 0;
 for (const s of coreServices) {
   for (const d of districts) {
     await emit(`/hizmetler/${s.slug}/${d.slug}/`, serviceDistrictPage(s, d, ctx), {
-      priority: 0.7, changefreq: "monthly", lastmod: today,
+      priority: 0.7, changefreq: "monthly",
     });
     sd++;
   }
@@ -252,9 +266,9 @@ for (const s of coreServices) {
 console.log(`  ✓ ${sd} hizmet × ilçe sayfası (${coreServices.length} hizmet × ${districts.length} ilçe)`);
 
 // Bölgeler
-await emit("/bolgeler/", regionsIndex(ctx), { priority: 0.9, changefreq: "monthly", lastmod: today });
+await emit("/bolgeler/", regionsIndex(ctx), { priority: 0.9, changefreq: "monthly" });
 for (const d of districts) {
-  await emit(`/bolgeler/${d.slug}/`, districtPage(d, ctx), { priority: 0.8, changefreq: "monthly", lastmod: today });
+  await emit(`/bolgeler/${d.slug}/`, districtPage(d, ctx), { priority: 0.8, changefreq: "monthly" });
 }
 console.log(`  ✓ ${districts.length} ilçe sayfası`);
 
@@ -263,13 +277,13 @@ let tc = 0;
 for (const d of districts) {
   for (const l of localitiesOf(d.slug)) {
     await emit(`/bolgeler/${d.slug}/${l.slug}/`, localityPage(l, d, ctx), {
-      priority: l.featured ? 0.6 : 0.5, changefreq: "monthly", lastmod: today,
+      priority: l.featured ? 0.6 : 0.5, changefreq: "monthly",
     });
     lc++;
     // Mahalle × hizmet etiketleri: elektrikçi, sucu, tesisatçı, doğalgazcı…
     for (const t of localTags) {
       await emit(`/bolgeler/${d.slug}/${l.slug}/${t.slug}/`, localTagPage(l, d, t, ctx), {
-        priority: l.featured ? 0.55 : 0.45, changefreq: "monthly", lastmod: today,
+        priority: l.featured ? 0.55 : 0.45, changefreq: "monthly",
       });
       tc++;
     }
@@ -279,10 +293,10 @@ console.log(`  ✓ ${lc} mahalle sayfası`);
 console.log(`  ✓ ${tc} mahalle × hizmet etiketi (${localTags.length} etiket × ${lc} mahalle)`);
 
 // Blog
-await emit("/blog/", blogIndex(ctx), { priority: 0.9, changefreq: "weekly", lastmod: today });
+await emit("/blog/", blogIndex(ctx), { priority: 0.9, changefreq: "weekly", lastmod: newestPost });
 for (const c of categoryList) {
   await emit(`/blog/kategori/${c.slug}/`, blogCategoryPage(c, ctx), {
-    priority: 0.75, changefreq: "weekly", lastmod: today,
+    priority: 0.75, changefreq: "weekly", lastmod: newestIn(postsByCategory(c.name)),
   });
 }
 for (const p of posts) {
@@ -295,11 +309,11 @@ console.log(`  ✓ ${posts.length} blog yazısı + ${categoryList.length} katego
 // Niyet sayfaları (acil / en yakın)
 let ic = 0;
 for (const i of intents) {
-  await emit(`/${i.slug}/`, intentPage(i, ctx), { priority: 0.85, changefreq: "monthly", lastmod: today });
+  await emit(`/${i.slug}/`, intentPage(i, ctx), { priority: 0.85, changefreq: "monthly" });
   ic++;
   for (const d of districts) {
     await emit(`/${i.slug}/${d.slug}/`, intentDistrictPage(i, d, ctx), {
-      priority: 0.65, changefreq: "monthly", lastmod: today,
+      priority: 0.65, changefreq: "monthly",
     });
     ic++;
   }
@@ -307,23 +321,23 @@ for (const i of intents) {
 console.log(`  ✓ ${ic} niyet sayfası (${intents.length} başlık × ${districts.length + 1})`);
 
 // Fiyat sayfaları
-await emit("/fiyatlar/", pricingIndex(ctx), { priority: 0.9, changefreq: "monthly", lastmod: today });
+await emit("/fiyatlar/", pricingIndex(ctx), { priority: 0.9, changefreq: "monthly" });
 let fc = 1;
 for (const slug of pricedSlugs) {
   const s = services.find((x) => x.slug === slug);
   if (!s) continue;
   await emit(`/fiyatlar/${s.slug}/`, pricingServicePage(s, ctx), {
-    priority: 0.75, changefreq: "monthly", lastmod: today,
+    priority: 0.75, changefreq: "monthly",
   });
   fc++;
 }
 console.log(`  ✓ ${fc} fiyat sayfası${priceUpdated ? ` (güncelleme: ${priceUpdated})` : " (rakamlar henüz girilmedi)"}`);
 
 // Projeler — liste her zaman yayınlanır, detay sayfaları published:true kayıtlar için
-await emit("/projeler/", projectsIndex(ctx), { priority: 0.85, changefreq: "monthly", lastmod: today });
+await emit("/projeler/", projectsIndex(ctx), { priority: 0.85, changefreq: "monthly" });
 for (const p of publishedProjects) {
   await emit(`/projeler/${p.slug}/`, projectPage(p, ctx), {
-    priority: 0.7, changefreq: "yearly", lastmod: today,
+    priority: 0.7, changefreq: "yearly",
   });
 }
 console.log(
@@ -332,11 +346,11 @@ console.log(
 );
 
 // Kurumsal
-await emit("/hakkimizda/", aboutPage(ctx), { priority: 0.7, changefreq: "yearly", lastmod: today });
-await emit("/iletisim/", contactPage(ctx), { priority: 0.8, changefreq: "yearly", lastmod: today });
-await emit("/teklif/", quotePage(ctx), { priority: 0.9, changefreq: "yearly", lastmod: today });
-await emit("/sss/", faqPage(ctx), { priority: 0.7, changefreq: "yearly", lastmod: today });
-await emit("/gizlilik/", privacyPage(ctx), { priority: 0.2, changefreq: "yearly", lastmod: today });
+await emit("/hakkimizda/", aboutPage(ctx), { priority: 0.7, changefreq: "yearly" });
+await emit("/iletisim/", contactPage(ctx), { priority: 0.8, changefreq: "yearly" });
+await emit("/teklif/", quotePage(ctx), { priority: 0.9, changefreq: "yearly" });
+await emit("/sss/", faqPage(ctx), { priority: 0.7, changefreq: "yearly" });
+await emit("/gizlilik/", privacyPage(ctx), { priority: 0.2, changefreq: "yearly" });
 await emit("/tesekkurler/", thanksPage(ctx));
 await emit("/404.html", notFoundPage(ctx));
 console.log("  ✓ 7 kurumsal sayfa");
@@ -349,8 +363,8 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 ${urls
   .map(
     (u) => `  <url>
-    <loc>${u.loc}</loc>
-    <lastmod>${u.lastmod || today}</lastmod>
+    <loc>${u.loc}</loc>${u.lastmod ? `
+    <lastmod>${u.lastmod}</lastmod>` : ""}
     <changefreq>${u.changefreq}</changefreq>
     <priority>${u.priority.toFixed(1)}</priority>
   </url>`
@@ -362,9 +376,11 @@ await writeFile(join(OUT, "sitemap.xml"), sitemap, "utf8");
 
 await writeFile(
   join(OUT, "robots.txt"),
+  // /tesekkurler/ sayfası noindex etiketi taşıyor ve sitemap'e girmiyor.
+  // Burada Disallow yazmak, Google'ın sayfayı tarayıp o noindex'i görmesini
+  // engellerdi; bu yüzden taramaya açık bırakılıyor.
   `User-agent: *
 Allow: /
-Disallow: /tesekkurler/
 
 Sitemap: ${site.domain}/sitemap.xml
 `,

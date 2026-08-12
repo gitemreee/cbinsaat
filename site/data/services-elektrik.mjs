@@ -12,7 +12,7 @@ export const elektrikServices = [
     short: "Sıfırdan daire ve bina tesisatı, kolon hattı, pano, topraklama ve eski tesisat yenileme.",
     metaTitle: "Malatya Elektrik Tesisatı | Sıfırdan Kurulum ve Yenileme",
     metaDesc:
-      "Malatya'da daire, bina, iş yeri ve şantiye elektrik tesisatı. Sıfırdan kurulum, kolon hattı, pano, topraklama ve eski tesisat yenileme. Yerinde keşif ve yazılı teklif.",
+      "Malatya'da daire, bina ve iş yeri elektrik tesisatı. Sıfırdan kurulum, kolon hattı, pano, topraklama ve eski tesisat yenileme. Yerinde keşif, yazılı teklif.",
     keywords: ["Malatya elektrik tesisatı", "Malatya elektrikçi", "daire elektrik tesisatı", "bina kolon hattı", "elektrik tesisatı yenileme"],
     intro:
       "Elektrik tesisatı bir yapının en uzun ömürlü, ama en zor değiştirilen kısmıdır. Duvar kapandıktan sonra yapılan her düzeltme kırım demektir. Onun için kablo kesitinden priz sayısına, pano düzeninden topraklamaya kadar her kalemi baştan, kullanım senaryosuna göre planlıyoruz.",

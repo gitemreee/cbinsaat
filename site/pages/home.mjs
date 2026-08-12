@@ -240,7 +240,7 @@ ${ctaBlock({
   return page({
     title: `${site.name} | Malatya Elektrik, Sıhhi Tesisat ve İnşaat`,
     description:
-      "Malatya'da elektrik tesisatı, sıhhi tesisat, mekanik tesisat, hidrofor–pompa, sulama sistemleri ve anahtar teslim tadilat. 13 ilçede yerinde keşif ve yazılı teklif.",
+      "Malatya'da elektrik, sıhhi tesisat, hidrofor–pompa, sulama sistemi ve anahtar teslim tadilat. 13 ilçede yerinde keşif ve yazılı teklif.",
     path: "/",
     ctx,
     schemas: [

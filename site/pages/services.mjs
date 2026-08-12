@@ -167,7 +167,7 @@ ${ctaBlock({
 
   return page({
     title: `Malatya ${g.name} Hizmetleri | ${site.name}`,
-    description: `Malatya'da ${lower} hizmetleri: ${g.items.slice(0, 4).map((s) => trLower(s.title)).join(", ")} ve dahası. 13 ilçede yerinde keşif, kalem kalem yazılı teklif.`,
+    description: `Malatya'da ${lower} hizmetleri: ${g.items.slice(0, 2).map((s) => trLower(s.title)).join(", ")} ve dahası. 13 ilçede yerinde keşif ve yazılı teklif.`,
     path: g.href,
     ctx,
     keywords: [
@@ -429,8 +429,8 @@ ${ctaBlock({
 `;
 
   return page({
-    title: `${d.name} ${s.title} | Malatya, ${site.name}`,
-    description: `${d.name} Malatya'da ${trLower(s.title)} hizmeti. ${d.metaExtra} yerinde keşif, yazılı teklif ve işçilik garantisi. ${site.phoneDisplay}`,
+    title: `${d.name} ${s.title} | Malatya`,
+    description: `${d.name} Malatya'da ${trLower(s.title)} hizmeti. Yerinde keşif, kalem kalem yazılı teklif ve işçilik garantisi. ${site.phoneDisplay}`,
     path: `/hizmetler/${s.slug}/${d.slug}/`,
     keywords: [`${d.name} ${s.title}`, `Malatya ${d.name} ${s.title}`, ...localTerms(d.name).slice(0, 10), ...(s.keywords || []).slice(0, 4)],
     ctx,

@@ -176,7 +176,7 @@ ${ctaBlock({ title: "Formu doldurun, biz arayalım", text: "Teklif formunu doldu
 
   return page({
     title: `İletişim | ${site.name} Malatya, ${site.phoneDisplay}`,
-    description: `CB İnşaat Malatya iletişim: ${site.phoneDisplay}, ${site.email}. Malatya'nın 13 ilçesinde elektrik, tesisat ve tadilat hizmeti. ${site.hoursText}.`,
+    description: `CB İnşaat Malatya: ${site.phoneDisplay}, ${site.email}. 13 ilçede elektrik, tesisat ve tadilat. ${site.hoursText}.`,
     path: "/iletisim/",
     ctx,
     crumbs: [{ label: "İletişim", href: "/iletisim/" }],

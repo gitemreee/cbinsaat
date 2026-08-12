@@ -363,6 +363,9 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 
 /* Kapak görseli — kategori renginde şeffaf zeminli çizim */
 .cover{position:relative;aspect-ratio:5/2;overflow:hidden;background:var(--c-soft);flex:none;border-bottom:1px solid var(--line)}
+/* WebP için <picture> sarmalayıcısı satır içi kutu üretir; yüzde yükseklik
+   hesabının bozulmaması için kutuyu ebeveyni kadar açıyoruz. */
+.cover picture,.lead-media picture{display:block;width:100%;height:100%}
 .cover img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .4s cubic-bezier(.4,0,.2,1)}
 .card:hover .cover img{transform:scale(1.04)}
 .cover-tag{

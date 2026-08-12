@@ -52,10 +52,18 @@ export const coverSrc = (slug) => {
   return `/assets/covers/${slug}.svg`;
 };
 
-export const coverImg = (slug, alt, { lazy = true } = {}) =>
-  `<img src="${coverSrc(slug)}" alt="${esc(alt)}" width="800" height="450"${
-    lazy ? ' loading="lazy" decoding="async"' : ""
-  }>`;
+// Kapak görseli. lazy:false verilen çağrı sayfanın ilk (LCP) görselidir;
+// tarayıcıya öncelikli indirmesi söylenir. Fotoğrafın WebP sürümü varsa
+// <picture> ile önce o sunulur, JPEG yedek olarak kalır.
+export const coverImg = (slug, alt, { lazy = true } = {}) => {
+  const src = coverSrc(slug);
+  const attrs = lazy
+    ? ' loading="lazy" decoding="async"'
+    : ' fetchpriority="high" decoding="async"';
+  const img = `<img src="${src}" alt="${esc(alt)}" width="800" height="450"${attrs}>`;
+  if (!src.endsWith(".jpg")) return img;
+  return `<picture><source srcset="${src.replace(/\.jpg$/, ".webp")}" type="image/webp">${img}</picture>`;
+};
 
 /* ------------------------------------------------------------- kartlar */
 export const serviceCard = (s) => {

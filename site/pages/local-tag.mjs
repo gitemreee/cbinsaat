@@ -74,7 +74,10 @@ export function localTagPage(l, d, t, ctx) {
   const title = `${l.name} ${t.h1}`;
   const h1 = `<em class="hl">${esc(displayName(l))}</em> ${esc(t.h1)}`;
 
-  const description = `${l.name} (${d.name} / Malatya) ${t.label} hizmeti. ${t.terms.slice(0, 3).join(", ")} için CB İnşaat. ${merkez ? "Aynı gün keşif" : `Merkeze ${d.distanceKm} km`}, ücretsiz keşif, yazılı fiyat.`;
+  // Meta açıklama 158 karakterde kesiliyor; en uzun mahalle/etiket adlarıyla
+  // bile sığacak uzunlukta tutuluyor ki SERP'te cümle yarıda kalmasın.
+  const yer = l.name.includes(d.name) ? `${l.name} Malatya` : `${l.name} ${d.name} Malatya`;
+  const description = `${yer}'da ${trLower(t.label)}. ${merkez ? "Aynı gün keşif" : `Merkeze ${d.distanceKm} km`}, yazılı fiyat ve işçilik garantisi. ${site.phoneDisplay}`;
 
   const keywords = [
     ...t.terms.map((k) => `${l.name} ${k}`),
@@ -210,7 +213,7 @@ ${ctaBlock({
 `;
 
   return page({
-    title: `${title} — ${d.name} Malatya | CB İnşaat`,
+    title: `${l.name} ${t.label} | ${d.name} Malatya`,
     description,
     path: tagHref(d, l, t),
     keywords,

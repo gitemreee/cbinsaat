@@ -256,7 +256,7 @@ ${ctaBlock({
 
   return page({
     title: `${d.name} ${i.title} | Malatya — ${site.name}`,
-    description: `${d.name} Malatya'da ${trLower(i.title)}. ${d.metaExtra} ${merkezMi ? "Aynı gün müdahale." : `Merkeze ~${d.distanceKm} km.`} ${site.phoneDisplay}`,
+    description: `${d.name} Malatya'da ${trLower(i.title)}. ${merkezMi ? "Aynı gün müdahale, ücretsiz keşif." : `Merkeze ~${d.distanceKm} km, ücretsiz keşif.`} ${site.phoneDisplay}`,
     path: `/${i.slug}/${d.slug}/`,
     ctx,
     crumbs: [
