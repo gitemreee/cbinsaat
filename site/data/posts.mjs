@@ -14,11 +14,15 @@ import { kuyuPosts } from "./posts-kuyu.mjs";
 import { sulamaPosts } from "./posts-sulama.mjs";
 import { tesisatPosts } from "./posts-tesisat.mjs";
 import { planPosts } from "./posts-plan.mjs";
+import { arizaPosts } from "./posts-ariza.mjs";
+import { suKaynagiPosts } from "./posts-su-kaynagi.mjs";
+import { sulamaEkPosts } from "./posts-sulama-3.mjs";
 
 const all = [
   ...elektrikPosts, ...suPosts, ...yapiPosts, ...dogalgazPosts, ...tadilatPosts,
   ...yapimPosts, ...cephePosts, ...incePosts, ...bahcePosts,
   ...hidroforPosts, ...kuyuPosts, ...sulamaPosts, ...tesisatPosts, ...planPosts,
+  ...arizaPosts, ...suKaynagiPosts, ...sulamaEkPosts,
 ];
 
 // Yayın tarihine göre yeniden eskiye.

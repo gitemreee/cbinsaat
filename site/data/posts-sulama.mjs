@@ -1137,7 +1137,7 @@ export const sulamaPosts = [
         a: "Bakımı yapılan bir damlama sistemi uzun yıllar çalışır. Ömrü belirleyen ana etkenler filtre bakımı, gübreleme sonrası yıkama, kış tahliyesi ve mekanik hasarların zamanında onarılmasıdır. Erken biten sistemlerde neredeyse her zaman ortak sebep aksatılan bakımdır.",
       },
     ],
-    related: ["damlama-sulama-nasil-kurulur", "sulama-filtresi-secimi", "bahce-sulama-suresi"],
+    related: ["dona-karsi-sulama-koruma", "damlama-sulama-nasil-kurulur", "sulama-filtresi-secimi", "bahce-sulama-suresi"],
   },
 
   {

@@ -422,7 +422,7 @@ export const yapiPosts = [
       { q: "Mevcut çimi bozmadan sistem kurulabilir mi?", a: "Dar kanal açan makinelerle çim neredeyse tamamen korunarak hat döşenebilir; kesim hatları birkaç hafta içinde kapanır. Yine de yeni çim ekimiyle birlikte yapılan kurulum en temiz sonucu verir." },
       { q: "Şebeke suyu yeterli mi, pompa gerekir mi?", a: "Şebeke basıncı ve debisi ölçülerek karar verilir. Küçük bahçelerde şebeke genelde yeterlidir. Büyük alanlarda veya basıncın düşük olduğu bölgelerde depo ve pompa ile sabit basınç sağlanması gerekir." },
     ],
-    related: ["sulama-otomasyonu-secimi", "bahce-sulama-suresi", "damlama-sulama-tikaniklik", "tarimsal-sulama-pompa-secimi"],
+    related: ["yagmurlama-sulama-kurulumu", "sulama-otomasyonu-secimi", "bahce-sulama-suresi", "damlama-sulama-tikaniklik", "tarimsal-sulama-pompa-secimi"],
   },
 
   {

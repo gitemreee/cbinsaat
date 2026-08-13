@@ -216,7 +216,7 @@ export const bahcePosts = [
       { q: "Kuyu verimi ölçümü ne kadar sürer?", a: "Kısa bir işlem, birkaç saat. Pompa çalıştırılıp su seviyesinin dengelenmesi izleniyor. Bu ölçüm olmadan pompa önermiyoruz." },
       { q: "Güneş enerjisiyle çalışır mı?", a: "Çalışıyor. Özellikle sezonluk sulama ve enerji hattı uzak arazilerde ekonomik oluyor. Panel kapasitesi pompa gücüne ve günlük su ihtiyacına göre hesaplanıyor." },
     ],
-    related: ["hidrofor-basinc-sorunu", "gunes-enerjisiyle-sulama", "damlama-mi-yagmurlama-mi"],
+    related: ["kuyu-actirmadan-once", "hidrofor-basinc-sorunu", "gunes-enerjisiyle-sulama", "damlama-mi-yagmurlama-mi"],
   },
 
   {

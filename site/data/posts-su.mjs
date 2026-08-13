@@ -63,7 +63,7 @@ export const suPosts = [
       { q: "Kırmadan kaçak bulunabilir mi?", a: "Kaçağın bölgesi kırmadan büyük oranda daraltılabilir. Ancak onarım için hatta ulaşmak gerektiğinden tespit edilen noktada sınırlı bir kırım kaçınılmazdır. Hedef, kırımı tek noktaya ve en küçük alana indirmektir." },
       { q: "Sigorta bu hasarı karşılar mı?", a: "Konut sigortası poliçenizin kapsamına bağlı. Çoğu poliçe ani ve beklenmedik su hasarını karşılar. Tespit raporu, kaçağın konumu ve fotoğraflarla belgelenmiş bir dosya bu süreçte işinizi kolaylaştırır." },
     ],
-    related: ["ev-su-tesisati-yenileme", "kombi-basinci-neden-dusuyor", "banyo-tadilati-siralama"],
+    related: ["su-faturasi-neden-yuksek", "rezervuar-su-akitiyor", "ev-su-tesisati-yenileme", "kombi-basinci-neden-dusuyor", "banyo-tadilati-siralama"],
   },
 
   {
@@ -122,7 +122,7 @@ export const suPosts = [
       { q: "Pompa (lastik) ile açamadım, ne yapmalıyım?", a: "Pompa yalnızca yüzeysel ve yeni oluşmuş tıkanıklıklarda işe yarar. Sonuç alamadıysanız daha derinde bir birikim var demektir; spiral makine veya basınçlı su ile açma gerekir. Zorlamak sifonu ve bağlantıları gevşetebilir." },
       { q: "Apartman ana giderinde masrafı kim öder?", a: "Ortak alan sayıldığı için genelde bina yönetimi karşılar. Tıkanıklığın belirli bir daireden kaynaklandığı tespit edilirse durum değişebilir. Teknik tespiti yazılı olarak veriyoruz; mali kısım yönetimin kararıdır." },
     ],
-    related: ["ev-su-tesisati-yenileme", "su-kacagi-erken-belirtileri", "banyo-tadilati-siralama"],
+    related: ["gider-kokusu-neden-gelir", "ev-su-tesisati-yenileme", "su-kacagi-erken-belirtileri", "banyo-tadilati-siralama"],
   },
 
   {
@@ -269,7 +269,7 @@ export const suPosts = [
       { q: "Temizlik sırasında su kesilir mi?", a: "Evet, depo boşaltılacağı için kesinti olur. Süre depo hacmine göre 3–6 saattir. Bina yönetimiyle en uygun saati planlıyor, sakinlere önceden duyuru yapılmasını sağlıyoruz." },
       { q: "Deponun içi paslanmışsa ne yapılır?", a: "Metal depolarda yüzey korozyonu varsa temizlik sonrası içme suyuna uygun kaplama yapılması gerekir. Korozyon ilerlemişse depo değişimi gündeme gelir; durumu fotoğraflarla raporluyoruz." },
     ],
-    related: ["su-deposu-hidrofor-birlikte", "hidrofor-surekli-calisiyor", "ev-su-tesisati-yenileme"],
+    related: ["depoya-su-dolmuyor", "depo-suyu-kokuyor", "su-deposu-hidrofor-birlikte", "hidrofor-surekli-calisiyor", "ev-su-tesisati-yenileme"],
   },
 
   {
