@@ -58,7 +58,7 @@ export const tadilatServices = [
       { p: "Her aşamanın kendi kontrol noktası var ve o kontrol yapılmadan sonrakine geçilmiyor. En kritik ikisi: tesisat kapanmadan basınç testi ve seramik döşenmeden su testi." },
 
       { h2: "Bütçe nasıl kontrol altında tutuluyor?" },
-      { p: "Bütçe aşımının iki kaynağı var: baştan eksik yazılan kalemler ve iş sırasında değişen kararlar. Birincisini önlemek bizim işimiz; keşifte tüm kalemleri metrajlı yazıyoruz ve \"onu sonra konuşuruz\" dediğimiz bir kalem bırakmıyoruz." },
+      { p: "Bütçe aşımının iki kaynağı var: baştan eksik yazılan kalemler ve iş sırasında değişen kararlar. Birincisini önlemek bizim işimiz; keşifte tüm kalemleri metrajlı yazıyoruz, teklifte ne varsa odur." },
       { p: "İkincisi doğal bir durum. İş ilerledikçe fikirler değişir, söküm sonrası gizli sorunlar çıkar. Bunu engellemek yerine yönetiyoruz: her değişiklik için ek maliyet ve süre etkisi yazılı bildiriliyor, onayınız alınmadan uygulanmıyor." },
       { p: "Toplam bütçenin %10–15'i kadar bir pay ayırmanızı öneriyoruz. Çürük boru, ıslanmış duvar veya çökmüş şap neredeyse her tadilatta bir miktar çıkıyor." },
 
@@ -257,7 +257,7 @@ export const tadilatServices = [
       { p: "Dıştan mantolama en etkili çözüm ama bina kararı gerektiriyor. Daire bazında iç cephe yalıtımı uygulanabiliyor; iç hacimden birkaç santim götürüyor ama yoğuşma sorununu çözüyor." },
 
       { h2: "Sürpriz çıkarsa ne oluyor?" },
-      { p: "Söküm sonrası gizli bir sorun çıktığında işi durduruyor, fotoğrafını gönderiyor ve ek maliyeti yazılı bildiriyoruz. Onayınız olmadan devam etmiyoruz." },
+      { p: "Söküm sonrası gizli bir sorun çıktığında işi durduruyor, fotoğrafını gönderiyor ve ek maliyeti yazılı bildiriyoruz. Siz uygun bulunca devam ediyoruz." },
       { p: "Eski evlerde bu ihtimal yeni yapılara göre yüksek. Bunun için bütçenin %15–20'si kadar bir pay ayırmanızı öneriyoruz; kullanılmazsa cebinizde kalır." },
     ],
     priceFactors: [

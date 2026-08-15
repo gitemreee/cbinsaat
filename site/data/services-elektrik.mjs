@@ -161,7 +161,7 @@ export const elektrikServices = [
       { p: "Bu bilgiler telefonda paylaşıldığında ekip gerekli malzemeyle geldiği için ikinci bir gidiş gelişi bitiriyor." },
 
       { h2: "Acil olan ve olmayan arızalar" },
-      { p: "Yanık kokusu, kıvılcım, ısınan pano, su temas etmiş hat ve tüm dairenin enerjisiz kalması acil kategoridedir; bunlarda aynı gün müdahale ediyoruz. Tek bir prizin çalışmaması, bir avizenin yanmaması veya arada bir atan sigorta ise planlı randevu ile çözülebilir. Aciliyet ayrımını telefonda birlikte yapıyoruz; gereksiz acil ücreti çıkarmıyoruz." },
+      { p: "Yanık kokusu, kıvılcım, ısınan pano, su temas etmiş hat ve tüm dairenin enerjisiz kalması acil kategoridedir; bunlarda aynı gün müdahale ediyoruz. Tek bir prizin çalışmaması, bir avizenin yanmaması veya arada bir atan sigorta ise planlı randevu ile çözülebilir. Aciliyet ayrımını telefonda birlikte yapıyoruz; acil ücreti yalnızca gerçekten acil işlerde geçerli." },
     ],
     priceFactors: [
       "Arızanın acil mi planlı mı olduğu",

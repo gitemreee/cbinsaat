@@ -46,7 +46,7 @@ export const yapiServices = [
       ] },
 
       { h2: "Bütçe nasıl kontrol altında tutulur?" },
-      { p: "Bütçe aşımının iki kaynağı vardır: baştan eksik yazılan kalemler ve iş sırasında değişen kararlar. Birincisini engellemek bizim işimiz; keşifte tüm kalemleri metrajlı biçimde yazıyoruz ve \"sonra bakarız\" dediğimiz bir kalem bırakmıyoruz." },
+      { p: "Bütçe aşımının iki kaynağı vardır: baştan eksik yazılan kalemler ve iş sırasında değişen kararlar. Birincisini engellemek bizim işimiz; keşifte tüm kalemleri metrajlı biçimde yazıyoruz, teklifte ne varsa odur." },
       { p: "İkincisi ise doğal bir durum: iş ilerledikçe fikirler değişir. Bunu engellemek yerine yönetiyoruz. Her değişiklik için ek maliyet ve süre etkisi yazılı olarak bildiriliyor, onayınız alınmadan uygulanmıyor. Böylece bütçe sürprizle değil, kararla değişiyor." },
 
       { h2: "İş programı ve şeffaflık" },
@@ -149,7 +149,7 @@ export const yapiServices = [
       { q: "Tadilat için apartmandan izin gerekir mi?", a: "Daire içi tadilatlarda genelde yönetime bilgi vermek yeterlidir. Ancak taşıyıcı sisteme, ortak alana veya kolon hattına müdahale gerektiren işlerde yönetim ve gerekirse belediye izni gerekir. Bu ayrımı keşifte belirtiyoruz." },
       { q: "Molozu siz mi kaldırıyorsunuz?", a: "Evet, söküm ve moloz tahliyesi teklife dahil ediliyor. Apartmanlarda çalışma saatleri ve asansör kullanımı konusunda yönetimle önceden koordinasyon sağlıyoruz." },
       { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür ve parke gibi kalemleri kendiniz seçip almanız yaygın. Bu durumda teklifte sadece işçilik ve sarf malzeme yer alır. Ölçü ve miktar listesini biz çıkarıp size veriyoruz." },
-      { q: "Tadilat sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, çökmüş şap) olabilir. Böyle olunca işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz." },
+      { q: "Tadilat sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, çökmüş şap) olabilir. Böyle bir şey çıkarsa işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Siz uygun bulunca devam ediyoruz." },
       { q: "Kışın tadilat yapılır mı?", a: "Yapılır ancak boya ve şap gibi kalemlerde kuruma süreleri uzar; havalandırma da zorlaşır. Programı buna göre uzatıyoruz. Yalıtım ve dış cephe işlerinde ise hava koşulları belirleyici oluyor." },
     ],
     localAngle: "1990–2005 arası yapı stoğunda tesisat ve yalıtımın birlikte yenilenmesi ihtiyacı",

@@ -97,7 +97,7 @@ export const kabaInsaatServices = [
     body: [
       { h2: "Hangi duvar taşıyıcı?" },
       { p: "Betonarme binalarda taşıyıcı olan kolon, kiriş ve perde duvarlardır; aradaki tuğla duvarlar genellikle bölmedir. Ama her binada istisna olabiliyor, özellikle eski yığma yapılarda hemen her duvar taşıyıcı olabiliyor." },
-      { p: "Kararı gözle vermiyoruz. Projeye bakıyor, gerekiyorsa yetkili statik ekibe inceletiyoruz. Şüpheli bir durumda \"olur herhalde\" demiyoruz." },
+      { p: "Bu kararı gözle değil hesapla veriyoruz. Projeye bakıyor, gerekiyorsa yetkili statik ekibe inceletiyoruz. Şüpheli bir durumda \"olur herhalde\" demiyoruz." },
 
       { h2: "Kırımın yarısı toz kontrolü" },
       { p: "Oturulan bir dairede kırım yapılıyorsa iş, molozdan çok tozla ilgili. Çalışma alanını naylon bariyerle ayırıyor, kapı aralıklarını bantlıyor, tozlu işlerde toz emiciyle çalışıyoruz." },

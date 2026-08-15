@@ -248,7 +248,7 @@ const batch1 = {
 
     { h2: "Aktarma mı, komple yenileme mi?" },
     { p: "Karkas sağlam ve örtü yer yer bozulmuşsa aktarma yeterlidir: kiremitler sökülür, altyapı onarılır, örtü yenilenip geri dizilir. Maliyeti komple yenilemenin epeyce altındadır." },
-    { p: "Ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma para kaybıdır. Karkasa çıkıp bakmadan bu kararı vermiyoruz." },
+    { p: "Ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma para kaybıdır. Bu karar için karkasa çıkıp bakmamız gerekiyor." },
   ],
 
   "dis-cephe-mantolama": [

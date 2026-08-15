@@ -36,15 +36,15 @@ const homeFaqs = [
   },
   {
     q: "Teklif nasıl veriliyor?",
-    a: "Götürü rakam vermiyoruz. Malzeme ne kadar, işçilik ne kadar, kaç gün sürer, hepsi ayrı yazılı. Sonradan çıkması muhtemel işler varsa onları da baştan söylüyoruz. Siz onaylamadan ek iş yapılmıyor.",
+    a: "Malzeme ne kadar, işçilik ne kadar, kaç gün sürer, hepsi ayrı ayrı yazılı. Sonradan çıkması muhtemel işler varsa onları da baştan söylüyoruz. Siz onaylamadan ek iş yapılmıyor.",
   },
   {
     q: "Elektrik ve su işlerini aynı ekip mi yapıyor?",
-    a: "Evet, hepsi bizde. Taşerona dağıtmıyoruz. Sebebi şu: suda çıkan bir sorun elektriği bekletiyor, elektrikte çıkan bir sorun seramiği. Aynı ekipte olunca bu beklemeler yaşanmıyor, aynı duvar iki kez kırılmıyor.",
+    a: "Evet, hepsi bizde; işin tamamını kendi ekibimiz yapıyor. Sebebi şu: suda çıkan bir sorun elektriği bekletiyor, elektrikte çıkan bir sorun seramiği. Aynı ekipte olunca bu beklemeler yaşanmıyor, aynı duvar iki kez kırılmıyor.",
   },
   {
     q: "Acil durumda aynı gün gelir misiniz?",
-    a: "Yanık kokusu, kıvılcım, su baskını, evin tamamının elektriksiz kalması. Bunlar acil, merkez ilçelerde aynı gün geliyoruz. Her iş acil değil; aciliyeti telefonda birlikte değerlendiriyoruz. Bekleyebilecek bir işe acil ücreti yansıtmıyoruz.",
+    a: "Yanık kokusu, kıvılcım, su baskını, evin tamamının elektriksiz kalması. Bunlar acil, merkez ilçelerde aynı gün geliyoruz. Her iş acil değil; aciliyeti telefonda birlikte değerlendiriyoruz. Acil ücreti yalnızca gerçekten acil işlerde geçerli.",
   },
   {
     q: "Garanti var mı?",
@@ -74,19 +74,19 @@ export function homePage(ctx) {
       .join("")}
   </div>
   <div class="wrap hero-in">
-    <p class="eyebrow">Malatya'nın 13 ilçesine hizmet · ${site.founded}'ten beri</p>
+    <p class="eyebrow">Malatya geneli hizmetinizdeyiz · ${site.founded}'ten beri</p>
     <h1>Anahtar teslim<br><em>tadilat.</em></h1>
     <p class="hero-rotator" aria-hidden="true">${heroSlides
       .map((h, i) => `<span class="r-${i + 1}">${icon("check")} ${esc(h.label)}</span>`)
       .join("")}</p>
-    <p>Elektrik, su, dekorasyon ve yapı işleri tek ekipte. Daire, ev, mutfak, banyo ve iş yeri tadilatını yıkımdan temiz teslime kadar biz yürütüyoruz; muhatabınız tek kişi. Yerinde bakar, fiyatı kalem kalem yazılı veririz.</p>
+    <p>Elektrik, su, dekorasyon ve yapı işleri tek ekipte. Daire, ev, mutfak, banyo ve iş yeri tadilatını yıkımından teslimine kadar biz yürütüyoruz; aradığınızda hep aynı kişiyle konuşursunuz. Bir gelip yerinde bakalım, gerisini birlikte konuşuruz.</p>
     <div class="btn-row">
       <a class="btn btn--primary" href="/teklif/">${icon("doc")} Ücretsiz keşif iste</a>
       <a class="btn btn--wa" href="${waLink()}" target="_blank" rel="noopener nofollow">${icon("wa")} WhatsApp'tan yazın</a>
     </div>
     <div class="hero-tags">
-      <span>${icon("check")} Yıkımdan temiz teslime tek ekip</span>
-      <span>${icon("check")} Kalem kalem yazılı teklif</span>
+      <span>${icon("check")} Yıkımından teslimine yanınızdayız</span>
+      <span>${icon("check")} Fiyatı yazılı veriyoruz</span>
       <span>${icon("check")} Hakediş esaslı ödeme</span>
       <span>${icon("check")} İşçilik garantili teslim</span>
     </div>
@@ -240,7 +240,7 @@ ${ctaBlock({
   return page({
     title: `${site.name} | Malatya Elektrik, Sıhhi Tesisat ve İnşaat`,
     description:
-      "Malatya'da elektrik, sıhhi tesisat, hidrofor–pompa, sulama sistemi ve anahtar teslim tadilat. 13 ilçede yerinde keşif ve yazılı teklif.",
+      "Malatya'da elektrik, sıhhi tesisat, hidrofor–pompa, sulama sistemi ve anahtar teslim tadilat. Malatya geneli yerinde keşif, yazılı fiyat.",
     path: "/",
     ctx,
     schemas: [

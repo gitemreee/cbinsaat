@@ -58,7 +58,7 @@ export const serviceExtra2 = {
 
     { h2: "Plan değişikliği: hangi duvar kalkar?" },
     { p: "Betonarme binalarda kolon, kiriş ve perde duvarlar taşıyıcıdır; aradaki tuğla duvarlar çoğu durumda bölmedir. Ama her binada istisna olabilir, özellikle eski yığma yapılarda hemen her duvar taşıyıcı olabilir." },
-    { p: "Kararı gözle vermiyoruz. Projeye bakıyor, gerekiyorsa yetkili statik ekibe inceletiyoruz. Şüpheli bir durumda \"olur herhalde\" demiyoruz." },
+    { p: "Bu kararı gözle değil hesapla veriyoruz. Projeye bakıyor, gerekiyorsa yetkili statik ekibe inceletiyoruz. Şüpheli bir durumda \"olur herhalde\" demiyoruz." },
     { p: "Duvarda kapı veya pencere boşluğu açılacaksa üst yükü taşıyacak lento gerekir. Lentosuz açılan boşluk, üstündeki duvarda çatlakla kendini gösterir." },
 
     { h2: "Zemin kotu ve kapılar" },

@@ -21,7 +21,7 @@ const urgencyBlock = (i, t) => {
   return `
 <section class="section section--white">
   <div class="wrap" style="${themeVars(t)}">
-    ${secHead("Aciliyet", "Hangi durum acil, hangisi değil?", "Her arıza acil değil. Bekleyebilecek bir işe acil ücreti yansıtmıyoruz; aciliyeti telefonda birlikte değerlendiriyoruz.")}
+    ${secHead("Aciliyet", "Hangi durum acil, hangisi değil?", "Her arıza acil değil. Acil ücreti yalnızca gerçekten acil işlerde geçerli; aciliyeti telefonda birlikte değerlendiriyoruz.")}
     <div class="grid g-2">
       <div class="aside-box" style="border-top-color:var(--c)">
         <h3>${icon("alert")} Acil — hemen arayın</h3>
@@ -79,12 +79,12 @@ export function intentPage(i, ctx) {
     i.kind === "acil"
       ? [
           { q: "Gece ve hafta sonu geliyor musunuz?", a: `Gerçek acil durumlarda mesai dışında da müdahale ediyoruz. ${esc(site.hoursText)} normal çalışma saatlerimiz; bunun dışındaki müdahalelerde bir fark uygulanıyor ve bu farkı telefonda söylüyoruz.` },
-          { q: "Ne kadar sürede gelirsiniz?", a: "Battalgazi ve Yeşilyurt'ta acil işlerde genelde aynı gün, çoğu zaman birkaç saat içinde. Uzak ilçelerde gün içi programa bakıp net saat aralığı veriyoruz; sallamıyor, veremeyeceğimiz sözü vermiyoruz." },
+          { q: "Ne kadar sürede gelirsiniz?", a: "Battalgazi ve Yeşilyurt'ta acil işlerde genelde aynı gün, çoğu zaman birkaç saat içinde. Uzak ilçelerde gün içi programa bakıp net bir saat aralığı veriyoruz; tutacağımız sözü veriyoruz." },
           { q: "Acil ücreti ne kadar?", a: "Mesai dışı acil müdahalelerde bir fark uygulanıyor. Bu farkı yola çıkmadan önce söylüyoruz. Bekleyebilecek bir işi acil olarak işaretlemiyoruz; gereksiz ücret çıkarmıyoruz." },
           { q: "Arıza bulunamazsa ödeme yapacak mıyım?", a: "Keşif ve ölçüm yapıldıysa yol ve iş gücü karşılığı bir tespit bedeli oluşuyor; bunu aramadan önce söylüyoruz. Onarım tarafımızca yapılırsa bu bedel toplam tutardan düşülüyor." },
         ]
       : [
-          { q: "Mahalleme geliyor musunuz?", a: `Malatya'nın ${districts.length} ilçesinin tamamına ve ${localities.length} mahalleye gidiyoruz. Kırsal mahalleler de dahil; başka firmaya havale etmiyoruz.` },
+          { q: "Mahalleme geliyor musunuz?", a: `Malatya'nın ${districts.length} ilçesinin tamamına ve ${localities.length} mahalleye gidiyoruz. Kırsal mahalleler de dahil, her yere kendi ekibimiz gidiyor.` },
           { q: "Uzak ilçelerde ek ücret var mı?", a: "Merkez ilçelerde keşif ücretsiz. Uzak ilçelerde yol mesafesine göre bir keşif bedeli oluşabiliyor; işi biz yaparsak bu bedeli toplam tutardan düşüyoruz. Tutarı yola çıkmadan önce söylüyoruz." },
           { q: "Randevu ne kadar sürede çıkıyor?", a: "Merkez ilçelerde genelde aynı gün veya ertesi gün. Uzak ilçelerde işleri toplu planladığımız için, aynı bölgeden birden fazla iş çıktığında gün çok daha çabuk ayarlanıyor; komşularınızla birlikte aramanızı öneririz." },
           { q: "Tek kalemlik küçük iş için de geliyor musunuz?", a: "Geliyoruz, ancak yol ve iş gücü nedeniyle minimum servis bedeli uygulanıyor. Evdeki tüm küçük işleri aynı ziyarette yaptırmak kalem başına maliyeti epeyce düşürüyor." },

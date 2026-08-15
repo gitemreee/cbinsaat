@@ -107,15 +107,15 @@ export const processSteps = [
 export const differentiators = [
   {
     title: "Tek ekip, tek muhatap",
-    text: "Elektrikçi, su tesisatçısı, mekanikçi ayrı ayrı taşerona gitmez. Hepsi bizim ekibimizde. Bir işte çıkan aksaklık diğerini bekletmez; kimin ne zaman geleceğini takip etmek zorunda kalmazsınız.",
+    text: "Elektrikçi, su tesisatçısı, mekanikçi hepsi bizim ekibimizde. Bir işte çıkan aksaklık diğerini bekletmez; kimin ne zaman geleceğini takip etmek zorunda kalmazsınız.",
   },
   {
-    title: "Fiyat yazılı, kalem kalem",
-    text: "Götürü rakam vermiyoruz. Malzeme ne kadar, işçilik ne kadar, kaç gün sürer; hepsi ayrı yazılı. İş sırasında ek bir kalem çıkarsa önce sizi arıyoruz.",
+    title: "Fiyatı yazılı veriyoruz",
+    text: "Malzeme ne kadar, işçilik ne kadar, kaç gün sürer; hepsi ayrı ayrı yazılı. Hangi rakamın neye ait olduğunu görürsünüz. İş sırasında ek bir kalem çıkarsa önce sizi ararız.",
   },
   {
-    title: "13 ilçenin hepsine gidiyoruz",
-    text: "Merkezin yanında Darende, Hekimhan, Arapgir, Pütürge de dahil. Kırsal mahallelere de aynı ekip gidiyor; başka firmaya havale etmiyoruz.",
+    title: "Malatya'nın her yerine gidiyoruz",
+    text: "Merkezin yanında Darende, Hekimhan, Arapgir, Pütürge de dahil. Kırsal mahallelere de aynı ekip gidiyor, işi kendimiz yapıyoruz. Nerede olursanız olun aramanız yeterli.",
   },
   {
     title: "Ne yaptığımızı belgeliyoruz",

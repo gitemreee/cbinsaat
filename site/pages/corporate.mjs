@@ -21,7 +21,7 @@ ${pageHead({
   lead: `${site.founded}'ten beri Malatya'da elektrik, su ve mekanik iş yapıyoruz. Kurulduğumuzdan beri değişmeyen tek kuralımız var: işi bölmüyoruz.`,
   meta: [
     { icon: "calendar", text: `${new Date().getFullYear() - site.founded}+ yıl saha tecrübesi` },
-    { icon: "pin", text: "13 ilçede hizmet" },
+    { icon: "pin", text: "Malatya geneli" },
     { icon: "users", text: "Sabit ekip, taşeron yok" },
   ],
 })}
@@ -35,20 +35,20 @@ ${pageHead({
       <p>Anahtar teslim işlerde de muhatabınız tek kişi. Kim ne zaman gelecek, hangi iş neyi bekliyor; bunları takip etmek size düşmüyor.</p>
 
       <h2>Nasıl çalışıyoruz?</h2>
-      <p>Telefonda kesin rakam vermiyoruz. Versek yanıltıcı olur; aynı işin maliyeti binanın durumuna göre iki katına çıkabiliyor. Yerinde bakıyor, malzeme ve işçiliği ayrı ayrı yazdığımız teklifi elinize veriyoruz.</p>
-      <p>Teklifte "onu sonra konuşuruz" dediğimiz kalem bırakmıyoruz. İş sırasında gizli bir sorun çıkarsa (çürük boru, ıslanmış duvar, alüminyum kablo) işi durduruyor, fotoğrafını gönderiyor, ek maliyeti yazılı olarak bildiriyoruz. Onayınızı almadan devam etmiyoruz.</p>
+      <p>Önce bir gelip yerinde bakalım, fiyatı ondan sonra net konuşalım. Telefonda söylenen rakam çoğu zaman tutmuyor; aynı işin maliyeti binanın durumuna göre iki katına çıkabiliyor. Keşiften sonra malzemeyi ve işçiliği ayrı ayrı yazdığımız teklifi elinize veriyoruz.</p>
+      <p>Teklifte ne varsa odur; sonradan çıkan bir kalem olmaz. İş sırasında gizli bir sorun görürsek (çürük boru, ıslanmış duvar, alüminyum kablo) işi durdurup fotoğrafını gönderiyor, ek maliyeti yazılı bildiriyoruz. Siz uygun bulursanız devam ediyoruz.</p>
 
       <h2>Yaptığımız işi belgeliyoruz</h2>
       <p>Kapanacak her hattı fotoğraflıyoruz, panoyu etiketliyoruz, boru ve kablo güzergâhını size bırakıyoruz. Bunların bize ek maliyeti yok; buna karşılık yıllar sonra duvara raf takarken hattın nereden geçtiğini bilirsiniz.</p>
       <p>Yaptığımız testleri de gösteriyoruz: su hattında basınç testi, banyoda su testi, panoda ölçüm değerleri. Hepsi iş bitiminde yazılı olarak size teslim ediliyor.</p>
 
-      <h2>Malatya'nın tamamı</h2>
-      <p>Merkezin yanında Darende, Hekimhan, Arapgir, Pütürge dahil ${districts.length} ilçenin hepsine gidiyoruz. Kırsal mahallelere de aynı ekip gidiyor; başka firmaya havale etmiyoruz. Uzak ilçelerde işleri toplu planlıyoruz; aynı bölgeden birden fazla iş çıktığında hem randevu günü çabuk ayarlanıyor hem yol payı düşüyor.</p>
+      <h2>Malatya geneli hizmetinizdeyiz</h2>
+      <p>Merkezin yanında Darende, Hekimhan, Arapgir, Pütürge, kırsal mahalleler; Malatya'nın neresinde olursanız olun aramanız yeterli. Her yere aynı ekip gidiyor, işi kendimiz yapıyoruz. Uzak ilçelerde işleri toplu planlıyoruz; aynı bölgeden birden fazla iş çıktığında hem randevu günü çabuk ayarlanıyor hem yol payı düşüyor.</p>
       <p>Her ilçenin iş profili farklı. Akçadağ ve Yazıhan'da sulama, Yeşilyurt OSB'lerinde sanayi elektriği, Battalgazi'nin eski mahallelerinde tesisat yenileme, Kuluncak ve Hekimhan'da kışın donan borular. Hangi ilçede ne çıktığını bölge sayfalarında tek tek yazdık.</p>
 
-      <h2>Neyi yapmıyoruz?</h2>
-      <p>İşimiz elektrik ve mekanik. Teknik tarafı ağır olan işlerde fark yaratıyoruz. Tamamen dekorasyon ağırlıklı işlerde ise çok fark yaratamayacağımızı baştan söylüyoruz.</p>
-      <p>Ruhsat isteyen yeni yapılarda proje ve statik işini müellifler yürütür, biz uygulama ve koordinasyon tarafındayız. Bu ayrımı işin başında netleştiriyoruz ki sonradan kapsam tartışması çıkmasın.</p>
+      <h2>Hangi işlerde işinize yararız?</h2>
+      <p>İşimiz elektrik ve mekanik; teknik tarafı ağır olan işlerde asıl faydamız orada çıkıyor. Tamamen dekorasyon ağırlıklı bir iş anlatıyorsanız da bunu baştan söyleriz, siz de ona göre karar verirsiniz.</p>
+      <p>Ruhsat isteyen yeni yapılarda proje ve statik işini müellifler yürütür, biz uygulama ve koordinasyon tarafındayız. Bu ayrımı işin başında konuşuyoruz ki sonradan kapsam tartışması çıkmasın.</p>
     </div>
 
     <aside>
@@ -84,7 +84,7 @@ ${ctaBlock({ title: "Bir işiniz için görüşelim", text: "Gelip bakıyoruz, k
 
   return page({
     title: `Hakkımızda | ${site.name} Malatya`,
-    description: `${site.founded}'ten beri Malatya'da elektrik, sıhhi tesisat, mekanik ve yapı işleri. Tek ekip, yazılı teklif, kayıt altında teslim. 13 ilçede hizmet.`,
+    description: `${site.founded}'ten beri Malatya'da elektrik, sıhhi tesisat, mekanik ve yapı işleri. Tek ekip, yazılı fiyat, kayıt altında teslim. Malatya geneli hizmetinizdeyiz.`,
     path: "/hakkimizda/",
     ctx,
     crumbs: [{ label: "Hakkımızda", href: "/hakkimizda/" }],
@@ -102,7 +102,7 @@ ${pageHead({
   lead: "Arayın, WhatsApp'tan yazın ya da formu doldurun. Durumu anlattığınız anda aynı gün gelip gelemeyeceğimizi net olarak söylüyoruz.",
   meta: [
     { icon: "clock", text: site.hoursText },
-    { icon: "pin", text: "Malatya geneli · 13 ilçe" },
+    { icon: "pin", text: "Malatya geneli" },
   ],
 })}
 
@@ -176,7 +176,7 @@ ${ctaBlock({ title: "Formu doldurun, biz arayalım", text: "Teklif formunu doldu
 
   return page({
     title: `İletişim | ${site.name} Malatya, ${site.phoneDisplay}`,
-    description: `CB İnşaat Malatya: ${site.phoneDisplay}, ${site.email}. 13 ilçede elektrik, tesisat ve tadilat. ${site.hoursText}.`,
+    description: `CB İnşaat Malatya: ${site.phoneDisplay}, ${site.email}. Malatya geneli elektrik, tesisat ve tadilat. ${site.hoursText}.`,
     path: "/iletisim/",
     ctx,
     crumbs: [{ label: "İletişim", href: "/iletisim/" }],
@@ -194,7 +194,7 @@ ${pageHead({
   lead: "Formu doldurun, biz arayalım. Yerinde bakıyor; malzeme, işçilik ve süreyi ayrı ayrı yazdığımız teklifi elinize veriyoruz. Siz onaylamadan iş başlamıyor.",
   meta: [
     { icon: "check", text: "Merkez ilçelerde keşif ücretsiz" },
-    { icon: "doc", text: "Kalem kalem yazılı teklif" },
+    { icon: "doc", text: "Fiyat yazılı ve açık" },
     { icon: "clock", text: "24 saat içinde dönüş" },
   ],
 })}
@@ -422,7 +422,7 @@ ${faqBlock(
   [
     { q: "Formu doldurunca ne kadar sürede dönüş yapıyorsunuz?", a: "Çalışma saatleri içinde genelde birkaç saat içinde, en geç 24 saat içinde arıyoruz. Acil işaretlediyseniz öncelikli olarak dönüş yapıyoruz." },
     { q: "Keşif ücretli mi?", a: "Battalgazi ve Yeşilyurt'ta ilk keşif ücretsizdir. Diğer ilçelerde yol mesafesine göre bir keşif bedeli oluşabilir; iş tarafımızca yapıldığında bu bedel toplam tutardan düşülür. Rakamı gelmeden önce söylüyoruz." },
-    { q: "Telefonda fiyat verebilir misiniz?", a: "Standart kalemlerde (priz değişimi, gider açma, petek temizliği gibi) bir aralık verebiliyoruz. Tesisat yenileme ve tadilat gibi işlerde ise yapının durumu maliyeti iki katına kadar değiştirebildiği için yerinde bakmadan rakam vermiyoruz." },
+    { q: "Telefonda fiyat verebilir misiniz?", a: "Standart kalemlerde (priz değişimi, gider açma, petek temizliği gibi) bir aralık verebiliyoruz. Tesisat yenileme ve tadilat gibi işlerde ise kesin rakam için bir gelip yerinde görmemiz gerekiyor; yapının durumu maliyeti iki katına kadar değiştirebiliyor." },
     { q: "Bütçemi yazarsam teklifi ona göre mi şişirirsiniz?", a: "Tam tersi. Bütçe aralığını bilirsek teklifi o çerçevede kurguluyoruz: hangi kalem bu bütçeye sığar, hangisi ikinci etaba kalır, bunu baştan söylüyoruz. Bütçenizin altında kalan bir çözüm varsa onu da yazıyoruz. Yazmak istemezseniz de sorun değil, alan zorunlu değil." },
     { q: "Formu tamamen doldurmam şart mı?", a: "Hayır. Ad, telefon, ilçe, hizmet ve kısa bir açıklama yeterli. Metrekare, bina yaşı ve kapsam gibi alanlar keşfe gelmeden önce hazırlık yapmamızı sağlıyor; bilmiyorsanız boş bırakın, yerinde birlikte netleştiririz." },
     { q: "Bilgilerim ne için kullanılıyor?", a: "Yalnızca talebinize dönüş yapmak ve keşif planlamak için. Üçüncü kişilerle paylaşılmıyor, pazarlama amaçlı kullanılmıyor. Detaylar aydınlatma metninde." },
@@ -486,9 +486,9 @@ export function faqPage(ctx) {
     {
       title: "Genel",
       faqs: [
-        { q: "Malatya'nın hangi ilçelerine geliyorsunuz?", a: `13 ilçenin tamamına gidiyoruz: ${districts.map((d) => d.name).join(", ")}. Battalgazi ve Yeşilyurt'ta aynı gün, diğer ilçelerde program durumuna göre aynı gün veya ertesi gün randevu veriyoruz.` },
+        { q: "Malatya'nın hangi ilçelerine geliyorsunuz?", a: `Malatya'nın her yerine gidiyoruz: ${districts.map((d) => d.name).join(", ")}. Battalgazi ve Yeşilyurt'ta aynı gün, diğer ilçelerde program durumuna göre aynı gün veya ertesi gün randevu veriyoruz.` },
         { q: "Keşif ücretli mi?", a: "Merkez ilçelerde (Battalgazi, Yeşilyurt) ilk keşif ücretsizdir. Diğer ilçelerde yol mesafesine göre bir keşif bedeli oluşabilir; iş tarafımızca yapıldığında bu bedel toplam tutardan düşülür. Rakamı gelmeden önce söylüyoruz." },
-        { q: "Telefonda fiyat verebilir misiniz?", a: "Standart kalemlerde bir aralık verebiliyoruz. Tesisat yenileme ve tadilat gibi işlerde ise yapının durumu maliyeti epey değiştirdiği için yerinde bakmadan rakam vermiyoruz. Yanıltıcı düşük rakam vermektense net konuşmayı tercih ediyoruz." },
+        { q: "Telefonda fiyat verebilir misiniz?", a: "Standart kalemlerde bir aralık verebiliyoruz. Tesisat yenileme ve tadilat gibi işlerde ise kesin rakam için bir gelip yerinde görmemiz yeterli; yapının durumu maliyeti epey değiştiriyor. Yanıltıcı düşük rakam vermektense net konuşmayı tercih ediyoruz." },
         { q: "Fatura kesiyor musunuz?", a: "Evet, tüm işlerde fatura düzenleniyor. Kurumsal müşteriler için ödeme ve belge süreçlerini şirket prosedürünüze göre yürütebiliyoruz." },
         { q: "Ödeme nasıl yapılıyor?", a: "Küçük işlerde iş sonunda; kapsamlı tadilat ve anahtar teslim işlerde hakediş esaslı, aşamalara bağlı ödeme yapılıyor. Peşin toplu ödeme istemiyoruz. Ödeme planı sözleşmede tanımlanıyor." },
       ],
@@ -497,7 +497,7 @@ export function faqPage(ctx) {
       title: "Teklif ve süreç",
       faqs: [
         { q: "Teklif ne kadar sürede geliyor?", a: "Küçük işlerde keşif sırasında yazılı olarak veriyoruz. Kapsamlı tadilat ve anahtar teslim işlerde metraj çıkarılması gerektiği için 2–3 iş günü sürüyor." },
-        { q: "İş sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, alüminyum iletken) olabilir. Bu durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz." },
+        { q: "İş sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, alüminyum iletken) olabilir. Böyle bir şey çıkarsa işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Siz uygun bulunca devam ediyoruz." },
         { q: "Sözleşme yapıyor musunuz?", a: "Kapsamlı işlerde evet. İş kalemleri, metrajlar, malzeme sınıfı, süre, ödeme planı ve teslim şartları yazılı sözleşmeye bağlanıyor. Sonradan çıkan işler için ek protokol düzenleniyor." },
         { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür, avize gibi kalemleri kendiniz seçip almanız yaygın. Böyle olunca teklifte sadece işçilik ve sarf malzeme yer alır; ölçü ve miktar listesini biz çıkarıp size veriyoruz." },
         { q: "Şehir dışındayım, işi takip edebilir miyim?", a: "Haftalık fotoğraflı ilerleme raporu gönderiyoruz. Kritik aşamalarda (tesisat kapanmadan önce, yalıtım öncesi) ayrıca detaylı görüntü paylaşıyoruz. İsterseniz kamera ile canlı takip de kurulabiliyor." },
@@ -509,7 +509,7 @@ export function faqPage(ctx) {
         { q: "Acil arızada aynı gün gelebiliyor musunuz?", a: "Yanık kokusu, kıvılcım, su teması, tüm dairenin enerjisiz kalması veya su baskını gibi durumlarda merkez ilçelerde aynı gün müdahale ediyoruz. Diğer ilçelerde gün içi program durumuna göre değerlendiriyoruz." },
         { q: "Hangi durumlar acil sayılır?", a: "Yanık kokusu, kıvılcım veya duman, ısınan pano, su temas etmiş elektrik hattı, tüm dairenin enerjisiz kalması, su baskını ve birden fazla daireyi etkileyen gider tıkanıklığı. Tek bir prizin çalışmaması veya arada bir atan sigorta ise planlı randevu ile çözülebilir." },
         { q: "Gece veya hafta sonu geliyor musunuz?", a: "Gerçek acil durumlarda mesai dışında da müdahale ediyoruz. Acil dışı işleri normal çalışma saatlerine planlıyoruz." },
-        { q: "Acil ücreti alıyor musunuz?", a: "Mesai dışı acil müdahalelerde bir fark uygulanıyor ve bu farkı telefonda söylüyoruz. Aciliyeti birlikte değerlendiriyoruz; beklemesi mümkün bir işte gereksiz acil ücreti çıkarmıyoruz." },
+        { q: "Acil ücreti alıyor musunuz?", a: "Mesai dışı acil müdahalelerde bir fark uygulanıyor ve bu farkı telefonda söylüyoruz. Aciliyeti birlikte değerlendiriyoruz; beklemesi mümkün bir işte acil ücreti yalnızca gerçekten acil işlerde geçerli." },
       ],
     },
     {

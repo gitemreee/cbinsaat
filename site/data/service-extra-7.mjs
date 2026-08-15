@@ -500,7 +500,7 @@ export const serviceExtra7 = {
 
     { h2: "Teslim ve sonrası" },
     { p: "İş bittiğinde birlikte dolaşılır, eksik listesi çıkarılır ve süre verilir. Liste kapatıldıktan sonra son ödeme yapılır; bu madde sözleşmede yazılıdır." },
-    { p: "Teslim sonrası ortaya çıkan eksikler için bir dönem boyunca ücretsiz dönülür. Süre ve kapsam sözleşmede yazılıdır; sözlü söz vermiyoruz." },
+    { p: "Teslim sonrası ortaya çıkan eksikler için bir dönem boyunca ücretsiz dönülür. Sürenin ve kapsamın ikisi de sözleşmede yazılı; ne söz verdiysek elinizde duruyor." },
     { p: "Teslim dosyasında kapanan hatların fotoğrafları, test kayıtları, pano şeması, malzeme listesi ve garanti belgeleri yer alır." },
   ],
 };

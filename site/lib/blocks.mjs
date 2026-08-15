@@ -161,7 +161,7 @@ export const statsBlock = () => `<section class="stats">
 /* ------------------------------------------------------------ hızlı bar */
 export const quickbar = () => `<div class="wrap"><div class="quickbar">
   <div><small>Telefon</small><b>${esc(site.phoneDisplay)}</b><span>${esc(site.hoursText)}</span></div>
-  <div><small>Hizmet bölgesi</small><b>Malatya geneli</b><span>13 ilçe, mahalle bazında</span></div>
+  <div><small>Hizmet bölgesi</small><b>Malatya geneli</b><span>Merkez, ilçe ve mahalleler</span></div>
   <div><small>Keşif</small><b>Ücretsiz ve yazılı</b><span>Merkez ilçelerde aynı gün</span></div>
   <a class="qb-cta" href="/teklif/"><small>Hemen başlayın</small><b>Teklif alın →</b></a>
 </div></div>`;
@@ -169,7 +169,7 @@ export const quickbar = () => `<div class="wrap"><div class="quickbar">
 /* ----------------------------------------------------------------- CTA */
 export const ctaBlock = ({
   title = "Bir iş için görüşelim",
-  text = "Yerinde keşif yapıp, malzeme ve işçiliği ayrı ayrı yazdığımız bir teklif hazırlıyoruz. Onay vermeden hiçbir iş başlamıyor.",
+  text = "Gelip yerinde bakıyoruz, malzemeyi ve işçiliği ayrı ayrı yazdığımız bir teklif hazırlıyoruz. Siz uygun bulmadan hiçbir iş başlamıyor.",
   dark = false,
 } = {}) => `<section class="cta${dark ? " cta-dark" : ""}">
   <div class="wrap">

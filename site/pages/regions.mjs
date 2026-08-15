@@ -23,7 +23,7 @@ ${pageHead({
   title: `Malatya'nın <em class="hl">13 ilçesinde</em>`,
   lead: `Merkez ilçelerin yanında Darende, Hekimhan, Arapgir, Pütürge dahil tüm ilçelere gidiyoruz. ${localities.length} mahalle ve yerleşim için ayrı sayfa hazırladık; her birinde o bölgedeki tipik yapı özelliklerini ve en sık yaptığımız işleri yazdık.`,
   meta: [
-    { icon: "pin", text: "13 ilçe" },
+    { icon: "pin", text: "Malatya geneli" },
     { icon: "layers", text: `${localities.length} mahalle ve yerleşim` },
     { icon: "clock", text: site.hoursText },
   ],
@@ -50,7 +50,7 @@ ${pageHead({
 
 <section class="section section--white">
   <div class="wrap">
-    ${secHead("İlçeler", "Malatya'nın diğer 11 ilçesi", "Uzak ilçelerde işleri toplu programlıyoruz. Aynı bölgeden birden fazla iş aynı güne alındığında hem randevu hızlanıyor hem maliyet düşüyor.")}
+    ${secHead("İlçeler", "Malatya'nın diğer ilçeleri", "Uzak ilçelerde işleri toplu programlıyoruz. Aynı bölgeden birden fazla iş aynı güne alındığında hem randevu hızlanıyor hem maliyet düşüyor.")}
     <div class="grid g-3">
       ${linkList(ilceler.slice(0, 4).map((d) => ({ label: d.name, sub: `~${d.distanceKm} km · ${localitiesOf(d.slug).length} yerleşim`, href: `/bolgeler/${d.slug}/` })))}
       ${linkList(ilceler.slice(4, 8).map((d) => ({ label: d.name, sub: `~${d.distanceKm} km · ${localitiesOf(d.slug).length} yerleşim`, href: `/bolgeler/${d.slug}/` })))}

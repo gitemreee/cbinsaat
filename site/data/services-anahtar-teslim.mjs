@@ -62,7 +62,7 @@ export const anahtarTeslimServices = [
     ],
     faqs: [
       { q: "Anahtar teslim daire ne kadar sürer?", a: "Kaba teslim bir 3+1 dairede tesisattan mobilyaya kadar tüm işler 45–70 iş günü sürüyor. Mevcut bir dairenin yenilenmesinde söküm de eklendiği için süre 25–45 iş günü aralığında değişiyor. Kesin süre keşif sonrası iş programıyla veriliyor." },
-      { q: "Mobilya ve beyaz eşyayı siz mi alıyorsunuz?", a: "İkisi de mümkün. Kendiniz seçip alırsanız montaj ve bağlantıyı biz yapıyoruz. Bize bırakırsanız bütçenize göre seçenek sunup tedarikini de üstleniyoruz; faturalar size kesiliyor, aracılık payı almıyoruz." },
+      { q: "Mobilya ve beyaz eşyayı siz mi alıyorsunuz?", a: "İkisi de mümkün. Kendiniz seçip alırsanız montaj ve bağlantıyı biz yapıyoruz. Bize bırakırsanız bütçenize göre seçenek sunup tedarikini de üstleniyoruz; faturalar size kesiliyor, üzerine aracılık payı binmiyor." },
       { q: "İş sırasında bütçe değişir mi?", a: "Sözleşmedeki kalemler sabit. Değişiklik iki durumda oluyor: siz fikir değiştirirseniz ya da söküm sonrası gizli bir sorun çıkarsa. İkisinde de önce yazılı bildirip onayınızı alıyoruz; onaysız ek iş yapılmıyor." },
       { q: "Şehir dışındayım, güvenle nasıl ilerleriz?", a: "Sözleşme, hakediş esaslı ödeme ve haftalık fotoğraflı rapor. Ödemeyi tamamlanan işe göre yapıyorsunuz; hiçbir aşamada yapılmamış işin parasını ödemiyorsunuz." },
       { q: "Sadece bir bölümünü yaptırabilir miyim?", a: "Tabii. Sadece tesisat, sadece mutfak–banyo ya da sadece ince işler olarak da çalışıyoruz. Anahtar teslim, tek muhatap isteyenler için bir paket; zorunlu değil." },

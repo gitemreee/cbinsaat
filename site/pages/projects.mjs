@@ -113,7 +113,7 @@ ${pageHead({
       ]
     : [
         { icon: "layers", text: `${projectTypes.length} iş tipi` },
-        { icon: "pin", text: "Malatya geneli · 13 ilçe" },
+        { icon: "pin", text: "Malatya geneli" },
         { icon: "check", text: "Kalem kalem yazılı teklif" },
       ],
 })}

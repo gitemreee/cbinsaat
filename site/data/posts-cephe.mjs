@@ -46,7 +46,7 @@ export const cephePosts = [
 
       { h2: "Nokta onarım mı, aktarma mı?" },
       { p: "Karkas sağlam ve sorun tek bir detaydaysa nokta onarım yeterli. Kiremitler yer yer kırık ve altyapı yorulmuşsa aktarma gerekiyor." },
-      { p: "Ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma da yetmiyor; karkas yenilemesi gerekiyor. Karkasa çıkıp bakmadan bu kararı vermiyoruz." },
+      { p: "Ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma da yetmiyor; karkas yenilemesi gerekiyor. Bu karar için karkasa çıkıp bakmamız gerekiyor." },
     ],
     faqs: [
       { q: "Sadece akıntının olduğu yeri tamir eder misiniz?", a: "Ederiz, ama önce çatıya çıkıp kaynağı buluyoruz. Nokta onarım yeterliyse onu yapıyoruz; değilse nedenini yazılı anlatıyoruz." },
@@ -157,7 +157,7 @@ export const cephePosts = [
       { p: "Yine de dış duvarı çok olan köşe ve üst kat dairelerinde açık fark yaratıyor. Bina kararı çıkmıyorsa değerlendirilebilir bir seçenek." },
     ],
     faqs: [
-      { q: "Mantolama kendini kaç yılda amorti eder?", a: "Mevcut duruma ve ısıtma giderine bağlı. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanıza göre gerçekçi bir aralık veriyoruz; kesin rakam vaat etmiyoruz." },
+      { q: "Mantolama kendini kaç yılda amorti eder?", a: "Mevcut duruma ve ısıtma giderine bağlı. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanıza göre gerçekçi bir aralık veriyoruz; kesin rakam keşiften sonra netleşiyor." },
       { q: "Mantolama nem sorunu yaratır mı?", a: "Doğru uygulandığında tam tersine azaltıyor; duvar yüzey sıcaklığı yükseldiği için yoğuşma azalıyor. Nem sorunu, detayların atlandığı ve havalandırmanın yetersiz olduğu binalarda çıkıyor." },
       { q: "Ne kadar sürer?", a: "5 katlı bir apartmanın cephesi 3–5 hafta. İskele kurulumu ve hava koşulları süreyi etkiliyor; yağışta sıva ve boya yapılmıyor." },
     ],

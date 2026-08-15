@@ -133,7 +133,7 @@ export const intents = [
     group: "Elektrik",
     metaTitle: "Malatya En Yakın Elektrikçi | Mahallenize Gelen Ekip",
     metaDesc:
-      "Malatya'da en yakın elektrikçi arıyorsanız: 13 ilçe ve 115 mahalleye gidiyoruz. Merkez ilçelerde aynı gün, uzak ilçelerde planlı randevu. {phone}",
+      "Malatya'da en yakın elektrikçi arıyorsanız: Malatya'nın her yerine gidiyoruz. Merkez ilçelerde aynı gün, uzak ilçelerde planlı randevu. {phone}",
     keywords: ["Malatya en yakın elektrikçi", "yakınımdaki elektrikçi", "mahallemde elektrikçi", "Malatya elektrikçi"],
     lead:
       "\"En yakın elektrikçi\" aramasının asıl sorduğu şey mesafe değil, ne kadar çabuk gelineceği. Malatya'nın 13 ilçesinin tamamına gidiyoruz ve hangi bölgeye ne kadar sürede ulaştığımızı baştan söylüyoruz.",
@@ -150,7 +150,7 @@ export const intents = [
     group: "Su ve Tesisat",
     metaTitle: "Malatya En Yakın Tesisatçı | Mahallenize Gelen Ekip",
     metaDesc:
-      "Malatya'da en yakın tesisatçı arıyorsanız: 13 ilçe ve 115 mahalleye gidiyoruz. Su kaçağı, gider açma, boru yenileme ve hidrofor işleri. {phone}",
+      "Malatya'da en yakın tesisatçı arıyorsanız: Malatya'nın her yerine gidiyoruz. Su kaçağı, gider açma, boru yenileme ve hidrofor işleri. {phone}",
     keywords: ["Malatya en yakın tesisatçı", "yakınımdaki tesisatçı", "mahallemde su tesisatçısı", "Malatya sucu"],
     lead:
       "Tesisat işinde önemli olan sadece gelmek değil, doğru malzemeyle gelmek. Bölgeyi ve oradaki yapı stoğunu bildiğimiz için çoğu işi tek ziyarette bitiriyoruz.",

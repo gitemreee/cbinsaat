@@ -54,7 +54,7 @@ export const cepheBahceServices = [
       "Denizlik, oluk ve detay metrajı",
     ],
     faqs: [
-      { q: "Mantolama kendini kaç yılda amorti eder?", a: "Isıtma gideri ve yalıtımsız duruma göre değişiyor. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanızın mevcut durumuna göre gerçekçi bir aralık veriyoruz; kesin rakam vaat etmiyoruz." },
+      { q: "Mantolama kendini kaç yılda amorti eder?", a: "Isıtma gideri ve yalıtımsız duruma göre değişiyor. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanızın mevcut durumuna göre gerçekçi bir aralık veriyoruz; kesin rakam keşiften sonra netleşiyor." },
       { q: "Tek daireye mantolama yapılır mı?", a: "Yapılabiliyor ama verim binanın tamamına yapıldığındaki kadar olmuyor; komşu duvarlardan ısı köprüsü devam ediyor. Yine de dış duvarı çok olan köşe dairelerde gözle görülür fark yaratıyor." },
       { q: "Ne kadar sürer?", a: "5 katlı bir apartmanın cephesi 3–5 hafta. İskele kurulumu ve hava koşulları süreyi etkiliyor; yağışta sıva ve boya yapılmıyor." },
       { q: "Dış cephe boyası da dahil mi?", a: "Dekoratif kaplama ve son kat boya teklife dahil ediliyor. Hangi ürün ve kaç kat uygulanacağı yazılı belirtiliyor." },
@@ -366,7 +366,7 @@ export const cepheBahceServices = [
     faqs: [
       { q: "Sadece proje yönetimi hizmeti alabilir miyim?", a: "Alabilirsiniz. Kendi ustalarınızla çalışıyorsanız metraj, program, koordinasyon ve kontrol tarafını üstlenebiliyoruz. Öyle bir durumda bedel işin kapsamına göre ayrıca belirleniyor." },
       { q: "İş programını görebiliyor muyum?", a: "Evet. Program sözleşme ekinde yer alıyor ve haftalık olarak güncelleniyor. Nerede olduğumuzu ve sıradaki kalemi her zaman görüyorsunuz." },
-      { q: "Teslim sonrası destek ne kadar sürüyor?", a: "Teslimden sonra ortaya çıkan eksikler için bir dönem boyunca ücretsiz dönüyoruz. Süre ve kapsam sözleşmede yazılı oluyor; sözlü söz vermiyoruz." },
+      { q: "Teslim sonrası destek ne kadar sürüyor?", a: "Teslimden sonra ortaya çıkan eksikler için bir dönem boyunca ücretsiz dönüyoruz. Sürenin ve kapsamın ikisi de sözleşmede yazılı; ne söz verdiysek elinizde duruyor." },
       { q: "Yetkili proje ekipleriyle nasıl çalışıyorsunuz?", a: "Mimari, statik ve mekanik proje ile ruhsat süreçleri yetkili ekiplerin sorumluluğunda. Biz bu ekiplerle koordineli çalışıp uygulamayı yürütüyoruz; kimin neyi imzaladığı baştan belli oluyor." },
     ],
     localAngle: "Malatya'da tadilat işlerinde ev sahibinin koordinatör rolüne düşmesi",

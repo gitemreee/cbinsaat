@@ -60,7 +60,7 @@ export function pricingIndex(ctx) {
   const faqs = [
     {
       q: "Telefonda fiyat söylüyor musunuz?",
-      a: "Standart kalemlerde (priz değişimi, gider açma, avize montajı gibi) bir aralık söyleyebiliyoruz. Tadilat, anahtar teslim ve sulama gibi değişkeni çok olan işlerde yerinde bakmadan rakam vermiyoruz; verirsek yanıltıcı olur. Aynı işin maliyeti binanın durumuna göre iki katına çıkabiliyor.",
+      a: "Standart kalemlerde (priz değişimi, gider açma, avize montajı gibi) telefonda bir aralık söyleyebiliyoruz. Tadilat, anahtar teslim ve sulama gibi değişkeni çok olan işlerde bir gelip yerinde bakalım, rakamı ondan sonra net konuşalım. Aynı işin maliyeti binanın durumuna göre iki katına çıkabiliyor.",
     },
     {
       q: "Keşif ücretli mi?",
@@ -88,11 +88,11 @@ export function pricingIndex(ctx) {
 ${pageHead({
   eyebrow: "Fiyatlandırma",
   title: `Fiyatlar nasıl <em class="hl">belirleniyor?</em>`,
-  lead: "Götürü rakam vermiyoruz. Malzeme, işçilik ve süre ayrı ayrı yazılı. Bu sayfada her hizmetin fiyatını neyin belirlediğini ve teklif sürecinin nasıl işlediğini anlattık.",
+  lead: "Malzeme, işçilik ve süre ayrı ayrı yazılı; hangi rakamın neye ait olduğunu görürsünüz. Bu sayfada her hizmetin fiyatını neyin belirlediğini ve sürecin nasıl işlediğini anlattık.",
   meta: [
-    { icon: "doc", text: "Kalem kalem yazılı teklif" },
+    { icon: "doc", text: "Fiyat yazılı ve açık" },
     { icon: "check", text: "Merkez ilçelerde ücretsiz keşif" },
-    { icon: "shield", text: "Onaysız ek iş yok" },
+    { icon: "shield", text: "Ek iş çıkarsa önce size sorarız" },
   ],
 })}
 
@@ -100,13 +100,13 @@ ${pageHead({
   <div class="wrap">
     ${secHead(
       "Yaklaşım",
-      "Neden telefonda kesin rakam vermiyoruz?",
-      "Vermek isterdik ama verirsek yanıltıcı olur. Aynı işin maliyeti, yapının durumuna göre iki katına çıkabiliyor."
+      "Kesin rakam neden keşiften sonra netleşiyor?",
+      "Telefonda söylenen rakam çoğu zaman tutmuyor. Aynı işin maliyeti, yapının durumuna göre iki katına çıkabiliyor."
     )}
     <div class="grid g-2">
       <div class="prose" style="max-width:none">
         <p>Bir daire tadilatında maliyeti belirleyen şey metrekare değil, açtığınızda ne çıktığı. İki komşu daire, aynı metrekare, aynı oda sayısı; birinde tesisat sağlam, diğerinde alüminyum kablo ve galvaniz boru var. Aradaki fark iki katı bulabiliyor.</p>
-        <p>O yüzden süreç şöyle işliyor: yerinde bakıyoruz, birkaç noktadan sondaj yapıp altyapının gerçek durumunu görüyoruz, sonra kalem kalem yazılı teklif veriyoruz. Teklifte "onu sonra konuşuruz" dediğimiz bir kalem bırakmıyoruz.</p>
+        <p>O yüzden süreç şöyle işliyor: yerinde bakıyoruz, birkaç noktadan sondaj yapıp altyapının gerçek durumunu görüyoruz, sonra kalem kalem yazılı teklif veriyoruz. Teklifte ne varsa odur; sonradan çıkan bir kalem olmaz.</p>
         <p>Standart ve değişkeni az olan işlerde (priz değişimi, gider açma, avize montajı, petek temizliği) telefonda aralık söyleyebiliyoruz. O kalemlerin aralıklarını aşağıdaki sayfalarda bulabilirsiniz.</p>
       </div>
       <div>
@@ -221,7 +221,7 @@ export function pricingServicePage(s, ctx) {
       a: `Başlıca şu kalemler belirliyor: ${trLower(s.priceFactors.join(", "))}. ${
         std
           ? "Bunları telefonda konuşup bir aralık verebiliyoruz; kesin tutar yerinde görülünce netleşiyor."
-          : "O yüzden yerinde bakmadan kesin rakam vermiyoruz."
+          : "O yüzden kesin rakamı keşiften sonra veriyoruz."
       }`,
     },
     {
@@ -245,10 +245,10 @@ ${pageHead({
     ? `${s.title} için birim bazlı yaklaşık aralıklar ve fiyatı belirleyen kalemler. Kesin fiyat keşif sonrası yazılı veriliyor.`
     : std
       ? `${s.title} fiyatını belirleyen kalemler ve teklif süreci. Standart bir iş olduğu için adedi ve malzeme tercihini söylerseniz telefonda aralık verebiliyoruz.`
-      : `${s.title} fiyatını belirleyen kalemler, kapsam ve teklif süreci. Değişkeni çok olan bir iş olduğu için yerinde bakmadan rakam vermiyoruz.`,
+      : `${s.title} fiyatını belirleyen kalemler, kapsam ve teklif süreci. Değişkeni çok olan bir iş; kesin rakam için bir gelip yerinde görmemiz gerekiyor.`,
   theme: t,
   meta: [
-    { icon: "doc", text: "Kalem kalem yazılı teklif" },
+    { icon: "doc", text: "Fiyat yazılı ve açık" },
     { icon: "check", text: "Onaysız ek iş yok" },
     { icon: "phone", text: site.phoneDisplay },
   ],
@@ -276,7 +276,7 @@ ${pageHead({
             ? "Yukarıdaki aralıklar bilgilendirme amaçlı. Kesin fiyat, yerinde görüldükten sonra yazılı olarak veriliyor."
             : std
               ? `${esc(s.title)} standart bir iş kalemi. Adedi, malzeme tercihini ve varsa sıva onarımı gerekip gerekmediğini söylerseniz telefonda bir aralık verebiliyoruz. Rakamı burada yazmıyoruz çünkü malzeme fiyatları sık değişiyor ve eskimiş bir liste yanıltır; aramada güncel rakamı söylüyoruz.`
-              : "Bu iş kaleminde birim fiyat vermiyoruz çünkü kapsam projeden projeye çok değişiyor. Yerinde bakıp kalem kalem yazılı teklif hazırlıyoruz."
+              : "Bu iş kaleminde birim fiyat yerine keşif sonrası teklif veriyoruz; kapsam projeden projeye çok değişiyor. Yerinde bakıp kalem kalem yazılı teklif hazırlıyoruz."
         }</p>
       </div>
     </div>

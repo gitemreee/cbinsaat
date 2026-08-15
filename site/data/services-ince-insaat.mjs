@@ -367,7 +367,7 @@ export const inceInsaatServices = [
       { q: "Kapıyı ben alsam montajını yapar mısınız?", a: "Yaparız. Sipariş vermeden önce ölçüyü bize aldırmanızı öneriyoruz; yanlış ölçüde ürün iade edilemiyor." },
       { q: "Pencere değişimi ne kadar sürer?", a: "Standart bir dairede 6–8 pencere bir günde değişiyor. Kasa çevresi sıva ve boya onarımı ertesi güne kalıyor." },
       { q: "Kışın pencere değiştirilir mi?", a: "Değiştirilir. Oda oda ilerliyoruz, bir odanın penceresi aynı gün içinde takılıp kapatılıyor; ev soğukta kalmıyor." },
-      { q: "Kasa çevresini de siz onarıyor musunuz?", a: "Evet. Montaj sonrası sıva ve boya onarımı teklifte ayrı kalem olarak yer alıyor; \"boyacı gelsin\" diye bırakmıyoruz." },
+      { q: "Kasa çevresini de siz onarıyor musunuz?", a: "Evet. Montaj sonrası sıva ve boya onarımı teklifte ayrı kalem olarak yer alıyor; onarımı da biz yapıyoruz." },
     ],
     localAngle: "Malatya'da eski dairelerde ahşap doğramadan PVC'ye geçişin sürmesi",
     related: ["ince-insaat-isleri", "daire-tadilati", "boya-badana", "dis-cephe-mantolama"],

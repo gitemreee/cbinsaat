@@ -100,7 +100,7 @@ export function serviceGroupPage(g, ctx) {
     },
     {
       q: "Malatya'nın hangi ilçelerine geliyorsunuz?",
-      a: `13 ilçenin tamamına ve kırsal mahallelere gidiyoruz. Battalgazi ve Yeşilyurt'ta genelde aynı gün; uzak ilçelerde o günkü programa göre aynı gün ya da ertesi sabah.`,
+      a: `Malatya'nın her yerine, kırsal mahalleler dahil gidiyoruz. Battalgazi ve Yeşilyurt'ta genelde aynı gün; uzak ilçelerde o günkü programa göre aynı gün ya da ertesi sabah.`,
     },
     {
       q: "Fiyatı nasıl veriyorsunuz?",
@@ -116,8 +116,8 @@ ${pageHead({
   theme: t,
   meta: [
     { icon: t.icon, text: `${g.items.length} hizmet` },
-    { icon: "pin", text: "Malatya geneli · 13 ilçe" },
-    { icon: "doc", text: "Kalem kalem yazılı teklif" },
+    { icon: "pin", text: "Malatya geneli" },
+    { icon: "doc", text: "Fiyat yazılı ve açık" },
   ],
 })}
 
@@ -140,7 +140,7 @@ ${pageHead({
       <p>Söküm sonrası beklenmedik bir durum çıkarsa iş durur, durumu fotoğraflar ve ek kalemi yazılı bildiririz. Onayınız olmadan devam etmeyiz.</p>
 
       <h2>Malatya'nın her ilçesinde</h2>
-      <p>Battalgazi ve Yeşilyurt'un yanında Akçadağ, Arapgir, Arguvan, Darende, Doğanşehir, Doğanyol, Hekimhan, Kale, Kuluncak, Pütürge ve Yazıhan'a da aynı ekip gidiyor. Kırsal mahalleler dahil; başka firmaya havale etmiyoruz.</p>
+      <p>Battalgazi ve Yeşilyurt'un yanında Akçadağ, Arapgir, Arguvan, Darende, Doğanşehir, Doğanyol, Hekimhan, Kale, Kuluncak, Pütürge ve Yazıhan'a da aynı ekip gidiyor. Kırsal mahalleler dahil, her yere kendi ekibimiz gidiyor.</p>
     </div>
     <aside>
       ${contactAside()}
@@ -167,7 +167,7 @@ ${ctaBlock({
 
   return page({
     title: `Malatya ${g.name} Hizmetleri | ${site.name}`,
-    description: `Malatya'da ${lower} hizmetleri: ${g.items.slice(0, 2).map((s) => trLower(s.title)).join(", ")} ve dahası. 13 ilçede yerinde keşif ve yazılı teklif.`,
+    description: `Malatya'da ${lower} hizmetleri: ${g.items.slice(0, 2).map((s) => trLower(s.title)).join(", ")} ve dahası. Malatya geneli yerinde keşif, yazılı fiyat.`,
     path: g.href,
     ctx,
     keywords: [
@@ -204,7 +204,7 @@ ${pageHead({
   lead: s.intro,
   theme: t,
   meta: [
-    { icon: "pin", text: "13 ilçede hizmet" },
+    { icon: "pin", text: "Malatya geneli" },
     { icon: "doc", text: "Yerinde keşif, yazılı teklif" },
     { icon: "shield", text: "İşçilik garantili" },
   ],
@@ -239,7 +239,7 @@ ${pageHead({
       </div>
 
       <h2 class="mt-l">Fiyatı ne belirler?</h2>
-      <p class="text-muted">Telefonda kesin rakam vermiyoruz çünkü aşağıdaki kalemler işin tutarını doğrudan değiştiriyor. Keşif sonrası yazılı ve kalem kalem teklif çıkarıyoruz.</p>
+      <p class="text-muted">Kesin rakam keşiften sonra netleşiyor; aşağıdaki kalemler işin tutarını doğrudan değiştiriyor. Keşiften sonra fiyatı yazılı ve kalem kalem çıkarıyoruz.</p>
       ${scopeList(s.priceFactors)}
     </div>
 
