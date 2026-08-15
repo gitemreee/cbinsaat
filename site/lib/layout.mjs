@@ -346,19 +346,19 @@ function footer(ctx) {
 const waKonular = [
   { k: "Acil elektrikçi lazım", m: "Merhaba, acil elektrikçi lazım. Adres: " },
   { k: "Su tesisatımda arıza var", m: "Merhaba, su tesisatımda arıza var. Bakabilir misiniz? Adres: " },
-  { k: "Tadilat için fiyat almak istiyorum", m: "Merhaba, tadilat düşünüyorum. Keşif ve fiyat için görüşebilir miyiz? Yapılacak iş: " },
+  { k: "Tadilat için fiyat istiyorum", m: "Merhaba, tadilat düşünüyorum. Keşfe gelip fiyat verebilir misiniz? Yapılacak iş: " },
 ];
 
 function floatingCta() {
-  return `<input type="checkbox" id="wa-chat" checked aria-hidden="true">
+  return `<input type="checkbox" id="wa-chat" aria-hidden="true">
 <aside class="wa-panel" role="complementary" aria-label="WhatsApp ile hızlı iletişim">
   <div class="wa-panel-head">
     <span class="ic">${icon("wa")}</span>
-    <span class="wa-who"><b>${esc(site.name)}</b><small>Genelde birkaç dakika içinde dönüyoruz</small></span>
+    <span class="wa-who"><b>${esc(site.name)}</b><small>Mesai içinde birkaç dakikada dönüyoruz</small></span>
     <label class="wa-close" for="wa-chat" aria-label="Kapat" title="Kapat">×</label>
   </div>
   <div class="wa-panel-body">
-    <p class="wa-bubble">Merhaba! Konuyu seçin, WhatsApp'tan devam edelim.</p>
+    <p class="wa-bubble">Merhaba, hangi konu için yazıyorsunuz?</p>
     ${waKonular
       .map(
         (o) =>
@@ -381,14 +381,25 @@ function floatingCta() {
   <a class="contact" href="/iletisim/">${icon("mail")} İletişim</a>
 </div>
 <script>
-/* Panel sayfa açılınca görünür. Kullanıcı kapatırsa o oturum boyunca kapalı kalır. */
+/* Panel sayfa açılışında kapalı durur; okuyucu bir miktar aşağı indiğinde
+   kendiliğinden açılır. Kullanıcı kapatırsa o oturum boyunca kapalı kalır. */
 (function () {
   var cb = document.getElementById("wa-chat");
   if (!cb) return;
-  try { if (sessionStorage.getItem("waKapali") === "1") cb.checked = false; } catch (e) {}
+  var kapali = false;
+  try { kapali = sessionStorage.getItem("waKapali") === "1"; } catch (e) {}
   cb.addEventListener("change", function () {
     try { sessionStorage.setItem("waKapali", cb.checked ? "0" : "1"); } catch (e) {}
   });
+  if (kapali) return;
+  var esik = Math.min(560, Math.round(window.innerHeight * 0.6));
+  function bak() {
+    if (window.scrollY < esik) return;
+    window.removeEventListener("scroll", bak);
+    cb.checked = true;
+  }
+  window.addEventListener("scroll", bak, { passive: true });
+  bak();
 })();
 </script>
 `;

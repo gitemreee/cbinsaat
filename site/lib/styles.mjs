@@ -663,9 +663,11 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 .opts .check:hover{border-color:var(--amber-dark);background:#fff}
 .field input[type=file]{padding:10px;background:#fbfaf8;font-size:.9rem}
 
-/* WhatsApp hızlı iletişim paneli — sayfa açılınca görünür, kapatılabilir */
+/* WhatsApp hızlı iletişim paneli — okuyucu aşağı indiğinde açılır, kapatılabilir */
 /* Sabit konum: etikete basıldığında tarayıcı kutuyu görünür kılmak için
    sayfayı kaydırmaya çalışmasın diye (absolute olduğunda en alta atıyordu). */
+/* Yarı saydam: arkadaki sayfa bulanık olarak görünür. Bulanıklık desteklenmeyen
+   tarayıcıda katmanlar opak kalsın diye @supports ile ayrıldı. */
 #wa-chat{position:fixed;bottom:0;right:0;width:1px;height:1px;opacity:0;pointer-events:none;margin:0}
 .wa-panel{
   position:fixed;right:20px;bottom:86px;z-index:96;width:min(300px,calc(100vw - 32px));
@@ -674,7 +676,7 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
   opacity:0;visibility:hidden;transform:translateY(14px) scale(.98);
   transition:opacity .28s ease,transform .28s ease,visibility .28s;
 }
-#wa-chat:checked~.wa-panel{opacity:1;visibility:visible;transform:translateY(0) scale(1);transition-delay:.9s}
+#wa-chat:checked~.wa-panel{opacity:1;visibility:visible;transform:translateY(0) scale(1);transition-delay:.12s}
 .wa-panel-head{display:flex;align-items:center;gap:10px;background:#075e54;color:#fff;padding:11px 12px}
 .wa-panel-head .ic{width:33px;height:33px;border-radius:50%;background:var(--wa);display:grid;place-items:center;flex:none}
 .wa-panel-head .ic svg{width:19px;height:19px;color:#fff}
@@ -710,6 +712,27 @@ a.btn--wa,a.btn--wa:hover{color:#062d13}
 .wa-panel-foot .wa-other svg{color:var(--wa)}
 .wa-panel-foot a{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:var(--ink)}
 .wa-panel-foot svg{width:14px;height:14px;color:var(--amber-dark)}
+
+/* Saydamlık katmanı: arkadaki sayfa bulanık olarak görünsün. Bulanıklığı
+   desteklemeyen tarayıcıda yukarıdaki opak değerler geçerli kalır. */
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){
+  .wa-panel{
+    background:transparent;border-color:rgba(255,255,255,.30);
+    -webkit-backdrop-filter:blur(14px) saturate(150%);backdrop-filter:blur(14px) saturate(150%);
+  }
+  .wa-panel-head{background:rgba(7,94,84,.80)}
+  .wa-panel-body{background:rgba(236,229,221,.60)}
+  .wa-bubble,.wa-opt{background:rgba(255,255,255,.82)}
+  .wa-panel-foot{background:rgba(255,255,255,.74)}
+}
+/* Saydamlığı azaltılmış sistem ayarında düz zemine dön. */
+@media (prefers-reduced-transparency:reduce){
+  .wa-panel{background:var(--white);border-color:var(--line);-webkit-backdrop-filter:none;backdrop-filter:none}
+  .wa-panel-head{background:#075e54}
+  .wa-panel-body{background:#ece5dd}
+  .wa-bubble,.wa-opt,.wa-panel-foot{background:#fff}
+}
+
 #wa-chat:checked~.wa-float .ic{background:var(--ink)}
 #wa-chat:checked~.wa-float .ic svg{color:var(--wa)}
 
