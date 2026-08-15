@@ -106,7 +106,7 @@ ${pageHead({
     <div class="grid g-2">
       <div class="prose" style="max-width:none">
         <p>Bir daire tadilatında maliyeti belirleyen şey metrekare değil, açtığınızda ne çıktığı. İki komşu daire, aynı metrekare, aynı oda sayısı; birinde tesisat sağlam, diğerinde alüminyum kablo ve galvaniz boru var. Aradaki fark iki katı bulabiliyor.</p>
-        <p>Bu yüzden süreç şöyle işliyor: yerinde bakıyoruz, birkaç noktadan sondaj yapıp altyapının gerçek durumunu görüyoruz, sonra kalem kalem yazılı teklif veriyoruz. Teklifte "onu sonra konuşuruz" dediğimiz bir kalem bırakmıyoruz.</p>
+        <p>O yüzden süreç şöyle işliyor: yerinde bakıyoruz, birkaç noktadan sondaj yapıp altyapının gerçek durumunu görüyoruz, sonra kalem kalem yazılı teklif veriyoruz. Teklifte "onu sonra konuşuruz" dediğimiz bir kalem bırakmıyoruz.</p>
         <p>Standart ve değişkeni az olan işlerde (priz değişimi, gider açma, avize montajı, petek temizliği) telefonda aralık söyleyebiliyoruz. O kalemlerin aralıklarını aşağıdaki sayfalarda bulabilirsiniz.</p>
       </div>
       <div>
@@ -221,7 +221,7 @@ export function pricingServicePage(s, ctx) {
       a: `Başlıca şu kalemler belirliyor: ${trLower(s.priceFactors.join(", "))}. ${
         std
           ? "Bunları telefonda konuşup bir aralık verebiliyoruz; kesin tutar yerinde görülünce netleşiyor."
-          : "Bu yüzden yerinde bakmadan kesin rakam vermiyoruz."
+          : "O yüzden yerinde bakmadan kesin rakam vermiyoruz."
       }`,
     },
     {
@@ -260,7 +260,7 @@ ${pageHead({
       ${table}
 
       <h2${table ? ' class="mt-l"' : ""}>Fiyatı ne belirliyor?</h2>
-      <p class="text-muted">${esc(s.title)} işinde tutarı doğrudan değiştiren kalemler:</p>
+      <p class="text-muted">${esc(s.title)} işinde tutarı birebir değiştiren kalemler:</p>
       ${scopeList(s.priceFactors)}
 
       <h2 class="mt-l">Fiyata neler dahil?</h2>

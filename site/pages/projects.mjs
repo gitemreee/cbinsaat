@@ -144,7 +144,7 @@ ${
   <div class="wrap with-aside">
     <div class="prose" style="max-width:none">
       <h2>Neden her işin fotoğrafı burada yok?</h2>
-      <p>Girdiğimiz yerlerin çoğu insanların evi. Salonun, banyosunun, mutfağının fotoğrafını internette görmek herkesin isteyeceği bir şey değil. Bu yüzden fotoğrafı ancak mülk sahibi açıkça izin verdiğinde yayınlıyoruz; adresi de mahalle düzeyinde bırakıp kapı numarası ve isim yazmıyoruz.</p>
+      <p>Girdiğimiz yerlerin çoğu insanların evi. Salonun, banyosunun, mutfağının fotoğrafını internette görmek herkesin isteyeceği bir şey değil. O yüzden fotoğrafı ancak mülk sahibi açıkça izin verdiğinde yayınlıyoruz; adresi de mahalle düzeyinde bırakıp kapı numarası ve isim yazmıyoruz.</p>
       <h2>Referans görmek isterseniz</h2>
       <p>Yaptığımız işi yerinde görmek en sağlıklısı. Sizinkine benzer, yakın zamanda bitirdiğimiz bir iş varsa ve ev sahibi olur verirse sizi götürüyoruz. Devam eden bir şantiyemiz varsa da gezdirebiliyoruz; iş sırasında nasıl çalıştığımızı görmek bitmiş hâlini görmekten daha çok şey anlatıyor.</p>
       <p>Ayrıca her teklifte, o işte kullanacağımız malzemenin markasını ve sınıfını yazıyoruz. Kapanan hatların fotoğraflarını da teslimde size veriyoruz; duvarın arkasında ne olduğunu sonradan bilmek işe yarıyor.</p>

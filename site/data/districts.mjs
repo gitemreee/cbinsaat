@@ -126,7 +126,7 @@ export const districts = [
       },
       {
         h: "Uzak mesafe planlaması",
-        p: "İlçenin merkeze uzaklığı nedeniyle işleri toplu programlıyoruz. Aynı mahalledeki birden fazla iş aynı güne alındığında hem yol maliyeti düşüyor hem randevu daha hızlı veriliyor. Komşularınızla birlikte arama yaptığınızda program açısından belirgin avantaj sağlıyoruz.",
+        p: "İlçenin merkeze uzaklığı nedeniyle işleri toplu programlıyoruz. Aynı mahalledeki birden fazla iş aynı güne alındığında hem yol maliyeti düşüyor hem randevu daha hızlı veriliyor. Komşularınızla birlikte arama yaptığınızda programı sizin lehinize kurabiliyoruz.",
       },
     ],
     highlights: ["Kırsal yerleşim ağırlıklı yapı", "Hayvancılık işletmeleri", "Yüksek rakımlı araziler", "Bağ ve bahçe sulaması"],
@@ -148,7 +148,7 @@ export const districts = [
       },
       {
         h: "Vadi boyunca su ve basınç",
-        p: "Tohma Vadisi boyunca kot farkları belirgin. Yerleşimlerin bir kısmında şebeke basıncı yetersiz kalıyor ve hidrofor–depo çözümleri gerekiyor. Su deposu temizliği ve hidrofor bakımı ilçede düzenli talep edilen kalemler arasında.",
+        p: "Tohma Vadisi boyunca kot farkları büyük. Yerleşimlerin bir kısmında şebeke basıncı yetersiz kalıyor ve hidrofor–depo çözümleri gerekiyor. Su deposu temizliği ve hidrofor bakımı ilçede düzenli talep edilen kalemler arasında.",
       },
       {
         h: "Konut ve bahçe işleri",

@@ -69,7 +69,7 @@ export const projects = [
     challenge:
       "Arazi hattında gerilim düşümü ölçüldü; mevcut kesit yetersizdi. Kablo kesiti mesafeye göre yeniden hesaplandı ve faz koruma eklendi.",
     result:
-      "Gece sulamasına geçildi. Sulama işçiliği ortadan kalktı, su tüketimi belirgin düştü.",
+      "Gece sulamasına geçildi. Sulama işçiliği ortadan kalktı, su tüketimi epeyce düştü.",
     photos: [],
   },
 ];

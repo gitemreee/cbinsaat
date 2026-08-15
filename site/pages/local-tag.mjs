@@ -109,7 +109,7 @@ export function localTagPage(l, d, t, ctx) {
           : `Acil durumlarda gün içi program durumuna göre aynı gün gelmeye çalışıyoruz. Mesafe nedeniyle net saat aralığını arama sırasında söylüyoruz.`
         : merkez
         ? "Çoğu işte aynı hafta içinde randevu verebiliyoruz. Kapsamlı tadilat ve tesisat işlerinde takvimi birlikte planlıyoruz."
-        : `${esc(d.name)} bölgesindeki işleri toplu planlıyoruz. Aynı mahalleden birden fazla iş olduğunda randevu belirgin şekilde hızlanıyor.`,
+        : `${esc(d.name)} bölgesindeki işleri toplu planlıyoruz. Aynı mahalleden birden fazla iş olduğunda randevuyu çoğu kez aynı güne denk getirebiliyoruz.`,
     },
     {
       q: `${inL} hangi işleri yapıyorsunuz?`,

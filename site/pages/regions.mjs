@@ -291,7 +291,7 @@ ${pageHead({
     <div>
       <div class="prose" style="max-width:none">
         <h2>${inL} hangi işleri yapıyoruz?</h2>
-        <p>${esc(l.note)} Bu nedenle ${inL} en sık gelen talepler, ${esc(d.name)} genelindeki iş profiliyle örtüşüyor: ${priority.map((s) => esc(trLower(s.title))).join(", ")}.</p>
+        <p>${esc(l.note)} Dolayısıyla ${inL} en sık gelen talepler, ${esc(d.name)} genelindeki iş profiliyle örtüşüyor: ${priority.map((s) => esc(trLower(s.title))).join(", ")}.</p>
         <p>${esc(d.intro)}</p>
 
         <h3>Bölgenin yapı özellikleri</h3>
@@ -301,7 +301,7 @@ ${pageHead({
         <p>${
           d.distanceKm === 0
             ? `${esc(l.name)} merkez ilçe sınırlarında olduğu için keşif ücretsiz ve çoğu zaman aynı gün yapılabiliyor. Acil arızalarda telefonda durumu anlattığınızda net bir saat aralığı veriyoruz.`
-            : `${esc(l.name)} Malatya merkeze yaklaşık ${d.distanceKm} km mesafede. Bu bölgedeki işleri toplu planladığımız için, aynı mahalleden birden fazla iş olduğunda hem randevu hızlanıyor hem maliyet düşüyor. Komşularınızla birlikte aradığınızda program açısından belirgin avantaj sağlıyoruz.`
+            : `${esc(l.name)} Malatya merkeze yaklaşık ${d.distanceKm} km mesafede. Bu bölgedeki işleri toplu planladığımız için, aynı mahalleden birden fazla iş olduğunda hem randevu hızlanıyor hem maliyet düşüyor. Komşularınızla birlikte aradığınızda programı sizin lehinize kurabiliyoruz.`
         }</p>
         <p>Keşif sonrası malzeme, işçilik ve süre ayrı ayrı yazılıyor. Onay vermeden hiçbir iş başlamıyor; iş sırasında ek kalem çıkarsa önce size bildiriyoruz.</p>
       </div>

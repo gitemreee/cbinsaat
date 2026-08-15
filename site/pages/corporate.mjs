@@ -499,7 +499,7 @@ export function faqPage(ctx) {
         { q: "Teklif ne kadar sürede geliyor?", a: "Küçük işlerde keşif sırasında yazılı olarak veriyoruz. Kapsamlı tadilat ve anahtar teslim işlerde metraj çıkarılması gerektiği için 2–3 iş günü sürüyor." },
         { q: "İş sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, alüminyum iletken) olabilir. Bu durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz." },
         { q: "Sözleşme yapıyor musunuz?", a: "Kapsamlı işlerde evet. İş kalemleri, metrajlar, malzeme sınıfı, süre, ödeme planı ve teslim şartları yazılı sözleşmeye bağlanıyor. Sonradan çıkan işler için ek protokol düzenleniyor." },
-        { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür, avize gibi kalemleri kendiniz seçip almanız yaygın. Bu durumda teklifte sadece işçilik ve sarf malzeme yer alır; ölçü ve miktar listesini biz çıkarıp size veriyoruz." },
+        { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür, avize gibi kalemleri kendiniz seçip almanız yaygın. Böyle olunca teklifte sadece işçilik ve sarf malzeme yer alır; ölçü ve miktar listesini biz çıkarıp size veriyoruz." },
         { q: "Şehir dışındayım, işi takip edebilir miyim?", a: "Haftalık fotoğraflı ilerleme raporu gönderiyoruz. Kritik aşamalarda (tesisat kapanmadan önce, yalıtım öncesi) ayrıca detaylı görüntü paylaşıyoruz. İsterseniz kamera ile canlı takip de kurulabiliyor." },
       ],
     },

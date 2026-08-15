@@ -139,7 +139,7 @@ const rows = [
 
   // ----------------------------------------------------------------- Pütürge
   ["Pütürge Merkez", "puturge-merkez", "puturge", "mahalle", "Yenilenen yapı stoğunda yeni tesisat kurulumu ve altyapı işleri yoğun biçimde sürüyor."],
-  ["Tepehan", "tepehan", "puturge", "mahalle", "Kot farkının belirgin olduğu yerleşimde pompa, depo ve basınç çözümleri öne çıkıyor."],
+  ["Tepehan", "tepehan", "puturge", "mahalle", "Kot farkının yüksek olduğu yerleşimde pompa, depo ve basınç çözümleri öne çıkıyor."],
   ["Nohutlu", "nohutlu", "puturge", "kırsal mahalle", "Dağlık arazideki yerleşimde uzun hat pompa uygulamaları ve gerilim düşümü hesabı gerekiyor."],
   ["Gözeler", "gozeler", "puturge", "kırsal mahalle", "Bahçelik alanlarda sulama hattı, kuyu pompası ve dış mekân elektriği işleri yapılıyor."],
   ["Erdemli", "erdemli-puturge", "puturge", "kırsal mahalle", "Yeni yapılan konutlarda elektrik ve su tesisatı kurulumu ile topraklama işleri talep ediliyor."],

@@ -87,7 +87,7 @@ export function intentPage(i, ctx) {
           { q: "Mahalleme geliyor musunuz?", a: `Malatya'nın ${districts.length} ilçesinin tamamına ve ${localities.length} mahalleye gidiyoruz. Kırsal mahalleler de dahil; başka firmaya havale etmiyoruz.` },
           { q: "Uzak ilçelerde ek ücret var mı?", a: "Merkez ilçelerde keşif ücretsiz. Uzak ilçelerde yol mesafesine göre bir keşif bedeli oluşabiliyor; işi biz yaparsak bu bedeli toplam tutardan düşüyoruz. Tutarı yola çıkmadan önce söylüyoruz." },
           { q: "Randevu ne kadar sürede çıkıyor?", a: "Merkez ilçelerde genelde aynı gün veya ertesi gün. Uzak ilçelerde işleri toplu planladığımız için, aynı bölgeden birden fazla iş çıktığında gün çok daha çabuk ayarlanıyor; komşularınızla birlikte aramanızı öneririz." },
-          { q: "Tek kalemlik küçük iş için de geliyor musunuz?", a: "Geliyoruz, ancak yol ve iş gücü nedeniyle minimum servis bedeli uygulanıyor. Evdeki tüm küçük işleri aynı ziyarette yaptırmak kalem başına maliyeti belirgin düşürüyor." },
+          { q: "Tek kalemlik küçük iş için de geliyor musunuz?", a: "Geliyoruz, ancak yol ve iş gücü nedeniyle minimum servis bedeli uygulanıyor. Evdeki tüm küçük işleri aynı ziyarette yaptırmak kalem başına maliyeti epeyce düşürüyor." },
         ];
 
   const body = `
@@ -181,7 +181,7 @@ export function intentDistrictPage(i, d, ctx) {
     },
     {
       q: `${ofD} kırsal mahallelerine de geliyor musunuz?`,
-      a: `Evet. ${esc(d.name)} sınırlarındaki ${locs.length} yerleşimin tamamına gidiyoruz; kırsal mahalleler dahil. Aynı bölgeden birden fazla iş çıktığında randevu belirgin şekilde hızlanıyor.`,
+      a: `Evet. ${esc(d.name)} sınırlarındaki ${locs.length} yerleşimin tamamına gidiyoruz; kırsal mahalleler dahil. Aynı bölgeden birden fazla iş çıktığında randevu daha hızlı çıkıyor.`,
     },
   ];
 
