@@ -24,9 +24,9 @@ export const planPosts = [
     intro:
       "Sigorta atıyor diye daha büyük sigorta takmak, ev elektriğinde yapılan en yaygın ve en tehlikeli hata. Sigortanın görevi cihazı değil, kablonun ısınmasını engellemektir. Kesit ile sigorta doğru eşleştirilmediğinde, koruma tamamen devre dışı kalır.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Kural tek cümle" },
       {
-        p: "<strong>Konutlarda aydınlatma devreleri genellikle 1,5 mm² kablo ve 10 A sigorta, priz devreleri 2,5 mm² kablo ve 16 A sigorta ile kurulur.</strong> Fırın, klima ve şofben gibi yüksek güçlü cihazlar için ayrı devre çekilir ve kesit yüke göre büyütülür.",
+        p: "Konutlarda aydınlatma devreleri genellikle 1,5 mm² kablo ve 10 A sigorta, priz devreleri 2,5 mm² kablo ve 16 A sigorta ile kurulur. Fırın, klima ve şofben gibi yüksek güçlü cihazlar için ayrı devre çekilir ve kesit yüke göre büyütülür.",
       },
       {
         p: "Bunun üzerine can güvenliği için kaçak akım koruma rölesi eklenir. Konutlarda 30 mA hassasiyetli röle standarttır; ıslak hacimlerin ayrı korunması ise ek güvenlik sağlar.",
@@ -37,7 +37,7 @@ export const planPosts = [
         p: "Sigorta, üzerinden geçen akım belirli bir değeri aştığında devreyi keser. Amaç, kablonun taşıyabileceğinden fazla akım geçmesini ve ısınarak yalıtımının bozulmasını engellemektir.",
       },
       {
-        p: "Bu nedenle sigorta değeri kabloya göre seçilir, cihaza göre değil. 1,5 mm² kablonun bağlı olduğu bir devreye 16 A sigorta takıldığında, kablo tehlikeli seviyede ısınsa bile sigorta atmaz.",
+        p: "Bunun için sigorta değeri kabloya göre seçilir, cihaza göre değil. 1,5 mm² kablonun bağlı olduğu bir devreye 16 A sigorta takıldığında, kablo tehlikeli seviyede ısınsa bile sigorta atmaz.",
       },
       {
         p: "Sigortanın sürekli atması bir arıza değil, bir uyarıdır. Sebebi bulunmadan sigortayı büyütmek, uyarı lambasını sökmeye benzer: gösterge susar, sorun büyür.",
@@ -93,10 +93,7 @@ export const planPosts = [
         ],
       },
       {
-        p: "Müstakil evlerde bahçe, garaj veya depo hattı gibi uzun mesafeler bu hesabı belirginleştirir. Yirmi metre sonrası için seçilen kesit, aynı yükün beş metrelik hattındakinden büyük olabilir.",
-      },
-      {
-        p: "Yalıtım içine gömülen kablolarda soğuma azalır. Mantolama veya ısı yalıtımı içinden geçen hatlarda bu durum dikkate alınmalı; aksi hâlde kablo hesaplanandan daha çok ısınır.",
+        p: "Müstakil evlerde bahçe, garaj veya depo hattı gibi uzun mesafeler bu hesabı öne çıkarır. Yirmi metre sonrası için seçilen kesit, aynı yükün beş metrelik hattındakinden büyük olabilir. Yalıtım içine gömülen kablolarda soğuma azalır. Mantolama veya ısı yalıtımı içinden geçen hatlarda bu durum dikkate alınmalı; aksi hâlde kablo hesaplanandan daha çok ısınır.",
       },
 
       { h2: "Kaçak akım rölesi" },
@@ -163,10 +160,7 @@ export const planPosts = [
 
       { h2: "Yüksek güçlü cihazlar" },
       {
-        p: "Ankastre fırın, elektrikli ocak, klima ve elektrikli ısıtıcılar sürekli ve yüksek akım çeker. Bu cihazların genel priz devresine bağlanması, o devreyi sürekli sınırda çalıştırır.",
-      },
-      {
-        p: "Doğru uygulama, her biri için panodan ayrı devre çekmektir. Bu hem devrenin kapasitesini korur hem cihazın arızasında sadece o hattı etkiler.",
+        p: "Ankastre fırın, elektrikli ocak, klima ve elektrikli ısıtıcılar sürekli ve yüksek akım çeker. Bu cihazların genel priz devresine bağlanması, o devreyi sürekli sınırda çalıştırır. Doğru uygulama, her biri için panodan ayrı devre çekmektir. Bu hem devrenin kapasitesini korur hem cihazın arızasında sadece o hattı etkiler.",
       },
       {
         p: "Elektrikli araç şarjı gibi yeni ihtiyaçlar da baştan planlanmalı. Sonradan eklenen bir şarj hattı, mevcut kolon kapasitesinin gözden geçirilmesini gerektiriyor.",
@@ -195,7 +189,7 @@ export const planPosts = [
         p: "Aydınlatma devreleri düşük yük çeker ama nokta sayısı fazladır. Anahtar konumları, komütatör ve vaevien bağlantıları ve olası akıllı ev altyapısı bu aşamada düşünülmelidir.",
       },
       {
-        p: "Uzun koridorlarda ve merdivenlerde iki noktadan kumanda edilebilen düzen, konforu belirgin artırır. Bu, sonradan eklenmesi zahmetli olan ama kurulum sırasında ek maliyeti düşük bir çözüm.",
+        p: "Uzun koridorlarda ve merdivenlerde iki noktadan kumanda edilebilen düzen, konforu epeyce artırır. Bu, sonradan eklenmesi zahmetli olan ama kurulum sırasında ek maliyeti düşük bir çözüm.",
       },
       {
         p: "Akıllı ev sistemleri düşünülüyorsa nötr hattının anahtar kutusuna kadar getirilmesi gerekir. Eski tesisatlarda bu hat çoğu zaman yoktur ve sonradan eklenmesi duvar açmayı gerektirir.",
@@ -230,10 +224,7 @@ export const planPosts = [
 
       { h2: "Malatya'daki bina stoğunda durum" },
       {
-        p: "Bölgede kullanımdaki dairelerin bir bölümü, bugünkü cihaz yüklerinin çok altında bir tüketim öngörülerek kurulmuş tesisatlara sahip. O dönemde evde bulunan cihazlarla bugünkü liste karşılaştırıldığında fark açık.",
-      },
-      {
-        p: "Deprem sonrası yapılan iç mekân yenilemelerinde bu, önemli bir fırsat. Duvarlar zaten açılmışken tesisatın da yenilenmesi, ileride ikinci kez kırım yapılmasını önlüyor.",
+        p: "Bölgede kullanımdaki dairelerin bir bölümü, bugünkü cihaz yüklerinin çok altında bir tüketim öngörülerek kurulmuş tesisatlara sahip. O dönemde evde bulunan cihazlarla bugünkü liste karşılaştırıldığında fark açık. Deprem sonrası yapılan iç mekân yenilemelerinde bu, önemli bir fırsat. Duvarlar zaten açılmışken tesisatın da yenilenmesi, ileride ikinci kez kırım yapılmasını önlüyor.",
       },
       {
         p: "Tadilat planlanırken elektrik altyapısının ayrı bir başlık olarak ele alınması gerekiyor. Boya ve zemin görünür kalemler; tesisat ise görünmeyen ama güvenliği doğrudan belirleyen kalem.",
@@ -320,12 +311,9 @@ export const planPosts = [
     intro:
       "\"Metrekaresi ne kadar?\" sorusu, anahtar teslim işlerde en çok sorulan ama en az bilgi veren soru. Aynı metrekaredeki iki daire, kapsamı farklı olduğu için tamamen farklı bütçelerle biter. Bu yazıda fiyatın nasıl oluştuğunu ve teklifleri neye göre karşılaştırmanız gerektiğini anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "İki yöntem var" },
       {
-        p: "<strong>Anahtar teslim işlerde fiyat iki yöntemle çıkarılır: hızlı bir fikir veren metrekare birim fiyatı ve gerçek fiyatı veren kalem bazlı keşif–metraj.</strong> Karar aşamasında birincisi, sözleşme aşamasında ikincisi kullanılır.",
-      },
-      {
-        p: "Metrekare fiyatı bir tahmindir; neyin dâhil olduğunu söylemez. Kalem bazlı keşif ise hangi işin ne kadar yapılacağını yazar ve bu sayede iki teklif gerçekten karşılaştırılabilir hâle gelir.",
+        p: "Anahtar teslim işlerde fiyat iki yöntemle çıkarılır: hızlı bir fikir veren metrekare birim fiyatı ve gerçek fiyatı veren kalem bazlı keşif–metraj. Karar aşamasında birincisi, sözleşme aşamasında ikincisi kullanılır. Metrekare fiyatı bir tahmindir; neyin dâhil olduğunu söylemez. Kalem bazlı keşif ise hangi işin ne kadar yapılacağını yazar ve bu sayede iki teklif gerçekten karşılaştırılabilir hâle gelir.",
       },
 
       { h2: "Metrekare fiyatı neyi gizler?" },
@@ -333,10 +321,10 @@ export const planPosts = [
         p: "Aynı büyüklükteki iki dairede iş kalemleri çok farklı olabilir. Birinde tesisat yenilenirken diğerinde sadece boya yapılıyorsa, ikisini aynı metrekare fiyatıyla konuşmak anlamsız.",
       },
       {
-        p: "Metrekare fiyatı ayrıca ıslak hacim sayısını da yansıtmaz. Banyo ve mutfak, bir dairenin en yoğun iş gören bölümleridir; iki banyolu bir daire, aynı metrekaredeki tek banyolu daireden belirgin farklı bir bütçeye sahiptir.",
+        p: "Metrekare fiyatı ayrıca ıslak hacim sayısını da yansıtmaz. Banyo ve mutfak, bir dairenin en yoğun iş gören bölümleridir; iki banyolu bir daire, aynı metrekaredeki tek banyolu daireden epey farklı bir bütçeye sahiptir.",
       },
       {
-        p: "Bu yüzden metrekare fiyatını bir başlangıç aralığı olarak kullanmak doğru; ancak sözleşme bu rakama değil, metraja dayanmalı.",
+        p: "O yüzden metrekare fiyatını bir başlangıç aralığı olarak kullanmak doğru; ancak sözleşme bu rakama değil, metraja dayanmalı.",
       },
 
       { h2: "Fiyatı belirleyen değişkenler" },
@@ -376,7 +364,7 @@ export const planPosts = [
         ],
       },
       {
-        p: "Sekizinci madde çoğu zaman hafife alınır. Asansörsüz bir binada dördüncü kattan moloz indirmek ile zemin kattan çıkarmak, aynı iş için farklı süre ve iş gücü demektir.",
+        p: "Sekizinci madde çoğunlukla hafife alınır. Asansörsüz bir binada dördüncü kattan moloz indirmek ile zemin kattan çıkarmak, aynı iş için farklı süre ve iş gücü demektir.",
       },
 
       { h2: "Metraj: fiyatın omurgası" },
@@ -441,19 +429,12 @@ export const planPosts = [
         ],
       },
       {
-        quote:
-          "Düşük teklif çoğu zaman ucuz iş değil, dar kapsam demektir. Fark, iş ilerledikçe ek kalem olarak geri gelir.",
-      },
-      {
         p: "Karşılaştırmayı kolaylaştırmak için aynı kapsam listesini tüm firmalara vermek en pratik yöntem. Herkes aynı listeyi fiyatlandırdığında, teklifler gerçekten karşılaştırılabilir hâle geliyor.",
       },
 
       { h2: "Ödeme planı nasıl kurulur?" },
       {
-        p: "Sağlıklı bir ödeme planı, işin ilerlemesine bağlıdır. Peşin ödeme oranının makul kalması ve ara ödemelerin tamamlanan aşamalara bağlanması, iki taraf için de koruma sağlar.",
-      },
-      {
-        p: "Aşamalar somut olmalı: söküm tamamlandığında, tesisat çekildiğinde, seramik bittiğinde, teslimde. Belirsiz ifadeler yerine ölçülebilir kilometre taşları kullanılmalı.",
+        p: "Sağlıklı bir ödeme planı, işin ilerlemesine bağlıdır. Peşin ödeme oranının makul kalması ve ara ödemelerin tamamlanan aşamalara bağlanması, iki taraf için de koruma sağlar. Aşamalar somut olmalı: söküm tamamlandığında, tesisat çekildiğinde, seramik bittiğinde, teslimde. Belirsiz ifadeler yerine ölçülebilir kilometre taşları kullanılmalı.",
       },
       {
         p: "Son ödemenin teslim ve kontrol sonrasına bırakılması yaygın ve doğru bir uygulama. Teslim kontrol listesi üzerinden yapılan gözden geçirme, eksiklerin işin sonunda değil, o an giderilmesini sağlıyor.",
@@ -461,7 +442,10 @@ export const planPosts = [
 
       { h2: "Değişiklik talepleri" },
       {
-        p: "Tadilat sırasında fikir değişmesi normaldir. Önemli olan, değişikliğin nasıl yönetileceğinin baştan belirlenmiş olması. Her değişiklik talebi; kapsam, süre ve fiyat açısından yazılı olarak değerlendirilmelidir.",
+        p: "Tadilat sırasında fikir değişmesi normaldir. Önemli olan, değişikliğin nasıl yönetileceğinin baştan belirlenmiş olması.",
+      },
+      {
+        p: "Her değişiklik talebi; kapsam, süre ve fiyat açısından yazılı olarak değerlendirilmelidir.",
       },
       {
         p: "Sözlü olarak konuşulan ve kayda geçmeyen değişiklikler, işin sonunda hesap tartışmasına dönüşüyor. Kısa bir mesaj bile olsa, değişikliğin yazılı bir izinin kalması iki tarafı da rahatlatıyor.",
@@ -483,7 +467,7 @@ export const planPosts = [
 
       { h2: "İşin görünmeyen kalemleri" },
       {
-        p: "Bütçe yapılırken çoğu zaman görünen işler hesaplanır: seramik, boya, mutfak. Görünmeyen kalemler ise sonradan gündeme gelir ve toplamı azımsanmayacak bir yer tutar.",
+        p: "Bütçe yapılırken görünen işler hesaplanır: seramik, boya, mutfak. Görünmeyen kalemler ise sonradan gündeme gelir ve toplamı azımsanmayacak bir yer tutar.",
       },
       {
         ul: [
@@ -501,10 +485,7 @@ export const planPosts = [
 
       { h2: "Beklenmedik kalemler" },
       {
-        p: "Özellikle eski yapılarda, söküm yapılmadan görülemeyen durumlar vardır: çürümüş bir hat, rutubet almış bir duvar, altından bozuk çıkan bir şap.",
-      },
-      {
-        p: "Bu kalemler baştan fiyatlanamaz ama öngörülebilir. Deneyimli bir keşifte, riskli noktalar not edilir ve \"çıkarsa şu şekilde ilerlenir\" diye konuşulur. Böylece sürpriz, plana dönüşür.",
+        p: "Özellikle eski yapılarda, söküm yapılmadan görülemeyen durumlar vardır: çürümüş bir hat, rutubet almış bir duvar, altından bozuk çıkan bir şap. Bu kalemler baştan fiyatlanamaz ama öngörülebilir. Deneyimli bir keşifte, riskli noktalar not edilir ve \"çıkarsa şu şekilde ilerlenir\" diye konuşulur. Böylece sürpriz, plana dönüşür.",
       },
       {
         p: "Bütçe planlanırken bu tür kalemler için bir pay ayrılması makul. Yapılan işin niteliğine göre değişse de, esneklik payı bırakmak işin akışını bozmadan ilerlemeyi sağlıyor.",
@@ -544,7 +525,7 @@ export const planPosts = [
 
       { h2: "Firma seçerken bakılacaklar" },
       {
-        p: "Fiyat tek başına karar vermeye yetmez. Aynı işi yapabilecek firmalar arasında ayrımı, çoğu zaman süreç yönetimi belirler.",
+        p: "Fiyat tek başına karar vermeye yetmez. Aynı işi yapabilecek firmalar arasında ayrımı, genelde süreç yönetimi belirler.",
       },
       {
         table: {
@@ -581,7 +562,7 @@ export const planPosts = [
         p: "Bu altı soru, teklifi veren tarafın işi ne kadar planladığını da gösterir. Yanıtlar net geliyorsa iş de büyük ihtimalle planlı yürüyecek demektir.",
       },
       {
-        p: "Son bir hatırlatma: fiyat, işin tek boyutu değil. Aynı bütçeyle yapılan iki iş arasındaki farkı çoğu zaman planlama, iş sırası ve iletişim belirliyor. Teklif aşamasında bunları gözlemlemek, sonraki haftaları büyük ölçüde öngörülebilir kılıyor.",
+        p: "Son bir hatırlatma: fiyat, işin tek boyutu değil. Aynı bütçeyle yapılan iki iş arasındaki farkı ekseriyetle planlama, iş sırası ve iletişim belirliyor. Teklif aşamasında bunları gözlemlemek, sonraki haftaları büyük ölçüde öngörülebilir kılıyor.",
       },
     ],
     faqs: [
@@ -595,7 +576,7 @@ export const planPosts = [
       },
       {
         q: "Teklifte hangi başlıklar mutlaka olmalı?",
-        a: "Kapsam, metraj, malzeme sınıfı, hariç kalemler, süre, ödeme planı, değişiklik yönetimi, garanti ve moloz–temizlik sorumluluğu. Bu başlıkların eksik olması, işin ilerleyen aşamasında tartışma çıkma ihtimalini belirgin artırır.",
+        a: "Kapsam, metraj, malzeme sınıfı, hariç kalemler, süre, ödeme planı, değişiklik yönetimi, garanti ve moloz–temizlik sorumluluğu. Bu başlıkların eksik olması, işin ilerleyen aşamasında tartışma çıkma ihtimalini ciddi ölçüde artırır.",
       },
       {
         q: "Malzemeyi kendim alsam daha mı ucuz olur?",
@@ -643,12 +624,8 @@ export const planPosts = [
     intro:
       "\"Bir ayda biter mi?\" sorusunun cevabı kapsama bağlı. Sadece boya ve zemin yenilemesi yapılacaksa evet; tesisat, ıslak hacim ve zemin birlikte yenilenecekse hayır. Süreyi belirleyen asıl unsur ise çoğu kişinin hesaba katmadığı bir şey: beklemek zorunda olduğunuz kuruma süreleri.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Yaklaşık 100 metrekarelik bir dairede tesisat, ıslak hacim, zemin ve boyayı kapsayan komple bir tadilat tipik olarak beş–sekiz hafta sürer.</strong> Sadece boya ve zemin yapılacaksa bu süre iki haftaya kadar iner.",
-      },
-      {
-        p: "Süreyi belirleyen üç şey vardır: kapsam, kuruma süreleri ve malzeme temini. Ekip sayısını artırmak bunlardan yalnızca birincisini hızlandırır; diğer ikisi zamanla ilgilidir ve kısaltılamaz.",
+        p: "Yaklaşık 100 metrekarelik bir dairede tesisat, ıslak hacim, zemin ve boyayı kapsayan komple bir tadilat tipik olarak beş–sekiz hafta sürer. Sadece boya ve zemin yapılacaksa bu süre iki haftaya kadar iner. Süreyi belirleyen üç şey vardır: kapsam, kuruma süreleri ve malzeme temini. Ekip sayısını artırmak bunlardan yalnızca birincisini hızlandırır; diğer ikisi zamanla ilgilidir ve kısaltılamaz.",
       },
 
       { h2: "Hafta hafta tipik takvim" },
@@ -716,11 +693,7 @@ export const planPosts = [
         p: "Sıra bozulduğunda tamamlanmış bir iş zarar görür ve yeniden yapılır. Boyadan sonra yapılan bir tesisat müdahalesi, duvarın açılması ve boyanın tekrarlanması demektir.",
       },
       {
-        quote:
-          "Tadilatta kaybedilen zamanın büyük bölümü, yapılan işten değil; yeniden yapılan işten geliyor.",
-      },
-      {
-        p: "Bu nedenle karar verilmemiş konular, ilgili aşama gelmeden çözülmeli. Seçilmemiş bir seramik veya kararsız kalınmış bir mutfak planı, tüm takvimi bekletiyor.",
+        p: "Karar verilmemiş konular, ilgili aşama gelmeden çözülmeli. Seçilmemiş bir seramik veya kararsız kalınmış bir mutfak planı, tüm takvimi bekletiyor.",
       },
 
       { h2: "Ekip sayısı süreyi kısaltır mı?" },
@@ -731,7 +704,7 @@ export const planPosts = [
         p: "Küçük bir dairede aynı anda çok sayıda kişinin çalışması verimi düşürür; ekipler birbirini bekler, alan yetmez ve hata riski artar. Doğru yaklaşım, ekip sayısını değil iş sırasını optimize etmektir.",
       },
       {
-        p: "Kuruma sürelerini ise hiçbir ekip sayısı kısaltmaz. Bu yüzden hızlandırma talebi geldiğinde, önce hangi bekleme sürelerinin takvimi belirlediğini konuşuyoruz.",
+        p: "Kuruma sürelerini ise hiçbir ekip sayısı kısaltmaz. hızlandırma talebi geldiğinde, önce hangi bekleme sürelerinin takvimi belirlediğini konuşuyoruz.",
       },
 
       { h2: "Malzeme temini kritik yol" },
@@ -753,10 +726,7 @@ export const planPosts = [
 
       { h2: "Oturarak mı, boşken mi?" },
       {
-        p: "Boş dairede tadilat her zaman daha hızlıdır. Ekip tüm mekânda serbest çalışır, toz ve gürültü sorun olmaz, eşya taşıma ve koruma zamanı harcanmaz.",
-      },
-      {
-        p: "Oturulan evde yapılan tadilat ise bölümlere ayrılır. Her bölüm ayrı ayrı hazırlanır, korunur ve teslim edilir. Bu, toplam süreyi belirgin şekilde uzatır ama yaşamayı mümkün kılar.",
+        p: "Boş dairede tadilat her zaman daha hızlıdır. Ekip tüm mekânda serbest çalışır, toz ve gürültü sorun olmaz, eşya taşıma ve koruma zamanı harcanmaz. Oturulan evde yapılan tadilat ise bölümlere ayrılır. Her bölüm ayrı ayrı hazırlanır, korunur ve teslim edilir. Bu, toplam süreyi fark edilir biçimde uzatır ama yaşamayı mümkün kılar.",
       },
       {
         p: "Karar verirken kısa süreli bir konaklama maliyeti ile uzayan tadilat süresini karşılaştırmak faydalı olur. Çoğu durumda dairenin boş olduğu bir dönemde iş yapmak, hem daha hızlı hem daha az yıpratıcı.",
@@ -767,7 +737,7 @@ export const planPosts = [
         p: "Gürültülü işler için apartman yönetimlerinin belirlediği çalışma saatleri, takvimin gerçekçi kurulmasında dikkate alınmalı. Kırım işi günde birkaç saatle sınırlıysa, o aşama planlanandan uzun sürer.",
       },
       {
-        p: "İşe başlamadan önce komşulara bilgi vermek, sürecin en zahmetsiz ama en etkili adımı. Ne kadar süreceği ve hangi günlerde gürültü olacağı bilindiğinde şikâyet belirgin azalıyor.",
+        p: "İşe başlamadan önce komşulara bilgi vermek, sürecin en zahmetsiz ama en etkili adımı. Ne kadar süreceği ve hangi günlerde gürültü olacağı bilindiğinde şikâyet epeyce azalıyor.",
       },
       {
         p: "Ortak alanların korunması da işin bir parçası. Asansör ve merdiven korumasının yapılması hem hasarı önlüyor hem yönetimle yaşanabilecek tartışmaları ortadan kaldırıyor.",
@@ -805,10 +775,7 @@ export const planPosts = [
 
       { h2: "Bütçe ile takvim ilişkisi" },
       {
-        p: "Süre ve bütçe birbirine bağlı iki değişken. İşin hızlandırılması genelde daha fazla ekip veya mesai anlamına gelir; uzaması ise ek maliyet ve konfor kaybı yaratır.",
-      },
-      {
-        p: "Sağlıklı yaklaşım, gerçekçi bir takvim kurmak ve buna uygun bir bütçe planlamak. Takvimin sonuna doğru sıkışan işlerde kalite düşer; en çok da ince işler ve detaylar bu sıkışmadan etkilenir.",
+        p: "Süre ve bütçe birbirine bağlı iki değişken. İşin hızlandırılması genelde daha fazla ekip veya mesai anlamına gelir; uzaması ise ek maliyet ve konfor kaybı yaratır. Sağlıklı yaklaşım, gerçekçi bir takvim kurmak ve buna uygun bir bütçe planlamak. Takvimin sonuna doğru sıkışan işlerde kalite düşer; en çok da ince işler ve detaylar bu sıkışmadan etkilenir.",
       },
       {
         quote:
@@ -842,7 +809,7 @@ export const planPosts = [
         p: "İyi bir iş programı, sadece bitiş tarihini değil ara aşamaları da gösterir. Böylece işin geride kalıp kalmadığı, sona yaklaşmadan çok önce anlaşılır.",
       },
       {
-        p: "Programda her aşamanın başlangıç ve bitiş tarihi, o aşamanın hangi işe bağlı olduğu ve müşteriden beklenen kararların tarihi bulunmalı. Son madde önemli: bazı gecikmelerin kaynağı, zamanında verilmeyen kararlar.",
+        p: "Programda her aşamanın başlangıç ve bitiş tarihi, o aşamanın hangi işe bağlı olduğu ve müşteriden beklenen kararların tarihi bulunmalı. Sondaki kalem önemli: bazı gecikmelerin kaynağı, zamanında verilmeyen kararlar.",
       },
       {
         p: "Haftalık kısa bir durum bildirimi, programın canlı kalmasını sağlıyor. Bir aşama sarktığında bunun sonraki aşamalara etkisi hemen görülüyor ve telafi planı yapılabiliyor.",
@@ -891,7 +858,7 @@ export const planPosts = [
       },
       {
         q: "Evde otururken tadilat yaptırabilir miyim?",
-        a: "Yapılabilir ancak süre belirgin uzar. İş bölümlere ayrılır; her bölüm ayrı hazırlanır, korunur ve teslim edilir. Toz ve gürültü günlük yaşamı zorlaştırır. Mümkünse dairenin boş olduğu bir dönemde çalışmak hem daha hızlı hem daha az yıpratıcıdır.",
+        a: "Yapılabilir ancak süre epeyce uzar. İş bölümlere ayrılır; her bölüm ayrı hazırlanır, korunur ve teslim edilir. Toz ve gürültü günlük yaşamı zorlaştırır. Mümkünse dairenin boş olduğu bir dönemde çalışmak hem daha hızlı hem daha az yıpratıcıdır.",
       },
       {
         q: "Tadilat en çok neden gecikir?",
@@ -904,6 +871,10 @@ export const planPosts = [
       {
         q: "İş programı olmadan tadilat yapılır mı?",
         a: "Yapılır ama takip edilemez. Programsız bir işte gecikmenin nerede başladığı ancak sonuna doğru anlaşılır. İyi bir programda her aşamanın tarihi, bağlı olduğu iş ve müşteriden beklenen kararların tarihleri bulunur; haftalık durum bildirimiyle canlı tutulur.",
+      },
+      {
+        q: "Tadilat sırasında su ve elektrik ne kadar kesik kalır?",
+        a: "Komple yenilemede tesisat sökümüyle basınç testi arasında birkaç gün geçer. Kesintiyi tek bloğa toplamak için su ve elektrik işleri aynı haftaya alınır; şantiye tarafında geçici bir priz hattı ve kapatılabilir bir su noktası bırakılır. Ana kolonu ilgilendiren müdahaleler önceden komşulara duyurulur.",
       },
       {
         q: "Teslimde neye bakmalıyım?",

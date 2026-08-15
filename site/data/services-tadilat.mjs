@@ -108,7 +108,7 @@ export const tadilatServices = [
       { q: "Teklif ne kadar sürede geliyor?", a: "Metraj çıkarılması gerektiği için kapsamlı tadilatlarda 2–3 iş günü. Tek mekân yenilemesinde çoğu zaman keşif sırasında yazılı olarak verebiliyoruz." },
       { q: "Sözleşme yapıyor musunuz?", a: "Evet. İş kalemleri, metrajlar, malzeme sınıfı, süre, ödeme planı ve teslim şartları yazılı sözleşmeye bağlanıyor. Sonradan çıkan işler için ek protokol düzenleniyor." },
       { q: "Ödeme nasıl yapılıyor?", a: "Hakediş esaslı: tamamlanan iş kalemlerine göre kademeli ödeme. Peşin toplu ödeme istemiyoruz. Son ödeme, eksik listesi kapatıldıktan sonra yapılıyor." },
-      { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür, parke ve kapı gibi kalemleri kendiniz seçmeniz yaygın. Bu durumda teklifte işçilik ve sarf malzeme yer alır; ölçü ve miktar listesini biz çıkarıp size veririz." },
+      { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür, parke ve kapı gibi kalemleri kendiniz seçmeniz yaygın. Böyle bir durumda teklifte işçilik ve sarf malzeme yer alır; ölçü ve miktar listesini biz çıkarıp size veririz." },
     ],
     localAngle: "deprem sonrası yenilenen yapı stoğu ve 1990–2005 arası dairelerde tesisatla birlikte komple yenileme ihtiyacı",
     related: ["daire-tadilati", "mutfak-tadilati", "banyo-tadilati", "eski-ev-tadilati"],
@@ -242,7 +242,7 @@ export const tadilatServices = [
         "Zeminde şap sağlamlığı tokmakla kontrol edilir",
         "Dış duvarda nem ve yalıtım durumu değerlendirilir",
       ] },
-      { p: "Bu kontroller yarım saat sürüyor ve teklifin sonradan değişme ihtimalini belirgin şekilde düşürüyor." },
+      { p: "Bu kontroller yarım saat sürüyor ve teklifin sonradan değişme ihtimalini iyice düşürüyor." },
 
       { h2: "Alüminyum iletken: tartışmasız değişim" },
       { p: "Eski tesisatlarda maliyet nedeniyle kullanılan alüminyum iletken, bakıra göre yüksek dirençli ve zamanla oksitlenerek bağlantı noktalarında ısınıyor. Kesildiğinde gümüş rengi görünen iletken alüminyumdur." },
@@ -258,7 +258,7 @@ export const tadilatServices = [
 
       { h2: "Sürpriz çıkarsa ne oluyor?" },
       { p: "Söküm sonrası gizli bir sorun çıktığında işi durduruyor, fotoğrafını gönderiyor ve ek maliyeti yazılı bildiriyoruz. Onayınız olmadan devam etmiyoruz." },
-      { p: "Eski evlerde bu ihtimal yeni yapılara göre yüksek. Bu yüzden bütçenin %15–20'si kadar bir pay ayırmanızı öneriyoruz; kullanılmazsa cebinizde kalır." },
+      { p: "Eski evlerde bu ihtimal yeni yapılara göre yüksek. Bunun için bütçenin %15–20'si kadar bir pay ayırmanızı öneriyoruz; kullanılmazsa cebinizde kalır." },
     ],
     priceFactors: [
       "Yapının yaşı ve mevcut altyapının durumu",
@@ -291,7 +291,7 @@ export const tadilatServices = [
       "Malatya'da mutfak tadilatı: söküm, su ve elektrik tesisatı, dolap ve tezgâh montajı, ankastre hatları, seramik ve boya. Tek ekipten komple yenileme.",
     keywords: ["Malatya mutfak tadilatı", "komple mutfak yenileme", "Malatya mutfak dolabı", "mutfak tezgahı Malatya", "mutfak yenileme fiyatları"],
     intro:
-      "Mutfak, evin metrekare başına en pahalı ve en çok tesisat barındıran mekânı. Dolap düzgün kurulsa bile eviye bağlantısı sızdırıyorsa ya da ankastre fırın için ayrı hat yoksa iş yarım kalıyor. Su, elektrik ve montajı aynı ekip yaptığı için burada belirgin fark yaratıyoruz.",
+      "Mutfak, evin metrekare başına en pahalı ve en çok tesisat barındıran mekânı. Dolap düzgün kurulsa bile eviye bağlantısı sızdırıyorsa ya da ankastre fırın için ayrı hat yoksa iş yarım kalıyor. Su, elektrik ve montajı aynı ekip yaptığı için burada açık fark yaratıyoruz.",
     symptoms: [
       { title: "Tezgâh ek yerinden su almış, şişmiş", text: "Kesit yüzeyi ve duvar birleşimi sızdırmaz yapılmamış." },
       { title: "Ankastre fırın sigortayı attırıyor", text: "Ayrı hat çekilmemiş; 4 mm² bağımsız besleme gerekiyor." },
@@ -424,7 +424,7 @@ export const tadilatServices = [
         "Aspiratör için ayrı hat veya aydınlatmayla birlikte kontrol",
         "Metal borular ve küvet eş potansiyel baraya bağlanır",
       ] },
-      { p: "Son madde tadilatlarda en çok atlanan güvenlik detayı. Metal borular plastikle değiştirildiğinde eski hattın sağladığı doğal süreklilik de ortadan kalkıyor." },
+      { p: "Sondaki kalem tadilatlarda en çok atlanan güvenlik detayı. Metal borular plastikle değiştirildiğinde eski hattın sağladığı doğal süreklilik de ortadan kalkıyor." },
 
       { h2: "Gerçekçi süre" },
       {
@@ -503,7 +503,7 @@ export const tadilatServices = [
 
       { h2: "Kırım sonrası tesisat: görünen aldatıyor" },
       { p: "Güçlendirme sırasında duvar ve döşemeler kırılıyor. Bu kırım sırasında kablo ve borular çoğu zaman zarar görüyor ama hasar hemen belli olmuyor." },
-      { p: "Yalıtımı zedelenmiş bir kablo ilk bakışta çalışıyor. Aylar sonra nemle birlikte kaçak akım vermeye başlıyor ya da kısa devre yapıyor. Bu yüzden güçlendirme görmüş dairelerde hatların yalıtım direncini ölçüyoruz." },
+      { p: "Yalıtımı zedelenmiş bir kablo ilk bakışta çalışıyor. Aylar sonra nemle birlikte kaçak akım vermeye başlıyor ya da kısa devre yapıyor. Dolayısıyla güçlendirme görmüş dairelerde hatların yalıtım direncini ölçüyoruz." },
       { ul: [
         "Her hattın yalıtım direnci ölçülür ve kayda geçirilir",
         "Kolon hattının bütünlüğü kontrol edilir",
@@ -573,18 +573,18 @@ export const tadilatServices = [
       { h2: "Kiraya en çok etki eden kalemler" },
       { p: "Sınırlı bütçeyle en yüksek etkiyi yaratmak istiyorsanız sıralama bellidir. Kiracı adayının ilk on dakikada gördüğü şeyler kararını büyük ölçüde belirliyor." },
       { ol: [
-        "Boya — en düşük maliyetli, en yüksek etkili kalem",
+        "Boya: en düşük maliyetli, en yüksek etkili kalem",
         "Banyo ve mutfakta temizlik hissi (derz, silikon, armatür)",
-        "Aydınlatma — eski avizeler yerine düzgün ve yeterli ışık",
-        "Zemin — hasarlıysa kaplama, değilse iyi bir temizlik",
-        "Çalışan bir tesisat — damlayan musluk, akan rezervuar yok",
-        "Kapı ve kilitler — düzgün kapanan kapı, sağlam kilit",
+        "Aydınlatma (eski avizeler yerine düzgün ve yeterli ışık)",
+        "Zemin: hasarlıysa kaplama, değilse iyi bir temizlik",
+        "Çalışan bir tesisat: damlayan musluk yok, akan rezervuar yok",
+        "Kapı ve kilitler (düzgün kapanan kapı, sağlam kilit)",
       ] },
       { p: "Yüksek segment malzeme kullanmak kirayı genelde aynı oranda artırmıyor. Orta segment ve temiz bir uygulama, kira/maliyet dengesi açısından daha iyi sonuç veriyor." },
 
       { h2: "Süre: kira kaybını hesaba katın" },
       { p: "Boş geçen her ay doğrudan kayıp. Bu yüzden kiralık hazırlığında programı mümkün olduğunca sıkıştırıyoruz ve kuruma süresi uzun kalemleri (şap, yeni seramik) ancak gerçekten gerekiyorsa öneriyoruz." },
-      { p: "Tipik bir hazırlık paketi 5–10 iş gününde bitiyor. Mutfak veya banyo komple yenilenecekse süre 15–25 güne çıkıyor; bu durumda kira kaybı ile artacak kirayı birlikte hesaplamak gerekiyor." },
+      { p: "Tipik bir hazırlık paketi 5–10 iş gününde bitiyor. Mutfak veya banyo komple yenilenecekse süre 15–25 güne çıkıyor; böyle olunca kira kaybı ile artacak kirayı birlikte hesaplamak gerekiyor." },
 
       { h2: "Uzun vadede ucuz olan" },
       { p: "Kiracı değişimi, tesisatı elden geçirmek için en uygun an. Sık arıza çağrısı alan ev sahipleri genelde bu adımı atlamış oluyor." },
@@ -627,7 +627,7 @@ export const tadilatServices = [
     symptoms: [
       { title: "Daire uzun süredir satılmıyor", text: "Fiyat sorunu olmayabilir; ilk izlenim ve fotoğraf kalitesi belirleyici." },
       { title: "Alıcılar 'tadilat ister' diyor", text: "Küçük bir yenileme, pazarlık payını fiyattan daha çok düşürüyor." },
-      { title: "Fotoğraflar kötü çıkıyor", text: "Aydınlatma ve boya, ilan fotoğraflarını doğrudan etkiliyor." },
+      { title: "Fotoğraflar kötü çıkıyor", text: "Aydınlatma ve boya, ilan fotoğraflarını birebir etkiliyor." },
       { title: "Nereye harcayacağınızı bilemiyorsunuz", text: "Görünür yüzeylere odaklanmak, gizli kalemlerden daha etkili." },
     ],
     scope: [
@@ -707,7 +707,7 @@ export const tadilatServices = [
       { title: "Katlar arası ısı dengesi bozuk", text: "Isıtma dengelemesi yapılmamış; üst kat sıcak, alt kat serin kalıyor." },
       { title: "Üst katta su basıncı düşük", text: "Basınçlandırma veya hidrofor kapasitesi yetersiz." },
       { title: "Bahçe altyapısı yok veya eski", text: "Sulama, aydınlatma ve dış mekân prizleri planlanmalı." },
-      { title: "Farklı ekipler koordine edilemiyor", text: "Çok disiplinli işte tek muhatap süreyi belirgin kısaltıyor." },
+      { title: "Farklı ekipler koordine edilemiyor", text: "Çok disiplinli işte tek muhatap süreyi epeyce kısaltıyor." },
     ],
     scope: [
       "Çok katlı elektrik tesisatı ve pano düzeni",
@@ -739,7 +739,7 @@ export const tadilatServices = [
         "Bahçe kapısı, diafon ve kamera altyapısı",
         "Donmaya karşı hat izolasyonu ve tahliye vanaları",
       ] },
-      { p: "Peyzaj yapıldıktan sonra fark edilen bir eksik, yeni yapılmış bahçenin kazılması demek. Bu yüzden dış mekân altyapısını iç mekânla aynı programda planlıyoruz." },
+      { p: "Peyzaj yapıldıktan sonra fark edilen bir eksik, yeni yapılmış bahçenin kazılması demek. O yüzden dış mekân altyapısını iç mekânla aynı programda planlıyoruz." },
 
       { h2: "Süre ve etap" },
       { p: "Villa ve dubleks tadilatı 45–90 iş günü arasında değişiyor. Kapsam çok değişken olduğu için bu aralık geniş; kesin süre keşif sonrası iş programıyla veriliyor." },
@@ -777,9 +777,9 @@ export const tadilatServices = [
       "Malatya'da apartman ortak alan tadilatı: merdiven ve giriş yenileme, ortak alan elektriği, diafon, cephe ve bina tesisatı. Yönetime sunum dosyası.",
     keywords: ["apartman ortak alan tadilatı", "merdiven boyası Malatya", "apartman giriş yenileme", "bina tadilatı", "apartman yönetimi tadilat"],
     intro:
-      "Ortak alan tadilatı, teknik işten çok karar süreci meselesi. Kat malikleri ikna olmadan iş başlamıyor; bu yüzden yönetime sunulacak dosyayı da işin parçası sayıyoruz.",
+      "Ortak alan tadilatı, teknik işten çok karar süreci meselesi. Kat malikleri ikna olmadan iş başlamıyor; o yüzden yönetime sunulacak dosyayı da işin parçası sayıyoruz.",
     symptoms: [
-      { title: "Merdiven ve giriş yıpranmış", text: "Binanın değerini doğrudan etkileyen ilk izlenim alanı." },
+      { title: "Merdiven ve giriş yıpranmış", text: "Binanın değerini başlıca etkileyen ilk izlenim alanı." },
       { title: "Ortak alan aydınlatması yetersiz", text: "Merdiven otomatiği eski, armatürler dağınık ve verimsiz." },
       { title: "Diafon sistemi çalışmıyor", text: "Parça bulunamayan eski sistemlerde komple yenileme daha ekonomik." },
       { title: "Kat malikleri karar veremiyor", text: "Kalem kalem maliyet ve etap planı içeren bir dosya kararı hızlandırır." },
@@ -810,7 +810,7 @@ export const tadilatServices = [
       { p: "İstenirse genel kurula katılıp teknik soruları doğrudan cevaplandırıyoruz. En çok sorulan şeyler kesinti süreleri ve daire içine girilip girilmeyeceği oluyor." },
 
       { h2: "Etaplı çalışma" },
-      { p: "Ortak alanda çalışırken kimse taşınmıyor, bina sürekli kullanılıyor. Bu yüzden merdiven bir seferde kapatılmıyor; kat kat ilerleniyor ve her akşam geçiş açık bırakılıyor." },
+      { p: "Ortak alanda çalışırken kimse taşınmıyor, bina sürekli kullanılıyor. O yüzden merdiven bir seferde kapatılmıyor; kat kat ilerleniyor ve her akşam geçiş açık bırakılıyor." },
       { p: "Boya ve zemin işlerinde kuruma süresi geçiş planına dahil ediliyor. Yaşlı ve engelli sakinler önceden not ediliyor, onların katlarında ek önlem alınıyor." },
 
       { h2: "Aydınlatma: en hızlı geri dönen kalem" },
@@ -818,8 +818,8 @@ export const tadilatServices = [
       { p: "Sensörlü sistemde ışık sadece geçiş sırasında yanıyor ve merdiven otomatiğinin \"karanlıkta kalma\" sorunu ortadan kalkıyor. Yatırım genelde kısa sürede kendini amorti ediyor." },
 
       { h2: "Cephe ve giriş" },
-      { p: "Binanın giriş holü ve cephesi, dairelerin değerini doğrudan etkileyen alanlar. Emlak değerlendirmesinde iç mekân kadar bina genel görüntüsü de dikkate alınıyor." },
-      { p: "Cephe işlerinde iskele ve hava koşulları programı belirliyor. Mantolama gündemdeyse aynı iskeleyle yapılması, iki kez iskele kurulmasını önlüyor ve belirgin tasarruf sağlıyor." },
+      { p: "Binanın giriş holü ve cephesi, dairelerin değerini birebir etkileyen alanlar. Emlak değerlendirmesinde iç mekân kadar bina genel görüntüsü de dikkate alınıyor." },
+      { p: "Cephe işlerinde iskele ve hava koşulları programı belirliyor. Mantolama gündemdeyse aynı iskeleyle yapılması, iki kez iskele kurulmasını önlüyor, kayda değer tasarruf sağlıyor." },
     ],
     priceFactors: [
       "Kat sayısı ve daire adedi",

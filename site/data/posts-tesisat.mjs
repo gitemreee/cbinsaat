@@ -24,9 +24,9 @@ export const tesisatPosts = [
     intro:
       "Su deposu, tesisatın en görünmeyen ama en belirleyici parçalarından biri. Yanlış hacim seçildiğinde ya kesintide susuz kalıyorsunuz ya da su depoda bekleyip tazeliğini kaybediyor. Malzeme yanlış seçildiğinde ise sorun daha sinsi: suya tat ve koku geçiyor, temizlik zorlaşıyor.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Hacim ve malzeme" },
       {
-        p: "<strong>Depo hacmi, günlük su tüketiminin yaklaşık yarısı ile tamamı arasında seçilir; malzeme olarak konutlarda gıdayla temasa uygun çok katmanlı polietilen depolar, uzun ömür arandığında paslanmaz depolar tercih edilir.</strong>",
+        p: "Depo hacmi, günlük su tüketiminin yaklaşık yarısı ile tamamı arasında seçilir; malzeme olarak konutlarda gıdayla temasa uygun çok katmanlı polietilen depolar, uzun ömür arandığında paslanmaz depolar tercih edilir.",
       },
       {
         p: "Hacmi gereğinden büyük seçmek sorun çözmez, yeni sorun yaratır: su uzun süre bekler, tortu artar ve koku başlar. Doğru hacim, kesintiye karşı yeterli yedek bırakacak ama suyu bekletmeyecek büyüklüktür.",
@@ -68,10 +68,7 @@ export const tesisatPosts = [
         },
       },
       {
-        p: "Konut uygulamalarında en yaygın tercih çok katmanlı polietilen depolar. Dış katman ışığı geçirmez, orta katman yalıtım sağlar, iç katman ise hijyenik ve pürüzsüz bir yüzey sunar.",
-      },
-      {
-        p: "Tek katmanlı ve ışık geçiren depolar ucuz görünse de içeride alg gelişimine davetiye çıkarır. Güneş gören bir konumda kullanılacaksa bu fark birkaç ay içinde kendini gösteriyor.",
+        p: "Konut uygulamalarında en yaygın tercih çok katmanlı polietilen depolar. Dış katman ışığı geçirmez, orta katman yalıtım sağlar, iç katman ise hijyenik ve pürüzsüz bir yüzey sunar. Tek katmanlı ve ışık geçiren depolar ucuz görünse de içeride alg gelişimine davetiye çıkarır. Güneş gören bir konumda kullanılacaksa bu fark birkaç ay içinde kendini gösteriyor.",
       },
 
       { h2: "Sertifika ve iç yüzey" },
@@ -125,10 +122,7 @@ export const tesisatPosts = [
 
       { h2: "Şamandıra seçimi" },
       {
-        p: "Mekanik şamandıralar basit ve ucuzdur; suyla birlikte yükselerek giriş vanasını kapatır. Kireçli sularda zamanla takılabilir ve tam kapanmayarak taşmaya yol açabilir.",
-      },
-      {
-        p: "Elektrikli seviye kontrolleri ise elektrot veya seviye şalteriyle çalışır ve giriş vanasını elektrikli olarak yönetir. Daha güvenilirdir; ayrıca aynı devreden pompa kontrolü de yapılabilir.",
+        p: "Mekanik şamandıralar basit ve ucuzdur; suyla birlikte yükselerek giriş vanasını kapatır. Kireçli sularda zamanla takılabilir ve tam kapanmayarak taşmaya yol açabilir. Elektrikli seviye kontrolleri ise elektrot veya seviye şalteriyle çalışır ve giriş vanasını elektrikli olarak yönetir. Daha güvenilirdir; ayrıca aynı devreden pompa kontrolü de yapılabilir.",
       },
       {
         p: "Hangi tip kullanılırsa kullanılsın, taşma borusunun mutlaka bulunması gerekir. Şamandıra bir gün mutlaka takılır; taşma borusu o gün için vardır.",
@@ -142,10 +136,6 @@ export const tesisatPosts = [
         p: "İkinci avantaj taşıma ve montaj kolaylığı. Dar bodrum kapılarından geçmeyen büyük bir depo yerine, iki küçük depoyu yerleştirmek çoğu binada tek pratik çözüm oluyor.",
       },
       {
-        quote:
-          "Apartmanlarda depo temizliği en çok \"o gün su kesilecek\" endişesiyle erteleniyor. İkiz depo düzeni bu bahaneyi tamamen ortadan kaldırıyor.",
-      },
-      {
         p: "İkiz depo kurulurken bağlantıların vanalarla ayrılabilir olması şart. Biri devre dışı bırakılamayan bir düzen, iki depoyu tek depo hâline getirir ve avantajı ortadan kaldırır.",
       },
 
@@ -154,7 +144,7 @@ export const tesisatPosts = [
         p: "Depodaki su ne kadar uzun beklerse kalitesi o kadar düşer. Klor zamanla uçar, sıcaklık arttıkça biyolojik aktivite hızlanır ve tortu birikir.",
       },
       {
-        p: "Bu yüzden deponun günlük tüketimle orantılı olması gerekir. Günde bir kez tamamen yenilenen bir depo, aynı hacimde ama haftada bir yenilenen depodan çok daha sağlıklıdır.",
+        p: "O yüzden deponun günlük tüketimle orantılı olması gerekir. Günde bir kez tamamen yenilenen bir depo, aynı hacimde ama haftada bir yenilenen depodan çok daha sağlıklıdır.",
       },
       {
         p: "Ölü hacim de dikkat edilmesi gereken bir konu. Emiş ağzının konumu nedeniyle hiç kullanılmayan alt bölge, tortu ve bakteri için birikim alanı hâline gelebiliyor.",
@@ -178,10 +168,7 @@ export const tesisatPosts = [
 
       { h2: "Giriş hattı ve dolum süresi" },
       {
-        p: "Deponun ne kadar sürede dolduğu, şebeke basıncına ve giriş hattının çapına bağlıdır. Basıncın düşük olduğu bölgelerde dar bir giriş hattı, deponun gece boyunca bile dolmamasına yol açabilir.",
-      },
-      {
-        p: "Bu durumda çözüm depoyu büyütmek değil, giriş hattını gözden geçirmektir. Giriş çapının bir kademe büyütülmesi veya hattaki bir filtrenin temizlenmesi, dolum süresini belirgin kısaltıyor.",
+        p: "Deponun ne kadar sürede dolduğu, şebeke basıncına ve giriş hattının çapına bağlıdır. Basıncın düşük olduğu bölgelerde dar bir giriş hattı, deponun gece boyunca bile dolmamasına yol açabilir. Bu durumda çözüm depoyu büyütmek değil, giriş hattını gözden geçirmektir. Giriş çapının bir kademe büyütülmesi veya hattaki bir filtrenin temizlenmesi, dolum süresini epeyce kısaltıyor.",
       },
       {
         p: "Dolum süresini bir kez ölçmek faydalı: depo boşken giriş açılır ve dolum süresi not edilir. Bu değer, ileride yaşanacak yavaşlamaları fark etmek için referans oluşturur.",
@@ -271,7 +258,7 @@ export const tesisatPosts = [
       },
       {
         q: "Polietilen mi paslanmaz mı?",
-        a: "Konutlarda çok katmanlı polietilen depolar ekonomik ve yeterlidir; hafif oldukları için montajı da kolaydır. Paslanmaz depolar daha uzun ömürlü ve temizliği kolaydır, ancak maliyeti belirgin yüksektir. Her iki durumda da gıda uygunluk belgesi aranmalıdır.",
+        a: "Konutlarda çok katmanlı polietilen depolar ekonomik ve yeterlidir; hafif oldukları için montajı da kolaydır. Paslanmaz depolar daha uzun ömürlü ve temizliği kolaydır, ancak maliyeti epey yüksektir. Her iki durumda da gıda uygunluk belgesi aranmalıdır.",
       },
       {
         q: "Depo çatıya mı bodruma mı konmalı?",
@@ -287,7 +274,7 @@ export const tesisatPosts = [
       },
       {
         q: "İki küçük depo mu, tek büyük depo mu?",
-        a: "İkiz depo düzeni bakım açısından belirgin avantajlıdır: biri temizlenirken diğeri hizmet verir ve bina susuz kalmaz. Ayrıca dar kapılardan geçirmek kolaydır. Tek koşul, depoların vanalarla birbirinden ayrılabilir şekilde bağlanmasıdır.",
+        a: "İkiz depo düzeni bakım açısından açık biçimde avantajlıdır: biri temizlenirken diğeri hizmet verir ve bina susuz kalmaz. Ayrıca dar kapılardan geçirmek kolaydır. Tek koşul, depoların vanalarla birbirinden ayrılabilir şekilde bağlanmasıdır.",
       },
       {
         q: "Depo ne sıklıkla temizlenmeli?",
@@ -314,17 +301,13 @@ export const tesisatPosts = [
       "biyofilm",
     ],
     excerpt:
-      "Depo suyunun kokması bir su sorunu değil, bir depo sorunu. Kokunun türü, çoğu zaman nedeni de adresiyle söylüyor.",
+      "Depo suyu koktuysa aranacak yer deponun içidir; gelen suyun kendisi nadiren suçludur. Kokunun türü, çoğu zaman nedeni de adresiyle söylüyor.",
     services: ["su-deposu-temizligi", "sihhi-tesisat", "hidrofor-pompa-sistemleri"],
     intro:
       "Musluktan gelen suda koku fark edildiğinde ilk şüphe şebekeye gider. Oysa aynı şebekeden beslenen komşu binada sorun yoksa, kaynak neredeyse kesinlikle kendi deponuzdur. İyi haber şu: bu sorunların tamamı önlenebilir ve çoğu tek bir bakımla çözülüyor.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Depo suyunda koku ve bulanıklığın başlıca nedenleri şunlardır: suyun uzun süre beklemesi, iç yüzeyde biyofilm oluşumu, ışık geçiren depoda alg gelişimi, kapak ve havalandırmadan içeri madde girmesi ve tabanda biriken tortu.</strong>",
-      },
-      {
-        p: "Çözüm sırası da bu nedenlere göre kurulur: önce depo boşaltılıp temizlenir ve dezenfekte edilir, ardından kokunun tekrarlamaması için kaynak ortadan kaldırılır. Sadece temizlik yapmak, nedeni gidermezse birkaç ay sonra aynı noktaya dönülür.",
+        p: "Depo suyunda koku ve bulanıklığın başlıca nedenleri şunlardır: suyun uzun süre beklemesi, iç yüzeyde biyofilm oluşumu, ışık geçiren depoda alg gelişimi, kapak ve havalandırmadan içeri madde girmesi ve tabanda biriken tortu. Çözüm sırası da bu nedenlere göre kurulur: önce depo boşaltılıp temizlenir ve dezenfekte edilir, ardından kokunun tekrarlamaması için kaynak ortadan kaldırılır. Sadece temizlik yapmak, nedeni gidermezse birkaç ay sonra aynı noktaya dönülür.",
       },
 
       { h2: "Kokunun türü nedeni söyler" },
@@ -351,18 +334,21 @@ export const tesisatPosts = [
         p: "Şebeke suyunda bulunan klor, zamanla uçar. Deponun büyüklüğü tüketime göre fazlaysa su günlerce bekler ve koruyucu etki ortadan kalkar. Bu, koku sorunlarının en yaygın arka planı.",
       },
       {
-        p: "Sıcaklık bu süreci hızlandırır. Yaz aylarında ısınan bir depoda biyolojik aktivite belirgin artar; aynı depo kışın hiç sorun çıkarmazken temmuzda koku yapmaya başlayabilir.",
+        p: "Sıcaklık bu süreci hızlandırır. Yaz aylarında ısınan bir depoda biyolojik aktivite epeyce artar; aynı depo kışın hiç sorun çıkarmazken temmuzda koku yapmaya başlayabilir.",
       },
       {
-        p: "Çözüm çoğu zaman hacmi tüketime uyarlamaktan geçer. İki depolu sistemlerde birini devre dışı bırakmak, tek depolu sistemlerde ise seviye ayarını düşürerek suyun daha sık yenilenmesini sağlamak pratik yöntemler.",
+        p: "Çözüm çoğunlukla hacmi tüketime uyarlamaktan geçer. İki depolu sistemlerde birini devre dışı bırakmak, tek depolu sistemlerde ise seviye ayarını düşürerek suyun daha sık yenilenmesini sağlamak pratik yöntemler.",
       },
 
       { h2: "Biyofilm: gözle görülmeyen tabaka" },
       {
-        p: "Depo iç yüzeyinde zamanla ince, kaygan bir tabaka oluşur. Mikroorganizmaların oluşturduğu bu tabakaya biyofilm denir ve suya koku ile tat verir. Elle dokunulduğunda kayganlığı hemen fark edilir.",
+        p: "Depo iç yüzeyinde zamanla ince, kaygan bir tabaka oluşur. Mikroorganizmaların oluşturduğu bu tabakaya biyofilm denir ve suya koku ile tat verir.",
       },
       {
-        p: "Biyofilm sadece durulamayla kalkmaz; mekanik olarak fırçalanması gerekir. Bu yüzden depo temizliğinde fırçalama adımı atlanamaz; sadece boşaltıp doldurmak, tabakayı yerinde bırakır.",
+        p: "Elle dokunulduğunda kayganlığı hemen fark edilir.",
+      },
+      {
+        p: "Biyofilm sadece durulamayla kalkmaz; mekanik olarak fırçalanması gerekir. depo temizliğinde fırçalama adımı atlanamaz; sadece boşaltıp doldurmak, tabakayı yerinde bırakır.",
       },
       {
         p: "Pürüzlü iç yüzeyler biyofilmi kolaylaştırır. Bu nedenle depo seçiminde iç yüzeyin düzgünlüğü, dış görünüşten çok daha önemli bir kriter.",
@@ -370,10 +356,7 @@ export const tesisatPosts = [
 
       { h2: "Işık ve alg" },
       {
-        p: "Alg gelişimi için üç şey gerekir: su, besin ve ışık. Depoda ilk ikisini engelleyemezsiniz; ama ışığı tamamen kesmek mümkün ve etkili bir çözüm.",
-      },
-      {
-        p: "Işık geçiren tek katmanlı depolar, özellikle güneş gören konumlarda kısa sürede yeşillenir. Çok katmanlı depolarda dış katman ışığı geçirmez ve bu sorun büyük ölçüde ortadan kalkar.",
+        p: "Alg gelişimi için üç şey gerekir: su, besin ve ışık. Depoda ilk ikisini engelleyemezsiniz; ama ışığı tamamen kesmek mümkün ve etkili bir çözüm. Işık geçiren tek katmanlı depolar, özellikle güneş gören konumlarda kısa sürede yeşillenir. Çok katmanlı depolarda dış katman ışığı geçirmez ve bu sorun büyük ölçüde ortadan kalkar.",
       },
       {
         p: "Mevcut depo ışık geçiriyorsa, üzerini örtmek veya güneş almayan bir konuma taşımak kalıcı çözümdür. Sürekli dezenfeksiyonla algle mücadele etmek hem zahmetli hem sonuçsuz.",
@@ -429,14 +412,7 @@ export const tesisatPosts = [
         p: "Fazla dezenfektan, sorunu çözmek yerine yeni bir koku kaynağı yaratır. Uygulama, ürünün talimatındaki doz ve bekleme süresine göre yapılmalı; \"biraz fazla koyalım\" yaklaşımı doğru değil.",
       },
       {
-        quote:
-          "Dezenfeksiyonun başarısı doza değil, öncesindeki mekanik temizliğe bağlı. Fırçalanmamış bir yüzeyde kimyasal yalnızca yüzeyi yalar.",
-      },
-      {
-        p: "Farklı kimyasalların birlikte kullanılmasından kaçınılmalı. Karışım hem tehlikeli gazlar açığa çıkarabilir hem de deponun malzemesine zarar verebilir.",
-      },
-      {
-        p: "İşlem sonrası durulamanın yeterliliği, suyun kokusuyla anlaşılır. Klor kokusu kalmışsa durulama tekrarlanır; ilk dolumun kullanılmadan boşaltılması bu nedenle standart bir adım.",
+        p: "Farklı kimyasalların birlikte kullanılmasından kaçınılmalı. Karışım hem tehlikeli gazlar açığa çıkarabilir hem de deponun malzemesine zarar verebilir. İşlem sonrası durulamanın yeterliliği, suyun kokusuyla anlaşılır. Klor kokusu kalmışsa durulama tekrarlanır; ilk dolumun kullanılmadan boşaltılması o yüzden standart bir adım.",
       },
 
       { h2: "Koku ne zaman ciddiye alınmalı?" },
@@ -444,7 +420,7 @@ export const tesisatPosts = [
         p: "Her koku aynı aciliyette değil. Kısa süreli, temizlikle geçen ve tekrarlamayan kokular genelde bakım eksikliğinden kaynaklanır ve düzeltilmesi kolaydır.",
       },
       {
-        p: "Ancak koku aniden başladıysa, suyun rengi değiştiyse ve aynı dönemde mide rahatsızlıkları görüldüyse, su içme amaçlı kullanılmamalı ve analiz yaptırılmalıdır. Bu durumda tahminle ilerlemek doğru değil.",
+        p: "Ancak koku aniden başladıysa, suyun rengi değiştiyse ve aynı dönemde mide rahatsızlıkları görüldüyse, su içme amaçlı kullanılmamalı ve analiz yaptırılmalıdır. Böyle olunca tahminle ilerlemek doğru değil.",
       },
       {
         p: "Kuyu suyu kullanılan yerlerde bu ayrım daha da önemli. Yüzey sularının karıştığı sığ kuyularda özellikle yağışlı dönemlerden sonra su kalitesi değişebiliyor.",
@@ -461,7 +437,7 @@ export const tesisatPosts = [
             ["Sadece sıcak suda koku", "Boyler, kombi ve sıcak su hattı"],
             ["Sadece bir muslukta koku", "O noktaya giden hat, ölü kol"],
             ["Tüm evde, depodan bağımsız", "Şebeke veya ana giriş filtresi"],
-            ["Tatilden dönüşte belirgin", "Durgun kalmış tesisat, ölü hat"],
+            ["Tatilden dönüşte kuvvetli", "Durgun kalmış tesisat, ölü hat"],
             ["Gider tarafından yayılan koku", "Sifon kurumuş, gider havalandırması"],
           ],
         },
@@ -472,10 +448,10 @@ export const tesisatPosts = [
 
       { h2: "Yaz aylarında ne değişir?" },
       {
-        p: "Sıcaklık, depo suyunun kalitesini doğrudan etkiler. Isınan suda hem klor daha hızlı uçar hem mikroorganizma faaliyeti hızlanır. Bu yüzden koku şikâyetleri neredeyse her zaman yaz aylarında yoğunlaşır.",
+        p: "Sıcaklık, depo suyunun kalitesini etkiler. Isınan suda hem klor daha hızlı uçar hem mikroorganizma faaliyeti hızlanır. O nedenle koku şikâyetleri neredeyse her zaman yaz aylarında yoğunlaşır.",
       },
       {
-        p: "Depo odasının serin ve havalandırılmış olması bu etkiyi azaltır. Güneş gören bir konumda bulunan depolarda gölgeleme yapmak, tek başına belirgin fark yaratıyor.",
+        p: "Depo odasının serin ve havalandırılmış olması bu etkiyi azaltır. Güneş gören bir konumda bulunan depolarda gölgeleme yapmak, tek başına gözle görülür fark yaratıyor.",
       },
       {
         p: "Yaz aylarında temizlik aralığını kısaltmak da makul bir yaklaşım. Kışın yılda bir yeterli olan bakım, sıcak dönemde sezon ortasında bir kez daha tekrarlandığında sorun çıkmıyor.",
@@ -483,10 +459,10 @@ export const tesisatPosts = [
 
       { h2: "Apartmanda kim sorumlu?" },
       {
-        p: "Ortak kullanılan su deposu, binanın ortak alanıdır ve bakımı yönetimin sorumluluğundadır. Buna rağmen uygulamada depo temizliği çoğu binada, ancak şikâyet geldiğinde gündeme geliyor.",
+        p: "Ortak kullanılan su deposu, binanın ortak alanıdır ve bakımı yönetimin sorumluluğundadır. Buna rağmen uygulamada depo temizliği çoğu binada, ancak şikâyet geldiğinde gündeme geliyor. Pratik çözüm, temizliği yıllık bakım planına almak ve tarihini kayıt altına almak.",
       },
       {
-        p: "Pratik çözüm, temizliği yıllık bakım planına almak ve tarihini kayıt altına almak. Kapı girişine asılan küçük bir bakım kartı, hem şeffaflık sağlıyor hem işin unutulmasını engelliyor.",
+        p: "Kapı girişine asılan küçük bir bakım kartı, hem şeffaflık sağlıyor hem işin unutulmasını engelliyor.",
       },
       {
         p: "İkiz depo düzeni bu konuda da kolaylık sağlıyor: temizlik sırasında su kesilmediği için sakinlerden itiraz gelmiyor ve iş ertelenmiyor.",
@@ -538,7 +514,7 @@ export const tesisatPosts = [
         ],
       },
       {
-        p: "Dördüncü madde çoğu zaman kokunun asıl kaynağı. Kuruyan sifon, kanalizasyon kokusunun mekâna dolmasına yol açar ve bu koku sıklıkla musluk suyuna atfedilir.",
+        p: "Dördüncü madde sıklıkla kokunun asıl kaynağı. Kuruyan sifon, kanalizasyon kokusunun mekâna dolmasına yol açar ve bu koku sıklıkla musluk suyuna atfedilir.",
       },
 
       { h2: "Ne zaman analiz yaptırmalı?" },
@@ -606,10 +582,10 @@ export const tesisatPosts = [
       "kireçlenmiş boru",
     ],
     excerpt:
-      "Su basıncı sorununda ilk soru hep aynı: tek noktada mı, tüm evde mi? Bu ayrım yapıldığında çözüm çoğu zaman yarım saatlik bir işe iniyor.",
+      "Su basıncı sorununda ilk soru hep aynı: tek noktada mı, tüm evde mi? Bu ayrım yapıldığında çözüm yarım saatlik bir işe iniyor.",
     services: ["sihhi-tesisat", "hidrofor-pompa-sistemleri", "bina-tesisat-yenileme"],
     intro:
-      "Basınç düşüklüğü şikâyetlerinin önemli bölümü, evin içindeki küçük bir tıkanıklıktan kaynaklanıyor. Buna rağmen çoğu zaman ilk akla gelen çözüm hidrofor almak oluyor. Doğru sıra izlendiğinde, hidrofora gerçekten ihtiyaç olup olmadığı birkaç kontrolde ortaya çıkıyor.",
+      "Basınç düşüklüğü şikâyetlerinin önemli bölümü, evin içindeki küçük bir tıkanıklıktan kaynaklanıyor. Buna rağmen genelde ilk akla gelen çözüm hidrofor almak oluyor. Doğru sıra izlendiğinde, hidrofora gerçekten ihtiyaç olup olmadığı birkaç kontrolde ortaya çıkıyor.",
     body: [
       { h2: "Kısa cevap" },
       {
@@ -634,15 +610,12 @@ export const tesisatPosts = [
         },
       },
       {
-        p: "Belirli saatlerde yaşanan düşüşler özellikle yanıltıcı. Sabah ve akşam saatlerinde şebeke basıncı bölgesel olarak düşebilir; bu durumda evde arıza aramak sonuçsuz kalır.",
+        p: "Belirli saatlerde yaşanan düşüşler özellikle yanıltıcı. Sabah ve akşam saatlerinde şebeke basıncı bölgesel olarak düşebilir; böyle bir durumda evde arıza aramak sonuçsuz kalır.",
       },
 
       { h2: "Perlatör: en sık ve en kolay" },
       {
-        p: "Musluk ucundaki perlatör, suya hava karıştıran küçük bir süzgeçtir. İçindeki elek zamanla kireç ve tortuyla dolar; akış görünürde azalır ama tesisatta hiçbir sorun yoktur.",
-      },
-      {
-        p: "Sökülüp sirke içinde bekletilerek veya yumuşak fırçayla temizlenerek çözülür. Çok kireçlenmişse değiştirmek daha pratiktir; küçük bir parça, akışı belirgin biçimde geri getirir.",
+        p: "Musluk ucundaki perlatör, suya hava karıştıran küçük bir süzgeçtir. İçindeki elek zamanla kireç ve tortuyla dolar; akış görünürde azalır ama tesisatta hiçbir sorun yoktur. Sökülüp sirke içinde bekletilerek veya yumuşak fırçayla temizlenerek çözülür. Çok kireçlenmişse değiştirmek daha pratiktir; küçük bir parça, akışı hissedilir ölçüde geri getirir.",
       },
       {
         p: "Perlatör temizlendikten sonra akış düzeldiyse sorun çözülmüştür. Düzelmediyse sıradaki adıma geçilir; bu sıralama zaman kaybını önlüyor.",
@@ -650,7 +623,7 @@ export const tesisatPosts = [
 
       { h2: "Köşe vanası ve esnek bağlantı" },
       {
-        p: "Lavabo ve klozet altındaki köşe vanaları çoğu zaman tam açık sanılır ama değildir. Özellikle tadilat sonrası yarı kapalı bırakılan vanalar, o noktadaki akışı belirgin düşürür.",
+        p: "Lavabo ve klozet altındaki köşe vanaları çoğu zaman tam açık sanılır ama değildir. Özellikle tadilat sonrası yarı kapalı bırakılan vanalar, o noktadaki akışı epeyce düşürür.",
       },
       {
         p: "Esnek bağlantı hortumları da sorun kaynağı olabilir. Kıvrılmış, ezilmiş veya içi kireç tutmuş bir hortum kesit daralması yaratır. Sökülüp içinden bakıldığında durum hemen anlaşılır.",
@@ -672,10 +645,10 @@ export const tesisatPosts = [
 
       { h2: "Kireçlenmiş borular" },
       {
-        p: "Eski galvaniz borulu binalarda, boru iç yüzeyinde yıllar içinde kireç ve korozyon birikir. Bu birikim iç çapı daraltır ve basıncı kalıcı biçimde düşürür.",
+        p: "Eski galvaniz borulu binalarda, boru iç yüzeyinde yıllar içinde kireç ve korozyon birikir. Bu birikim iç çapı daraltır ve basıncı kalıcı biçimde düşürür. Belirtisi tipiktir: basınç yıllar içinde yavaş yavaş azalmıştır, sıcak su tarafında daha ağırdır ve hiçbir müdahaleyle geri gelmez.",
       },
       {
-        p: "Belirtisi tipiktir: basınç yıllar içinde yavaş yavaş azalmıştır, sıcak su tarafında daha belirgindir ve hiçbir müdahaleyle geri gelmez. Bir noktadan kesilen boru parçasına bakıldığında daralma gözle görülür.",
+        p: "Bir noktadan kesilen boru parçasına bakıldığında daralma gözle görülür.",
       },
       {
         quote:
@@ -710,7 +683,7 @@ export const tesisatPosts = [
         ],
       },
       {
-        p: "Kireç kaynaklı sorunlarda bakım aralığını kısaltmak kalıcı fayda sağlar. Suyun sert olduğu bölgelerde bu, ekipman ömrünü doğrudan etkileyen bir alışkanlık.",
+        p: "Kireç kaynaklı sorunlarda bakım aralığını kısaltmak kalıcı fayda sağlar. Suyun sert olduğu bölgelerde bu, ekipman ömrünü birebir etkileyen bir alışkanlık.",
       },
 
       { h2: "Ölçmeden karar vermeyin" },
@@ -746,10 +719,7 @@ export const tesisatPosts = [
 
       { h2: "Hidrofor gerçekten gerekli mi?" },
       {
-        p: "Hidrofor, şebeke basıncının binanın yüksekliği için yetersiz kaldığı durumlarda gerekir. Evin içindeki bir tıkanıklıktan kaynaklanan basınç düşüklüğünü ise çözmez; sadece sorunu daha yüksek basınçla itmeye çalışır.",
-      },
-      {
-        p: "Karar öncesi kontrol listesi şu: perlatörler temiz mi, ana filtre açık mı, köşe vanaları tam açık mı, boru hattında kireçlenme var mı, basınç düşürücü doğru ayarda mı? Hepsi temizse ve basınç hâlâ yetersizse hidrofor gündeme gelir.",
+        p: "Hidrofor, şebeke basıncının binanın yüksekliği için yetersiz kaldığı durumlarda gerekir. Evin içindeki bir tıkanıklıktan kaynaklanan basınç düşüklüğünü ise çözmez; sadece sorunu daha yüksek basınçla itmeye çalışır. Karar öncesi kontrol listesi şu: perlatörler temiz mi, ana filtre açık mı, köşe vanaları tam açık mı, boru hattında kireçlenme var mı, basınç düşürücü doğru ayarda mı? Hepsi temizse ve basınç hâlâ yetersizse hidrofor gündeme gelir.",
       },
       {
         p: "Şebekeden doğrudan emiş yapmanın uygun olmadığı yerlerde depo–hidrofor düzeni kurulur. Bu, hem sistemin düzenli çalışması hem komşu abonelerin etkilenmemesi açısından doğru yaklaşım.",
@@ -768,7 +738,7 @@ export const tesisatPosts = [
 
       { h2: "Apartmanda kat farkı" },
       {
-        p: "Her 10 metre yükseklik yaklaşık 1 bar basınç tüketir. Bu nedenle aynı binada zemin katta yeterli olan basınç, üst katta yetersiz kalabilir. Bu bir arıza değil, fiziğin sonucudur.",
+        p: "Her 10 metre yükseklik yaklaşık 1 bar basınç tüketir. aynı binada zemin katta yeterli olan basınç, üst katta yetersiz kalabilir. Bu bir arıza değil, fiziğin sonucudur.",
       },
       {
         p: "Çözüm, sistemi en üst kata göre kurmak ve alt katlarda basınç düşürücü vana kullanmaktır. Böylece üst kat yeterli basınç alırken alt katlardaki armatürler gereğinden yüksek basınçla zorlanmaz.",
@@ -779,16 +749,13 @@ export const tesisatPosts = [
 
       { h2: "Basınç mı, debi mi?" },
       {
-        p: "İki kavram sık karıştırılır. Basınç, suyun hattı iten kuvvetidir; debi ise birim zamanda akan su miktarıdır. Basıncı yüksek ama kesiti dar bir hatta debi düşük olabilir.",
-      },
-      {
-        p: "Kullanıcı şikâyeti neredeyse her zaman debi üzerinedir: \"musluktan az su akıyor.\" Ancak çözüm için hangisinin düşük olduğunu bilmek gerekir; ölçüm yapılmadan bu ayrım yapılamaz.",
+        p: "İki kavram sık karıştırılır. Basınç, suyun hattı iten kuvvetidir; debi ise birim zamanda akan su miktarıdır. Basıncı yüksek ama kesiti dar bir hatta debi düşük olabilir. Kullanıcı şikâyeti neredeyse her zaman debi üzerinedir: \"musluktan az su akıyor.\" Ancak çözüm için hangisinin düşük olduğunu bilmek gerekir; ölçüm yapılmadan bu ayrım yapılamaz.",
       },
       {
         p: "Manometre basıncı, kapla yapılan ölçüm ise debiyi gösterir. Basınç normal ama debi düşükse sorun kesit daralmasındadır; ikisi de düşükse besleme tarafına bakılır.",
       },
       {
-        p: "Ölçümleri aynı gün içinde farklı saatlerde tekrarlamak da faydalı. Sabah ve akşam saatlerinde alınan değerlerin belirgin farklı olması, sorunun evin içinde değil şebeke tarafında olduğunu gösterir ve gereksiz müdahaleden korur.",
+        p: "Ölçümleri aynı gün içinde farklı saatlerde tekrarlamak da faydalı. Sabah ve akşam saatlerinde alınan değerlerin epey farklı olması, sorunun evin içinde değil şebeke tarafında olduğunu gösterir ve gereksiz müdahaleden korur.",
       },
 
       { h2: "Yeni taşındığınız bir evde" },
@@ -817,7 +784,7 @@ export const tesisatPosts = [
         p: "Termostatik bataryalar ise belirli bir minimum basınç ister. Basıncın sınırda olduğu tesisatlarda bu armatürler beklenen konforu vermez ve sıcaklık dengesi bozulur.",
       },
       {
-        p: "Bu nedenle armatür seçimi, tesisatın gerçek basıncı bilinerek yapılmalı. Yüksek konforlu bir duş sistemi, altyapısı uygun olmayan bir tesisatta hayal kırıklığı yaratıyor.",
+        p: "Bu yüzden armatür seçimi, tesisatın gerçek basıncı bilinerek yapılmalı. Yüksek konforlu bir duş sistemi, altyapısı uygun olmayan bir tesisatta hayal kırıklığı yaratıyor.",
       },
 
       { h2: "Kontrol sırası" },
@@ -835,7 +802,7 @@ export const tesisatPosts = [
         ],
       },
       {
-        p: "Bu dokuz adım, ucuzdan pahalıya doğru sıralanmıştır. İlk beş adım çoğu zaman alet gerektirmeden yapılabiliyor ve şikâyetlerin büyük bölümünü çözüyor.",
+        p: "Bu dokuz adım, ucuzdan pahalıya doğru sıralanmıştır. İlk beş adım ekseriyetle alet gerektirmeden yapılabiliyor ve şikâyetlerin büyük bölümünü çözüyor.",
       },
     ],
     faqs: [
@@ -865,7 +832,7 @@ export const tesisatPosts = [
       },
       {
         q: "Belirli saatlerde basınç düşüyor, tesisat sorunu mu?",
-        a: "Genellikle değil. Sabah ve akşam saatlerinde şebeke yoğunluğu artar ve bölgesel basınç düşer. Depolu sistemlerde ise deponun o saatlerde boşalması aynı şikâyeti yaratır. Ölçümü farklı saatlerde tekrarlamak ayrımı hızla yapar.",
+        a: "Çoğunlukla değil. Sabah ve akşam saatlerinde şebeke yoğunluğu artar ve bölgesel basınç düşer. Depolu sistemlerde ise deponun o saatlerde boşalması aynı şikâyeti yaratır. Ölçümü farklı saatlerde tekrarlamak ayrımı hızla yapar.",
       },
       {
         q: "Basıncı ölçmek için ne gerekir?",
@@ -897,12 +864,8 @@ export const tesisatPosts = [
     intro:
       "Tesisat yenilerken en sık sorulan sorulardan biri boru tercihi. PPRC yıllardır standart; PEX ise kolektörlü sistemlerle birlikte yaygınlaştı. İkisi de sağlam çözümler, ama davranışları farklı: biri kaynaklı ve sert, diğeri esnek ve eksiz.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>PPRC, füzyon kaynağıyla birleştirilen sert bir borudur; ekonomik ve yaygındır. PEX ise esnek bir borudur ve kolektörlü sistemde her musluğa tek parça, duvar içinde eksiz olarak çekilir.</strong>",
-      },
-      {
-        p: "Yeni yapılarda ve komple yenilemelerde kolektörlü PEX düzeni belirgin avantaj sağlar. Kısmi tadilatlarda ve mevcut PPRC hattına ekleme yapılacak işlerde ise PPRC ile devam etmek pratik olur.",
+        p: "PPRC, füzyon kaynağıyla birleştirilen sert bir borudur; ekonomik ve yaygındır. PEX ise esnek bir borudur ve kolektörlü sistemde her musluğa tek parça, duvar içinde eksiz olarak çekilir. Yeni yapılarda ve komple yenilemelerde kolektörlü PEX düzeni açık avantaj sağlar. Kısmi tadilatlarda ve mevcut PPRC hattına ekleme yapılacak işlerde ise PPRC ile devam etmek pratik olur.",
       },
 
       { h2: "İki sistem nasıl çalışır?" },
@@ -966,10 +929,7 @@ export const tesisatPosts = [
 
       { h2: "Donma davranışı" },
       {
-        p: "Malatya kışında donma riski gerçek bir konu. PEX borular esnek yapıları sayesinde bir miktar genleşerek dona bir ölçüde direnç gösterir; PPRC ve metal borular ise çatlamaya daha yatkındır.",
-      },
-      {
-        p: "Ancak hiçbir boru donmaya karşı garanti değildir. Asıl çözüm, riskli bölgelerdeki hatların yalıtılması ve kullanılmayan mevsimlik hatların kış öncesi boşaltılmasıdır.",
+        p: "Malatya kışında donma riski gerçek bir konu. PEX borular esnek yapıları sayesinde bir miktar genleşerek dona bir ölçüde direnç gösterir; PPRC ve metal borular ise çatlamaya daha yatkındır. Ancak hiçbir boru donmaya karşı garanti değildir. Asıl çözüm, riskli bölgelerdeki hatların yalıtılması ve kullanılmayan mevsimlik hatların kış öncesi boşaltılmasıdır.",
       },
       {
         p: "Dış duvar içinden geçen hatlar, çatı arası ve soğuk bodrum bölümleri en riskli noktalar. Tesisat projelendirilirken bu güzergâhlardan kaçınmak, sonradan yapılacak yalıtımdan daha etkili.",
@@ -977,14 +937,14 @@ export const tesisatPosts = [
 
       { h2: "Gürültü ve su darbesi" },
       {
-        p: "Sert borular titreşimi daha çok iletir; hızlı kapanan bir vanada oluşan darbe, PPRC hatta daha belirgin duyulur. PEX'in esnekliği bu darbeyi bir miktar yumuşatır.",
+        p: "Sert borular titreşimi daha çok iletir; hızlı kapanan bir vanada oluşan darbe, PPRC hatta daha çok duyulur. PEX'in esnekliği bu darbeyi bir miktar yumuşatır.",
       },
       {
         p: "Her iki sistemde de asıl çözüm aynı: basıncı makul seviyede tutmak, hızlı kapanan armatürlerde darbe emici kullanmak ve boru askılarını lastik contalı seçmek.",
       },
       {
         quote:
-          "Boru cinsi ses farkı yaratır ama sesin asıl kaynağı çoğu zaman yüksek basınç ve sert montajdır.",
+          "Boru cinsi ses farkı yaratır ama sesin asıl kaynağı çoğunlukla yüksek basınç ve sert montajdır.",
       },
       {
         p: "Gömme tesisatta boruların beton içinde serbest hareket edebilmesi de önemli. Spiral veya koruyucu kılıf kullanılması, hem genleşmeyi karşılar hem sesi azaltır.",
@@ -1013,7 +973,7 @@ export const tesisatPosts = [
         p: "Yerden ısıtma hatlarında kullanılan borularda oksijen difüzyon bariyeri aranır. Bu bariyer, boru cidarından sisteme oksijen geçişini engelleyerek metal parçalarda korozyonu önler.",
       },
       {
-        p: "Bu nedenle temiz su tesisatı için alınan bir boru, yerden ısıtma için otomatik olarak uygun değildir. Etiket üzerinde bariyerli olduğunun belirtilmesi gerekir.",
+        p: "Temiz su tesisatı için alınan bir boru, yerden ısıtma için otomatik olarak uygun değildir. Etiket üzerinde bariyerli olduğunun belirtilmesi gerekir.",
       },
       {
         p: "Yerden ısıtmada ikinci kritik nokta, döşeme içinde ek yapılmamasıdır. Her devre kolektörden çıkar, tek parça olarak döşenir ve kolektöre geri döner.",
@@ -1021,10 +981,10 @@ export const tesisatPosts = [
 
       { h2: "Ana kapama vanaları" },
       {
-        p: "Boru sistemi ne olursa olsun, tesisatta erişilebilir kapama vanaları bulunmalı. Daire girişinde bir ana vana, ıslak hacim girişlerinde ise ayrı vanalar olması, küçük bir arızada tüm evin suyunu kesmeyi gereksiz kılar.",
+        p: "Boru sistemi ne olursa olsun, tesisatta erişilebilir kapama vanaları bulunmalı. Daire girişinde bir ana vana, ıslak hacim girişlerinde ise ayrı vanalar olması, küçük bir arızada tüm evin suyunu kesmeyi gereksiz kılar. Kolektörlü sistemlerde bu zaten hazır: her hattın kendi vanası vardır.",
       },
       {
-        p: "Kolektörlü sistemlerde bu zaten hazır: her hattın kendi vanası vardır. Klasik dağıtımda ise vanaların baştan planlanması gerekir; sonradan eklemek duvar açmayı gerektiriyor.",
+        p: "Klasik dağıtımda ise vanaların baştan planlanması gerekir; sonradan eklemek duvar açmayı gerektiriyor.",
       },
       {
         p: "Vanaların yılda bir kez açılıp kapatılması da faydalı. Yıllarca hiç hareket etmeyen bir vana, ihtiyaç duyulduğu gün sıkışmış olarak bulunuyor.",
@@ -1046,6 +1006,9 @@ export const tesisatPosts = [
       },
       {
         p: "Karma uygulama da mümkün: ana hatlar PPRC, daire içi dağıtım kolektörlü PEX olabilir. Önemli olan geçiş noktalarının erişilebilir yerlerde ve uygun bağlantı elemanlarıyla yapılması.",
+      },
+      {
+        p: "Maliyet tarafında ilk fatura genelde PPRC lehinedir; kolektörlü düzende hem kolektörün kendisi hem her hattın ayrı çekilmesinden doğan fazla metraj hesaba biner. Uzun vadede tablo tersine dönebiliyor, çünkü gömme kaçak riskinin düşük olması ve borunun kılıf içinden çekilip değiştirilebilmesi ileride açılmayacak duvar demek.",
       },
 
       { h2: "Gömme tesisatta güzergâh planı" },
@@ -1112,7 +1075,7 @@ export const tesisatPosts = [
         ],
       },
       {
-        p: "Son madde özellikle önemli. Farklı sistemlerin bağlantı parçalarını karıştırmak, ilk günlerde sorun çıkarmasa da uzun vadede sızdırma nedeni oluyor.",
+        p: "Farklı sistemlerin bağlantı parçalarını karıştırmak listenin en sinsi maddesi; ilk günlerde sorun çıkarmasa da uzun vadede sızdırma nedeni oluyor.",
       },
 
       { h2: "Kısmi yenilemede ne yapmalı?" },
@@ -1128,10 +1091,7 @@ export const tesisatPosts = [
 
       { h2: "Ek parçalar ve armatür bağlantıları" },
       {
-        p: "Boru kadar ek parçalar da belirleyicidir. Dirsek, te, redüksiyon ve armatür bağlantı elemanları sistemin en çok zorlanan noktalarıdır ve sızıntıların büyük bölümü buralarda başlar.",
-      },
-      {
-        p: "Duvar içine gömülen armatür bağlantı kutuları sağlam biçimde sabitlenmeli; batarya takılıp sökülürken hareket eden bir bağlantı zamanla sızdırır. Sabitlemenin sıva öncesinde yapılması gerekir.",
+        p: "Boru kadar ek parçalar da belirleyicidir. Dirsek, te, redüksiyon ve armatür bağlantı elemanları sistemin en çok zorlanan noktalarıdır ve sızıntıların büyük bölümü buralarda başlar. Duvar içine gömülen armatür bağlantı kutuları sağlam biçimde sabitlenmeli; batarya takılıp sökülürken hareket eden bir bağlantı zamanla sızdırır. Sabitlemenin sıva öncesinde yapılması gerekir.",
       },
       {
         p: "Farklı sistemlerin bağlantı parçalarını karıştırmamak da temel kural. Aynı görünen iki parçanın diş yapısı veya conta oturma yüzeyi farklı olabilir; bu fark ilk günlerde değil, aylar sonra ortaya çıkıyor.",
@@ -1175,11 +1135,7 @@ export const tesisatPosts = [
       },
       {
         q: "PPRC kaynağı yanlış yapılırsa ne olur?",
-        a: "Fazla ısıtılan bir ek, boru içine doğru boğum oluşturarak kesiti daraltır. Gözle görülmediği için fark edilmez ve o hatta kalıcı basınç kaybı yaratır. Az ısıtılan ek ise zamanla sızdırır. Kaynak sıcaklığı ve süresi bu nedenle kritiktir.",
-      },
-      {
-        q: "Hangi sistem daha ekonomik?",
-        a: "İlk maliyette PPRC genelde daha uygundur; kolektörlü PEX düzeninde kolektör ve fazla boru metrajı maliyeti yükseltir. Uzun vadede ise gömme kaçak riskinin düşük olması ve borunun değiştirilebilir olması PEX lehine bir denge kuruyor.",
+        a: "Fazla ısıtılan bir ek, boru içine doğru boğum oluşturarak kesiti daraltır. Gözle görülmediği için fark edilmez ve o hatta kalıcı basınç kaybı yaratır. Az ısıtılan ek ise zamanla sızdırır. Kaynak sıcaklığı ve süresi bunun için kritiktir.",
       },
     ],
     related: ["evde-su-basinci-dusuk", "ev-su-tesisati-yenileme", "banyo-tadilatinda-su-yalitimi"],

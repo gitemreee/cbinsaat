@@ -43,7 +43,7 @@ export const yapiPosts = [
 
       { h2: "Büyük pompa neden zararlı?" },
       { p: "\"Ne kadar büyük o kadar iyi\" yaklaşımı pompa seçiminde yanlıştır. Gereğinden büyük pompa, çalışma noktasının dışında çalışır; verimi düşer, titreşim ve su darbesi artar, elektrik tüketimi yükselir." },
-      { p: "Ayrıca aşırı basınç, armatür ve tesisat bağlantılarını zorlar. Üst katlarda konfor sağlanırken alt katlarda musluklar fışkırıyorsa, bu doğru boyutlandırmanın değil aşırı boyutlandırmanın göstergesidir. Bu durumda kat bazlı basınç düşürücü kullanılması gerekir." },
+      { p: "Ayrıca aşırı basınç, armatür ve tesisat bağlantılarını zorlar. Üst katlarda konfor sağlanırken alt katlarda musluklar fışkırıyorsa, bu doğru boyutlandırmanın değil aşırı boyutlandırmanın göstergesidir. Öyle bir durumda kat bazlı basınç düşürücü kullanılması gerekir." },
 
       { h2: "Frekans kontrollü (invertörlü) sistem" },
       { p: "Klasik sistemde pompa açılıp kapanarak basıncı belirli bir aralıkta tutar. Frekans kontrollü sistemde ise pompa devrini ayarlayarak sabit basınç tutar; açılıp kapanma neredeyse biter." },
@@ -242,7 +242,7 @@ export const yapiPosts = [
           ],
         },
       },
-      { p: "Gece sulaması hem buharlaşma kaybını azaltıyor hem de elektrik tarifesinden yararlanma imkânı veriyor. Bu nedenle zonlu sistem çoğu durumda daha avantajlı." },
+      { p: "Gece sulaması hem buharlaşma kaybını azaltıyor hem de elektrik tarifesinden yararlanma imkânı veriyor. Dolayısıyla zonlu sistem çoğu durumda daha avantajlı." },
 
       { h2: "Basınç hesabı" },
       { p: "Damlama sulamada damlatıcıların çalışma basıncı genelde 1–1,5 bar civarındadır. Buna hat sürtünme kayıpları, filtre kaybı ve kot farkı eklenerek pompa çıkış basıncı belirlenir." },
@@ -280,7 +280,7 @@ export const yapiPosts = [
     ],
     faqs: [
       { q: "Mevcut sistemimi genişletebilir miyim?", a: "Mevcut pompanın debi ve basınç değerleri yeni alan için yeterliyse hat ilavesi yapılabilir. Yeterli değilse ya pompa yükseltilir ya da zon sayısı artırılarak sıralı sulamaya geçilir. Ölçüm yaparak hangisinin uygun olduğunu söylüyoruz." },
-      { q: "Güneş enerjili sulama pompası mantıklı mı?", a: "Şebeke elektriğinin olmadığı veya çok pahalıya çekileceği arazilerde belirgin avantaj sağlıyor. Sulama ihtiyacının güneşli saatlerle örtüşmesi de uygunluk açısından olumlu. Yatırım maliyeti yüksek olduğu için hesabın araziye özel yapılması gerekiyor." },
+      { q: "Güneş enerjili sulama pompası mantıklı mı?", a: "Şebeke elektriğinin olmadığı veya çok pahalıya çekileceği arazilerde açık avantaj sağlıyor. Sulama ihtiyacının güneşli saatlerle örtüşmesi de uygunluk açısından olumlu. Yatırım maliyeti yüksek olduğu için hesabın araziye özel yapılması gerekiyor." },
     ],
     related: ["damlama-sulama-tikaniklik", "kuyu-pompasi-basinc-sorunu", "otomatik-bahce-sulama"],
   },
@@ -589,7 +589,7 @@ export const yapiPosts = [
     ],
     faqs: [
       { q: "Keşif ücretli mi?", a: "Malatya merkez ilçelerde ilk keşif ücretsizdir. Diğer ilçelerde yol mesafesine göre bir keşif bedeli oluşabilir; iş tarafımızca yapıldığında bu bedel toplam tutardan düşülür." },
-      { q: "İş sırasında ek iş çıkarsa ne olur?", a: "Söküm sonrası görünen gizli sorunlar olabilir. Bu durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz; sözleşmede bu prosedür tanımlı." },
+      { q: "İş sırasında ek iş çıkarsa ne olur?", a: "Söküm sonrası görünen gizli sorunlar olabilir. Böyle bir durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz; sözleşmede bu prosedür tanımlı." },
     ],
     related: ["anahtar-teslim-fiyat-nasil-hesaplanir", "komple-ev-tadilati-ne-kadar-surer", "ev-tadilati-nereden-baslanir", "banyo-tadilati-siralama"],
   },
@@ -829,7 +829,7 @@ export const yapiPosts = [
     ],
     faqs: [
       { q: "İnternet olmadan çalışır mı?", a: "Evet. Kayıt cihazı internetten bağımsız çalışır ve kayıt tutar. İnternet yalnızca uzaktan izleme ve bildirim için gereklidir; kesildiğinde sistem kayıt almaya devam eder." },
-      { q: "Mevcut sisteme kamera eklenebilir mi?", a: "Kayıt cihazının boş kanalı ve kablolama imkânı varsa eklenebilir. Kanal doluysa cihaz değişimi gerekir; bu durumda mevcut kameraları koruyarak sadece kayıt cihazını yükseltmek çoğu zaman mümkün oluyor." },
+      { q: "Mevcut sisteme kamera eklenebilir mi?", a: "Kayıt cihazının boş kanalı ve kablolama imkânı varsa eklenebilir. Kanal doluysa cihaz değişimi gerekir; böyle olunca mevcut kameraları koruyarak sadece kayıt cihazını yükseltmek çoğu zaman mümkün oluyor." },
     ],
     related: ["dukkan-tadilati-elektrik-aydinlatma", "fabrika-elektrik-tesisati-planlama", "avize-secim-rehberi"],
   },
@@ -901,7 +901,7 @@ export const yapiPosts = [
         "Topraklama direnci ölçümü ve raporlaması",
         "Kritik yedek parçanın stokta tutulması",
       ] },
-      { p: "Son madde özellikle değerli: kontaktör, sigorta, sürücü ve sensör gibi kritik parçaların stokta bulunması, arıza anında saatlerce sürecek tedarik beklemesini sıfırlıyor. Tesisinizin kritik ekipman listesini birlikte çıkarıyoruz." },
+      { p: "Listenin sonundaki kalem özellikle değerli: kontaktör, sigorta, sürücü ve sensör gibi kritik parçaların stokta bulunması, arıza anında saatlerce sürecek tedarik beklemesini sıfırlıyor. Tesisinizin kritik ekipman listesini birlikte çıkarıyoruz." },
     ],
     faqs: [
       { q: "Üretimi durdurmadan çalışabilir misiniz?", a: "Çoğu işte evet. Vardiya dışı saatlerde ve hafta sonlarında çalışarak, bölüm bölüm devreye alma yaparak duruşu en aza indiriyoruz. İş programını üretim planınıza göre kuruyoruz." },

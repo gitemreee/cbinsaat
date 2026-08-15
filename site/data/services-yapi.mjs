@@ -149,7 +149,7 @@ export const yapiServices = [
       { q: "Tadilat için apartmandan izin gerekir mi?", a: "Daire içi tadilatlarda genelde yönetime bilgi vermek yeterlidir. Ancak taşıyıcı sisteme, ortak alana veya kolon hattına müdahale gerektiren işlerde yönetim ve gerekirse belediye izni gerekir. Bu ayrımı keşifte belirtiyoruz." },
       { q: "Molozu siz mi kaldırıyorsunuz?", a: "Evet, söküm ve moloz tahliyesi teklife dahil ediliyor. Apartmanlarda çalışma saatleri ve asansör kullanımı konusunda yönetimle önceden koordinasyon sağlıyoruz." },
       { q: "Malzemeyi kendim alabilir miyim?", a: "Alabilirsiniz. Seramik, vitrifiye, armatür ve parke gibi kalemleri kendiniz seçip almanız yaygın. Bu durumda teklifte sadece işçilik ve sarf malzeme yer alır. Ölçü ve miktar listesini biz çıkarıp size veriyoruz." },
-      { q: "Tadilat sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, çökmüş şap) olabilir. Bu durumda işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz." },
+      { q: "Tadilat sırasında ek iş çıkarsa ne oluyor?", a: "Söküm sonrası görünen gizli sorunlar (çürük boru, ıslanmış duvar, çökmüş şap) olabilir. Böyle olunca işi durdurup fotoğrafla bildiriyor, ek kalem ve maliyeti yazılı sunuyoruz. Onayınız olmadan devam etmiyoruz." },
       { q: "Kışın tadilat yapılır mı?", a: "Yapılır ancak boya ve şap gibi kalemlerde kuruma süreleri uzar; havalandırma da zorlaşır. Programı buna göre uzatıyoruz. Yalıtım ve dış cephe işlerinde ise hava koşulları belirleyici oluyor." },
     ],
     localAngle: "1990–2005 arası yapı stoğunda tesisat ve yalıtımın birlikte yenilenmesi ihtiyacı",
@@ -168,7 +168,7 @@ export const yapiServices = [
       "Malatya'da dükkan, mağaza ve ofis tadilatı: elektrik ve data altyapısı, aydınlatma, bölme duvar, tavan, zemin ve teslim. Açılış tarihine göre program.",
     keywords: ["Malatya dükkan tadilatı", "Malatya ofis tadilatı", "mağaza yenileme", "iş yeri elektrik tesisatı", "vitrin aydınlatması"],
     intro:
-      "Ticari alan tadilatında en kıymetli şey zamandır: her gecikme gün doğrudan ciro kaybıdır. Bu nedenle iş yeri işlerinde programı açılış tarihinden geriye doğru kuruyor, kritik kalemleri baştan sipariş ediyoruz.",
+      "Ticari alan tadilatında en kıymetli şey zamandır: her gecikme gün doğrudan ciro kaybıdır. Bunun için iş yeri işlerinde programı açılış tarihinden geriye doğru kuruyor, kritik kalemleri baştan sipariş ediyoruz.",
     symptoms: [
       { title: "Elektrik altyapısı yeni düzene uymuyor", text: "Kasa, vitrin ve cihaz noktaları için yeni hatlar gerekir." },
       { title: "Aydınlatma ürünü doğru göstermiyor", text: "Renk sıcaklığı ve renksel geri verim değeri yanlış seçilmiştir." },

@@ -63,7 +63,7 @@ export const otomasyonServices = [
 
       { h2: "Korumalarla birlikte kurulmalı" },
       { p: "Uzaktan çalıştırma tek başına risk de yaratabiliyor: pompayı çalıştırdınız ama kuyu seviyesi düşmüşse, orada olmadığınız için fark etmezsiniz ve motor yanar." },
-      { p: "Bu yüzden uzaktan kumandayı her zaman korumalarla birlikte kuruyoruz: kuru çalışma koruması, faz koruma rölesi, termik ve gerekiyorsa seviye elektrodu. Bir koruma devreye girdiğinde sistem duruyor ve GSM'li kurulumlarda size bildirim gidiyor." },
+      { p: "O yüzden uzaktan kumandayı her zaman korumalarla birlikte kuruyoruz: kuru çalışma koruması, faz koruma rölesi, termik ve gerekiyorsa seviye elektrodu. Bir koruma devreye girdiğinde sistem duruyor ve GSM'li kurulumlarda size bildirim gidiyor." },
       { quote: "Uzaktan kumanda, korumasız bir pompada arızayı hızlandırır. Koruma olmadan kurulum yapmıyoruz." },
 
       { h2: "Arazi koşulları" },

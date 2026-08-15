@@ -51,7 +51,7 @@ export const pompaServices = [
 
       { h2: "Basınç tankı bakımı: yılda bir, on dakika" },
       { p: "Tankın hava basıncı, pompanın devreye girme basıncının yaklaşık 0,2 bar altında olmalıdır. Kontrol için sistem basıncı boşaltılır ve tank üzerindeki sibobtan manometreli bir pompa ile ölçüm yapılır. Değer düşükse hava basılır." },
-      { p: "Bu on dakikalık işlem, pompanın devreye girme sayısını gözle görülür şekilde azaltır. Az devreye giren pompa hem daha uzun ömürlü olur hem daha az elektrik harcar. Yılda bir yapılmasını öneriyoruz." },
+      { p: "Bu on dakikalık işlem, pompanın devreye girme sayısını hissedilir ölçüde azaltır. Az devreye giren pompa hem daha uzun ömürlü olur hem daha az elektrik harcar. Yılda bir yapılmasını öneriyoruz." },
 
       { h2: "Ne zaman tamir, ne zaman değişim?" },
       { p: "Basınç şalteri, çekvalf, kondansatör ve membran gibi parçalar değiştirilebilir ve maliyeti düşüktür; bu tür arızalarda tamir mantıklıdır. Motor sargısı yanmış, gövde çatlamış veya çark ile salyangoz birlikte aşınmışsa onarım maliyeti yeni cihaza yaklaşır." },
@@ -65,9 +65,9 @@ export const pompaServices = [
       "Yeni cihaz montajı ise bağlantı ve tesisat düzenlemesi",
     ],
     faqs: [
-      { q: "Hidrofor gürültüsü azaltılabilir mi?", a: "Çoğu durumda evet. Titreşim takozu, esnek bağlantı elemanı ve doğru montaj yüksekliği gürültüyü belirgin azaltır. Ses kavitasyondan geliyorsa emiş hattının çapı ve dirsek sayısı gözden geçirilmelidir." },
-      { q: "Basınç tankı ne zaman değişir?", a: "Membran yırtıldığında tanktan hava yerine su gelir; bu durumda değişim gerekir. Gövdede pas ve şişme varsa da değişmelidir. Sadece havası kaçmışsa hava basmak yeterlidir, tank değişmez." },
-      { q: "Frekans kontrollü hidrofor değer mi?", a: "Apartmanlarda ve basınç dalgalanmasından rahatsız olunan yerlerde belirgin fark yaratıyor. Pompa yavaş kalkıp yavaş durduğu için hem su darbesi hem gürültü azalıyor, elektrik tüketimi düşüyor. İlk maliyeti klasik sistemden yüksektir." },
+      { q: "Hidrofor gürültüsü azaltılabilir mi?", a: "Çoğu durumda evet. Titreşim takozu, esnek bağlantı elemanı ve doğru montaj yüksekliği gürültüyü epeyce azaltır. Ses kavitasyondan geliyorsa emiş hattının çapı ve dirsek sayısı gözden geçirilmelidir." },
+      { q: "Basınç tankı ne zaman değişir?", a: "Membran yırtıldığında tanktan hava yerine su gelir; böyle bir durumda değişim gerekir. Gövdede pas ve şişme varsa da değişmelidir. Sadece havası kaçmışsa hava basmak yeterlidir, tank değişmez." },
+      { q: "Frekans kontrollü hidrofor değer mi?", a: "Apartmanlarda ve basınç dalgalanmasından rahatsız olunan yerlerde büyük fark yaratıyor. Pompa yavaş kalkıp yavaş durduğu için hem su darbesi hem gürültü azalıyor, elektrik tüketimi düşüyor. İlk maliyeti klasik sistemden yüksektir." },
       { q: "Apartman hidroforu için bakım anlaşması yapıyor musunuz?", a: "Evet. Yılda iki ziyaret, tank basıncı kontrolü, şalter ayarı ve genel bakım içeren bir program uyguluyoruz. Plansız arıza çağrıları bu programla iyice azalıyor." },
     ],
     localAngle: "üst kotlardaki mahallelerde şebeke basıncının düşük kalması ve depo–hidrofor birlikte kullanımının yaygınlığı",

@@ -76,7 +76,7 @@ export const incePosts = [
       { p: "Yeni yapılarda ve kaba sıva üzerinde standart uygulama. Yaklaşık 2–3 mm kalınlıkta, iki kat hâlinde çekiliyor." },
 
       { h2: "Macun ne yapar?" },
-      { p: "Mevcut düzgün bir yüzeydeki lokal kusurları — çatlak, darbe izi, delik — onarmak için kullanılıyor. Tüm duvara uygulanan bir katman değil." },
+      { p: "Mevcut düzgün bir yüzeydeki lokal kusurları (çatlak, darbe izi, delik) onarmak için kullanılıyor. Tüm duvara uygulanan bir katman değil." },
       { p: "Tadilat ve yenileme işlerinde, yüzey zaten satenli ve düzgünse macun yeterli oluyor. Bu, hem daha hızlı hem daha ekonomik." },
 
       { h2: "Hangi durumda hangisi?" },
@@ -90,10 +90,10 @@ export const incePosts = [
 
       { h2: "Saten kalınlığı ve dalgalanma" },
       { p: "Saten alçı, kaba sıvanın dalgalarını düzeltmek için değil, yüzeyi inceltmek için var. 2–3 mm ile büyük dalgalanmalar kapatılamıyor." },
-      { p: "Duvar belirgin şekilde dalgalıysa önce kaba sıva düzeltmesi gerekiyor. Bunu satenle çözmeye çalışmak hem kalınlık hem çatlama sorunu yaratıyor." },
+      { p: "Duvar açıkça dalgalıysa önce kaba sıva düzeltmesi gerekiyor. Bunu satenle çözmeye çalışmak hem kalınlık hem çatlama sorunu yaratıyor." },
 
       { h2: "Zımpara ve toz" },
-      { p: "Saten sonrası zımpara işin en tozlu kısmı. Toz emicili zımpara makinesi kullanmak, ortama yayılan tozu belirgin azaltıyor." },
+      { p: "Saten sonrası zımpara işin en tozlu kısmı. Toz emicili zımpara makinesi kullanmak, ortama yayılan tozu epeyce azaltıyor." },
       { p: "Eşyalı evde bu fark büyük. Klasik zımparada toz eve dağılıyor ve temizlik günler alıyor." },
 
       { h2: "Kuruma süresi" },
@@ -122,7 +122,7 @@ export const incePosts = [
     excerpt: "Dalgalanma en çok yandan gelen ışıkta belli oluyor. Gizli aydınlatmalı tavan ve büyük pencereli salonlarda daha da görünür.",
     services: ["ince-insaat-isleri", "boya-badana", "alcipan-asma-tavan"],
     intro:
-      "Bitmiş bir dairede en çok konuşulan kusurlardan biri dalgalı duvar. Aslında çoğu duvarda küçük bir dalgalanma var; sorun ışığın onu görünür kılması.",
+      "Bitmiş bir dairede en çok konuşulan kusurlardan biri dalgalı duvar. Çoğu duvarda küçük bir dalgalanma zaten var; sorun ışığın onu görünür kılması.",
     body: [
       { h2: "Nasıl kontrol edilir?" },
       { p: "En basit yöntem: duvara paralel, yakın mesafeden bir el feneri tutmak. Yandan gelen ışık en küçük dalgayı bile gölge olarak gösteriyor." },
@@ -130,7 +130,7 @@ export const incePosts = [
 
       { h2: "Işık kusurları büyütür" },
       { p: "Gizli bant aydınlatmalı tavanlarda ışık duvara paralel iniyor ve her kusuru gösteriyor. Büyük pencereli salonlarda da aynı etki var." },
-      { p: "Bu yüzden keşifte aydınlatma planını konuşuyoruz. Nereye bant aydınlatma geleceğini bilirsek o duvarlarda daha titiz çalışıyoruz." },
+      { p: "O yüzden keşifte aydınlatma planını konuşuyoruz. Nereye bant aydınlatma geleceğini bilirsek o duvarlarda daha titiz çalışıyoruz." },
 
       { h2: "Hangi aşamada düzeltilir?" },
       { p: "Dalgalanmanın düzeltileceği yer kaba sıva aşaması. Sıva mastarla, alüminyum köşebentler arasında çekildiğinde düzgün çıkıyor." },
@@ -202,7 +202,7 @@ export const incePosts = [
       { p: "Köşelere köşe profili, tavan-duvar birleşimine ise hareket derzi ya da esnek dolgu konması gerekiyor; yapı hareket ettiğinde çatlak burada oluşuyor." },
     ],
     faqs: [
-      { q: "Alçıpan duvar ses geçirir mi?", a: "Boş bölme geçirir. Taş yünü dolgu ve çift kat plaka ile ses yalıtımı belirgin artıyor. Duvarın asma tavan üstünden döşemeye kadar devam etmesi de şart." },
+      { q: "Alçıpan duvar ses geçirir mi?", a: "Boş bölme geçirir. Taş yünü dolgu ve çift kat plaka ile ses yalıtımı epeyce artıyor. Duvarın asma tavan üstünden döşemeye kadar devam etmesi de şart." },
       { q: "Alçıpan tavan kaç santim alçaltır?", a: "Düz tavanda 8–12 cm, gizli aydınlatmalı kademeli tavanda 15–20 cm." },
       { q: "Islanırsa ne olur?", a: "Standart plaka ıslandığında şişip dağılıyor ve değişmesi gerekiyor. Nem dayanımlı plaka kısa süreli neme dayanıyor ama sürekli suya değil." },
     ],
@@ -243,11 +243,11 @@ export const incePosts = [
 
       { h2: "Ne zaman sökmek gerekir?" },
       { p: "Tek tük karoda boş ses varsa ve kırılma yoksa, izlenebiliyor. Zamanla kırılırsa o karo tek başına değiştirilebiliyor." },
-      { p: "Geniş bir alanda yaygın boş ses varsa ya da karolar kabarıp kalkmaya başladıysa sökümü gerekiyor. Bu durumda zemin hazırlığı da yenileniyor." },
+      { p: "Geniş bir alanda yaygın boş ses varsa ya da karolar kabarıp kalkmaya başladıysa sökümü gerekiyor. Öyle bir durumda zemin hazırlığı da yenileniyor." },
 
       { h2: "Tek karo değişimi" },
       { p: "Derzler kesilip karo dikkatlice kırılarak çıkarılıyor, altı temizleniyor ve yeni karo döşeniyor. Aynı seri karo bulunması önemli." },
-      { p: "Bu yüzden döşemeden sonra birkaç fazla karoyu saklamanızı öneriyoruz. Yıllar sonra aynı seriyi bulmak çoğu zaman mümkün olmuyor." },
+      { p: "O yüzden döşemeden sonra birkaç fazla karoyu saklamanızı öneriyoruz. Yıllar sonra aynı seriyi bulmak çoğu zaman mümkün olmuyor." },
     ],
     faqs: [
       { q: "Boş ses veren her karo değişmeli mi?", a: "Hayır. Kırılma ve hareket yoksa izlenebiliyor. Islak hacimlerde ise su altına girebileceği için daha temkinli davranmak gerekiyor." },
@@ -423,7 +423,7 @@ export const incePosts = [
 
       { h2: "Cam ünitesi: asıl fark burada" },
       { p: "Pencere alanının büyük kısmı cam. Isı kaybının da büyük kısmı camdan oluyor. Bu yüzden cam seçimi profilden daha belirleyici." },
-      { p: "Low-E (düşük yayınımlı) kaplamalı cam ve ara boşlukta argon gazı, standart ısıcama göre belirgin fark yaratıyor. Teklifte cam ünitesinin özelliği yazılı olmalı." },
+      { p: "Low-E (düşük yayınımlı) kaplamalı cam ve ara boşlukta argon gazı, standart ısıcama göre net fark yaratıyor. Teklifte cam ünitesinin özelliği yazılı olmalı." },
 
       { h2: "Donanım (ispanyolet)" },
       { p: "Kanadı kasaya kilitleyen mekanizma. Kilitleme noktası sayısı hem güvenliği hem conta baskısının eşitliğini belirliyor." },
@@ -445,7 +445,7 @@ export const incePosts = [
       { p: "Ses yalıtımı isteniyorsa dolu gövdeli kapı gerekiyor; bal peteği dolgulu kapılar sesi durdurmuyor." },
 
       { h2: "Ölçü kimin sorumluluğunda?" },
-      { p: "Yanlış ölçüde üretilen doğrama iade edilemiyor. Bu yüzden ölçüyü kendimiz alıyor ve sipariş listesini imzalı veriyoruz." },
+      { p: "Yanlış ölçüde üretilen doğrama iade edilemiyor. Bunun için ölçüyü kendimiz alıyor ve sipariş listesini imzalı veriyoruz." },
       { p: "Ölçü kaynaklı bir hata olursa sorumluluğu bizde oluyor. Bu maddeyi baştan netleştirmek, en sık yaşanan anlaşmazlığı ortadan kaldırıyor." },
     ],
     faqs: [
@@ -523,10 +523,10 @@ export const incePosts = [
     excerpt: "Küçük banyoda birkaç santimlik kazanç kullanımı tamamen değiştiriyor. Uygulanabilir altı çözüm.",
     services: ["banyo-tadilati", "dusakabin-montaji", "vitrifiye-armatur-montaji"],
     intro:
-      "Küçük banyolarda alan kazanmak, duvar kaldırmadan da mümkün. Aşağıdakiler tadilat sırasında planlandığında ek maliyeti sınırlı olan ama kullanımı belirgin değiştiren çözümler.",
+      "Küçük banyolarda alan kazanmak, duvar kaldırmadan da mümkün. Aşağıdakiler tadilat sırasında planlandığında ek maliyeti sınırlı olan ama kullanımı baştan değiştiren çözümler.",
     body: [
       { h2: "1. Askılı klozet ve gömme rezervuar" },
-      { p: "Rezervuar duvar içine alındığında zeminde belirgin alan açılıyor ve temizlik kolaylaşıyor. Klozetin altı boş kaldığı için mekân daha geniş görünüyor." },
+      { p: "Rezervuar duvar içine alındığında zeminde gözle görülür alan açılıyor ve temizlik kolaylaşıyor. Klozetin altı boş kaldığı için mekân daha geniş görünüyor." },
       { p: "Duvar içine taşıyıcı kasa gerekiyor; bu, alçıpan ya da tuğla duvarda uygulanabiliyor. Tadilat sırasında planlanacak bir kalem." },
 
       { h2: "2. Teknesiz duş alanı" },

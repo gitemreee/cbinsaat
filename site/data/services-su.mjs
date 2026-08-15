@@ -58,10 +58,10 @@ export const suServices = [
         "Kolon havalandırması çatıya kadar çıkmalı; havalandırmasız hatta sifon suyu emilir ve koku gelir",
         "Dirsek yerine 45° parçalar tercih edilir, tıkanma riski azalır",
       ] },
-      { p: "Banyo tadilatlarında sık gördüğümüz bir hata, gider yerinin kaydırılmak istenmesi ve bunun için eğimin feda edilmesidir. Bu durumda gider çalışır görünür ama zamanla tortu birikir ve tıkanma tekrarlar." },
+      { p: "Banyo tadilatlarında sık gördüğümüz bir hata, gider yerinin kaydırılmak istenmesi ve bunun için eğimin feda edilmesidir. Öyle bir durumda gider çalışır görünür ama zamanla tortu birikir ve tıkanma tekrarlar." },
 
       { h2: "Su kesildiğinde ne yapmalı?" },
-      { p: "Daire giriş vanasının nerede olduğunu bilmek, bir su baskınında yaşanacak zararın büyüklüğünü doğrudan belirler. Her işten sonra vana konumunu gösteriyor, kolay ulaşılabilir olmasını sağlıyoruz. Vanası sıkışmış, dönmeyen daireler beklediğimizden fazla; bu tek başına küçük ama çok değerli bir iyileştirme." },
+      { p: "Daire giriş vanasının nerede olduğunu bilmek, bir su baskınında yaşanacak zararın büyüklüğünü birebir belirler. Her işten sonra vana konumunu gösteriyor, kolay ulaşılabilir olmasını sağlıyoruz. Vanası sıkışmış, dönmeyen daireler beklediğimizden fazla; bu tek başına küçük ama çok değerli bir iyileştirme." },
     ],
     priceFactors: [
       "Hat uzunluğu ve tesisat elemanı sayısı",
@@ -71,7 +71,7 @@ export const suServices = [
       "Kat yüksekliği ve kolon hattına müdahale gereği",
     ],
     faqs: [
-      { q: "Galvaniz boruyu mutlaka değiştirmeli miyim?", a: "Su basıncında belirgin düşüş, paslı su veya sık kaçak varsa değişim gerekir. Sorun yaşanmıyorsa acil değildir ancak banyo veya mutfak tadilatı yapılacaksa aynı anda değiştirilmesi hem daha ucuz hem daha mantıklı olur." },
+      { q: "Galvaniz boruyu mutlaka değiştirmeli miyim?", a: "Su basıncında açık düşüş, paslı su veya sık kaçak varsa değişim gerekir. Sorun yaşanmıyorsa acil değildir ancak banyo veya mutfak tadilatı yapılacaksa aynı anda değiştirilmesi hem daha ucuz hem daha mantıklı olur." },
       { q: "Bir banyo tesisatı kaç günde yenilenir?", a: "Sadece tesisat yenileme 2–3 gün sürer. Kırım, su yalıtımı, seramik ve vitrifiye montajı dahil komple banyo tadilatı ise 10–15 iş günü alır. Sürenin büyük kısmı seramik ve yalıtımın kuruma sürelerinden gelir." },
       { q: "Kaçak sigortası için rapor veriyor musunuz?", a: "Yapılan tespit, kaçağın konumu ve önerilen onarım yazılı olarak veriliyor; fotoğraflarla destekleniyor. Sigorta şirketinin talep ettiği formatta ek bilgi gerekirse birlikte tamamlıyoruz." },
       { q: "Kolektörlü sistem daha mı pahalı?", a: "Malzeme ve işçilik olarak başlangıçta bir miktar daha yüksektir çünkü her noktaya ayrı hat çekilir. Ama duvar içinde ek yeri kalmadığı için uzun vadede kaçak riski ve onarım maliyeti epey düşer." },
@@ -130,7 +130,7 @@ export const suServices = [
       ] },
 
       { h2: "Kaçağı geciktirmenin maliyeti" },
-      { p: "Küçük bir damlama, ilk aylarda sadece faturaya yansır. Ancak nem sıva ve alçının içinde ilerledikçe boya kabarır, duvar küflenir, parke şişer ve alt katta hasar başlar. O noktada iş artık bir tesisat işi değil, bir tadilat işidir." },
+      { p: "Küçük bir damlama, ilk aylarda sadece faturaya yansır. Ancak nem sıva ve alçının içinde ilerledikçe boya kabarır, duvar küflenir, parke şişer ve alt katta hasar başlar. O noktada masraf tesisatı aşar, tadilata döner." },
       { p: "Fatura artışı fark edildiğinde ya da duvarda ilk nem izi göründüğünde araştırma yapmak, hem kaçağın hem de onarımın küçük kalmasını sağlar. Kaçak şüphesi olan işlerde ilk değerlendirmeyi telefonda ücretsiz yapıyoruz." },
     ],
     priceFactors: [
@@ -368,7 +368,7 @@ export const suServices = [
       "Tespit edilen vana / pompa değişimi",
     ],
     faqs: [
-      { q: "Petek temizliği kombiye zarar verir mi?", a: "Doğru yapıldığında vermez. Yıkama sırasında kombi devre dışı bırakılır ve hat izole edilir; kirli su kombiye yönlendirilmez. Yanlış uygulamalarda tortunun eşanjöre taşınması riski vardır, bu yüzden hat izolasyonuna dikkat ediyoruz." },
+      { q: "Petek temizliği kombiye zarar verir mi?", a: "Doğru yapıldığında vermez. Yıkama sırasında kombi devre dışı bırakılır ve hat izole edilir; kirli su kombiye yönlendirilmez. Yanlış uygulamalarda tortunun eşanjöre taşınması riski vardır, bu sebeple hat izolasyonuna dikkat ediyoruz." },
       { q: "Ne sıklıkla yapılmalı?", a: "Normal koşullarda 4–6 yılda bir yeterlidir. Sık su takviyesi yapılan, eski ve karışık malzemeli tesisatlarda bu süre kısalır. Belirti yoksa ve petekler eşit ısınıyorsa temizliğe gerek yoktur." },
       { q: "Peteğin altı soğuk ama temizlik yaptırdım, neden geçmedi?", a: "Sorun tortu değil dolaşım olabilir. Sirkülasyon pompasının kademesi, vana açıklıkları ve sistem dengesi kontrol edilmelidir. Ayrıca peteğin kendisi kirli değil ama kesiti yetersizse (oda için küçük seçilmişse) hiçbir temizlik sonuç vermez." },
       { q: "Kombi basıncı ne olmalı?", a: "Soğuk sistemde tipik değer 1–1,5 bar aralığıdır. Sistem ısındığında 2 bar civarına çıkması normaldir. Basınç sürekli düşüyorsa kaçak, sürekli yükseliyorsa genleşme tankı veya dolum vanası kaynaklı bir sorun vardır." },
@@ -447,7 +447,7 @@ export const suServices = [
       "Elektrik tarafı ve pano işlerinin dahil olması",
     ],
     faqs: [
-      { q: "Mekanik ve elektrik işini ayrı firmaya mı vermeliyim?", a: "Tek ekipte yürütülmesi belirgin avantaj sağlıyor. Pompa panosu, otomasyon, sensör hatları ve devreye alma iki disiplinin kesiştiği noktalar; ayrı firmalarda bu noktalar genelde sorumluluk boşluğuna düşüyor ve iş uzuyor." },
+      { q: "Mekanik ve elektrik işini ayrı firmaya mı vermeliyim?", a: "Tek ekipte yürütülmesi açık avantaj sağlıyor. Pompa panosu, otomasyon, sensör hatları ve devreye alma iki disiplinin kesiştiği noktalar; ayrı firmalarda bu noktalar genelde sorumluluk boşluğuna düşüyor ve iş uzuyor." },
       { q: "Yerden ısıtma tadilatta yapılabilir mi?", a: "Zemin kotunda 6–8 cm yükseklik ayrılabiliyorsa mümkündür. Kapı yükseklikleri ve merdiven başlangıcı bu nedenle kontrol edilir. İnce şap sistemleriyle yükseklik ihtiyacı azaltılabilir ancak maliyet artar." },
       { q: "Sirkülasyon pompası ne zaman değişmeli?", a: "Sesli çalışma, sık sık durma, ısınma veya devrelerde debi düşüşü belirti sayılır. Eski sabit devirli pompaların frekans kontrollü modellerle değiştirilmesi, elektrik tüketiminde ciddi düşüş sağlıyor." },
       { q: "Devreye alma raporu veriyor musunuz?", a: "Evet. Sistem basınçları, dengeleme değerleri, pompa kademesi ve otomasyon ayarları yazılı olarak teslim ediliyor. Bu belge, sonraki bakımlarda referans oluşturuyor." },
@@ -468,7 +468,7 @@ export const suServices = [
       "Malatya'da yangın tesisatı uygulamaları: yangın pompa grubu, boru hattı, dolap ve hidrant bağlantıları, kontrol panosu ve periyodik test.",
     keywords: ["Malatya yangın tesisatı", "yangın pompası", "yangın dolabı", "sprinkler hattı", "yangın pompa panosu"],
     intro:
-      "Yangın tesisatı, hiç kullanılmaması umulan ama kullanıldığı anda kusursuz çalışması gereken tek sistemdir. Onun için kurulumdan çok, kurulum sonrası test disiplini belirleyicidir. Uygulamayı mekanik ve elektrik tarafıyla birlikte, test kayıtlarıyla teslim ediyoruz.",
+      "Yangın tesisatı, hiç kullanılmaması umulan ama kullanıldığı anda hatasız çalışması gereken tek sistemdir. Onun için kurulumdan çok, kurulum sonrası test disiplini belirleyicidir. Uygulamayı mekanik ve elektrik tarafıyla birlikte, test kayıtlarıyla teslim ediyoruz.",
     symptoms: [
       { title: "Pompa aylardır çalıştırılmadı", text: "Test edilmeyen pompa, ihtiyaç anında çalışmama eğilimindedir." },
       { title: "Yangın dolabında basınç yok", text: "Hat boşalmış veya vana kapalı kalmış olabilir." },

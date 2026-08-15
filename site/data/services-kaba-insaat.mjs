@@ -15,7 +15,7 @@ export const kabaInsaatServices = [
       "Malatya'da kaba inşaat: kazı, temel, kalıp, demir, beton, duvar örme, çatı ve şap. Yetkili proje ekipleriyle koordinasyon, metrajlı yazılı teklif.",
     keywords: ["Malatya kaba inşaat", "betonarme uygulama Malatya", "Malatya kalıp demir beton", "kaba inşaat fiyatları Malatya"],
     intro:
-      "Kaba inşaat, sonradan düzeltilemeyen tek aşama. Boya beğenilmezse yeniden yapılır, seramik sökülür; ama kolonun demiri eksikse ya da temel kotunda hata varsa o iş geri dönmez. Bu yüzden bu aşamada hız değil doğruluk konuşulur.",
+      "Kaba inşaat, sonradan düzeltilemeyen tek aşama. Boya beğenilmezse yeniden yapılır, seramik sökülür; ama kolonun demiri eksikse ya da temel kotunda hata varsa o iş geri dönmez. Dolayısıyla bu aşamada hız değil doğruluk konuşulur.",
     symptoms: [
       { title: "Arsa hazır, işe başlanacak", text: "Zemin etüdü, kot ve aplikasyon olmadan kazıya başlamak sonradan pahalıya patlıyor." },
       { title: "Yarım kalmış inşaat devralınacak", text: "Mevcut imalatın metrajı ve uygunluğu çıkarılmadan devam edilmiyor." },
@@ -137,7 +137,7 @@ export const kabaInsaatServices = [
       "Malatya'da çatı yapımı, çatı yenileme ve aktarma, çatı izolasyonu, yağmur oluğu ve iniş boruları. Kar yüküne uygun karkas ve örtü seçimi.",
     keywords: ["Malatya çatı yapımı", "çatı aktarma Malatya", "çatı yenileme fiyatları Malatya", "çatı izolasyonu Malatya"],
     intro:
-      "Çatıda sorun genellikle örtüden değil, detaydan çıkıyor. Baca dibi, dere, mahya ve saçak birleşimleri; su neredeyse hep buralardan giriyor. Kiremidi yenilemek bu detaylar düzelmediyse akıntıyı durdurmuyor.",
+      "Çatıda sorun çoğu durumda örtüden değil, detaydan çıkıyor. Baca dibi, dere, mahya ve saçak birleşimleri; su neredeyse hep buralardan giriyor. Kiremidi yenilemek bu detaylar düzelmediyse akıntıyı durdurmuyor.",
     symptoms: [
       { title: "Tavanda leke ve nem var", text: "Baca dibi, dere veya kırık kiremit; kaynak çatıda, iz tavanda çıkıyor." },
       { title: "Rüzgârda kiremit uçuyor", text: "Mahya ve kenar kiremitleri bağlanmamış." },
@@ -157,7 +157,7 @@ export const kabaInsaatServices = [
     ],
     body: [
       { h2: "Aktarma mı, komple yenileme mi?" },
-      { p: "Karkas sağlamsa ve örtü yer yer bozulmuşsa aktarma yeterli oluyor: kiremitler sökülüp altyapı onarılıyor, örtü yenilenip geri diziliyor. Maliyeti komple yenilemenin belirgin altında." },
+      { p: "Karkas sağlamsa ve örtü yer yer bozulmuşsa aktarma yeterli oluyor: kiremitler sökülüp altyapı onarılıyor, örtü yenilenip geri diziliyor. Maliyeti komple yenilemenin epeyce altında." },
       { p: "Ama ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma para kaybı. Karkasa çıkıp bakmadan hangisinin gerektiğini söylemiyoruz." },
 
       { h2: "Malatya'da kar yükü" },
@@ -220,7 +220,7 @@ export const kabaInsaatServices = [
     body: [
       { h2: "Kot planlaması, şaptan önce" },
       { p: "Şap kalınlığı zemini yükseltiyor. Kapı altları, balkon eşiği, asansör kotu ve merdiven basamağı buna göre planlanmazsa kapı kesmek ya da eşik yapmak gerekiyor." },
-      { p: "Bu yüzden kaplama seçimini şaptan önce soruyoruz. Seramik, parke ve laminatın kalınlıkları farklı; kot hesabı buna göre yapılıyor." },
+      { p: "O yüzden kaplama seçimini şaptan önce soruyoruz. Seramik, parke ve laminatın kalınlıkları farklı; kot hesabı buna göre yapılıyor." },
 
       { h2: "Kuruma süresi kısaltılamaz" },
       { p: "Şapın üstüne kaplama gelmeden önce kuruması gerekiyor. Klasik şapta kabaca her santimetre için bir hafta hesaplanıyor. Erken kaplanan şapın nemi, parkede kabarmaya ve seramikte boşalmaya yol açıyor." },

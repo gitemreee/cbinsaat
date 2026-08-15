@@ -24,9 +24,9 @@ export const sulamaPosts = [
     intro:
       "Damlama sulama, suyu bitkinin kök bölgesine damla damla veren bir sistem. Kurulumu ilk bakışta basit görünür: boru serilir, damlatıcı takılır, su verilir. Ancak sistemin ömrünü ve verimini belirleyen kararlar montajdan önce alınır; kaynağın debisi ölçülmeden ve zon kurgusu yapılmadan atılan her adım sonradan sökülüyor.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Kurulumun beş adımı" },
       {
-        p: "<strong>Damlama sulama kurulumu beş adımdan oluşur: kaynağın debisini ölçmek, alanı zonlara bölmek, filtre ve basınç düzenlemesini kurmak, ana hat ile lateralleri sermek ve sistemi yıkayıp basınç testinden geçirmek.</strong>",
+        p: "Damlama sulama kurulumu beş adımdan oluşur: kaynağın debisini ölçmek, alanı zonlara bölmek, filtre ve basınç düzenlemesini kurmak, ana hat ile lateralleri sermek ve sistemi yıkayıp basınç testinden geçirmek.",
       },
       {
         p: "Sistemin kalbi filtredir. Filtresiz kurulan bir damlama hattı, ne kadar kaliteli malzeme kullanılırsa kullanılsın ilk sezonda tıkanmaya başlar. İkinci kritik nokta basınç: damlatıcıların çoğu 1–2,5 bar aralığında çalışacak şekilde üretilir.",
@@ -84,10 +84,7 @@ export const sulamaPosts = [
         },
       },
       {
-        p: "Zonları belirlerken bitki türünü de dikkate almak gerekir. Farklı su ihtiyacı olan bitkileri aynı zona koymak, birini fazla diğerini az sulamaya yol açar; sebze ile meyve ağacı aynı programda olmamalıdır.",
-      },
-      {
-        p: "Eğimli arazilerde zonlar mümkün olduğunca aynı kot bandında kurulur. Yukarı ile aşağı arasındaki yükseklik farkı basınç farkı yaratır ve damlatıcı debileri birbirinden ayrışır.",
+        p: "Zonları belirlerken bitki türünü de dikkate almak gerekir. Farklı su ihtiyacı olan bitkileri aynı zona koymak, birini fazla diğerini az sulamaya yol açar; sebze ile meyve ağacı aynı programda olmamalıdır. Eğimli arazilerde zonlar mümkün olduğunca aynı kot bandında kurulur. Yukarı ile aşağı arasındaki yükseklik farkı basınç farkı yaratır ve damlatıcı debileri birbirinden ayrışır.",
       },
 
       { h2: "Damlatıcı tipi seçimi" },
@@ -111,7 +108,7 @@ export const sulamaPosts = [
 
       { h2: "Lateral hattın uzunluğu sınırlıdır" },
       {
-        p: "Damlatıcılı boru boyunca su ilerledikçe sürtünme nedeniyle basınç düşer. Hat çok uzun olursa baştaki damlatıcı ile sondaki damlatıcı arasında belirgin debi farkı oluşur; genel kabul, bu farkın %10'u geçmemesidir.",
+        p: "Damlatıcılı boru boyunca su ilerledikçe sürtünme nedeniyle basınç düşer. Hat çok uzun olursa baştaki damlatıcı ile sondaki damlatıcı arasında gözle görülür debi farkı oluşur; genel kabul, bu farkın %10'u geçmemesidir.",
       },
       {
         p: "Düz arazide, 16 mm boruda ve normal damlatıcı debilerinde hat uzunluğu genelde seksen–yüz metre aralığında sınırlanır. Eğim yukarı doğruysa bu mesafe kısalır, aşağı doğruysa bir miktar uzayabilir.",
@@ -143,10 +140,7 @@ export const sulamaPosts = [
 
       { h2: "Basıncı doğru kurmak" },
       {
-        p: "Damlatıcıların çoğu 1–2,5 bar aralığında çalışacak şekilde üretilir. Basınç düşükse damlatıcılar dolmaz ve hat sonu susuz kalır; yüksekse boru bağlantıları zorlanır, damlatıcılar fırlar ve laterallerde patlama görülür.",
-      },
-      {
-        p: "Kaynak basıncı yüksekse hatta basınç regülatörü konur. Şebeke bağlantılı bahçe sistemlerinde bu neredeyse zorunludur; şebeke basıncı gün içinde değiştiği için sistem sabit çalışmaz.",
+        p: "Damlatıcıların çoğu 1–2,5 bar aralığında çalışacak şekilde üretilir. Basınç düşükse damlatıcılar dolmaz ve hat sonu susuz kalır; yüksekse boru bağlantıları zorlanır, damlatıcılar fırlar ve laterallerde patlama görülür. Kaynak basıncı yüksekse hatta basınç regülatörü konur. Şebeke bağlantılı bahçe sistemlerinde bu neredeyse zorunludur; şebeke basıncı gün içinde değiştiği için sistem sabit çalışmaz.",
       },
       {
         p: "Filtre giriş ve çıkışına takılan iki manometre, sistemin sağlığını gösteren en basit göstergedir. Aradaki fark zamanla artıyorsa filtre kirlenmiştir; fark aniden yükseldiyse tıkanma vardır.",
@@ -196,7 +190,7 @@ export const sulamaPosts = [
         ol: [
           "Her zon tek tek çalıştırılır, çalışma basıncı manometreden okunur.",
           "Hattın başındaki ve sonundaki damlatıcıların debisi bir kapla ölçülüp karşılaştırılır.",
-          "Aradaki fark belirgin çıkıyorsa hat uzunluğu veya çap gözden geçirilir.",
+          "Aradaki fark büyük çıkıyorsa hat uzunluğu veya çap gözden geçirilir.",
           "Tüm bağlantılar sızdırmazlık açısından gözle taranır.",
           "Filtre giriş–çıkış basınç farkı temiz hâldeyken not edilir.",
           "Zon süreleri belirlenerek program yazılır.",
@@ -265,7 +259,7 @@ export const sulamaPosts = [
       },
       {
         q: "Bir lateral hat en fazla kaç metre olabilir?",
-        a: "Düz arazide 16 mm boruda genellikle seksen–yüz metre aralığında sınırlanır. Amaç, ilk ve son damlatıcı arasındaki debi farkını %10'un altında tutmaktır. Eğim yukarı doğruysa mesafe kısalır. Uzun sıralarda hat ortadan beslenerek her kolun uzunluğu yarıya indirilir.",
+        a: "Düz arazide 16 mm boruda çoğu durumda seksen–yüz metre aralığında sınırlanır. Amaç, ilk ve son damlatıcı arasındaki debi farkını %10'un altında tutmaktır. Eğim yukarı doğruysa mesafe kısalır. Uzun sıralarda hat ortadan beslenerek her kolun uzunluğu yarıya indirilir.",
       },
       {
         q: "Filtresiz damlama sulama kurulabilir mi?",
@@ -317,12 +311,8 @@ export const sulamaPosts = [
     intro:
       "Damlatıcının çıkış deliği bir milimetrenin altındadır. Suda gözle görülmeyen bir tortu bile zamanla bu deliği kapatır. Filtre, sistemin en ucuz ama en belirleyici parçası; seçimi ve bakımı doğru yapıldığında damlama hattı yıllarca sorun çıkarmıyor.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Temiz şebeke veya derin kuyu suyunda elek filtre, kum ve organik yükün birlikte bulunduğu sularda disk filtre, gölet ve kanal gibi organik yükü yüksek kaynaklarda ise kum–çakıl filtresi kullanılır.</strong> Kum varsa filtreden önce hidrosiklon konumlandırılır.",
-      },
-      {
-        p: "Damlama sistemlerinde yaygın seçim 120 mesh civarı bir filtredir. Genel kural, damlatıcı çıkış çapının yaklaşık onda biri kadar parçacığın geçmesine izin vermektir.",
+        p: "Temiz şebeke veya derin kuyu suyunda elek filtre, kum ve organik yükün birlikte bulunduğu sularda disk filtre, gölet ve kanal gibi organik yükü yüksek kaynaklarda ise kum–çakıl filtresi kullanılır. Kum varsa filtreden önce hidrosiklon konumlandırılır. Damlama sistemlerinde yaygın seçim 120 mesh civarı bir filtredir. Genel kural, damlatıcı çıkış çapının yaklaşık onda biri kadar parçacığın geçmesine izin vermektir.",
       },
 
       { h2: "Filtre neyi tutar, neyi tutmaz?" },
@@ -377,10 +367,7 @@ export const sulamaPosts = [
 
       { h2: "Filtre boyutu debiye göre seçilir" },
       {
-        p: "Filtrenin bağlantı çapı ile kapasitesi farklı şeylerdir. Sistemin debisine göre seçilmeyen bir filtre, doğru mesh değerine sahip olsa bile yüksek basınç kaybı yaratır ve çok sık temizlik ister.",
-      },
-      {
-        p: "Katalogda her filtre için önerilen debi aralığı verilir. Seçim bu aralığın üst sınırında değil, ortasında yapılmalıdır; böylece filtre kirlendikçe sistem hâlâ yeterli akışı sürdürür.",
+        p: "Filtrenin bağlantı çapı ile kapasitesi farklı şeylerdir. Sistemin debisine göre seçilmeyen bir filtre, doğru mesh değerine sahip olsa bile yüksek basınç kaybı yaratır ve çok sık temizlik ister. Katalogda her filtre için önerilen debi aralığı verilir. Seçim bu aralığın üst sınırında değil, ortasında yapılmalıdır; böylece filtre kirlendikçe sistem hâlâ yeterli akışı sürdürür.",
       },
       {
         p: "Büyük sistemlerde tek büyük filtre yerine paralel bağlı iki filtre tercih edilebilir. Bu düzen hem basınç kaybını düşürür hem biri temizlenirken diğerinin çalışmasına imkân verir.",
@@ -392,10 +379,6 @@ export const sulamaPosts = [
       },
       {
         p: "Uygulamada kullanılan basit kural şu: fark 0,5 bar civarına yükseldiğinde filtre temizlenir. Bu değer sistemden sisteme değişebilir; önemli olan, temiz hâldeki farkın bilinmesi ve ona göre karar verilmesidir.",
-      },
-      {
-        quote:
-          "Filtreyi takvimle değil, manometreyle temizleyin. Aynı bahçede su kalitesi mevsime göre değişir; sabit bir takvim ya erken ya geç kalır.",
       },
       {
         p: "Fark hiç açılmıyorsa da bir sorun vardır: filtre elemanı yırtılmış olabilir. Bu durumda su filtreden geçiyormuş gibi görünür ama parçacıklar doğrudan hatta gider.",
@@ -413,7 +396,7 @@ export const sulamaPosts = [
         ],
       },
       {
-        p: "Otomatik ters yıkamalı filtreler, belirli basınç farkına ulaşıldığında kendini yıkar. Büyük sistemlerde iş gücünü belirgin azaltır; ancak yıkama vanasının ve tahliye hattının düzenli kontrol edilmesi gerekir.",
+        p: "Otomatik ters yıkamalı filtreler, belirli basınç farkına ulaşıldığında kendini yıkar. Büyük sistemlerde iş gücünü epeyce azaltır; ancak yıkama vanasının ve tahliye hattının düzenli kontrol edilmesi gerekir.",
       },
       {
         p: "Kum filtrelerinde ters yıkama, akışın tersine çevrilerek kum yatağının kabartılması ve tutulan malzemenin dışarı atılmasıdır. Yıkama süresi yetersizse kum yatağı zamanla sıkışır ve filtre verimini kaybeder.",
@@ -421,10 +404,7 @@ export const sulamaPosts = [
 
       { h2: "Kireç ve organik tıkanma" },
       {
-        p: "Filtre parçacıkları tutar ama damlatıcı içinde biriken kireci engelleyemez. Sert su kullanılan sistemlerde sezon sonunda asit yıkaması yapılır; uygun asit, üretici talimatına göre seyreltilerek hatta verilir ve belirli süre bekletildikten sonra bol suyla yıkanır.",
-      },
-      {
-        p: "Organik tıkanmada ise farklı bir yöntem gerekir. Alg ve biyofilm, uygun dozda klor uygulamasıyla kontrol altına alınır. İki uygulama asla birlikte yapılmaz; kimyasalların karışması tehlikeli sonuçlar doğurur.",
+        p: "Filtre parçacıkları tutar ama damlatıcı içinde biriken kireci engelleyemez. Sert su kullanılan sistemlerde sezon sonunda asit yıkaması yapılır; uygun asit, üretici talimatına göre seyreltilerek hatta verilir ve belirli süre bekletildikten sonra bol suyla yıkanır. Organik tıkanmada ise farklı bir yöntem gerekir. Alg ve biyofilm, uygun dozda klor uygulamasıyla kontrol altına alınır. İki uygulama asla birlikte yapılmaz; kimyasalların karışması tehlikeli sonuçlar doğurur.",
       },
       {
         p: "Bu işlemler kimyasal içerdiği için ölçü ve güvenlik kuralları önemli. Uygulama sonrası hattın bol temiz suyla yıkanması ve ilk sulamanın kontrollü yapılması gerekiyor.",
@@ -470,10 +450,7 @@ export const sulamaPosts = [
 
       { h2: "Filtre nereye konumlanır?" },
       {
-        p: "Sıralama sistemin çalışmasını doğrudan etkiler. Doğru dizilim genelde şöyledir: kaynak, pompa, hidrosiklon, gübreleme ünitesi, ana filtre, basınç regülatörü, ana hat.",
-      },
-      {
-        p: "Gübreleme ünitesinin filtreden önce olması kritik. Aksi hâlde çözünmeyen gübre kalıntıları doğrudan damlatıcılara gider. Bu, sahada en sık gördüğümüz kurulum hatalarından biri.",
+        p: "Sıralama sistemin çalışmasını etkiler. Doğru dizilim genelde şöyledir: kaynak, pompa, hidrosiklon, gübreleme ünitesi, ana filtre, basınç regülatörü, ana hat. Gübreleme ünitesinin filtreden önce olması kritik. Aksi hâlde çözünmeyen gübre kalıntıları doğrudan damlatıcılara gider. Bu, sahada en sık gördüğümüz kurulum hatalarından biri.",
       },
       {
         p: "Zon vanalarının hemen ardına küçük ön filtreler eklemek de faydalı olabilir. Ana filtreden kaçan bir parçacık veya montaj sonrası hatta kalan artık, bu küçük filtrelerde tutulur.",
@@ -520,10 +497,7 @@ export const sulamaPosts = [
 
       { h2: "Sezon boyunca ne değişir?" },
       {
-        p: "Su kalitesi sabit değildir. İlkbaharda yağışlarla birlikte bulanıklık artar, yaz ortasında sıcaklıkla birlikte alg gelişimi hızlanır, sonbaharda ise yaprak ve organik atık yükü yükselir.",
-      },
-      {
-        p: "Bu nedenle filtre temizlik sıklığı sezon boyunca değişmelidir. Manometre takibi bu değişimi otomatik olarak yakalar; sabit bir takvime bağlı kalmak ise ya gereksiz iş ya gecikmiş müdahale demektir.",
+        p: "Su kalitesi sabit değildir. İlkbaharda yağışlarla birlikte bulanıklık artar, yaz ortasında sıcaklıkla birlikte alg gelişimi hızlanır, sonbaharda ise yaprak ve organik atık yükü yükselir. Filtre temizlik sıklığı sezon boyunca değişmelidir. Manometre takibi bu değişimi otomatik olarak yakalar; sabit bir takvime bağlı kalmak ise ya gereksiz iş ya gecikmiş müdahale demektir.",
       },
       {
         p: "Kayıt tutmak burada da işe yarıyor: hangi ayda ne sıklıkta temizlik yapıldığı not edildiğinde, ikinci sezonda bakım planı çok daha isabetli kuruluyor.",
@@ -536,11 +510,11 @@ export const sulamaPosts = [
       },
       {
         q: "Disk filtre mi elek filtre mi daha iyi?",
-        a: "Su kalitesine bağlıdır. Temiz şebeke veya derin kuyu suyunda elek filtre yeterli ve ekonomiktir. Kum ile organik yükün birlikte bulunduğu sularda disk filtre daha uzun süre görev yapar, çünkü tutma kapasitesi belirgin yüksektir. Gölet suyunda ise ikisi de yetersiz kalır, kum filtre gerekir.",
+        a: "Su kalitesine bağlıdır. Temiz şebeke veya derin kuyu suyunda elek filtre yeterli ve ekonomiktir. Kum ile organik yükün birlikte bulunduğu sularda disk filtre daha uzun süre görev yapar, çünkü tutma kapasitesi epey yüksektir. Gölet suyunda ise ikisi de yetersiz kalır, kum filtre gerekir.",
       },
       {
         q: "Filtre ne sıklıkla temizlenmeli?",
-        a: "Takvimle değil, basınç farkıyla karar verilmelidir. Filtre giriş ve çıkışındaki manometreler arasındaki fark temiz hâline göre belirgin arttığında temizlik zamanı gelmiştir. Uygulamada 0,5 bar civarındaki bir fark yaygın eşiktir. Su kalitesi mevsimlere göre değiştiği için sabit takvim yanıltır.",
+        a: "Takvimle değil, basınç farkıyla karar verilmelidir. Filtre giriş ve çıkışındaki manometreler arasındaki fark temiz hâline göre epeyce arttığında temizlik zamanı gelmiştir. Uygulamada 0,5 bar civarındaki bir fark yaygın eşiktir. Su kalitesi mevsimlere göre değiştiği için sabit takvim yanıltır.",
       },
       {
         q: "Filtre kireci tutar mı?",
@@ -588,9 +562,8 @@ export const sulamaPosts = [
     intro:
       "Sulamada en sık yapılan hata, sık ve az su vermek. Yüzeyi ıslatan kısa sulamalar kökleri yukarıda tutar; sıcak bir günde toprak yüzeyi kuruduğunda bitki hemen strese girer. Doğru yaklaşım tersi: daha seyrek, ama kök bölgesini gerçekten dolduran sulama.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Sulama süresi; kök bölgesini ıslatacak su miktarının, damlatıcı debisine bölünmesiyle bulunur.</strong> Örneğin ağaç başına 40 litre verilmek isteniyorsa ve ağaçta 4 litre/saat debili iki damlatıcı varsa, süre 40 ÷ 8 = 5 saat olur.",
+        p: "Sulama süresi; kök bölgesini ıslatacak su miktarının, damlatıcı debisine bölünmesiyle bulunur. Örneğin ağaç başına 40 litre verilmek isteniyorsa ve ağaçta 4 litre/saat debili iki damlatıcı varsa, süre 40 ÷ 8 = 5 saat olur.",
       },
       {
         p: "Sıklık ise toprak tipine bağlıdır: kumlu toprakta daha sık ve az, killi toprakta daha seyrek ve çok su verilir. Karar her zaman toprak kontrolüyle doğrulanmalıdır; program tek başına yeterli değildir.",
@@ -612,7 +585,7 @@ export const sulamaPosts = [
         p: "Killi toprakta uzun süreli sulama yaparken akış hızına dikkat etmek gerekir. Toprak suyu emmeye yetişemezse yüzeyde birikme ve akış olur; verilen su kök bölgesine inmeden kaybolur.",
       },
       {
-        p: "Kumlu toprakta ise tersi risk var: uzun sulamada su kök bölgesinin altına iner ve bitkinin ulaşamayacağı derinliğe geçer. Bu durumda süreyi bölmek, yani aynı miktarı iki seferde vermek daha verimli oluyor.",
+        p: "Kumlu toprakta ise tersi risk var: uzun sulamada su kök bölgesinin altına iner ve bitkinin ulaşamayacağı derinliğe geçer. Öyle bir durumda süreyi bölmek, yani aynı miktarı iki seferde vermek daha verimli oluyor.",
       },
 
       { h2: "Kök derinliği ne kadar?" },
@@ -621,7 +594,7 @@ export const sulamaPosts = [
       },
       {
         ul: [
-          "Çim: yüzeye yakın, genellikle ilk 15–20 cm.",
+          "Çim: yüzeye yakın, sıklıkla ilk 15–20 cm.",
           "Sebze: 20–40 cm arası, türe göre değişir.",
           "Çalı ve süs bitkileri: 30–50 cm.",
           "Meyve ağaçları: 60–90 cm, olgun ağaçlarda daha derin.",
@@ -633,7 +606,7 @@ export const sulamaPosts = [
 
       { h2: "Damlatıcı debisiyle hesap" },
       {
-        p: "Damlama sistemlerinde hesap kolaydır çünkü debi bilinir. Verilecek su miktarı belirlendikten sonra süre doğrudan bulunur:",
+        p: "Damlama sistemlerinde hesap kolaydır çünkü debi bilinir. Verilecek su miktarı belirlendikten sonra süre kolayca bulunur:",
       },
       {
         table: {
@@ -648,10 +621,7 @@ export const sulamaPosts = [
         },
       },
       {
-        p: "Tablodan çıkan sonuç net: aynı su miktarını daha kısa sürede vermek istiyorsanız damlatıcı sayısını artırmalısınız. Süreyi kısaltıp damlatıcı sayısını sabit tutmak, sadece daha az su vermek anlamına gelir.",
-      },
-      {
-        p: "Yağmurlama sistemlerinde hesap milimetre üzerinden yapılır. Alana verilen su yüksekliği ölçülür; bunun için bahçeye birkaç düz kap yerleştirip belirli süre sonunda içindeki su derinliğini ölçmek en pratik yöntemdir.",
+        p: "Tablodan çıkan sonuç net: aynı su miktarını daha kısa sürede vermek istiyorsanız damlatıcı sayısını artırmalısınız. Süreyi kısaltıp damlatıcı sayısını sabit tutmak, sadece daha az su vermek anlamına gelir. Damlatıcı eklerken tek sınır kaynağın debisidir; toplam çekiş pompanın veya şebekenin verebileceğini aşarsa hat sonundaki bitkiler payına düşeni alamaz. Yağmurlama sistemlerinde hesap milimetre üzerinden yapılır. Alana verilen su yüksekliği ölçülür; bunun için bahçeye birkaç düz kap yerleştirip belirli süre sonunda içindeki su derinliğini ölçmek en pratik yöntemdir.",
       },
 
       { h2: "Ne zaman sulanmalı?" },
@@ -659,7 +629,7 @@ export const sulamaPosts = [
         p: "En uygun zaman sabahın erken saatleri. Sıcaklık düşük olduğu için buharlaşma kaybı azdır ve gün boyunca bitki suya erişebilir. Yapraklar gün içinde kuruduğu için mantar hastalıkları riski de düşer.",
       },
       {
-        p: "Akşam sulaması, buharlaşma açısından avantajlı görünse de yaprakların gece boyunca ıslak kalmasına yol açar. Damlama sistemlerinde bu risk düşüktür çünkü yaprak ıslanmaz; yağmurlamada ise belirgindir.",
+        p: "Akşam sulaması, buharlaşma açısından avantajlı görünse de yaprakların gece boyunca ıslak kalmasına yol açar. Damlama sistemlerinde bu risk düşüktür çünkü yaprak ıslanmaz; yağmurlamada ise yüksektir.",
       },
       {
         p: "Öğle saatlerinde sulamadan kaçınmak gerekir. Buharlaşma kaybı en yüksek seviyededir ve verilen suyun önemli bölümü toprağa hiç ulaşmadan kaybolur.",
@@ -667,7 +637,10 @@ export const sulamaPosts = [
 
       { h2: "Sıklık nasıl belirlenir?" },
       {
-        p: "Sabit bir takvim, sulamanın en zayıf yönetim biçimi. Hava sıcaklığı, rüzgâr, yağış ve bitkinin gelişim dönemi su ihtiyacını sürekli değiştirir. Doğru yaklaşım, toprağı kontrol ederek karar vermek.",
+        p: "Sabit bir takvim, sulamanın en zayıf yönetim biçimi. Hava sıcaklığı, rüzgâr, yağış ve bitkinin gelişim dönemi su ihtiyacını sürekli değiştirir.",
+      },
+      {
+        p: "Doğru yaklaşım, toprağı kontrol ederek karar vermek.",
       },
       {
         ol: [
@@ -690,19 +663,12 @@ export const sulamaPosts = [
         p: "Nem kök bölgesine ulaşmamışsa miktar artırılır. Kök bölgesinin altına inmişse azaltılır. İki–üç denemeyle bahçenizin gerçek ihtiyacı bulunur ve bu değer sezon boyunca referans olur.",
       },
       {
-        quote:
-          "Kitaptan alınan bir rakam yerine, kendi bahçenizde iki kez yaptığınız kontrol daha doğru sonuç verir.",
-      },
-      {
-        p: "Yaz ortasında ihtiyacın belirgin arttığını, ilkbahar ve sonbaharda ise azaldığını unutmamak gerekir. Aynı program bütün sezon uygulandığında, ya yaz ortasında bitki susuz kalır ya bahar aylarında su israf edilir.",
+        p: "Yaz ortasında ihtiyacın epeyce arttığını, ilkbahar ve sonbaharda ise azaldığını unutmamak gerekir. Aynı program bütün sezon uygulandığında, ya yaz ortasında bitki susuz kalır ya bahar aylarında su israf edilir.",
       },
 
       { h2: "Islanma alanı ve damlatıcı yerleşimi" },
       {
-        p: "Damlatıcının altındaki su, toprakta bir soğan biçiminde yayılır. Bu yayılımın genişliği toprak tipine bağlıdır; kumlu toprakta dar ve derin, killi toprakta geniş ve sığdır.",
-      },
-      {
-        p: "Bu nedenle damlatıcı yerleşimi toprağa göre planlanır. Kumlu toprakta damlatıcılar birbirine yakın konur, killi toprakta aralık açılabilir. Doğru yerleşimin ölçüsü, ıslanan alanların birleşerek sürekli bir nemli şerit oluşturmasıdır.",
+        p: "Damlatıcının altındaki su, toprakta bir soğan biçiminde yayılır. Bu yayılımın genişliği toprak tipine bağlıdır; kumlu toprakta dar ve derin, killi toprakta geniş ve sığdır. O yüzden damlatıcı yerleşimi toprağa göre planlanır. Kumlu toprakta damlatıcılar birbirine yakın konur, killi toprakta aralık açılabilir. Doğru yerleşimin ölçüsü, ıslanan alanların birleşerek sürekli bir nemli şerit oluşturmasıdır.",
       },
       {
         p: "Ağaçlarda damlatıcılar gövdeye dayanmaz; taç izdüşümüne, yani emici köklerin bulunduğu bölgeye yerleştirilir. Gövde dibinin sürekli ıslak kalması kök boğazı çürüklüğü riskini artırır.",
@@ -765,11 +731,11 @@ export const sulamaPosts = [
 
       { h2: "Su tüketimini düşüren uygulamalar" },
       {
-        p: "Sulama süresini kısaltmak, su tüketimini azaltmanın tek yolu değil ve çoğu zaman en kötüsü. Bitkiyi susuz bırakmadan tüketimi düşüren birkaç yöntem var:",
+        p: "Sulama süresini kısaltmak, su tüketimini azaltmanın tek yolu değil ve çoğunlukla en kötüsü. Bitkiyi susuz bırakmadan tüketimi düşüren birkaç yöntem var:",
       },
       {
         ul: [
-          "Malç: toprak yüzeyini örten organik veya mineral katman, buharlaşmayı belirgin azaltır.",
+          "Malç: toprak yüzeyini örten organik veya mineral katman, buharlaşmayı ciddi ölçüde azaltır.",
           "Sabah sulama: buharlaşma kaybının en düşük olduğu saat.",
           "Damlamaya geçiş: suyu doğrudan köke verir, yüzey kaybı olmaz.",
           "Mevsimsel ayar: aynı programı yıl boyu kullanmamak.",
@@ -787,7 +753,7 @@ export const sulamaPosts = [
       },
       {
         ul: [
-          "Yaprakların sararması ve solgun görünmesi — susuzlukla karıştırılır.",
+          "Yaprakların sararması ve solgun görünmesi (susuzlukla karıştırılır).",
           "Toprak yüzeyinde yosun veya mantar oluşumu.",
           "Kök boğazında yumuşama, kabuk çürümesi.",
           "Sürekli ıslak kalan, ayak bastığında çamurlaşan zemin.",
@@ -800,10 +766,7 @@ export const sulamaPosts = [
 
       { h2: "Sulama günlüğü tutmak" },
       {
-        p: "Kısa bir kayıt, sulama kararlarını tahminden çıkarır. Hangi gün, ne kadar süre sulandığı ve o günün hava durumu not edildiğinde, birkaç hafta içinde bahçenizin gerçek ritmi ortaya çıkar.",
-      },
-      {
-        p: "Kayıt ayrıca sorun tespitinde işe yarar. Bir bölgede gelişim geriliği fark edildiğinde, o bölgenin ne kadar su aldığı geriye dönük olarak görülebilir ve neden aranacak yer daralır.",
+        p: "Kısa bir kayıt, sulama kararlarını tahminden çıkarır. Hangi gün, ne kadar süre sulandığı ve o günün hava durumu not edildiğinde, birkaç hafta içinde bahçenizin gerçek ritmi ortaya çıkar. Kayıt ayrıca sorun tespitinde işe yarar. Bir bölgede gelişim geriliği fark edildiğinde, o bölgenin ne kadar su aldığı geriye dönük olarak görülebilir ve neden aranacak yer daralır.",
       },
       {
         p: "Otomatik sistemlerde kontrol ünitesi bu kaydı zaten tutar. Elle sulanan bahçelerde ise takvim üzerine yazılan birkaç kelime, aynı işi görüyor.",
@@ -811,7 +774,7 @@ export const sulamaPosts = [
 
       { h2: "Malatya koşullarında dikkat edilecekler" },
       {
-        p: "Bölgede yazlar sıcak ve kurak geçer; buharlaşma yüksektir. Bu, sulama ihtiyacının yaz ortasında belirgin şekilde artması anlamına gelir. Aynı programın nisan ve temmuz aylarında uygulanması mümkün değil.",
+        p: "Bölgede yazlar sıcak ve kurak geçer; buharlaşma yüksektir. Bu, sulama ihtiyacının yaz ortasında gözle görülür biçimde artması anlamına gelir. Aynı programın nisan ve temmuz aylarında uygulanması mümkün değil.",
       },
       {
         p: "İkinci nokta rüzgâr: yağmurlama sistemlerinde rüzgârlı saatlerde yapılan sulamada suyun önemli bölümü hedefe ulaşmaz. Sabahın erken saatleri bu açıdan da avantajlı.",
@@ -839,19 +802,15 @@ export const sulamaPosts = [
       },
       {
         q: "Aşırı sulama nasıl anlaşılır?",
-        a: "Yaprakların sararması, toprak yüzeyinde yosun oluşumu, kök boğazında yumuşama ve sürekli çamurlu kalan zemin tipik belirtilerdir. Sararma çoğu zaman susuzlukla karıştırılır ve sulama artırılarak sorun büyütülür. Karar öncesi kök derinliğinde nem kontrolü şarttır.",
+        a: "Yaprakların sararması, toprak yüzeyinde yosun oluşumu, kök boğazında yumuşama ve sürekli çamurlu kalan zemin tipik belirtilerdir. Sararma sıklıkla susuzlukla karıştırılır ve sulama artırılarak sorun büyütülür. Karar öncesi kök derinliğinde nem kontrolü şarttır.",
       },
       {
         q: "Yağmur yağdığında programı durdurmalı mıyım?",
         a: "Evet. Otomatik sistemlerde yağmur sensörü bu işi kendiliğinden yapar. Sensör yoksa yağıştan sonra bir sulama atlanır. Kısa süreli yağışların toprağın derinine inmediğini unutmayın; kararı yine kök derinliğindeki nem kontrolüyle vermek en doğrusu.",
       },
       {
-        q: "Damlatıcı sayısını artırmak süreyi kısaltır mı?",
-        a: "Evet. Aynı su miktarını daha kısa sürede vermenin yolu damlatıcı sayısını veya debisini artırmaktır. Ancak toplam debi kaynağın kapasitesini aşmamalıdır; aştığında hat sonundaki bitkiler yeterli su alamaz ve sistem dengesiz çalışır.",
-      },
-      {
         q: "Sezon boyunca aynı programı kullanabilir miyim?",
-        a: "Kullanmamak gerekir. Su ihtiyacı yaz ortasında belirgin artar, ilkbahar ve sonbaharda azalır. Kontrol ünitelerindeki mevsimsel yüzde ayarı bu geçişi kolaylaştırır; tüm programı yeniden yazmadan tek bir değerle sistem sezona uyarlanabilir.",
+        a: "Kullanmamak gerekir. Su ihtiyacı yaz ortasında epeyce artar, ilkbahar ve sonbaharda azalır. Kontrol ünitelerindeki mevsimsel yüzde ayarı bu geçişi kolaylaştırır; tüm programı yeniden yazmadan tek bir değerle sistem sezona uyarlanabilir.",
       },
     ],
     related: ["otomatik-bahce-sulama", "damlama-sulama-nasil-kurulur", "kayisi-bahcesi-damlama-sulama"],
@@ -889,13 +848,13 @@ export const sulamaPosts = [
 
       { h2: "Neden damlama?" },
       {
-        p: "Salma sulamada su, ağacın ihtiyacından bağımsız olarak tüm yüzeye yayılır. Buharlaşma ve derine sızma kayıpları yüksektir; ayrıca sulama aralıkları uzun olduğu için ağaç iki sulama arasında strese girer.",
+        p: "Salma sulamada su, ağacın ihtiyacından bağımsız olarak tüm yüzeye yayılır. Buharlaşma ve derine sızma kayıpları yüksektir; ayrıca sulama aralıkları uzun olduğu için ağaç iki sulama arasında strese girer. Damlama sisteminde su doğrudan kök bölgesine, ölçülebilir miktarda verilir. Bu, iki önemli sonuç doğurur: toprak nemi dalgalanmadan sabit kalır ve gübreleme suyla birlikte yapılabilir.",
       },
       {
-        p: "Damlama sisteminde su doğrudan kök bölgesine, ölçülebilir miktarda verilir. Bu, iki önemli sonuç doğurur: toprak nemi dalgalanmadan sabit kalır ve gübreleme suyla birlikte yapılabilir.",
+        p: "Üçüncü fayda iş gücünde. Sulama saatlerini beklemek, hat açıp kapatmak yerine sistem programlanır.",
       },
       {
-        p: "Üçüncü fayda iş gücünde. Sulama saatlerini beklemek, hat açıp kapatmak yerine sistem programlanır. Geniş bahçelerde bu, sezon boyunca ciddi bir zaman kazancı anlamına geliyor.",
+        p: "Geniş bahçelerde bu, sezon boyunca ciddi bir zaman kazancı anlamına geliyor.",
       },
 
       { h2: "Ağaç yaşına göre damlatıcı düzeni" },
@@ -919,7 +878,7 @@ export const sulamaPosts = [
 
       { h2: "Kritik sulama dönemleri" },
       {
-        p: "Kayısıda su ihtiyacı sezon boyunca sabit değildir. Bazı dönemlerde yaşanan su stresi, o yılın verimini doğrudan etkiler:",
+        p: "Kayısıda su ihtiyacı sezon boyunca sabit değildir. Bazı dönemlerde yaşanan su stresi, o yılın verimini birebir etkiler:",
       },
       {
         ul: [
@@ -936,7 +895,7 @@ export const sulamaPosts = [
 
       { h2: "Kuyu debisine göre zonlama" },
       {
-        p: "Bahçenin tamamını aynı anda sulamak çoğu zaman mümkün değildir; kuyunun debisi sınırlıdır. Bu nedenle bahçe zonlara ayrılır ve zonlar sırayla sulanır.",
+        p: "Bahçenin tamamını aynı anda sulamak mümkün değildir; kuyunun debisi sınırlıdır. bahçe zonlara ayrılır ve zonlar sırayla sulanır.",
       },
       {
         table: {
@@ -959,10 +918,7 @@ export const sulamaPosts = [
 
       { h2: "Fertigasyon: suyla gübreleme" },
       {
-        p: "Damlama sisteminin en değerli yanlarından biri, gübrenin suyla birlikte ve kök bölgesine verilebilmesi. Bu yöntem gübrenin daha etkin kullanılmasını sağlar ve yüzeye serpme uygulamalardaki kayıpları azaltır.",
-      },
-      {
-        p: "Uygulamada dikkat edilecek üç kural var: gübreleme ünitesi filtreden önce bağlanır, tam çözünür gübre kullanılır ve uygulama sonrası hat temiz suyla yıkanır.",
+        p: "Damlama sisteminin en değerli yanlarından biri, gübrenin suyla birlikte ve kök bölgesine verilebilmesi. Bu yöntem gübrenin daha etkin kullanılmasını sağlar ve yüzeye serpme uygulamalardaki kayıpları azaltır. Uygulamada dikkat edilecek üç kural var: gübreleme ünitesi filtreden önce bağlanır, tam çözünür gübre kullanılır ve uygulama sonrası hat temiz suyla yıkanır.",
       },
       {
         quote:
@@ -996,12 +952,12 @@ export const sulamaPosts = [
         ],
       },
       {
-        p: "Bu maddelerin birçoğu tek tek küçük görünür. Bir arada olduklarında ise sistemin verimi belirgin düşer ve \"damlama sulama beklediğimi vermedi\" sonucuna varılır. Halbuki sorun yöntemde değil, uygulamadadır.",
+        p: "Bu maddelerin birçoğu tek tek küçük görünür. Bir arada olduklarında ise sistemin verimi epeyce düşer ve \"damlama sulama beklediğimi vermedi\" sonucuna varılır. Halbuki sorun yöntemde değil, uygulamadadır.",
       },
 
       { h2: "Toprak yapısı ve tuzlanma" },
       {
-        p: "Damlama sulamada su hep aynı noktadan verildiği için, ıslanan alanın kenarında tuz birikimi oluşur. Bu, özellikle sulama suyunun tuz içeriği yüksek olduğu yerlerde birkaç sezon içinde belirginleşir.",
+        p: "Damlama sulamada su hep aynı noktadan verildiği için, ıslanan alanın kenarında tuz birikimi oluşur. Bu, özellikle sulama suyunun tuz içeriği yüksek olduğu yerlerde birkaç sezon içinde kendini gösterir.",
       },
       {
         p: "Yağışlı dönemler bu tuzun yıkanmasına yardımcı olur. Yağışın yetersiz kaldığı yıllarda ise sezon sonunda daha uzun süreli bir sulama yaparak tuzun kök bölgesinden uzaklaştırılması faydalı olur.",
@@ -1012,10 +968,7 @@ export const sulamaPosts = [
 
       { h2: "Genç bahçede sulama" },
       {
-        p: "Yeni tesis edilmiş bir kayısı bahçesinde amaç, kökü derine yönlendirmek. Bunun için sulama sık ve az değil; kök bölgesini dolduracak ölçüde ve giderek seyrekleşen aralıklarla yapılır.",
-      },
-      {
-        p: "İlk yıllarda damlatıcılar gövdeye daha yakındır ve sayıları azdır. Ağaç büyüdükçe hem sayı artırılır hem konum dışa taşınır. Bu değişiklik yapılmadığında ağacın kökleri dar bir alanda sıkışır.",
+        p: "Yeni tesis edilmiş bir kayısı bahçesinde amaç, kökü derine yönlendirmek. Bunun için sulama sık ve az değil; kök bölgesini dolduracak ölçüde ve giderek seyrekleşen aralıklarla yapılır. İlk yıllarda damlatıcılar gövdeye daha yakındır ve sayıları azdır. Ağaç büyüdükçe hem sayı artırılır hem konum dışa taşınır. Bu değişiklik yapılmadığında ağacın kökleri dar bir alanda sıkışır.",
       },
       {
         p: "Genç bahçede dikkat edilecek ikinci konu, sıra aralarındaki yabancı otların suyu paylaşması. Ot kontrolü yapılmayan bir bahçede verilen suyun bir bölümü ağaca ulaşmadan tüketiliyor.",
@@ -1026,7 +979,7 @@ export const sulamaPosts = [
         p: "Taç yapısı değiştikçe kök bölgesi de değişir. Sert budama sonrası ağacın su ihtiyacı bir süre azalır; taç yeniden geliştiğinde ihtiyaç eski seviyesine döner.",
       },
       {
-        p: "Bu nedenle budama ile sulama programının birlikte düşünülmesi gerekir. Budama sonrası aynı programın sürdürülmesi, kök bölgesinde gereğinden fazla nem bırakabilir.",
+        p: "O yüzden budama ile sulama programının birlikte düşünülmesi gerekir. Budama sonrası aynı programın sürdürülmesi, kök bölgesinde gereğinden fazla nem bırakabilir.",
       },
       {
         p: "Aynı ilişki damlatıcı yerleşimi için de geçerli. Taç izdüşümü değiştiğinde damlatıcıların konumu da gözden geçirilir; bu kontrol, sezon açılışı bakımının doğal bir parçası olmalı.",
@@ -1060,7 +1013,7 @@ export const sulamaPosts = [
         },
       },
       {
-        p: "Analiz sonucu bir defa alındığında yıllarca yol gösterir. Kuyu suyunun karakteri kısa sürede değişmez; bu nedenle tek bir analiz, hem filtre seçimi hem bakım programı için sağlam bir temel oluşturur.",
+        p: "Analiz sonucu bir defa alındığında yıllarca yol gösterir. Kuyu suyunun karakteri kısa sürede değişmez; bunun için tek bir analiz, hem filtre seçimi hem bakım programı için sağlam bir temel oluşturur.",
       },
 
       { h2: "Bakım takvimi" },
@@ -1083,10 +1036,7 @@ export const sulamaPosts = [
 
       { h2: "Sistem büyütülebilir mi?" },
       {
-        p: "Bahçe genişletilecekse veya yeni parseller eklenecekse, sistemin buna hazır olması gerekir. Ana hat çapı ve kuyu debisi, ileride eklenecek alanı da düşünerek seçilirse büyüme kolay olur.",
-      },
-      {
-        p: "Sonradan yapılan eklemelerde en sık yaşanan sorun, mevcut zonların basıncının düşmesidir. Yeni alan aynı zona bağlandığında toplam damlatıcı debisi artar ve hat sonundaki ağaçlar yeterli su alamaz.",
+        p: "Bahçe genişletilecekse veya yeni parseller eklenecekse, sistemin buna hazır olması gerekir. Ana hat çapı ve kuyu debisi, ileride eklenecek alanı da düşünerek seçilirse büyüme kolay olur. Sonradan yapılan eklemelerde en sık yaşanan sorun, mevcut zonların basıncının düşmesidir. Yeni alan aynı zona bağlandığında toplam damlatıcı debisi artar ve hat sonundaki ağaçlar yeterli su alamaz.",
       },
       {
         p: "Doğru yaklaşım, yeni alanı ayrı bir zon olarak kurmak ve program süresini buna göre uzatmaktır. Manifold üzerinde baştan bırakılan yedek çıkış, bu genişlemeyi çok kolaylaştırıyor.",
@@ -1100,7 +1050,7 @@ export const sulamaPosts = [
         p: "Bu yüzden sezon açılışında hattın tamamı basınç altında gözle taranmalı. Küçük bir delik, bir sezon boyunca fark edilmediğinde hem su kaybı hem de o bölgedeki ağaçlarda gelişim geriliği yaratır.",
       },
       {
-        p: "Toprak işleme sırasında hatların konumunun bilinmesi de önemli. Laterallerin sıra üzerinde sabitlenmesi ve dönüş noktalarında işaretlenmesi, çapa ve pulluk kaynaklı kesikleri belirgin azaltıyor.",
+        p: "Toprak işleme sırasında hatların konumunun bilinmesi de önemli. Laterallerin sıra üzerinde sabitlenmesi ve dönüş noktalarında işaretlenmesi, çapa ve pulluk kaynaklı kesikleri epeyce azaltıyor.",
       },
     ],
     faqs: [
@@ -1162,9 +1112,9 @@ export const sulamaPosts = [
     intro:
       "Otomatik sulamanın vaadi basit: doğru miktarda suyu doğru zamanda vermek ve bunu her gün düşünmek zorunda kalmamak. Bu vaadin tutması ise ekipman seçimine bağlı. Yanlış seçilmiş bir vana veya suya maruz kalmış bir kablo eki, tüm sistemi güvenilmez hâle getiriyor.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Sistemin üç parçası" },
       {
-        p: "<strong>Bir sulama otomasyonu üç ana parçadan oluşur: programı yürüten kontrol ünitesi, suyu açıp kapatan selenoid vanalar ve kararı besleyen sensörler.</strong> Dördüncü ve en çok ihmal edilen parça ise kablolama ve su geçirmez eklerdir.",
+        p: "Bir sulama otomasyonu üç ana parçadan oluşur: programı yürüten kontrol ünitesi, suyu açıp kapatan selenoid vanalar ve kararı besleyen sensörler. Dördüncü ve en çok ihmal edilen parça ise kablolama ve su geçirmez eklerdir.",
       },
       {
         p: "Sistemin güvenilirliği en zayıf halkasına eşittir. Sahada gördüğümüz arızaların büyük bölümü kontrol ünitesinden değil; su almış kablo eklerinden, kirlenmiş vana diyaframından ve yanlış yerleştirilmiş sensörlerden kaynaklanıyor.",
@@ -1191,10 +1141,7 @@ export const sulamaPosts = [
 
       { h2: "Selenoid vana ve kutusu" },
       {
-        p: "Selenoid vana, kontrol ünitesinden gelen sinyalle açılıp kapanan elektrikli vanadır. Çoğu bahçe sisteminde düşük gerilimli bobinler kullanılır; bu, hem güvenlik hem kolay kablolama sağlar.",
-      },
-      {
-        p: "Vanalar, içine su dolmayan ve drenajı olan kutulara yerleştirilir. Kutu içindeki suya gömülü kalan bir bobin veya kablo eki, en sık karşılaşılan arıza kaynağı. Kutu altına çakıl serilmesi drenajı belirgin iyileştirir.",
+        p: "Selenoid vana, kontrol ünitesinden gelen sinyalle açılıp kapanan elektrikli vanadır. Çoğu bahçe sisteminde düşük gerilimli bobinler kullanılır; bu, hem güvenlik hem kolay kablolama sağlar. Vanalar, içine su dolmayan ve drenajı olan kutulara yerleştirilir. Kutu içindeki suya gömülü kalan bir bobin veya kablo eki, en sık karşılaşılan arıza kaynağı. Kutu altına çakıl serilmesi drenajı açık ölçüde iyileştirir.",
       },
       {
         p: "Her vanada manuel açma imkânı bulunur. Elektrik veya kontrol ünitesi arızasında sulamayı elle yapabilmek, sezon ortasında ciddi bir kolaylık; devreye alma sırasında bu işlevin çalıştığı mutlaka test edilmelidir.",
@@ -1239,7 +1186,7 @@ export const sulamaPosts = [
 
       { h2: "Kablolama ve ekler" },
       {
-        p: "Sulama kablosu, toprak altında sürekli neme maruz kalır. Bu nedenle bu iş için üretilmiş çok damarlı kablo kullanılır ve ekler su geçirmez bağlantı elemanlarıyla yapılır.",
+        p: "Sulama kablosu, toprak altında sürekli neme maruz kalır. Bunun için bu iş için üretilmiş çok damarlı kablo kullanılır ve ekler su geçirmez bağlantı elemanlarıyla yapılır.",
       },
       {
         ol: [
@@ -1296,10 +1243,7 @@ export const sulamaPosts = [
 
       { h2: "Sistemi kim yönetecek?" },
       {
-        p: "Otomasyonun sürdürülebilir olması, sistemi kullanacak kişinin onu anlamasına bağlı. Devreye alma sırasında programın nasıl değiştirileceği, manuel çalıştırmanın nasıl yapılacağı ve arıza durumunda ne yapılacağı mutlaka gösterilmelidir.",
-      },
-      {
-        p: "Pratik bir yöntem: zon numaralarının hangi bölgeye karşılık geldiğini gösteren küçük bir kroki hazırlayıp kontrol ünitesinin kapağına yapıştırmak. Yıllar sonra bile hangi vananın nereyi suladığı tartışma konusu olmuyor.",
+        p: "Otomasyonun sürdürülebilir olması, sistemi kullanacak kişinin onu anlamasına bağlı. Devreye alma sırasında programın nasıl değiştirileceği, manuel çalıştırmanın nasıl yapılacağı ve arıza durumunda ne yapılacağı mutlaka gösterilmelidir. Pratik bir yöntem: zon numaralarının hangi bölgeye karşılık geldiğini gösteren küçük bir kroki hazırlayıp kontrol ünitesinin kapağına yapıştırmak. Yıllar sonra bile hangi vananın nereyi suladığı tartışma konusu olmuyor.",
       },
       {
         p: "Aynı krokiye vana kutularının ve kablo güzergâhının yerleri de işlenmeli. Bahçede yapılacak herhangi bir kazı öncesi bu kroki, kesilen kablo ve patlayan boru sayısını sıfıra yaklaştırıyor.",
@@ -1400,7 +1344,7 @@ export const sulamaPosts = [
       },
       {
         q: "Vana kapanmıyor, su akmaya devam ediyor. Neden?",
-        a: "Genellikle diyafram üzerinde biriken kir veya vana içine kaçan kum nedeniyle olur. Vana sökülüp diyafram temizlendiğinde çoğu durumda sorun çözülür. Sık tekrarlıyorsa hattaki filtreleme yetersizdir; kaynak tarafında filtre eklenmesi gerekir.",
+        a: "Çoğu durumda diyafram üzerinde biriken kir veya vana içine kaçan kum nedeniyle olur. Vana sökülüp diyafram temizlendiğinde çoğu durumda sorun çözülür. Sık tekrarlıyorsa hattaki filtreleme yetersizdir; kaynak tarafında filtre eklenmesi gerekir.",
       },
       {
         q: "Yağmur sensörü gerçekten işe yarar mı?",

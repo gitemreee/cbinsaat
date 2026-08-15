@@ -153,9 +153,9 @@ export const dogalgazServices = [
       "Malatya'da yerden ısıtma kurulumu: serpantin, kolektör, ısı yalıtımı, şap ve basınç testi. Daire tadilatıyla birlikte planlanır.",
     keywords: ["Malatya yerden ısıtma", "yerden ısıtma kurulumu", "yerden ısıtma fiyat Malatya", "kolektör montajı"],
     intro:
-      "Yerden ısıtma, doğru kurulduğunda peteğe göre daha düşük su sıcaklığıyla aynı konforu veriyor. Yanlış kurulduğunda ise altına ulaşmak için zemini sökmek gerekiyor. Bu yüzden bu iş, tadilatın en başında karar verilmesi gereken kalemlerden biri.",
+      "Yerden ısıtma, doğru kurulduğunda peteğe göre daha düşük su sıcaklığıyla aynı konforu veriyor. Yanlış kurulduğunda ise altına ulaşmak için zemini sökmek gerekiyor. O yüzden bu iş, tadilatın en başında karar verilmesi gereken kalemlerden biri.",
     symptoms: [
-      { title: "Yeni tadilat planlanıyor", text: "Zemin nasılsa sökülecekse yerden ısıtmanın maliyeti belirgin şekilde düşüyor." },
+      { title: "Yeni tadilat planlanıyor", text: "Zemin nasılsa sökülecekse yerden ısıtmanın maliyeti hissedilir şekilde düşüyor." },
       { title: "Peteklerin yer kaplaması istenmiyor", text: "Küçük odalarda duvar boyunca petek yeri açmak zor oluyor." },
       { title: "Villa ve dubleks ısınmıyor", text: "Yüksek tavanlı hacimlerde yerden ısıtma sıcaklığı daha dengeli dağıtıyor." },
       { title: "Islak hacimlerde soğuk zemin", text: "Banyo ve mutfak için kısmi uygulama da yapılabiliyor." },

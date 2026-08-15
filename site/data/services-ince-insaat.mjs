@@ -42,7 +42,7 @@ export const inceInsaatServices = [
 
       { h2: "Yüzey hazırlığı görünmez ama fark eder" },
       { p: "Boyanın ömrünü belirleyen şey boyanın markası değil, altındaki yüzey. Tozlu, gevşek ya da astarsız yüzeye atılan en pahalı boya bile birkaç yılda kabarıyor." },
-      { p: "Bu yüzden zımpara, macun, astar adımlarını teklifte ayrı ayrı yazıyoruz. Bu kalemleri çıkarıp fiyat düşüren teklifler var; kısa vadede ucuz, orta vadede pahalı." },
+      { p: "O yüzden zımpara, macun, astar adımlarını teklifte ayrı ayrı yazıyoruz. Bu kalemleri çıkarıp fiyat düşüren teklifler var; kısa vadede ucuz, orta vadede pahalı." },
 
       { h2: "Işık, kusurları büyütür" },
       { p: "Duvara paralel gelen ışık, yüzeydeki en küçük dalgayı bile gösteriyor. Özellikle gizli aydınlatmalı tavanlar ve büyük pencereli salonlarda alçı işçiliği daha titiz yapılmalı." },
@@ -160,7 +160,7 @@ export const inceInsaatServices = [
     ],
     body: [
       { h2: "Bölme duvarda ses yalıtımı" },
-      { p: "Alçıpan bölmenin en sık şikâyeti ses geçirmesi. Çözüm profil arasına taş yünü doldurmak ve gerekiyorsa iki kat plaka kullanmak. Maliyeti çok artırmıyor, sonucu belirgin değiştiriyor." },
+      { p: "Alçıpan bölmenin en sık şikâyeti ses geçirmesi. Çözüm profil arasına taş yünü doldurmak ve gerekiyorsa iki kat plaka kullanmak. Maliyeti çok artırmıyor, sonucu epeyce değiştiriyor." },
       { p: "Ses yalıtımı istenen bölmede duvarın asma tavanın üstünden döşemeye kadar devam etmesi gerekiyor. Tavanda kesilen duvar, sesi üstten geçiriyor." },
 
       { h2: "Tavan içinde ne var?" },
@@ -386,7 +386,7 @@ export const inceInsaatServices = [
       "Malatya'da mermer ve granit uygulaması: mutfak tezgâhı, pencere denizliği, merdiven basamağı, eşik ve süpürgelik. Ölçü, kesim ve montaj.",
     keywords: ["Malatya mermer tezgah", "granit tezgah Malatya", "mermer merdiven Malatya", "denizlik montajı Malatya"],
     intro:
-      "Mermer ve granit, tadilatın az sayıdaki geri dönülemez kalemlerinden. Kesilen plaka geri yapıştırılamıyor. Bu yüzden ölçü ve şablon aşamasında acele etmiyoruz.",
+      "Mermer ve granit, tadilatın az sayıdaki geri dönülemez kalemlerinden. Kesilen plaka geri yapıştırılamıyor. Bunun için ölçü ve şablon aşamasında acele etmiyoruz.",
     symptoms: [
       { title: "Tezgâh lekeleniyor", text: "Doğal taş emici; koruyucu uygulanmamış olabilir." },
       { title: "Eviye kenarında çatlak", text: "Kesim köşesi keskin bırakılmış; gerilme oradan başlıyor." },
@@ -411,7 +411,7 @@ export const inceInsaatServices = [
 
       { h2: "Şablon almadan kesim yapılmaz" },
       { p: "Mutfak dolabı monte edildikten sonra yerinde şablon alıyoruz. Duvarlar tam dik olmadığı için kâğıt üstü ölçüyle kesilen tezgâh çoğu mutfakta boşluk bırakıyor." },
-      { p: "Şablon sonrası kesim ve montaj genellikle 3–5 gün sürüyor. Bu süre planlanmazsa mutfak montajı bekliyor; programa baştan yazıyoruz." },
+      { p: "Şablon sonrası kesim ve montaj çoğunlukla 3–5 gün sürüyor. Bu süre planlanmazsa mutfak montajı bekliyor; programa baştan yazıyoruz." },
 
       { h2: "Denizlikte damlalık kanalı" },
       { p: "Pencere denizliğinin alt yüzünde ince bir kanal açılması gerekiyor. Bu kanal suyun duvara doğru dönmesini engelliyor; olmadığında cephede zamanla kirlenme ve nem çizgisi oluşuyor." },

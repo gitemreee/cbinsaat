@@ -70,7 +70,7 @@ export const cephePosts = [
     excerpt: "Isının önemli kısmı çatıdan kaçıyor. Doğru yöntem, çatı arasının kullanılıp kullanılmadığına göre değişiyor.",
     services: ["cati-izolasyonu", "cati-yapimi", "dis-cephe-mantolama"],
     intro:
-      "Bir binada ısı kaybının belirgin bir kısmı çatıdan oluyor. Çatı yalıtımı, dış cephe yalıtımına göre daha ucuz ve daha kolay uygulanabilir olduğu için genelde en hızlı geri dönen kalem.",
+      "Bir binada ısı kaybının gözle görülür bir kısmı çatıdan oluyor. Çatı yalıtımı, dış cephe yalıtımına göre daha ucuz ve daha kolay uygulanabilir olduğu için genelde en hızlı geri dönen kalem.",
     body: [
       { h2: "Çatı arası kullanılmıyorsa" },
       { p: "En ekonomik yöntem yalıtımı çatı arası döşemesine sermek. Böylece ısıtılan hacim ile soğuk çatı arası birbirinden ayrılıyor." },
@@ -95,7 +95,7 @@ export const cephePosts = [
         "XPS/EPS levha: nem dayanımı iyi, teras çatıda kullanılır",
         "Püskürtme poliüretan: karmaşık geometride avantajlı, pahalı",
       ] },
-      { p: "Eğik çatıda genellikle taş yünü veya cam yünü, teras çatıda XPS tercih ediliyor." },
+      { p: "Eğik çatıda çoğunlukla taş yünü veya cam yünü, teras çatıda XPS tercih ediliyor." },
 
       { h2: "Yalıtımla birlikte yapılacaklar" },
       { p: "İskele veya çatıya çıkma zaten gerekiyorsa oluk kontrolü, baca dibi detayı ve kırık kiremit değişimini aynı anda yapmak mantıklı." },
@@ -138,7 +138,7 @@ export const cephePosts = [
         "Bodrum-zemin birleşimi",
         "Kolon ve kiriş hizaları (levha düzgün oturmadıysa)",
       ] },
-      { p: "Bu noktalara özel detay uygulanmazsa, cephenin geri kalanına yapılan yalıtımın etkisi belirgin şekilde azalıyor." },
+      { p: "Bu noktalara özel detay uygulanmazsa, cephenin geri kalanına yapılan yalıtımın etkisi hissedilir ölçüde azalıyor." },
 
       { h2: "Detay çözümleri" },
       { p: "Pencere kenarlarına ince levha (fitil) uygulanıyor, denizlik altına damlalık ve yalıtım devam ettiriliyor, köşelere profil konuyor." },
@@ -154,7 +154,7 @@ export const cephePosts = [
 
       { h2: "Tek daireye mantolama" },
       { p: "Yapılabiliyor ama verim binanın tamamına yapıldığındaki kadar olmuyor; komşu duvarlardan ısı köprüsü devam ediyor." },
-      { p: "Yine de dış duvarı çok olan köşe ve üst kat dairelerinde belirgin fark yaratıyor. Bina kararı çıkmıyorsa değerlendirilebilir bir seçenek." },
+      { p: "Yine de dış duvarı çok olan köşe ve üst kat dairelerinde açık fark yaratıyor. Bina kararı çıkmıyorsa değerlendirilebilir bir seçenek." },
     ],
     faqs: [
       { q: "Mantolama kendini kaç yılda amorti eder?", a: "Mevcut duruma ve ısıtma giderine bağlı. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanıza göre gerçekçi bir aralık veriyoruz; kesin rakam vaat etmiyoruz." },
@@ -284,7 +284,7 @@ export const cephePosts = [
     body: [
       { h2: "Yenileme zamanının işaretleri" },
       { ul: [
-        "Renk belirgin şekilde solmuş, cephe alacalı görünüyor",
+        "Renk epeyce solmuş, cephe alacalı görünüyor",
         "Boya kabarıyor, elle sürtünce toz bırakıyor (tebeşirlenme)",
         "Saç çatlakları oluşmuş",
         "Kuzey cephesinde yosun ve küf tabakası var",
@@ -314,7 +314,7 @@ export const cephePosts = [
       { p: "Yağış beklenen günlerde sıva ve boya yapılmıyor; program hava durumuna göre esnetiliyor." },
     ],
     faqs: [
-      { q: "Sadece bir cepheyi boyatabilir miyiz?", a: "Boyatabilirsiniz ama renk farkı oluşuyor; eski boya solduğu için yeni boya belirgin duruyor. Genelde tüm cephenin birlikte yapılması öneriliyor." },
+      { q: "Sadece bir cepheyi boyatabilir miyiz?", a: "Boyatabilirsiniz ama renk farkı oluşuyor; eski boya solduğu için yeni boya göze batıyor. Genelde tüm cephenin birlikte yapılması öneriliyor." },
       { q: "Korkuluk ve doğrama boyası dahil mi?", a: "Ayrı kalem olarak yazıyoruz. İskele kuruluyken yapılması hem ucuz hem mantıklı; teklifte seçenek olarak sunuyoruz." },
       { q: "Kararı apartman nasıl alır?", a: "Ortak alan kapsamında yönetim üzerinden karar alınıyor. Kat maliki başına düşen tutarı hesaplayıp teklifte gösteriyoruz." },
     ],
@@ -408,7 +408,7 @@ export const cephePosts = [
 
       { h2: "Mevcut korkuluğu kurtarmak" },
       { p: "Kesiti incelmemiş, pas delik açmamış korkuluklar kurtarılabiliyor: pas temizliği, taşlama, antipas ve son kat." },
-      { p: "Pas metali delmişse ya da kesiti belirgin incelttiyse boyama çözüm değil. Bu durumda parça değişimi ya da yenileme gerekiyor." },
+      { p: "Pas metali delmişse ya da kesiti gözle görülür ölçüde incelttiyse boyama çözüm değil. Öyle bir durumda parça değişimi ya da yenileme gerekiyor." },
 
       { h2: "Güvenlik ölçüleri" },
       { p: "Bakım sırasında korkuluğun yüksekliği ve dikmeler arasındaki boşluk da gözden geçirilmeli. Özellikle çocuklu evlerde kritik." },
@@ -501,7 +501,7 @@ export const cephePosts = [
 
       { h2: "Çatı eğimi" },
       { p: "Dik çatıda kar daha kolay kayıyor, yük azalıyor. Az eğimli çatıda kar duruyor ve yük artıyor." },
-      { p: "Ama dik çatıda kar kütlesinin toplu kayması ayrı bir risk. Bu yüzden kar tutucu devreye giriyor." },
+      { p: "Ama dik çatıda kar kütlesinin toplu kayması ayrı bir risk. O yüzden kar tutucu devreye giriyor." },
 
       { h2: "Kar tutucu" },
       { p: "Saçak üstüne monte edilen kar tutucular, karın toplu kaymasını engelliyor ve yavaş erimesini sağlıyor." },

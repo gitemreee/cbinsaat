@@ -5,7 +5,7 @@ export const serviceExtra6 = {
     { h2: "Dubleksin kendine özgü sorunları" },
     { p: "Dubleks ve villalarda en sık duyduğumuz şikâyet, üst ve alt katın farklı ısınmasıdır. Sıcak hava yükselir; alt kat üşürken üst kat bunalır. Bu, cihaz kapasitesiyle değil sistem tasarımıyla ilgili bir sorundur." },
     { p: "Çözüm iki katı ayrı zonlara bölmektir. Her katın kendi termostatı olur ve bağımsız çalışır. Yerden ısıtmalı sistemlerde bu zaten kolektörle sağlanır; petekli sistemlerde denge vanaları ve ayrı devre gerekir." },
-    { p: "Merdiven boşluğu da hava dolaşımını hızlandırır. Yüksek tavanlı salonlarda tavan vantilatörü, sıcak havayı aşağı iterek dengeyi belirgin iyileştirir." },
+    { p: "Merdiven boşluğu da hava dolaşımını hızlandırır. Yüksek tavanlı salonlarda tavan vantilatörü, sıcak havayı aşağı iten bu düzen dengeyi gözle görülür ölçüde iyileştirir." },
 
     { h2: "Merdiven: tadilatın en zorlu kalemi" },
     { p: "Merdiven yenilemesi, evin iki katını da etkileyen tek imalattır. Basamak kaplaması değişecekse rıht yüksekliklerinin eşit kalması gerekir; kaplama kalınlığı ilk ve son basamakta fark yaratır." },
@@ -14,7 +14,7 @@ export const serviceExtra6 = {
 
     { h2: "Islak hacim çokluğu" },
     { p: "Dubleks ve villalarda genelde üç ve daha fazla ıslak hacim bulunur. Her birinin su yalıtımı ayrı ayrı yapılır ve ayrı ayrı test edilir." },
-    { p: "Üst kattaki bir banyodan sızan su, alt katın tavanına iner. Bu yüzden üst kat ıslak hacimlerinde yalıtım ve 24 saat su testi tartışmasızdır." },
+    { p: "Üst kattaki bir banyodan sızan su, alt katın tavanına iner. O yüzden üst kat ıslak hacimlerinde yalıtım ve 24 saat su testi tartışmasızdır." },
     { p: "Sıcak suyun uzak banyoya geç gelmesi de yaygın bir şikâyettir. Resirkülasyon hattı (sıcak su dönüş hattı) bu sorunu çözer; tadilat sırasında çekilmesi gerekir." },
 
     { h2: "Bodrum ve teras" },
@@ -33,7 +33,7 @@ export const serviceExtra6 = {
     { p: "Teklifimizi kalem kalem, ayrıca kat maliki başına düşen tutarla birlikte veriyoruz. Yönetim toplantısında konuşulacak rakam böylece net oluyor." },
 
     { h2: "Aydınlatma: en hızlı geri dönen kalem" },
-    { p: "Ortak alanlarda sürekli yanan eski armatürlerin sensörlü LED ile değişimi, elektrik giderini belirgin düşürür. Bu kalem kendini kısa sürede amorti eder." },
+    { p: "Ortak alanlarda sürekli yanan eski armatürlerin sensörlü LED ile değişimi, elektrik giderini epeyce düşürür. Bu kalem kendini kısa sürede amorti eder." },
     { p: "Sensör konumu önemlidir; yanlış yerleştirilen sensör siz basamağa varmadan söner. Kat sahanlığı ve dönüş noktalarına ayrı sensör konması gerekir." },
     { p: "Merdiven aydınlatmasında bir armatürün sönmesi tüm katı karanlıkta bırakmamalıdır. Grupları buna göre bölüyoruz." },
 
@@ -91,7 +91,7 @@ export const serviceExtra6 = {
 
     { h2: "Amaç: pazarlık payını kapatmak" },
     { p: "Satış öncesi yenilemenin amacı daireyi yeni göstermek değil, alıcının kafasındaki \"burada daha ne masraf var\" sorusunu ortadan kaldırmaktır." },
-    { p: "Alıcı gördüğü her eksiği pazarlık payına çevirir ve genelde gerçek maliyetinden fazlasını ister. Küçük onarımların geri dönüşü bu yüzden yüksektir." },
+    { p: "Alıcı gördüğü her eksiği pazarlık payına çevirir ve genelde gerçek maliyetinden fazlasını ister. Küçük onarımların geri dönüşü bu sebeple yüksektir." },
 
     { h2: "Yapılacaklar ve yapılmayacaklar" },
     { p: "Yapılacaklar: boya, damlayan musluklar, kararmış priz ve anahtarlar, kapanmayan kapılar, kırık fayans, dökülmüş derz, yanmayan ampuller, tavandaki nem lekeleri (önce kaynağı giderilerek)." },
@@ -114,9 +114,9 @@ export const serviceExtra6 = {
     { p: "Kolon, kiriş ve perde duvarda çatlak gördüğünüzde bunu önce yetkili incelemeye taşımanız gerekir. Biz iç mekân tarafındayız ve bu sınırı açıkça çiziyoruz." },
 
     { h2: "Hangi çatlak kozmetik?" },
-    { p: "Bölme duvarlardaki ince, saç teli kalınlığındaki çatlaklar genellikle sıva kaynaklıdır ve kozmetiktir. Açılıp file ve tamir harcıyla onarılır." },
-    { p: "Kolon ve kirişte, özellikle çapraz yönde ilerleyen ve genişliği belirgin çatlaklar kozmetik değildir. Bu tür bir çatlağı sıvayla kapatmak, bilgi saklamaktır." },
-    { p: "Kapı kasasının belirgin çarpılması, kapıların aniden sürtmeye başlaması ve zeminde eğim hissi de duvarda deformasyon işaretleridir; değerlendirilmesi gerekir." },
+    { p: "Bölme duvarlardaki ince, saç teli kalınlığındaki çatlaklar sıklıkla sıva kaynaklıdır ve kozmetiktir. Açılıp file ve tamir harcıyla onarılır." },
+    { p: "Kolon ve kirişte, özellikle çapraz yönde ilerleyen ve genişliği gözle görülür çatlaklar kozmetik değildir. Bu tür bir çatlağı sıvayla kapatmak, bilgi saklamaktır." },
+    { p: "Kapı kasasının gözle görülür çarpılması, kapıların aniden sürtmeye başlaması ve zeminde eğim hissi de duvarda deformasyon işaretleridir; değerlendirilmesi gerekir." },
 
     { h2: "Tesisat kontrolleri" },
     { p: "Sarsıntı sonrası su ve gaz hatlarında gevşemiş bağlantılar olabilir. Su hattı basınç testinden geçirilmeli, gaz tarafı yetkili firmaya kontrol ettirilmelidir." },
@@ -152,7 +152,7 @@ export const serviceExtra6 = {
     { p: "Metraj listesini size veriyoruz. Bütçe sıkışırsa hangi kalemden ne kadar kısılabileceğini rakama bakarak konuşuyoruz." },
 
     { h2: "İş programı ve kritik yol" },
-    { p: "Bir inşaatta bazı işler paralel yürüyebilir, bazıları birbirini bekler. Kritik yol, geciktiğinde teslimi doğrudan öteleyen iş zinciridir." },
+    { p: "Bir inşaatta bazı işler paralel yürüyebilir, bazıları birbirini bekler. Kritik yol, geciktiğinde teslimi takvimi aynı ölçüde öteleyen iş zinciridir." },
     { p: "Temel–betonarme–çatı zinciri kritik yoldadır; bunlarda bir gün gecikme teslimde bir gün gecikmedir. İnce işlerde ise paralel çalışma imkânı vardır." },
     { p: "Programı bu mantıkla kuruyor ve haftalık güncelliyoruz. Hangi kalemin neyi beklediğini görebiliyorsunuz." },
 
@@ -243,7 +243,7 @@ export const serviceExtra6 = {
     { p: "Makine besleme hatları ve vinç hattı ayrı planlanır; bunların kesiti ve koruma ekipmanı makinenin etiket değerine göre belirlenir." },
 
     { h2: "Yalıtım ve iklimlendirme" },
-    { p: "Çatı ve cephe panellerinin yalıtım kalınlığı, kışın çalışılabilirliği doğrudan belirler. Yalıtımsız bir depoda ısıtma maliyeti kısa sürede yalıtım maliyetini aşar." },
+    { p: "Çatı ve cephe panellerinin yalıtım kalınlığı, kışın çalışılabilirliği birebir belirler. Yalıtımsız bir depoda ısıtma maliyeti kısa sürede yalıtım maliyetini aşar." },
     { p: "Havalandırma da ihmal edilmemelidir; kaynak, boya ve kimyasal kullanılan atölyelerde mekanik havalandırma iş güvenliği konusudur." },
   ],
 
@@ -275,7 +275,7 @@ export const serviceExtra6 = {
   "prefabrik-hafif-celik": [
     { h2: "Hız nereden geliyor?" },
     { p: "Kazanç, imalatın fabrikada ve sahadaki hazırlığın aynı anda yürümesinden gelir. Temel dökülürken panel ve karkas üretilir; saha hazır olduğunda montaj günler sürer." },
-    { p: "Bu yüzden karar ve sipariş tarihini erken vermek gerekir. Geç verilen sipariş, prefabriğin en büyük avantajını yok eder." },
+    { p: "Bunun için karar ve sipariş tarihini erken vermek gerekir. Geç verilen sipariş, prefabriğin en büyük avantajını yok eder." },
 
     { h2: "Yalıtım: şikâyetlerin asıl kaynağı" },
     { p: "\"Prefabrik yapı kışın soğuk, yazın sıcak\" şikâyetinin sebebi sistem değil, panel kalınlığı ve birleşim detaylarıdır." },
@@ -283,7 +283,7 @@ export const serviceExtra6 = {
     { p: "Çatı yalıtımı ayrıca önemlidir; ısının çoğu çatıdan kaçar. Burada tasarruf etmek işletme maliyetini kalıcı olarak yükseltir." },
 
     { h2: "Temel ve zemin" },
-    { p: "Hafif çelik yapı hafif olduğu için temel yükü düşüktür; zayıf zeminlerde temel maliyeti belirgin azalır. Bu, sistemin en somut avantajlarından biridir." },
+    { p: "Hafif çelik yapı hafif olduğu için temel yükü düşüktür; zayıf zeminlerde temel maliyeti epeyce azalır. Bu, sistemin en somut avantajlarından biridir." },
     { p: "Yine de temel, yetkili statik ekibin hesabına göre yapılır. Hafif yapı, hesapsız temel demek değildir." },
     { p: "Zeminin drenajı ve su yalıtımı da ihmal edilmemelidir; hafif yapıda da temel nemi aynı sorunları yaratır." },
 
@@ -306,7 +306,7 @@ export const serviceExtra6 = {
     { h2: "Açılışa yetişmek: geriye doğru program" },
     { p: "Programı açılış tarihinden geriye kuruyoruz. Son hafta temizlik ve deneme, ondan önce montajlar, ondan önce boya, ondan önce elektrik testleri, ondan önce zemin ve tavan." },
     { p: "Uzun temin süreli kalemler ilk hafta siparişe çıkar: vitrin doğraması, özel mobilya, aydınlatma armatürleri, mutfak ekipmanı, zemin kaplaması." },
-    { p: "Karar tarihleri sözleşmeye yazılır. Geciken karar teslimi doğrudan öteler; bunu sonradan tartışmak yerine baştan yazmayı tercih ediyoruz." },
+    { p: "Karar tarihleri sözleşmeye yazılır. Geciken karar teslimi aynı gün sayısınca öteler; bunu sonradan tartışmak yerine baştan yazmayı tercih ediyoruz." },
 
     { h2: "Ruhsat ve izin süreci" },
     { p: "İş yeri açma ve çalışma ruhsatı süreçleri, yetkili proje ekiplerinin ve ilgili idarenin işidir. Biz uygulamayı yürütür, gerekli teknik evrak ve uygulama kayıtlarını sağlarız." },
@@ -336,7 +336,7 @@ export const serviceExtra6 = {
     { h2: "Pano nasıl boyutlandırılır?" },
     { p: "Boyutlandırma için tesisin yük profili bilinmelidir: hangi makineler ne zaman çalışıyor, toplam güç ne. Sadece kurulu güce bakarak seçim yapmak yanlış sonuç verir." },
     { p: "Kondansatörler kademeli olarak devreye girer; reaktif güç kontrol rölesi anlık ihtiyacı ölçüp gereken kademeyi açar. Kademe sayısı ve güçleri yük profiline göre seçilir." },
-    { p: "Aşırı kompanzasyon da cezalıdır. Yani gereğinden fazla kondansatör koymak sorunu çözmez, ters yönde ceza doğurur. Bu yüzden ölçüm ve hesap şarttır." },
+    { p: "Aşırı kompanzasyon da cezalıdır. Yani gereğinden fazla kondansatör koymak sorunu çözmez, ters yönde ceza doğurur. Dolayısıyla ölçüm ve hesap şarttır." },
 
     { h2: "Harmonik sorunu" },
     { p: "Frekans konvertörü, UPS ve LED sürücüsü gibi elektronik yükler harmonik üretir. Harmonik bulunan tesislerde standart kondansatör hızla bozulur, hatta patlayabilir." },
@@ -363,11 +363,11 @@ export const serviceExtra6 = {
     { h2: "Hangi yükler beslenecek?" },
     { p: "Tüm tesisi jeneratörle beslemek çoğu işletmede gereksiz ve pahalıdır. Doğru yaklaşım kritik yükleri ayırıp sadece onları beslemektir." },
     { p: "Bu ayrım pano seviyesinde yapılır: kritik yükler ayrı bir tali panoya alınır ve jeneratör bu panoyu besler. Aydınlatmanın tamamı yerine kaçış yolu ve çalışma alanı aydınlatması seçilir." },
-    { p: "Kritik yük listesi çıkarıldığında jeneratör gücü de belirgin düşer; ilk yatırım ve yakıt maliyeti azalır." },
+    { p: "Kritik yük listesi çıkarıldığında jeneratör gücü de gözle görülür ölçüde düşer; ilk yatırım ve yakıt maliyeti azalır." },
 
     { h2: "Jeneratör gücü nasıl hesaplanır?" },
     { p: "Toplam güç yeterli bir ölçüt değildir. Motorlu yükler kalkışta anlık olarak çok yüksek akım çeker; jeneratör bu kalkış akımını karşılayabilmelidir." },
-    { p: "Asansör, kompresör ve büyük pompa gibi yükler bu yüzden hesabı doğrudan etkiler. Kalkış sırası da planlanabilir: yükler kademeli devreye alınarak daha küçük jeneratör kullanılabilir." },
+    { p: "Asansör, kompresör ve büyük pompa gibi yükler bu yüzden hesabı hemen etkiler. Kalkış sırası da planlanabilir: yükler kademeli devreye alınarak daha küçük jeneratör kullanılabilir." },
     { p: "Yakıt deposu kapasitesi ise ne kadar süre besleme istendiğine göre seçilir. Kesinti süreleri geçmiş verilerden tahmin edilebilir." },
 
     { h2: "Otomatik transfer ve senkron" },
@@ -377,7 +377,7 @@ export const serviceExtra6 = {
     { h2: "UPS akü bakımı" },
     { p: "UPS'in gerçek zayıf noktası aküdür. Aküler zamanla kapasite kaybeder ve kesinti anında beklenen süreyi vermez." },
     { p: "Akü testi periyodik yapılmalıdır; \"UPS var\" demek yeterli değildir, kaç dakika verdiğinin ölçülmüş olması gerekir." },
-    { p: "Akü odasının havalandırması ve sıcaklığı da ömrü doğrudan etkiler. Sıcak bir odada aküler beklenenin çok altında ömür verir." },
+    { p: "Akü odasının havalandırması ve sıcaklığı da ömrü aynı ölçüde etkiler. Sıcak bir odada aküler beklenenin çok altında ömür verir." },
   ],
 
   "fabrika-elektrik-tesisati": [
@@ -419,7 +419,7 @@ export const serviceExtra6 = {
     { h2: "Kapı paneli seçimi ve konumu" },
     { p: "Panel, giren kişinin yüzünü net görecek yükseklikte olmalıdır; genelde 1,4–1,6 m arası uygundur. Çok yükseğe konan panel kafa üstü görüntü verir." },
     { p: "Kamera açısı doğrudan güneşe bakmamalıdır; arkadan ışık aldığında yüz karanlık çıkar. Kuzeye ya da gölgeli bir yöne bakan konum tercih edilir." },
-    { p: "Paslanmaz ya da alüminyum gövdeli paneller dış mekânda uzun ömürlüdür. Yağmur alan konumlarda üstüne küçük bir damlalık yapılması ömrü belirgin uzatır." },
+    { p: "Paslanmaz ya da alüminyum gövdeli paneller dış mekânda uzun ömürlüdür. Yağmur alan konumlarda üstüne küçük bir damlalık yapılması ömrü epeyce uzatır." },
 
     { h2: "Kablolama ve besleme" },
     { p: "Diafon kablosu güç kablolarıyla aynı borudan geçirilmemelidir; parazit ve görüntü bozulması yapar. Ayrı boru ya da yeterli mesafe gerekir." },
@@ -429,7 +429,7 @@ export const serviceExtra6 = {
     { h2: "Kapı otomatiği ve manyetik kilit" },
     { p: "Elektrikli kilit (buton kilit) ekonomiktir ve yaygındır. Manyetik kilit ise daha güvenlidir ama enerji kesildiğinde açık kalacak şekilde tasarlanması gerekir (yangın güvenliği)." },
     { p: "Kapı otomatiğinin ayarı da önemlidir: çok hızlı kapanan kapı tehlikelidir, çok yavaş kapanan kapı güvenlik açığıdır. Montaj sonrası ayar yapılıp teslim edilir." },
-    { p: "Şifreli ve kartlı geçiş sistemleri diafona entegre edilebilir. Bu, apartmanlarda anahtar kaybı sorununu belirgin azaltır." },
+    { p: "Şifreli ve kartlı geçiş sistemleri diafona entegre edilebilir. Bu, apartmanlarda anahtar kaybı sorununu gözle görülür ölçüde azaltır." },
 
     { h2: "Apartmanda yenileme süreci" },
     { p: "Diafon yenilemesi ortak alan kapsamındadır; karar yönetim üzerinden alınır. Teklifi daire başına düşen tutarla birlikte veriyoruz." },

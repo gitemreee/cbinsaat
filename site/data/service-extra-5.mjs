@@ -4,7 +4,7 @@ export const serviceExtra5 = {
   "anahtar-teslim-mustakil-ev": [
     { h2: "Arsa bakarken kontrol edilecekler" },
     { p: "Arsanın imar durumu, yapılaşma koşulları ve çekme mesafeleri her şeyin başlangıcıdır. Kaç metrekare, kaç kat, hangi kullanım; bunlar imar durum belgesinde yazılıdır ve arsa alınmadan önce teyit edilmelidir." },
-    { p: "İkinci bakılacak şey ulaşımdır. Beton mikserinin ve pompanın giremediği bir araziye betonarme yapmak, maliyeti tahmin edilenin belirgin üstüne çıkarır. Keşifte yol genişliğine, eğime ve dönüş yarıçapına bakıyoruz." },
+    { p: "İkinci bakılacak şey ulaşımdır. Beton mikserinin ve pompanın giremediği bir araziye betonarme yapmak, maliyeti tahmin edilenin epeyce üstüne çıkarır. Keşifte yol genişliğine, eğime ve dönüş yarıçapına bakıyoruz." },
     { p: "Üçüncüsü altyapıdır: elektrik hattı ne kadar uzakta, su nereden gelecek, kanalizasyon var mı. Bu üçü yoksa maliyet kaleminiz binadan önce altyapıdır." },
 
     { h2: "Zemin etüdü neyi belirler?" },
@@ -37,7 +37,7 @@ export const serviceExtra5 = {
 
     { h2: "Süre ve mevsim planlaması" },
     { p: "Tek katlı ortalama bir müstakil evde kaba inşaat 2–3 ay, anahtar teslim toplam 6–9 aydır. Bu süreyi belirleyen üç şey: zemin durumu, hava koşulları ve malzeme temin süreleri." },
-    { p: "Beton dökümü donma riski olan günlerde yapılmaz. Bu yüzden temel ve betonarme aşamasını ilkbahar–sonbahar aralığına denk getirmek programı rahatlatır." },
+    { p: "Beton dökümü donma riski olan günlerde yapılmaz. O yüzden temel ve betonarme aşamasını ilkbahar–sonbahar aralığına denk getirmek programı rahatlatır." },
     { p: "İnce işler ve iç mekân kalemleri kışın da yürütülebilir. Programı buna göre kuruyoruz: dışarıda yapılacak işler uygun mevsime, içeride yapılacaklar kışa denk getiriliyor." },
 
     { h2: "Ödeme ve hakediş" },
@@ -59,7 +59,7 @@ export const serviceExtra5 = {
 
     { h2: "Yerden ısıtma ve zon planı" },
     { p: "Villada yerden ısıtma neredeyse standart hâle geldi. Yüksek tavanlı hacimlerde sıcaklığı daha dengeli dağıtır; petekte sıcak hava tavana çıkıp orada birikirken yerden ısıtmada bu olmaz." },
-    { p: "Her oda ayrı zon olarak planlanır. Az kullanılan misafir odası ve bodrum kısılabilir; bu, yıllık tüketimde belirgin fark yaratır." },
+    { p: "Her oda ayrı zon olarak planlanır. Az kullanılan misafir odası ve bodrum kısılabilir; bu, yıllık tüketimde büyük fark yaratır." },
     { p: "Kat yüksekliği planlaması burada da geçerlidir: yalıtım levhası, serpantin ve şap birlikte zemini 6–8 cm yükseltir. Kapı altları ve merdiven basamağı buna göre hesaplanır." },
 
     { h2: "Akıllı ev altyapısı" },
@@ -69,7 +69,7 @@ export const serviceExtra5 = {
 
     { h2: "Havuz ve bahçe: kaba inşaatta çözülür" },
     { p: "Havuz düşünülüyorsa kabası ve tesisat altyapısı bina temeliyle birlikte planlanmalıdır. Sonradan yapılan havuz, bahçenin yeniden kazılması demektir." },
-    { p: "Bahçe tarafında istinat duvarı, drenaj, sulama hattı ve aydınlatma kabloları en başta, kaba inşaat makineleri sahadayken yapılırsa maliyeti belirgin düşer." },
+    { p: "Bahçe tarafında istinat duvarı, drenaj, sulama hattı ve aydınlatma kabloları en başta, kaba inşaat makineleri sahadayken yapılırsa maliyeti epeyce düşer." },
     { p: "Bitki ve peyzaj kısmı sonraya kalabilir; altyapı kalmamalıdır. Bu ayrımı teklifte iki ayrı kalem olarak gösteriyoruz." },
 
     { h2: "Süre ve etaplama" },
@@ -91,12 +91,12 @@ export const serviceExtra5 = {
 
     { h2: "Birleşimler: sızıntının %90'ı buradan" },
     { p: "Su, yüzeyin ortasından değil kenarlardan girer. Duvar–döşeme birleşimi, gider çevresi ve parapet dibi; sızıntıların neredeyse tamamı bu üç noktadan başlar." },
-    { p: "Bu yüzden yalıtım duvara doğru 20–30 cm yukarı taşınır ve köşelere ilave takviye bant uygulanır. Gider çevresine özel manşet konur ve yalıtım giderin içine doğru devam ettirilir." },
+    { p: "Bunun için yalıtım duvara doğru 20–30 cm yukarı taşınır ve köşelere ilave takviye bant uygulanır. Gider çevresine özel manşet konur ve yalıtım giderin içine doğru devam ettirilir." },
     { p: "Parapet üstüne damlalıklı harpuşta konmalıdır. Harpuştasız parapet, duvarın içine su alır ve alttaki yalıtım ne yaparsa yapsın nem devam eder." },
 
     { h2: "Membran mı sürme yalıtım mı?" },
     { p: "Geniş ve düz yüzeylerde membran (serme) daha hızlı ve ekonomiktir. Detaylı köşeleri çok olan, üstüne seramik gelecek alanlarda ise sürme yalıtım tercih edilir." },
-    { p: "Membran üstüne doğrudan seramik yapıştırılmaz; ayrı bir çözüm gerekir. Bu yüzden üst kaplama kararı yalıtım tipinden önce verilmelidir." },
+    { p: "Membran üstüne doğrudan seramik yapıştırılmaz; ayrı bir çözüm gerekir. Dolayısıyla üst kaplama kararı yalıtım tipinden önce verilmelidir." },
     { p: "Sürme yalıtımlar çimento esaslı ve poliüretan esaslı olarak ikiye ayrılır. Poliüretan daha elastiktir ve hareket eden yüzeylerde avantajlıdır; çimento esaslı ise seramik yapıştırmaya daha uygundur." },
 
     { h2: "Eğik çatıda ısı yalıtımı" },
@@ -156,7 +156,7 @@ export const serviceExtra5 = {
     { h2: "Bölme duvarda ses yalıtımı" },
     { p: "Boş bir alçıpan bölme sesi neredeyse hiç durdurmaz. Ses yalıtımı için profil arasına taş yünü dolgu konması ve gerekiyorsa iki kat levha kullanılması gerekir." },
     { p: "Duvarın asma tavan üstünden döşemeye kadar devam etmesi de şarttır. Tavanda kesilen duvar, sesi üstten komşu odaya geçirir; toplantı odalarında en sık yapılan hata budur." },
-    { p: "Zemin ve tavan birleşimlerine akustik bant konması, yapı üzerinden ses iletimini azaltır. Küçük bir malzeme, belirgin bir fark." },
+    { p: "Zemin ve tavan birleşimlerine akustik bant konması, yapı üzerinden ses iletimini azaltır. Küçük bir malzeme, net bir fark." },
 
     { h2: "Plaka tipleri ve renk kodları" },
     { ul: [
@@ -206,7 +206,7 @@ export const serviceExtra5 = {
     { p: "Geniş alanlarda ve uzun koridorlarda ayrıca ara genleşme derzi bırakılır. Kapı geçişlerinde geçiş profili kullanmak da aynı işlevi görür." },
 
     { h2: "Yerden ısıtmalı zeminde parke" },
-    { p: "Yerden ısıtma varsa ürünün ısı direnci düşük olmalıdır. Kalın masif parke ve kalın şilte, sistemin verimini belirgin düşürür." },
+    { p: "Yerden ısıtma varsa ürünün ısı direnci düşük olmalıdır. Kalın masif parke ve kalın şilte, sistemin verimini fark edilir ölçüde düşürür." },
     { p: "Döşemeden önce sistem devreye alınıp zemin nemi alınmalıdır. Bu ısıtma programı üreticinin talimatına göre kademeli yapılır; aniden tam güçle çalıştırmak şapta çatlak yapar." },
     { p: "Ürün etiketinde \"yerden ısıtmaya uygun\" ibaresi aranmalıdır. Her lamine ve laminat bu uygulamaya uygun değildir." },
 
@@ -219,13 +219,13 @@ export const serviceExtra5 = {
   "kapi-pencere-dograma": [
     { h2: "Ölçü: işin en kritik adımı" },
     { p: "Kapı ve pencerede işin yarısı ölçüdür. Bir santimetrelik hata kasanın terazisini bozar, kapı sürter, pencere tam kapanmaz. Yanlış ölçüde üretilen doğrama ise iade edilemez." },
-    { p: "Bu yüzden ölçüyü kendimiz alıyor ve sipariş listesini imzalı veriyoruz. Ölçü kaynaklı bir hata olursa sorumluluğu bizde oluyor; bu maddeyi baştan netleştirmek en sık yaşanan anlaşmazlığı ortadan kaldırıyor." },
+    { p: "O yüzden ölçüyü kendimiz alıyor ve sipariş listesini imzalı veriyoruz. Ölçü kaynaklı bir hata olursa sorumluluğu bizde oluyor; bu maddeyi baştan netleştirmek en sık yaşanan anlaşmazlığı ortadan kaldırıyor." },
     { p: "Ölçü, sıva bittikten sonra alınır. Sıva öncesi alınan ölçüler sıva kalınlığı kadar sapar." },
 
     { h2: "PVC pencerede neye bakılır?" },
     { p: "Profilin odacık sayısı (3, 5, 6) ve genişliği yalıtım performansını etkiler. Konutta 5 odacık yaygın ve yeterli bir tercihtir." },
     { p: "Profil içindeki çelik takviyenin varlığı ve kalınlığı da önemlidir. Takviyesiz ya da ince takviyeli profil, özellikle geniş kanatlarda zamanla çarpılır." },
-    { p: "Ama asıl farkı cam ünitesi yaratır. Pencere alanının büyük kısmı camdır; ısı kaybının da büyük kısmı camdan olur. Low-E kaplamalı ve argon dolgulu cam, standart ısıcama göre belirgin fark yaratır." },
+    { p: "Ama asıl farkı cam ünitesi yaratır. Pencere alanının büyük kısmı camdır; ısı kaybının da büyük kısmı camdan olur. Low-E kaplamalı ve argon dolgulu cam, standart ısıcama göre açık fark yaratır." },
 
     { h2: "Montaj detayı: köpük tek başına yetmez" },
     { p: "PVC pencere montajı, çerçeveyi boşluğa oturtup köpük sıkmaktan ibaret değildir. İç tarafa buhar kesici, dış tarafa su geçirmez ama nefes alan bant uygulanması gerekir." },
@@ -250,7 +250,7 @@ export const serviceExtra5 = {
       "Su tahliye deliklerini temizleyin",
       "Sineklik ve panjur raylarını temizleyin",
     ] },
-    { p: "Bu bakım, doğramanın ömrünü belirgin uzatır. Özellikle su tahliye deliklerinin tıkanması, kasa içinde su birikmesine ve zamanla deformasyona yol açar." },
+    { p: "Bu bakım, doğramanın ömrünü epeyce uzatır. Özellikle su tahliye deliklerinin tıkanması, kasa içinde su birikmesine ve zamanla deformasyona yol açar." },
   ],
 
   "kafe-restoran-tadilati": [
@@ -275,7 +275,7 @@ export const serviceExtra5 = {
 
     { h2: "Akustik ve aydınlatma" },
     { p: "Bir kafenin \"rahat\" hissettirmesi büyük ölçüde akustiktir. Yankılı bir mekânda konuşmak yorucudur ve müşteri farkında olmadan erken kalkar." },
-    { p: "Akustik tavan paneli, duvarda yumuşak yüzeyler ve halı; üçü birlikte belirgin fark yaratır. Bu kalemler tasarımın parçası olarak baştan planlanmalıdır." },
+    { p: "Akustik tavan paneli, duvarda yumuşak yüzeyler ve halı; üçü birlikte net fark yaratır. Bu kalemler tasarımın parçası olarak baştan planlanmalıdır." },
     { p: "Aydınlatmada masa üstü ve genel aydınlatma ayrı gruplarda olmalıdır. Gündüz ve akşam farklı senaryolar kullanmak, aynı mekânı iki farklı atmosfere sokar." },
 
     { h2: "Açılışa yetişmek" },
@@ -318,7 +318,7 @@ export const serviceExtra5 = {
       "Otomasyon programının yazılı kopyası",
       "Arıza durumunda manuel çalıştırma talimatı",
     ] },
-    { p: "Son madde önemlidir: otomasyon arızalandığında sistemin elle çalıştırılabiliyor olması gerekir. Kumandaya bağımlı, manuel çalıştırılamayan bir sistem kurmuyoruz." },
+    { p: "Şu sonuncusu önemli: otomasyon arızalandığında sistemin elle çalıştırılabiliyor olması gerekir. Kumandaya bağımlı, manuel çalıştırılamayan bir sistem kurmuyoruz." },
   ],
 
   "sera-elektrik-sulama": [
@@ -334,7 +334,7 @@ export const serviceExtra5 = {
 
     { h2: "Sulama otomasyonu ve fertigasyon" },
     { p: "Zon vanaları, kontrol ünitesi ve gerekiyorsa nem sensörü ile sulama bitkinin ihtiyacına göre yapılır. Sabit saatli sulama yerine sensörlü sulama, hem su hem verim açısından fark yaratır." },
-    { p: "Gübreli sulama (fertigasyon) yapılacaksa dozaj pompası ve karışım tankı sisteme entegre edilir. Bu durumda filtreleme daha da kritiktir; gübre kalıntısı damlatıcıları hızla tıkar." },
+    { p: "Gübreli sulama (fertigasyon) yapılacaksa dozaj pompası ve karışım tankı sisteme entegre edilir. Böyle olunca filtreleme daha da kritiktir; gübre kalıntısı damlatıcıları hızla tıkar." },
     { p: "Filtre istasyonunun öncesine ve sonrasına basınç göstergesi konur. Aradaki fark büyüdüğünde filtre temizlenme zamanı gelmiştir; tahmin yerine ölçümle bakım yapılır." },
 
     { h2: "Havalandırma ve iklim kontrolü" },

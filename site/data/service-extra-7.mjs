@@ -27,7 +27,7 @@ export const serviceExtra7 = {
     { h2: "Depo malzemesi ve konumu" },
     { p: "Paslanmaz çelik depolar hijyen açısından en uygunudur, uzun ömürlüdür ve temizliği kolaydır. Polietilen depolar ekonomiktir ama ışık geçiren modellerde alg oluşumu hızlanır." },
     { p: "Depo mümkünse ışık almayan, serin bir yerde olmalıdır. Güneş alan bir depoda sıcaklık artar; hem alg oluşur hem su tadı bozulur." },
-    { p: "Taşma borusunun ucu böcek girmeyecek şekilde kapatılmalı, havalandırma filtresi bulunmalıdır. Bu iki detay, deponun bir yıl boyunca temiz kalmasını doğrudan etkiler." },
+    { p: "Taşma borusunun ucu böcek girmeyecek şekilde kapatılmalı, havalandırma filtresi bulunmalıdır. Bu iki detay, deponun bir yıl boyunca temiz kalmasını birebir etkiler." },
 
     { h2: "Temizlik sonrası hidrofor ve filtreler" },
     { p: "Depo temizliğinden sonra hidrofor emiş filtresi ve varsa ana hat filtresi de temizlenmelidir. Dibe çökmüş tortu, temizlik sırasında karışıp filtreye gider." },
@@ -37,7 +37,7 @@ export const serviceExtra7 = {
   "mekanik-tesisat": [
     { h2: "Mekanik tesisat neleri kapsar?" },
     { p: "Mekanik tesisat, bir yapının su, ısıtma, soğutma, havalandırma ve yangın sistemlerinin bütünüdür. Konutta bunlar küçük ölçekte ayrı ayrı yürür; ticari ve endüstriyel yapılarda tek bir sistem olarak tasarlanır." },
-    { p: "Bu sistemlerin ortak noktası, hepsinin bir akışkanı bir yerden bir yere taşımasıdır. Bu yüzden hesabın temeli aynıdır: debi, basınç kaybı ve pompa/fan seçimi." },
+    { p: "Bu sistemlerin ortak noktası, hepsinin bir akışkanı bir yerden bir yere taşımasıdır. O yüzden hesabın temeli aynıdır: debi, basınç kaybı ve pompa/fan seçimi." },
 
     { h2: "Kolektörlü sistem ve dengeleme" },
     { p: "Isıtma ve soğutma hatlarında en sık görülen sorun dengesizliktir: kaynağa yakın bölgeler fazla, uzak bölgeler az akışkan alır. Bunun sonucu bazı odaların aşırı ısınması, bazılarının üşümesidir." },
@@ -52,7 +52,7 @@ export const serviceExtra7 = {
     { h2: "Pompa ve genleşme" },
     { p: "Kapalı devre ısıtma ve soğutma sistemlerinde genleşme tankı zorunludur; akışkan ısınıp genleştiğinde bu hacmi karşılar. Tank yoksa ya da havası kaçmışsa emniyet ventili sürekli su atar." },
     { p: "Sirkülasyon pompası da doğru boyutlandırılmalıdır. Gereğinden büyük pompa gürültü ve erozyon yapar; küçük pompa uzak devrelere ulaşamaz." },
-    { p: "Frekans kontrollü pompalar, değişken yükte belirgin enerji tasarrufu sağlar. Büyük tesislerde bu fark kısa sürede kendini amorti eder." },
+    { p: "Frekans kontrollü pompalar, değişken yükte ciddi enerji tasarrufu sağlar. Büyük tesislerde bu fark kısa sürede kendini amorti eder." },
 
     { h2: "Havalandırma" },
     { p: "Mekanik havalandırmada atılan hava kadar taze hava alınması gerekir. Sadece egzoz yapan bir sistem mekânı negatif basınca sokar; kapı zor açılır, baca çeker, koku yayılır." },
@@ -151,7 +151,7 @@ export const serviceExtra7 = {
 
     { h2: "Basınç kaybı hesabı" },
     { p: "Su borudan geçerken sürtünme nedeniyle basınç kaybeder. Bu kayıp boru çapına, uzunluğuna ve debiye bağlıdır. Uzun hatlarda dar boru kullanmak, hattın sonundaki damlatıcıların çalışmamasına yol açar." },
-    { p: "Bu yüzden ana hat, manifold ve lateral çapları ayrı ayrı hesaplanır. Ekonomi yapmak için tek çap kullanmak, sistemin en uzak noktasını kurban etmek demektir." },
+    { p: "O yüzden ana hat, manifold ve lateral çapları ayrı ayrı hesaplanır. Ekonomi yapmak için tek çap kullanmak, sistemin en uzak noktasını kurban etmek demektir." },
     { p: "Basınç düzenleyici ve basınç dengeleyici damlatıcılar, eğimli arazilerde dağılımı eşitler. Malatya'daki bağ ve bahçelerin çoğu eğimli olduğu için bu kalem sık gündeme gelir." },
 
     { h2: "Filtre istasyonu" },
@@ -187,19 +187,19 @@ export const serviceExtra7 = {
 
     { h2: "Hangi parça değişir?" },
     { ul: [
-      "Genleşme tankı — havası şarj edilir ya da değişir",
-      "Presostat (basınç şalteri) — ayarı bozulur ya da kontakları yanar",
-      "Çek valf — tutmadığında basınç kendiliğinden düşer",
-      "Mekanik salmastra — mil çevresinden damlatma yapar",
-      "Rulman — artan gürültünün en sık sebebi",
-      "Kondansatör — tek fazlı pompada kalkış sorunu yapar",
+      "Genleşme tankı: havası şarj edilir ya da değişir",
+      "Presostat (basınç şalteri): ayarı bozulur ya da kontakları yanar",
+      "Çek valf, tutmadığında basınç kendiliğinden düşer",
+      "Mekanik salmastra: mil çevresinden damlatma yapar",
+      "Rulman, artan gürültünün en sık sebebi",
+      "Kondansatör: tek fazlı pompada kalkış sorunu yapar",
     ] },
     { p: "Bu parçaların çoğu değiştirilebilir ve maliyeti yeni pompanın çok altındadır. Motor sargısı gitmiş ya da fanlar aşınmışsa değişim daha mantıklı olur." },
 
     { h2: "Gürültü sorunu" },
     { p: "Hidrofor gürültüsünün kaynağı genelde motor değil, titreşimin yapıya aktarılmasıdır. Betonarme yapıda bu titreşim üst katlara kolayca taşınır." },
     { p: "Çözüm üç adımdır: titreşim takozu, boru bağlantılarında esnek kompansatör ve boruların duvara rijit bağlanmaması." },
-    { p: "Bu üçü uygulandığında gürültü belirgin düşer. Ses yalıtım kabini son çaredir; önce titreşim yolunu kesmek gerekir." },
+    { p: "Bu üçü uygulandığında gürültü epeyce düşer. Ses yalıtım kabini son çaredir; önce titreşim yolunu kesmek gerekir." },
   ],
 
   "tarimsal-sulama-sistemleri": [
@@ -273,11 +273,11 @@ export const serviceExtra7 = {
     { h2: "Silikon: içeriden mi dışarıdan mı?" },
     { p: "Sık yapılan hata, duşakabini hem içeriden hem dışarıdan tam silikonlamaktır. İçeriden gelen suyun tekneye dönebilmesi için iç kısımda kontrollü bir yol bırakılmalıdır." },
     { p: "Her yeri kapatmak, sızan suyun profil içinde birikmesine ve zamanla küflenmeye yol açar. Doğru uygulama dış birleşimi tam sızdırmaz yapmak, iç tarafta suyun tekneye dönmesine izin vermektir." },
-    { p: "Silikonun kürlenmesi için montajdan sonra 24 saat kullanılmaması gerekir. Bu bekleme, silikonun ömrünü doğrudan belirler." },
+    { p: "Silikonun kürlenmesi için montajdan sonra 24 saat kullanılmaması gerekir. Bu bekleme, silikonun ömrünü tek başına belirler." },
 
     { h2: "Cam ve profil seçimi" },
     { p: "Temperli cam, kırıldığında keskin parça oluşturmadan dağılır; duşakabinde standart olması gereken güvenlik özelliğidir. Cam kalınlığı 6 mm ve üzeri tercih edilmelidir." },
-    { p: "Nano kaplamalı camlar su ve kireç lekesini daha az tutar; temizlik kolaylığı sağlar. Kaplama zamanla etkisini yitirir ama ilk yıllarda belirgin fark yaratır." },
+    { p: "Nano kaplamalı camlar su ve kireç lekesini daha az tutar; temizlik kolaylığı sağlar. Kaplama zamanla etkisini yitirir ama ilk yıllarda açık fark yaratır." },
     { p: "Profilsiz (frameless) sistemler daha ferah görünür ama montaj toleransı daha düşüktür; duvar ve zeminin düzgün olması şarttır." },
 
     { h2: "Sık karşılaşılan sorunlar" },
@@ -304,11 +304,11 @@ export const serviceExtra7 = {
     { h2: "Armatür seçimi: kartuş belirleyici" },
     { p: "Bataryanın ömrünü gövde değil içindeki kartuş belirler. Seramik diskli kartuşlar uzun ömürlüdür ve damlatma yapmaz; kartuş değişimi de mümkündür." },
     { p: "Krom kaplama kalınlığı, yüzeyin yıllar içinde nasıl görüneceğini belirler. İnce kaplamada kireç ve temizlik ürünleri kısa sürede iz bırakır." },
-    { p: "Ankastre (duvar içi) armatürlerde gövde duvarın içinde kalır; bu yüzden gövde kalitesi daha da önemlidir. Servis kapağı bırakılması gerekir." },
+    { p: "Ankastre (duvar içi) armatürlerde gövde duvarın içinde kalır; o yüzden gövde kalitesi daha da önemlidir. Servis kapağı bırakılması gerekir." },
 
     { h2: "Bağlantı yükseklikleri" },
     { p: "Vitrifiye ve armatür bağlantı yükseklikleri, seramikten önce belirlenmelidir. Lavabo yüksekliği, klozet gider merkezi, duş bataryası yüksekliği; hepsi kullanıcıya göre ayarlanabilir." },
-    { p: "Standart yükseklikler bir başlangıç noktasıdır. Evde çok uzun ya da çok kısa boylu biri varsa, lavabo ve duş yüksekliğini ona göre ayarlamak günlük konforu belirgin değiştirir." },
+    { p: "Standart yükseklikler bir başlangıç noktasıdır. Evde çok uzun ya da çok kısa boylu biri varsa, lavabo ve duş yüksekliğini ona göre ayarlamak günlük konforu epeyce değiştirir." },
     { p: "Bu ölçüleri keşifte konuşup seramik planına işliyoruz. Sonradan değiştirmek fayans kırmak demektir." },
 
     { h2: "Su tasarrufu" },
@@ -332,7 +332,7 @@ export const serviceExtra7 = {
     { h2: "Malzeme seçimi: tuğla, gazbeton, bims" },
     { p: "Delikli tuğla ekonomiktir ve yaygındır; ses yalıtımı orta düzeydedir. Gazbeton hafiftir, kesimi kolaydır ve ısı yalıtımı iyidir ama ses yalıtımı tuğlaya göre zayıftır." },
     { p: "Bims (ponza) blok ise hafiflik ve ısı yalıtımını birlikte sunar. Üçünün de doğru kullanım yeri farklıdır; iç bölmede ve dış duvarda aynı malzeme uygun olmayabilir." },
-    { p: "Üst katlarda ve mevcut yapıya eklenen bölmelerde hafiflik önem kazanır; gazbeton ve bims bu durumda öne çıkar. Ses yalıtımı öncelikliyse tuğla ya da alçıpan + yalıtım tercih edilir." },
+    { p: "Üst katlarda ve mevcut yapıya eklenen bölmelerde hafiflik önem kazanır; gazbeton ve bims böyle bir durumda öne çıkar. Ses yalıtımı öncelikliyse tuğla ya da alçıpan + yalıtım tercih edilir." },
 
     { h2: "Örgü kuralları" },
     { p: "Duvar şaşırtmalı örülür; düşey derzler üst üste gelmemelidir. Üst üste gelen derzler duvarda zayıf bir hat oluşturur ve çatlak buradan ilerler." },
@@ -469,7 +469,7 @@ export const serviceExtra7 = {
 
     { h2: "Mevcut korkuluğu kurtarmak" },
     { p: "Kesiti incelmemiş, pas delik açmamış korkuluklar kurtarılabilir: pas temizliği, taşlama, antipas ve son kat boya." },
-    { p: "Pas metali delmişse ya da kesiti belirgin incelttiyse boyama çözüm değildir; parça değişimi ya da yenileme gerekir." },
+    { p: "Pas metali delmişse ya da kesiti gözle görülür ölçüde incelttiyse boyama çözüm değildir; parça değişimi ya da yenileme gerekir." },
     { p: "Bakım sırasında ayak bağlantıları ve kaynak noktaları da kontrol edilir. Görünüşte sağlam bir korkuluk, ayak bağlantısı çürümüşse güvenli değildir." },
   ],
 

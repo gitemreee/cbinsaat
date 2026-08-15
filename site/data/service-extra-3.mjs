@@ -29,7 +29,7 @@ export const serviceExtra3 = {
 
     { h2: "Kokunun sebebi tıkanma olmayabilir" },
     { p: "Gider kokusunun en yaygın sebebi sifonun kurumasıdır. Az kullanılan bir banyo giderinde sifon suyu buharlaşır ve koku yukarı çıkar. Çözüm basit: aylık olarak o gidere bir bardak su dökmek." },
-    { p: "İkinci sebep havalandırma eksikliğidir. Akan su vakum yaratır ve sifonlardaki suyu çeker. Bu durumda koku, bir yerde su akıtıldığında başka bir noktadan gelir." },
+    { p: "İkinci sebep havalandırma eksikliğidir. Akan su vakum yaratır ve sifonlardaki suyu çeker. Öyle bir durumda koku, bir yerde su akıtıldığında başka bir noktadan gelir." },
     { p: "Üçüncüsü kuru sifon ya da yanlış monte edilmiş makine tahliyesidir. Bulaşık ve çamaşır makinesi tahliyesi doğrudan gidere indirilirse sifon devre dışı kalır." },
 
     { h2: "Tıkanmayı önlemek" },
@@ -119,7 +119,7 @@ export const serviceExtra3 = {
 
     { h2: "Elektrik gücü: ilk haftada başlatılacak süreç" },
     { p: "Kafe, fırın, kuaför, market gibi işletmelerde toplam güç mevcut aboneliği kolayca aşar. Devraldığınız yerin önceki kullanımı farklıysa abonelik gücü ihtiyacınıza uymaz." },
-    { p: "Güç artırımı başvurusu zaman alır ve bunu hızlandıramayız; tek yapabileceğimiz erken başlatmaktır. Bu yüzden ilk keşifte toplam gücü hesaplayıp süreci başlatıyoruz." },
+    { p: "Güç artırımı başvurusu zaman alır ve bunu hızlandıramayız; tek yapabileceğimiz erken başlatmaktır. O yüzden ilk keşifte toplam gücü hesaplayıp süreci başlatıyoruz." },
     { p: "İş bitse bile abonelik gücü yetmediği için açılamayan işletme, ticari tadilatta gördüğümüz en can sıkıcı gecikmedir." },
 
     { h2: "Pano: bugüne değil üç yıl sonrasına göre" },
@@ -154,11 +154,11 @@ export const serviceExtra3 = {
 
     { h2: "Yüzey hazırlığı: görünmez ama belirleyici" },
     { p: "Boyanın ömrünü boyanın markası değil altındaki yüzey belirler. Tozlu, gevşek ya da astarsız bir yüzeye atılan en pahalı boya bile birkaç yılda kabarır." },
-    { p: "Bu yüzden zımpara, macun, file ve astar adımlarını teklifte ayrı ayrı yazıyoruz. Bu kalemleri çıkarıp fiyat düşüren teklifler vardır; kısa vadede ucuz, orta vadede pahalıdır." },
+    { p: "O yüzden zımpara, macun, file ve astar adımlarını teklifte ayrı ayrı yazıyoruz. Bu kalemleri çıkarıp fiyat düşüren teklifler vardır; kısa vadede ucuz, orta vadede pahalıdır." },
     { p: "Yeni sıvada saten alçı, mevcut düzgün yüzeyde ise macun kullanılır. İkisi farklı işlerdir; saten yüzey oluşturur, macun mevcut yüzeyi onarır." },
 
     { h2: "Işık kusurları büyütür" },
-    { p: "Duvara paralel gelen ışık, yüzeydeki en küçük dalgayı bile gölge olarak gösterir. Gizli aydınlatmalı tavanlarda ve büyük pencereli salonlarda bu etki belirgindir." },
+    { p: "Duvara paralel gelen ışık, yüzeydeki en küçük dalgayı bile gölge olarak gösterir. Gizli aydınlatmalı tavanlarda ve büyük pencereli salonlarda bu etki güçlüdür." },
     { p: "Bu yüzden keşifte aydınlatma planını da konuşuyoruz. Nereye bant aydınlatma, nereye duvar yıkama armatürü geleceğini bilirsek o duvarlarda daha titiz çalışıyoruz." },
     { p: "Mat boya kusuru gizler, parlak ve yarı mat boyalar büyütür. Yüzeyi çok düzgün olmayan duvarlarda mat tercih etmek pratik bir çözümdür." },
 
@@ -179,7 +179,7 @@ export const serviceExtra3 = {
 
     { h2: "Eşyalı evde çalışmak" },
     { p: "Eşyalar odanın ortasına toplanır ve naylonla örtülür, zemin karton ve örtüyle korunur. Oda oda ilerlenerek evde yaşamaya devam etmeniz sağlanır." },
-    { p: "Zımpara işin en tozlu kısmıdır; toz emicili makine kullanmak ortama yayılan tozu belirgin azaltır. Eşyalı evde bu fark büyüktür." },
+    { p: "Zımpara işin en tozlu kısmıdır; toz emicili makine kullanmak ortama yayılan tozu epeyce azaltır. Eşyalı evde bu fark büyüktür." },
     { p: "İş bittiğinde eşyalar yerine konur ve alan süpürülüp teslim edilir. \"Temizliği siz yaparsınız\" diye bir uygulamamız yok." },
   ],
 
@@ -238,7 +238,7 @@ export const serviceExtra3 = {
     { p: "Zemin–duvar birleşiminde ve köşelerde derz yerine silikon kullanılır. Bu noktalar hareket eden noktalardır; sert dolgu buralarda çatlar." },
 
     { h2: "Derz malzemesi seçimi" },
-    { p: "Standart çimento esaslı derz ekonomiktir ama gözeneklidir; zamanla kir tutar ve kararır. Banyo ve mutfak tezgâh arasında bu belirgin şekilde görünür." },
+    { p: "Standart çimento esaslı derz ekonomiktir ama gözeneklidir; zamanla kir tutar ve kararır. Banyo ve mutfak tezgâh arasında bu gözle görülür şekilde görünür." },
     { p: "Epoksi derz gözeneksizdir, leke tutmaz ve rengini korur. Uygulaması daha zahmetli ve maliyeti yüksektir ama ıslak ve lekeli alanlarda değerini gösterir." },
     { p: "Derz genişliği karo ebadına göre seçilir. Büyük karoda çok ince derz, üretim toleranslarını affetmez ve dizilim bozuk görünür." },
 

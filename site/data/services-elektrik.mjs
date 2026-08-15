@@ -194,7 +194,7 @@ export const elektrikServices = [
       "Malatya'da priz tamiri, priz değişimi ve yeni priz hattı çekimi. Isınan, gevşeyen, kıvılcım yapan prizler ve tezgâh üstü priz montajı.",
     keywords: ["Malatya priz tamiri", "priz değişimi", "yeni priz hattı", "priz ısınıyor", "anahtar değişimi"],
     intro:
-      "Priz, tesisatın en çok yorulan parçasıdır. Her fiş takıp çıkarma mekanizmayı biraz daha gevşetir. Gevşeyen bağlantı ise direnç, direnç ise ısı üretir. Bu nedenle priz değişimini kozmetik bir iş değil, küçük ama gerçek bir güvenlik işi olarak ele alıyoruz.",
+      "Priz, tesisatın en çok yorulan parçasıdır. Her fiş takıp çıkarma mekanizmayı biraz daha gevşetir. Gevşeyen bağlantı ise direnç, direnç ise ısı üretir. O yüzden priz değişimini kozmetik bir iş değil, küçük ama gerçek bir güvenlik işi olarak ele alıyoruz.",
     symptoms: [
       { title: "Priz gövdesi ısınıyor", text: "Normalde priz ısınmaz. Isınma varsa bağlantı gevşek ya da kesit yetersizdir." },
       { title: "Fiş takarken kıvılcım çıkıyor", text: "Kontak yüzeyleri aşınmış, ark oluşuyor demektir. Değişmesi gerekir." },
@@ -214,7 +214,7 @@ export const elektrikServices = [
     body: [
       { h2: "Priz neden ısınır?" },
       { p: "Isınmanın kaynağı neredeyse her zaman kötü temastır. Kablonun ucu klemense tam oturmamışsa veya vida zamanla gevşemişse, akım küçük bir yüzeyden geçmek zorunda kalır. Bu noktada direnç artar ve enerji ısıya dönüşür. Yıllar içinde bu ısı önce plastiği sarartır, sonra karartır, en sonunda eritir." },
-      { p: "İkinci neden yetersiz kesittir. 1,5 mm² bir hattın ucundaki prize elektrikli ısıtıcı takıldığında kablo sürekli sınırında çalışır. Bu durumda priz değiştirmek sorunu çözmez; hattın kendisi yenilenmeli veya cihaz için ayrı hat çekilmelidir." },
+      { p: "İkinci neden yetersiz kesittir. 1,5 mm² bir hattın ucundaki prize elektrikli ısıtıcı takıldığında kablo sürekli sınırında çalışır. Böyle bir durumda priz değiştirmek sorunu çözmez; hattın kendisi yenilenmeli veya cihaz için ayrı hat çekilmelidir." },
       { p: "Üçüncüsü, çoklu priz kullanımıdır. Tek bir noktadan dört beş yüksek çekişli cihaz beslendiğinde ilk yorulan yer duvardaki prizdir." },
 
       { h2: "Priz değişimi ne zaman yetmez?" },
@@ -510,7 +510,7 @@ export const elektrikServices = [
       { p: "Bu kontrolün yılda bir yapılması, ödenen reaktif cezasının yanında çok küçük bir maliyettir. Çoğu işletmede bakım bedeli bir–iki aylık ceza tutarına eşit çıkıyor." },
 
       { h2: "Harmonik sorunu" },
-      { p: "Sürücülü motorlar, invertörler, LED sürücüler ve UPS'ler şebekeye harmonik bozulma verir. Harmoniklerin yüksek olduğu tesislerde standart kondansatörler aşırı ısınır ve hızla bozulur. Bu durumda kondansatör önüne harmonik reaktör (detuned reaktör) konulması gerekir." },
+      { p: "Sürücülü motorlar, invertörler, LED sürücüler ve UPS'ler şebekeye harmonik bozulma verir. Harmoniklerin yüksek olduğu tesislerde standart kondansatörler aşırı ısınır ve hızla bozulur. Böyle olunca kondansatör önüne harmonik reaktör (detuned reaktör) konulması gerekir." },
       { p: "Bir tesiste kondansatörler sürekli ve erken bozuluyorsa, sorun ürün kalitesinden çok harmonik olabilir. Ölçümle bunu ayırt ediyoruz." },
     ],
     priceFactors: [
@@ -619,7 +619,7 @@ export const elektrikServices = [
       { title: "Yeni makine için hat çekilemiyor", text: "Pano kapasitesi ve tava altyapısı dolmuş demektir." },
       { title: "Motor koruma sık atıyor", text: "Yük dengesizliği, gerilim düşümü veya mekanik zorlanma olabilir." },
       { title: "Kablolar yerde ve serbest", text: "İş güvenliği riski ve arıza kaynağıdır; tava sistemine alınmalıdır." },
-      { title: "Üretim alanı yetersiz aydınlık", text: "Hem verimi hem iş güvenliğini doğrudan etkiler." },
+      { title: "Üretim alanı yetersiz aydınlık", text: "Hem verimi hem iş güvenliğini hemen etkiler." },
     ],
     scope: [
       "Kuvvet ve dağıtım panoları",
@@ -743,7 +743,7 @@ export const elektrikServices = [
       { q: "Kaç kamera gerekir?", a: "Alan büyüklüğünden çok asıl mesele sayısı belirleyicidir. Tipik bir daire girişi ve bahçe için 2–4, orta ölçekli bir dükkân için 4–6, apartman için 4–8 kamera yaygın çözümdür. Keşifte kroki üzerinde noktaları birlikte işaretliyoruz." },
       { q: "İnternet olmadan çalışır mı?", a: "Evet. Kayıt cihazı internetten bağımsız çalışır ve kayıt tutar. İnternet yalnızca uzaktan izleme ve bildirim için gerekir. Kamera sistemi internet kesildiğinde kayıt almaya devam eder." },
       { q: "Telefondan izleyebilir miyim?", a: "Kayıt cihazının uygulaması üzerinden izleyebilirsiniz. Kurulumda mobil erişimi yapılandırıp size gösteriyoruz. Statik IP gerekmeyen bulut tabanlı bağlantı yöntemleri çoğu cihazda destekleniyor." },
-      { q: "Mevcut sistemime kamera ekleyebilir misiniz?", a: "Kayıt cihazının boş kanalı ve kablolama imkânı varsa ekleyebiliriz. Kanal doluysa cihaz değişimi gerekir; bu durumda mevcut kameraları koruyarak sadece kayıt cihazını yükseltmek çoğu zaman mümkün oluyor." },
+      { q: "Mevcut sistemime kamera ekleyebilir misiniz?", a: "Kayıt cihazının boş kanalı ve kablolama imkânı varsa ekleyebiliriz. Kanal doluysa cihaz değişimi gerekir; böyle olunca mevcut kameraları koruyarak sadece kayıt cihazını yükseltmek çoğu zaman mümkün oluyor." },
     ],
     localAngle: "site ve apartman otoparklarında plaka okuma ile iş yeri girişlerinde yüz tanıma odaklı yerleşim ihtiyacı",
     related: ["diafon-goruntulu-konusma", "elektrik-tesisati", "dukkan-ofis-tadilati"],

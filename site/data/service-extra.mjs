@@ -17,7 +17,7 @@ const batch1 = {
     { h2: "Kablo kesiti neye göre seçilir?" },
     { p: "Kesit seçimi tahminle değil hesapla yapılır. Üç şey belirleyicidir: hattın taşıyacağı akım, hattın uzunluğu ve döşeme şekli. Aynı akımı taşıyan iki hattan uzun olanı daha kalın kesit ister, çünkü uzunluk arttıkça gerilim düşümü artar." },
     { p: "Konutta yaygın uygulama şudur: aydınlatma hatları 1,5 mm², priz hatları 2,5 mm², elektrikli su ısıtıcısı ve fırın gibi yüksek çekişli cihazlar için 4 mm² ve üzeri. Ancak bunlar başlangıç değerleridir; hat uzunsa bir üst kesite çıkmak gerekir." },
-    { p: "Sigortanın görevi kabloyu korumaktır. Bu yüzden sigorta, kablonun taşıyabileceğinden büyük seçilemez. \"Sigorta atıyor, büyütelim\" yaklaşımı korumayı devre dışı bırakır ve kabloyu yakma riskini doğurur." },
+    { p: "Sigortanın görevi kabloyu korumaktır. Bunun için sigorta, kablonun taşıyabileceğinden büyük seçilemez. \"Sigorta atıyor, büyütelim\" yaklaşımı korumayı devre dışı bırakır ve kabloyu yakma riskini doğurur." },
 
     { h2: "Buat: tesisatın en çok sorun çıkaran noktası" },
     { p: "Arızaların büyük kısmı kablonun ortasında değil, eklerin yapıldığı buatlarda çıkar. Burada iki hata sık görülür: uçların burularak bantlanması ve buata kapasitesinin üstünde ek sığdırılması." },
@@ -25,8 +25,8 @@ const batch1 = {
     { p: "Buatların erişilebilir kalması da önemlidir. Sıvanın altına gömülüp kapağı kapatılan buata bir daha ulaşılamaz; arıza çıktığında duvarı kırmak gerekir. Biz buat yerlerini fotoğraflayıp güzergâh planıyla birlikte size bırakıyoruz." },
 
     { h2: "Kaçak akım rölesi ne yapar, ne yapmaz?" },
-    { p: "Kaçak akım rölesi (RCD), hattan giden ve dönen akımı karşılaştırır. Aradaki fark bir eşiği geçtiğinde — yani akımın bir kısmı topraktan veya insan üzerinden kaçtığında — devreyi keser. Konutta kullanılan 30 mA'lik röle, can güvenliği için tasarlanmıştır." },
-    { p: "Ama röle her şeyi çözmez. Aşırı yüke karşı korumaz, o sigortanın işidir. Faz–nötr arasında oluşan bir temasta da devreye girmez, çünkü akım dengesi bozulmaz. Bu yüzden röle ile sigorta birbirinin alternatifi değil, tamamlayıcısıdır." },
+    { p: "Kaçak akım rölesi (RCD), hattan giden ve dönen akımı karşılaştırır. Akımın bir kısmı topraktan ya da insan üzerinden kaçarsa aradaki fark bir eşiği geçer ve röle devreyi keser. Konutta kullanılan 30 mA'lik röle, can güvenliği için tasarlanmıştır." },
+    { p: "Ama röle her şeyi çözmez. Aşırı yüke karşı korumaz, o sigortanın işidir. Faz–nötr arasında oluşan bir temasta da devreye girmez, çünkü akım dengesi bozulmaz. Dolayısıyla röle ile sigorta birbirinin alternatifi değil, tamamlayıcısıdır." },
     { p: "Rölenin çalışıp çalışmadığını ayda bir test tuşuyla kontrol edin. Basıldığında atmıyorsa röle görevini yapmıyor demektir; değişmesi gerekir. Bu, 10 saniyelik ama hayat kurtaran bir alışkanlıktır." },
 
     { h2: "Hat planı: kaç hat, nereye?" },
@@ -75,7 +75,7 @@ const batch1 = {
     { p: "Galvaniz boru, diğer belirtiler olmasa bile tadilat kapsamına alınmalıdır. Duvar bir daha bu kadar kolay açılmayacaktır." },
 
     { h2: "Gider hattında eğim" },
-    { p: "Atık su hattı basınçla değil yerçekimiyle çalışır. Bu yüzden eğim kritiktir. Eğim azsa su ilerlemez ve katı atık birikir; fazlaysa su hızla akıp katı atığı geride bırakır. İkisi de tıkanma demektir." },
+    { p: "Atık su hattı basınçla değil yerçekimiyle çalışır. O yüzden eğim kritiktir. Eğim azsa su ilerlemez ve katı atık birikir; fazlaysa su hızla akıp katı atığı geride bırakır. İkisi de tıkanma demektir." },
     { p: "Konutta yaygın uygulama metrede 2–3 cm eğimdir. Tekrarlayan tıkanmaların önemli bir kısmının kaynağı, tıkanan noktanın kendisi değil, o hattın eğimidir." },
     { p: "Bir başka sık sebep, gider hattına havalandırma bırakılmamasıdır. Havalandırmasız hatta akan su vakum yaratır, sifonlardaki suyu çeker ve lavabodan koku gelmeye başlar." },
 
@@ -99,7 +99,7 @@ const batch1 = {
     { p: "Kararı keşifte veriyoruz: hangi imalat kalabilir, hangisi gitmeli, listeyi yazılı çıkarıyoruz. Böylece moloz hacmi ve maliyet baştan belli oluyor." },
 
     { h2: "Tesisat: duvar açıkken karar verilecekler" },
-    { p: "Duvar bir kez kapandığında geri dönmek pahalıdır. Bu yüzden söküm bittiğinde şu soruları bir kerede cevaplıyoruz: priz ve anahtarlar nereye, klima nereye, TV ünitesi hangi duvara, mutfakta ankastre nereye gelecek." },
+    { p: "Duvar bir kez kapandığında geri dönmek pahalıdır. O yüzden söküm bittiğinde şu soruları bir kerede cevaplıyoruz: priz ve anahtarlar nereye, klima nereye, TV ünitesi hangi duvara, mutfakta ankastre nereye gelecek." },
     { p: "\"Şimdilik olmasın ama ileride isteyebilirim\" dediğiniz noktalar için boş boru bırakıyoruz. Maliyeti neredeyse yok; sonradan kazandırdığı çok." },
 
     { h2: "Toz kontrolü ve komşuluk" },
@@ -188,7 +188,7 @@ const batch1 = {
 
     { h2: "Kolektörlü sistem mi, klasik hat mı?" },
     { p: "Klasik hatta borular petekten peteğe devam eder; kolektörlü sistemde ise her peteğe merkezden ayrı boru gider. Kolektörlü sistemde her odanın debisi ayrı ayarlanabilir ve bir arıza tüm hattı etkilemez." },
-    { p: "Yerden ısıtma düşünülüyorsa kolektör zaten zorunludur. Klasik petekli sistemde de kolektör kullanmak, dengeleme ve ileride müdahale açısından belirgin avantaj sağlar." },
+    { p: "Yerden ısıtma düşünülüyorsa kolektör zaten zorunludur. Klasik petekli sistemde de kolektör kullanmak, dengeleme ve ileride müdahale açısından net avantaj sağlar." },
 
     { h2: "Baca: kombiyi almadan önce netleşmeli" },
     { p: "Hermetik kombide baca zorunlu değildir ama duvar delme yeri ve tahliye yönü kurala bağlıdır. Bacalı kombide ise bacanın kesiti ve çekişi kontrol edilmeden montaj yapılmaz." },
@@ -247,7 +247,7 @@ const batch1 = {
     { p: "Bu boşluk saçaktan girip mahyadan çıkacak şekilde tasarlanır. Çatı yalıtımı yapılırken en sık atlanan detay budur ve etkisi yıllar sonra ortaya çıkar." },
 
     { h2: "Aktarma mı, komple yenileme mi?" },
-    { p: "Karkas sağlam ve örtü yer yer bozulmuşsa aktarma yeterlidir: kiremitler sökülür, altyapı onarılır, örtü yenilenip geri dizilir. Maliyeti komple yenilemenin belirgin altındadır." },
+    { p: "Karkas sağlam ve örtü yer yer bozulmuşsa aktarma yeterlidir: kiremitler sökülür, altyapı onarılır, örtü yenilenip geri dizilir. Maliyeti komple yenilemenin epeyce altındadır." },
     { p: "Ahşap karkasta çürüme, sehim ya da böcek zararı varsa aktarma para kaybıdır. Karkasa çıkıp bakmadan bu kararı vermiyoruz." },
   ],
 
@@ -255,7 +255,7 @@ const batch1 = {
     { h2: "Isı köprüsü: yalıtımın kesintiye uğradığı yer" },
     { p: "Isı, en az direnç gösteren yoldan gider. Yalıtımın kesildiği her nokta bir kaçak yolu oluşturur. Yalıtım yapılmış bir binada küfün hâlâ köşelerde çıkmasının sebebi budur." },
     { p: "En yaygın ısı köprüleri: balkon döşemesi, pencere ve kapı kenarları, denizlik altları, çatı saçağı, parapet ve bodrum–zemin birleşimi." },
-    { p: "Bu noktalara özel detay uygulanmazsa, cephenin geri kalanına yapılan yalıtımın etkisi belirgin şekilde azalır. Detay kalemleri teklifte ayrı ayrı yazılmalıdır." },
+    { p: "Bu noktalara özel detay uygulanmazsa, cephenin geri kalanına yapılan yalıtımın etkisi hızla azalır. Detay kalemleri teklifte ayrı ayrı yazılmalıdır." },
 
     { h2: "Levha kalınlığı ve tipi" },
     { p: "Kalınlık iklim bölgesine ve duvar yapısına göre belirlenir; Malatya için tipik uygulama 5–8 cm aralığındadır. İnce levha maliyeti düşürür ama tasarrufu da düşürür." },

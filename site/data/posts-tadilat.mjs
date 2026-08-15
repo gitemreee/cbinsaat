@@ -165,7 +165,7 @@ export const tadilatPosts = [
       { p: "Tesviye kalemi ilk teklifte görünmeyebiliyor çünkü ölçüm ancak eski kaplama söküldükten sonra yapılabiliyor." },
 
       { h2: "7. Kapı boşlukları standart dışı" },
-      { p: "Eski yapılarda kapı boşlukları bugünün standart ölçülerine uymayabiliyor. Bu durumda ya özel ölçü kapı ya da boşluk düzeltmesi gerekiyor." },
+      { p: "Eski yapılarda kapı boşlukları bugünün standart ölçülerine uymayabiliyor. Böyle bir durumda ya özel ölçü kapı ya da boşluk düzeltmesi gerekiyor." },
       { p: "Özel ölçü kapı hem daha pahalı hem temin süresi uzun; programa erken yazılması gereken bir kalem." },
 
       { h2: "8. Gider hattı eğimi yetersiz" },
@@ -249,7 +249,7 @@ export const tadilatPosts = [
     excerpt: "Mutfakta en sık yapılan hata dolabı sipariş ettikten sonra elektrik ve suyu düşünmek. Doğru sıra ne, karar tarihleri neler?",
     services: ["mutfak-tadilati", "mermer-granit", "elektrik-tesisati"],
     intro:
-      "Mutfak, evin en çok altyapı barındıran odası. Su, gider, elektrik, ankastre besleme ve havalandırma; hepsi dolap yerleşimine bağlı. Bu yüzden mutfakta karar sırası, uygulama sırasından bile önemli.",
+      "Mutfak, evin en çok altyapı barındıran odası. Su, gider, elektrik, ankastre besleme ve havalandırma; hepsi dolap yerleşimine bağlı. Bunun için mutfakta karar sırası, uygulama sırasından bile önemli.",
     body: [
       { h2: "Önce yerleşim, sonra altyapı" },
       { p: "Eviye nereye, ocak nereye, bulaşık makinesi nereye; bunlar netleşmeden su ve elektrik güzergâhı çekilemiyor. Yerleşim değiştiğinde tesisat da değişiyor." },
@@ -316,8 +316,8 @@ export const tadilatPosts = [
       { p: "Aynı bütçeyi boya, zemin ve ıslak hacim temizliğine ayırmak daha hızlı sonuç veriyor." },
 
       { h2: "Süre planı" },
-      { p: "Boş kalan her ay doğrudan kayıp. Bu yüzden kiralık daire işlerinde süre, maliyet kadar önemli." },
-      { p: "Tipik bir kiralık hazırlığı — boya, ıslak hacim temizliği, küçük onarımlar, aydınlatma — 5–8 iş gününde bitiyor. Zemin değişimi 2 gün ekliyor." },
+      { p: "Boş kalan her ay doğrudan kayıp. Dolayısıyla kiralık daire işlerinde süre, maliyet kadar önemli." },
+      { p: "Tipik bir kiralık hazırlığı 5–8 iş gününde bitiyor: boya, ıslak hacim temizliği, küçük onarımlar, aydınlatma. Zemin değişimi 2 gün ekliyor." },
 
       { h2: "Kiracı çıkışında kontrol listesi" },
       { ul: [
@@ -358,7 +358,7 @@ export const tadilatPosts = [
       { p: "Bu yüzden bütçe sınırlıysa öncelik bu dört alana verilmeli. Yatak odasında boya yeterli oluyor." },
 
       { h2: "Boya: en yüksek getirili kalem" },
-      { p: "Temiz ve nötr renkli bir daire, fotoğraflarda ve gezmede belirgin fark yaratıyor. Maliyeti diğer kalemlere göre düşük." },
+      { p: "Temiz ve nötr renkli bir daire, fotoğraflarda ve gezmede gözle görülür fark yaratıyor. Maliyeti diğer kalemlere göre düşük." },
       { p: "Koyu ve kişisel renkler alıcının kafasında \"boyamam gerekecek\" hesabı yaratıyor. Kırık beyaz ve açık gri en güvenli tercihler." },
 
       { h2: "Banyo ve mutfak: yenileme mi, temizleme mi?" },
@@ -436,7 +436,7 @@ export const tadilatPosts = [
 
       { h2: "Etaplar arasında ne kadar beklenebilir?" },
       { p: "Teknik bir zorunluluk yok; bütçenize göre aylar hatta yıllar olabilir. Yalnız her etabın sonunda ortamın yaşanabilir hâlde bırakılması gerekiyor." },
-      { p: "Etap planını baştan yazılı çıkarıyoruz. Böylece ikinci etaba geldiğimizde birincide neyin nerede bırakıldığı belli oluyor; güzergâh fotoğrafları da bu yüzden önemli." },
+      { p: "Etap planını baştan yazılı çıkarıyoruz. Böylece ikinci etaba geldiğimizde birincide neyin nerede bırakıldığı belli oluyor; güzergâh fotoğrafları da bu sebeple önemli." },
     ],
     faqs: [
       { q: "Etaplı tadilat daha mı pahalı?", a: "Toplamda biraz daha pahalı oluyor; her etapta hazırlık, koruma ve temizlik tekrarlanıyor. Buna karşılık bütçeyi zamana yayıyor." },
@@ -479,7 +479,7 @@ export const tadilatPosts = [
       { p: "Kat maliki başına düşen tutarı da hesaplatın. Toplam rakam büyük görünse de daire başına düşen çoğu zaman kabul edilebilir çıkıyor." },
 
       { h2: "Aydınlatma: en hızlı geri dönen kalem" },
-      { p: "Ortak alanlarda sürekli yanan eski armatürlerin sensörlü LED ile değişimi, elektrik giderini belirgin düşürüyor. Bu kalem kendini kısa sürede amorti ediyor." },
+      { p: "Ortak alanlarda sürekli yanan eski armatürlerin sensörlü LED ile değişimi, elektrik giderini epeyce düşürüyor. Bu kalem kendini kısa sürede amorti ediyor." },
       { p: "Merdivende sensör konumu önemli; yanlış yerleştirilen sensör siz basamağa gelmeden sönüyor. Kat sahanlığı ve dönüş noktalarına ayrı sensör konması gerekiyor." },
 
       { h2: "Uygulama sırasında yaşam düzeni" },
@@ -516,7 +516,7 @@ export const tadilatPosts = [
     excerpt: "Ticari işte tek bir tarih vardır: açılış. Programı ona göre geriye kurmak, gecikmenin en büyük kalemini ortadan kaldırıyor.",
     services: ["dukkan-ofis-tadilati", "kafe-restoran-tadilati", "anahtar-teslim-is-yeri"],
     intro:
-      "Konut tadilatında birkaç gün gecikme rahatsızlık verir; ticari tadilatta doğrudan para kaybıdır. Kira işlemeye başlamıştır, personel işe alınmıştır, açılış duyurulmuştur. Bu yüzden program açılış tarihinden geriye kurulur.",
+      "Konut tadilatında birkaç gün gecikme rahatsızlık verir; ticari tadilatta doğrudan para kaybıdır. Kira işlemeye başlamıştır, personel işe alınmıştır, açılış duyurulmuştur. O yüzden program açılış tarihinden geriye kurulur.",
     body: [
       { h2: "Geriye doğru program" },
       { p: "Açılış tarihinden başlayıp geriye gidiyoruz: son hafta temizlik ve deneme, ondan önce montajlar, ondan önce boya, ondan önce elektrik testleri, ondan önce zemin ve tavan." },
@@ -581,7 +581,7 @@ export const tadilatPosts = [
       { p: "Yönetimin belirlediği saatlere uyuyoruz. Saat kısıtı yoksa da sabah 09.00 öncesi ve akşam 18.00 sonrası gürültülü iş yapmıyoruz." },
 
       { h2: "Toz kontrolü" },
-      { p: "Daire kapısına toz perdesi, merdiven ve asansör güzergâhına örtü seriyoruz. Kırım sırasında toz emici kullanmak, ortak alana çıkan tozu belirgin azaltıyor." },
+      { p: "Daire kapısına toz perdesi, merdiven ve asansör güzergâhına örtü seriyoruz. Kırım sırasında toz emici kullanmak, ortak alana çıkan tozu hissedilir ölçüde azaltıyor." },
       { p: "Her günün sonunda merdiven ve asansör süpürülüyor. Bu küçük alışkanlık, komşu şikâyetlerinin önemli bir kısmını baştan siliyor." },
 
       { h2: "Moloz" },
@@ -625,8 +625,8 @@ export const tadilatPosts = [
       { p: "Kolon, kiriş ve perde duvarda çatlak gördüğünüzde bunu bize değil, önce yetkili incelemeye taşımanız gerekiyor. Biz iç mekân tarafındayız." },
 
       { h2: "Hangi çatlak kozmetik?" },
-      { p: "Bölme duvarlardaki ince, saç teli kalınlığındaki çatlaklar genellikle sıva kaynaklı ve kozmetik. Bunlar açılıp file ve tamir harcıyla onarılıyor." },
-      { p: "Buna karşılık kolon ve kirişte, özellikle çapraz yönde ilerleyen ve genişliği belirgin çatlaklar kozmetik değildir. Bu tür bir çatlağı sıvayla kapatmak yanlış." },
+      { p: "Bölme duvarlardaki ince, saç teli kalınlığındaki çatlaklar çoğunlukla sıva kaynaklı ve kozmetik. Bunlar açılıp file ve tamir harcıyla onarılıyor." },
+      { p: "Buna karşılık kolon ve kirişte, özellikle çapraz yönde ilerleyen ve genişliği fark edilir çatlaklar kozmetik değildir. Bu tür bir çatlağı sıvayla kapatmak yanlış." },
 
       { h2: "Tesisat kontrolü" },
       { p: "Sarsıntı sonrası su ve gaz hatlarında gevşemiş bağlantılar olabiliyor. Su hattı basınç testinden geçirilmeli, gaz tarafı yetkili firmaya kontrol ettirilmeli." },
@@ -634,7 +634,7 @@ export const tadilatPosts = [
 
       { h2: "Kapı ve pencere ayarı" },
       { p: "Sarsıntı sonrası kapıların sürtmesi ve pencerelerin tam kapanmaması sık görülüyor. Çoğu zaman menteşe ve kanat ayarıyla çözülüyor." },
-      { p: "Ancak kapı kasası belirgin şekilde çarpılmışsa bu, duvarda deformasyon olduğunu gösterebiliyor; kozmetik onarımdan önce değerlendirilmesi gereken bir işaret." },
+      { p: "Ancak kapı kasası hissedilir şekilde çarpılmışsa bu, duvarda deformasyon olduğunu gösterebiliyor; kozmetik onarımdan önce değerlendirilmesi gereken bir işaret." },
 
       { h2: "Yenileme sırası" },
       { ol: [
@@ -737,11 +737,11 @@ export const tadilatPosts = [
       { p: "Sürgülü kapı duvar içine gizlenebiliyorsa kazanç daha da artıyor; bu, alçıpan bölme duvarlarda uygulanabilen bir çözüm." },
 
       { h2: "Gömme dolap ve niş" },
-      { p: "Dışarı taşan gardırop yerine duvara gömülü dolap, oda içinde belirgin fark yaratıyor. Duvar kalınlığı uygun bölme duvarlarda niş açmak mümkün." },
+      { p: "Dışarı taşan gardırop yerine duvara gömülü dolap, oda içinde gözle görülür fark yaratıyor. Duvar kalınlığı uygun bölme duvarlarda niş açmak mümkün." },
       { p: "Islak hacimlerde de aynı mantık geçerli: gömme rezervuar ve duvar içi niş, banyoda hem yer kazandırıyor hem düzenli görünüm sağlıyor." },
 
       { h2: "Aydınlatma" },
-      { p: "Tek bir tavan avizesi yerine birden fazla noktadan dağıtılmış aydınlatma, mekânı belirgin şekilde geniş gösteriyor. Köşelerin aydınlık olması sınırı uzaklaştırıyor." },
+      { p: "Tek bir tavan avizesi yerine birden fazla noktadan dağıtılmış aydınlatma, mekânı iyice geniş gösteriyor. Köşelerin aydınlık olması sınırı uzaklaştırıyor." },
       { p: "Gizli bant aydınlatma ve duvar yıkama armatürleri bu etkiyi güçlendiriyor. Bu çözümler tadilat sırasında altyapısı bırakılırsa maliyetsiz sayılır." },
 
       { h2: "Renk ve kaplama sürekliliği" },

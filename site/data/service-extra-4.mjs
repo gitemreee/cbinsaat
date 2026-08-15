@@ -30,14 +30,14 @@ export const serviceExtra4 = {
 
     { h2: "Yeni kombiye eski tesisat" },
     { p: "Kombi değişiminde en sık yapılan hata, yeni cihazı çamurlu eski tesisata bağlamaktır. Yeni kombinin eşanjörü çok daha dar kanallıdır ve kısa sürede tıkanır." },
-    { p: "Bu yüzden cihaz değişiminde tesisatın yıkanması ve manyetik filtre takılması, yeni cihazın ömrünü doğrudan uzatır. Çoğu teklifte bu iki kalem yoktur; biz ayrı satır olarak yazıyor ve nedenini anlatıyoruz." },
+    { p: "Bunun için cihaz değişiminde tesisatın yıkanması ve manyetik filtre takılması, yeni cihazın ömrünü aynı ölçüde uzatır. Çoğu teklifte bu iki kalem yoktur; biz ayrı satır olarak yazıyor ve nedenini anlatıyoruz." },
   ],
 
   "kombi-bakim-ariza": [
     { h2: "Bakımın karşılığı üç yerde görünür" },
     { p: "Birincisi gaz tüketimi. Kurumla kaplanmış bir eşanjör, aynı sıcak suyu üretmek için brülörün daha uzun yanmasını gerektirir. Bu fark faturada doğrudan görünür." },
     { p: "İkincisi güvenlik. Baca ve tahliye yolundaki tıkanma, yanma gazlarının içeri dönmesine yol açabilir. Karbonmonoksit renksiz ve kokusuzdur; fark edilmesi mümkün değildir." },
-    { p: "Üçüncüsü arıza riski. Sezon başında yapılan bakım, ilk soğukta cihazın çalışmama ihtimalini belirgin düşürür. Kasım ayında arıza yoğunluğunun neden arttığı buradan anlaşılır." },
+    { p: "Üçüncüsü arıza riski. Sezon başında yapılan bakım, ilk soğukta cihazın çalışmama ihtimalini epeyce düşürür. Kasım ayında arıza yoğunluğunun neden arttığı buradan anlaşılır." },
 
     { h2: "Basınç düşmesi: üç ihtimali ayırmak" },
     { p: "Kombiyi tamamen kapatın, basıncı 1,5 bara tamamlayın ve 24 saat çalıştırmadan bekleyin. Basınç düşerse tesisatta fiziksel sızıntı vardır. Düşmezse sorun ısınma sırasında ortaya çıkıyordur." },
@@ -47,7 +47,7 @@ export const serviceExtra4 = {
     { h2: "Yoğuşmalı kombide farklı olanlar" },
     { p: "Yoğuşmalı cihazlarda baca gazındaki su buharı yoğuşturularak ek ısı elde edilir. Bu, verim artışı demektir ama beraberinde bir tahliye ihtiyacı getirir: kondens suyu." },
     { p: "Kondens sifonu tıkandığında cihaz kilitlenir. Bakımda bu sifonun temizlenmesi standart adımdır ve klasik kombide olmayan bir kalemdir." },
-    { p: "Yoğuşmalı cihaz en yüksek verimini düşük dönüş suyu sıcaklığında verir. Bu yüzden kalorifer suyu sıcaklığını sürekli en üstte tutmak, yoğuşmalı bir kombide verimi düşürür." },
+    { p: "Yoğuşmalı cihaz en yüksek verimini düşük dönüş suyu sıcaklığında verir. Dolayısıyla kalorifer suyu sıcaklığını sürekli en üstte tutmak, yoğuşmalı bir kombide verimi düşürür." },
 
     { h2: "Hata kodları: dört grup" },
     { ul: [
@@ -81,7 +81,7 @@ export const serviceExtra4 = {
 
     { h2: "Zon planı ve kolektör" },
     { p: "Her oda ayrı bir zon olarak planlanır ve kolektörden ayrı devreyle beslenir. Böylece her odanın sıcaklığı ayrı ayarlanabilir; kullanılmayan oda kısılabilir." },
-    { p: "Bir devrenin boru uzunluğu sınırlıdır; çok uzun devrede basınç kaybı artar ve devrenin sonu ısınmaz. Geniş odalar bu yüzden birden fazla devreye bölünür." },
+    { p: "Bir devrenin boru uzunluğu sınırlıdır; çok uzun devrede basınç kaybı artar ve devrenin sonu ısınmaz. Geniş odalar o yüzden birden fazla devreye bölünür." },
     { p: "Kolektörde her devrenin debisi debimetreyle ayarlanır. Bu ayar yapılmadığında kısa devreler çok, uzun devreler az su alır ve odalar arasında sıcaklık farkı oluşur." },
 
     { h2: "Şap dökümü: basınç altında" },
@@ -91,7 +91,7 @@ export const serviceExtra4 = {
 
     { h2: "Islak hacimlerde yerden ısıtma" },
     { p: "Banyo, yerden ısıtmanın en çok fark yarattığı yerdir; çıplak ayakla temas edilen tek zemindir. Kısmi uygulama olarak sadece banyoya yapmak da mümkündür." },
-    { p: "Bu durumda serpantin, su yalıtımının üstüne değil altına gelir. Sıralama şudur: zemin hazırlığı → yalıtım levhası → serpantin → şap → su yalıtımı → seramik." },
+    { p: "Böyle bir durumda serpantin, su yalıtımının üstüne değil altına gelir. Sıralama şudur: zemin hazırlığı → yalıtım levhası → serpantin → şap → su yalıtımı → seramik." },
 
     { h2: "Kimin için uygun değil?" },
     { p: "Haftada bir gidilen yazlık ve bağ evlerinde yerden ısıtma iyi bir tercih değildir; yavaş ısındığı için vardığınızda ev saatlerce soğuk kalır. Bu tür yerlerde petek daha uygundur." },
@@ -160,23 +160,23 @@ export const serviceExtra4 = {
     { p: "Paratoner tek başına çalışmaz; kendi topraklama sistemi ve iniş iletkeni ile bir bütündür. Ayrıca tesisatta parafudr bulunması, indüklenen gerilime karşı cihazları korur." },
 
     { h2: "Periyodik kontrol" },
-    { p: "Topraklama direnci zamanla değişir; toprağın nemi, çubuğun korozyonu ve bağlantıların gevşemesi etkiler. Bu yüzden periyodik ölçüm önerilir." },
+    { p: "Topraklama direnci zamanla değişir; toprağın nemi, çubuğun korozyonu ve bağlantıların gevşemesi etkiler. O yüzden periyodik ölçüm önerilir." },
     { p: "İş yerleri ve sanayi tesislerinde bu ölçüm zaten mevzuat gereği yapılır. Konutlarda zorunlu değildir ama birkaç yılda bir ölçtürmek, görünmeyen bir riski görünür kılar." },
   ],
 
   "kamera-guvenlik-sistemleri": [
     { h2: "Kamera seçiminde bakılacaklar" },
-    { p: "Çözünürlük tek başına yeterli bir ölçüt değildir. Aynı çözünürlükte iki kameradan, sensörü büyük ve lensi kaliteli olan gece belirgin şekilde daha iyi görüntü verir." },
+    { p: "Çözünürlük tek başına yeterli bir ölçüt değildir. Aynı çözünürlükte iki kameradan, sensörü büyük ve lensi kaliteli olan gece epeyce daha iyi görüntü verir." },
     { p: "Gece görüşü iki türlüdür: kızılötesi (siyah-beyaz) ve renkli gece görüşü (beyaz ışık ya da yüksek hassasiyetli sensör). Plaka ve yüz tanınması gereken yerlerde renkli gece görüşü fark yaratır." },
     { p: "Görüş açısı da amaca göre seçilir. Geniş açı çok alan görür ama detayı küçültür; dar açı az alan görür ama uzaktaki detayı yakalar. Giriş kapısında dar, otoparkta geniş açı mantıklıdır." },
 
     { h2: "Kamera nereye konur?" },
     { ul: [
-      "Bina/işletme girişi — giren çıkanı yüz hizasında görecek şekilde",
-      "Kasa ve para alanı — ürünü ve eli görecek açıda",
-      "Depo ve arka kapı — en çok gözden uzak nokta burasıdır",
-      "Otopark ve araç girişi — plaka okuyacak açı ve mesafede",
-      "Koridor ve merdiven — hareket güzergâhını kapsayacak şekilde",
+      "Bina/işletme girişi: giren çıkanı yüz hizasında görecek şekilde",
+      "Kasa ve para alanı: ürünü ve eli görecek açıda",
+      "Depo ve arka kapı, en çok gözden uzak kalan nokta",
+      "Otopark ve araç girişi: plaka okuyacak açı ve mesafede",
+      "Koridor ve merdiven (hareket güzergâhını kapsayacak şekilde)",
     ] },
     { p: "Kamerayı çok yükseğe koymak yaygın bir hatadır; tepeden bakan kamera kafa üstü görüntüsü verir, yüz tanınmaz. Giriş kamerası 2,2–2,5 m yükseklikte en iyi sonucu verir." },
 
@@ -221,7 +221,7 @@ export const serviceExtra4 = {
 
     { h2: "Vana kutusu ve kontrol" },
     { p: "Solenoid vanalar erişilebilir kutularda toplanır. Kutunun yeri bakım için kolay ulaşılır, araç trafiğinden uzak ve su birikmeyen bir noktada olmalıdır." },
-    { p: "Kontrol ünitesi zonları sırayla çalıştırır. Yağmur sensörü eklendiğinde yağışlı günlerde sulama otomatik atlanır; küçük bir ek ama su tasarrufu belirgin." },
+    { p: "Kontrol ünitesi zonları sırayla çalıştırır. Yağmur sensörü eklendiğinde yağışlı günlerde sulama otomatik atlanır; küçük bir ek ama su tasarrufu gerçek." },
     { p: "Programlamada en verimli zaman sabaha karşıdır. Buharlaşma düşük, rüzgâr azdır ve bitki gün boyunca suyu kullanabilir. Akşam sulaması yaprakların gece ıslak kalmasına ve mantar hastalığına yol açabilir." },
 
     { h2: "Mevcut bahçeye sonradan kurmak" },

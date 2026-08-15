@@ -41,7 +41,7 @@ export const hidroforPosts = [
         p: "Yani tank bir su deposu değil, bir enerji deposudur. Elleri yıkamak, sifonu çekmek, bir bardak su almak gibi kısa kullanımlarda pompanın hiç çalışmamasını sağlar. Sistemin sessizliği de, pompanın ömrü de bu küçük hava yastığına bağlıdır.",
       },
       {
-        p: "Hava zamanla kaçar. Membranın geçirgenliği, sibobun mikro sızıntısı ve suya karışan hava bunu yavaş yavaş gerçekleştirir. Bu bir arıza değil, normal bir davranıştır; bu yüzden yılda bir kez ölçülmesi gerekir.",
+        p: "Hava zamanla kaçar. Membranın geçirgenliği, sibobun mikro sızıntısı ve suya karışan hava bunu yavaş yavaş gerçekleştirir. Bu bir arıza değil, normal bir davranıştır; bu sebeple yılda bir kez ölçülmesi gerekir.",
       },
 
       { h2: "Havası kaçmış tankın belirtileri" },
@@ -78,7 +78,7 @@ export const hidroforPosts = [
         ],
       },
       {
-        p: "Sistem basıncı boşaltılmadan yapılan ölçümde, membranın su tarafındaki basınç okumaya karışır ve tank havası olduğundan yüksek görünür. Bu yüzden \"ölçtüm, 2,5 bar çıktı, sorun yok\" denilen tankların yarısı aslında bomboştur.",
+        p: "Sistem basıncı boşaltılmadan yapılan ölçümde, membranın su tarafındaki basınç okumaya karışır ve tank havası olduğundan yüksek görünür. Bunun için \"ölçtüm, 2,5 bar çıktı, sorun yok\" denilen tankların yarısı aslında bomboştur.",
       },
 
       { h2: "Adım adım hava basma" },
@@ -116,10 +116,7 @@ export const hidroforPosts = [
         },
       },
       {
-        p: "Şalter ayarını değiştirdiyseniz tank havasını da değiştirmeniz gerekir. En sık atlanan nokta bu: basınç yetersiz diye şalter yukarı çekilir, tank eski değerinde kalır ve sistem eskisinden de kötü çalışır.",
-      },
-      {
-        p: "Hava değerini P1'in çok altına düşürmek de doğru değil. O durumda tank hep suyla dolu kalır, hava yastığı sıkışmaya fırsat bulamaz ve tank yine görevini yapamaz.",
+        p: "Şalter ayarını değiştirdiyseniz tank havasını da değiştirmeniz gerekir. En sık atlanan nokta bu: basınç yetersiz diye şalter yukarı çekilir, tank eski değerinde kalır ve sistem eskisinden de kötü çalışır. Hava değerini P1'in çok altına düşürmek de doğru değil. O durumda tank hep suyla dolu kalır, hava yastığı sıkışmaya fırsat bulamaz ve tank yine görevini yapamaz.",
       },
 
       { h2: "Membran yırtıksa ne olur?" },
@@ -143,9 +140,9 @@ export const hidroforPosts = [
       },
       {
         ul: [
-          "Tek daire, düşük debili pompa: 19–24 litre çoğu zaman yeterli.",
+          "Tek daire, düşük debili pompa: 19–24 litre çoğunlukla yeterli.",
           "Müstakil ev, bahçe kullanımı olan sistem: 50–60 litre daha rahat çalışır.",
-          "Apartman ve site grupları: 100 litre ve üzeri, çoğu zaman birden fazla tank.",
+          "Apartman ve site grupları: 100 litre ve üzeri, sıklıkla birden fazla tank.",
           "Dalgıç pompalı kuyu sistemleri: motor kalkış sayısı sınırlı olduğu için hacim bir kademe büyük seçilir.",
         ],
       },
@@ -167,7 +164,7 @@ export const hidroforPosts = [
       { h2: "Sık yapılan beş hata" },
       {
         ul: [
-          "Sistem basıncı boşaltılmadan ölçüm yapmak — en yaygın hata, sonucu tamamen yanlış gösterir.",
+          "Sistem basıncı boşaltılmadan ölçüm yapmak. En yaygın hata budur, sonucu baştan yanlış gösterir.",
           "Tankın üzerindeki fabrika değerini hedef sanmak; hedef sizin şalter ayarınıza bağlıdır.",
           "Şalter ayarını değiştirip tank havasını unutmak.",
           "Sibobtan su geldiği hâlde hava basmaya devam etmek.",
@@ -180,13 +177,13 @@ export const hidroforPosts = [
 
       { h2: "Tank havası ile pompa ömrü arasındaki ilişki" },
       {
-        p: "Pompanın ömrünü belirleyen en önemli sayı, toplam çalışma saati değil; toplam kalkış sayısıdır. Her kalkışta motor nominal akımının birkaç katını çeker, salmastra kuru sürtünmeyle karşılaşır ve kontaktör bir kez daha ark yapar. Sabit devirde çalışmak pompayı yormaz; sürekli açılıp kapanmak yorar.",
+        p: "Pompanın ömrünü belirleyen en önemli sayı, toplam çalışma saati değil; toplam kalkış sayısıdır. Her kalkışta motor nominal akımının birkaç katını çeker, salmastra kuru sürtünmeyle karşılaşır ve kontaktör bir kez daha ark yapar. Sabit devirde çalışmak pompayı yormaz; sürekli açılıp kapanmak yorar. Basit bir örnek: havası bitmiş tankla çalışan bir sistemde, bir bulaşık yıkama sırasında pompa on beş kez devreye girebilir. Aynı işlem, tankı doğru ayarlanmış bir sistemde iki kalkışla tamamlanır.",
       },
       {
-        p: "Basit bir örnek: havası bitmiş tankla çalışan bir sistemde, bir bulaşık yıkama sırasında pompa on beş kez devreye girebilir. Aynı işlem, tankı doğru ayarlanmış bir sistemde iki kalkışla tamamlanır. Günlük fark yüzlerce kalkışa, yıllık fark ise on binlerce kalkışa çıkar.",
+        p: "Günlük fark yüzlerce kalkışa, yıllık fark ise on binlerce kalkışa çıkar.",
       },
       {
-        p: "Bu yüzden tank havası ölçümünü \"küçük bakım\" saymıyoruz. Yapılan işin süresi on dakika; etkisi ise pompanın kaç yıl dayanacağını belirleyecek kadar büyük.",
+        p: "Tank havası ölçümünü \"küçük bakım\" saymıyoruz. Yapılan işin süresi on dakika; etkisi ise pompanın kaç yıl dayanacağını belirleyecek kadar büyük.",
       },
 
       { h2: "Tankın yeri ve montaj biçimi" },
@@ -224,11 +221,11 @@ export const hidroforPosts = [
       },
       {
         q: "Tank havasını ölçerken sistem neden boşaltılmalı?",
-        a: "Sistem doluyken membranın su tarafındaki basınç, hava tarafındaki ölçümü etkiler ve değer olduğundan yüksek okunur. Boşaltılmış sistemde okunan değer ise sadece hava yastığını gösterir. Bu yüzden \"ölçtüm, normaldi\" denilen tankların bir kısmı aslında havasızdır.",
+        a: "Sistem doluyken membranın su tarafındaki basınç, hava tarafındaki ölçümü etkiler ve değer olduğundan yüksek okunur. Boşaltılmış sistemde okunan değer ise sadece hava yastığını gösterir. O nedenle \"ölçtüm, normaldi\" denilen tankların bir kısmı aslında havasızdır.",
       },
       {
         q: "Sibobtan su geliyor, hava basmaya devam edebilir miyim?",
-        a: "Hayır. Su gelmesi membranın yırtıldığını gösterir; basılan hava doğrudan suya karışır ve musluktan köpüklü su gelir. Ayrıca tankın iç yüzeyi suyla temas ettiği için gövde paslanmaya başlar. Bu durumda tek doğru çözüm tank değişimidir.",
+        a: "Hayır. Su gelmesi membranın yırtıldığını gösterir; basılan hava doğrudan suya karışır ve musluktan köpüklü su gelir. Ayrıca tankın iç yüzeyi suyla temas ettiği için gövde paslanmaya başlar. Böyle bir durumda tek doğru çözüm tank değişimidir.",
       },
       {
         q: "Fabrika değeri 1,5 bar yazıyor, onu mu esas almalıyım?",
@@ -240,11 +237,7 @@ export const hidroforPosts = [
       },
       {
         q: "Tankı büyütmek elektrik tüketimini düşürür mü?",
-        a: "Dolaylı olarak evet. Büyük tank, pompanın kalkış sayısını azaltır; her kalkışta motorun çektiği yüksek başlangıç akımı ortadan kalkar. Asıl kazanç ise mekanik: daha az kalkış, daha az yıpranma ve belirgin şekilde uzun pompa ömrü anlamına gelir.",
-      },
-      {
-        q: "Bisiklet pompasıyla hava basılabilir mi?",
-        a: "Küçük tanklarda teknik olarak mümkün ama zahmetlidir ve çoğu bisiklet pompasının manometresi bu aralıkta hassas değildir. Araç lastiği için satılan manometreli ayak pompası hem daha hızlı hem daha doğru sonuç verir. Kompresör kullanılacaksa basınç yavaş yükseltilmelidir.",
+        a: "Dolaylı olarak evet. Büyük tank, pompanın kalkış sayısını azaltır; her kalkışta motorun çektiği yüksek başlangıç akımı ortadan kalkar. Asıl kazanç ise mekanik: daha az kalkış, daha az yıpranma ve gözle görülür biçimde uzun pompa ömrü anlamına gelir.",
       },
       {
         q: "Tank havası doğru ama pompa hâlâ sık kalkıyorsa ne yapmalı?",
@@ -276,9 +269,8 @@ export const hidroforPosts = [
     intro:
       "Hidrofor şikâyetlerinin önemli bölümü arıza değil, ayar meselesi. Basınç yetersiz geliyorsa, pompa saniye başı açılıp kapanıyorsa ya da duşta sıcak–soğuk dalgalanma varsa, önce basınç şalterinin iki vidasına bakmak gerekir. Bu yazıda hangi vidanın ne yaptığını ve ayarın hangi sırayla yapıldığını anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Basınç şalterinde büyük vida (yay) her iki basıncı birden yukarı–aşağı kaydırır; küçük vida yalnızca durma basıncını değiştirerek aradaki farkı açar veya daraltır.</strong> Konutlarda tipik ayar, devreye girme 2 bar ve durma 3,5 bar civarındadır; aradaki fark 1,2–1,5 bar tutulur.",
+        p: "Basınç şalterinde büyük vida (yay) her iki basıncı birden yukarı–aşağı kaydırır; küçük vida yalnızca durma basıncını değiştirerek aradaki farkı açar veya daraltır. Konutlarda tipik ayar, devreye girme 2 bar ve durma 3,5 bar civarındadır; aradaki fark 1,2–1,5 bar tutulur.",
       },
       {
         p: "Ayar değiştirildiğinde basınç tankının hava basıncı da yeniden ayarlanmalıdır: tank havası, yeni devreye girme değerinin 0,2 bar altına getirilir. Bu iki ayar birlikte yapılmazsa sonuç eskisinden kötü olur.",
@@ -286,10 +278,7 @@ export const hidroforPosts = [
 
       { h2: "Basınç şalteri ne yapar?" },
       {
-        p: "Basınç şalteri, hat basıncını mekanik bir yay üzerinden izleyen basit bir anahtardır. Basınç belirlenen alt sınıra (P1) düştüğünde kontakları kapatır ve pompayı çalıştırır; üst sınıra (P2) ulaştığında kontakları açar ve pompayı durdurur.",
-      },
-      {
-        p: "Yani şalter, sistemin beyni değil refleksidir. Ne kadar su harcandığını bilmez, sadece basıncı ölçer. Bu basitlik hem avantaj hem sınırdır: ucuz ve dayanıklıdır, ama sabit basınç veremez ve pompayı sürekli açıp kapatarak çalışır.",
+        p: "Basınç şalteri, hat basıncını mekanik bir yay üzerinden izleyen basit bir anahtardır. Basınç belirlenen alt sınıra (P1) düştüğünde kontakları kapatır ve pompayı çalıştırır; üst sınıra (P2) ulaştığında kontakları açar ve pompayı durdurur. Yani şalter, sistemin beyni değil refleksidir. Ne kadar su harcandığını bilmez, sadece basıncı ölçer. Bu basitlik hem avantaj hem sınırdır: ucuz ve dayanıklıdır, ama sabit basınç veremez ve pompayı sürekli açıp kapatarak çalışır.",
       },
       {
         p: "Kapağı açıldığında iki ayar vidası görülür. Büyük olan ana yayı, küçük olan fark (diferansiyel) yayını sıkar. Birçok markada büyük vidanın yanında bir ok ve \"+ / −\" işareti bulunur.",
@@ -371,11 +360,7 @@ export const hidroforPosts = [
         p: "P1 ile P2 arasındaki fark, tanktan çekilebilecek su miktarını belirler. Fark daraldıkça tank aynı hacimde daha az kullanılabilir su verir ve pompa daha sık kalkar. 0,5 barlık bir farkla çalışan sistemde tank neredeyse hiç iş görmez.",
       },
       {
-        p: "Farkı açmak ise konforu düşürür: musluk basıncı 2 bar ile 4 bar arasında gidip gelir, duşta sıcak–soğuk dengesi bozulur. Bu yüzden 1,2–1,5 bar, konfor ile pompa ömrü arasındaki dengeli aralık olarak kabul edilir.",
-      },
-      {
-        quote:
-          "Dar fark pompayı yorar, geniş fark kullanıcıyı rahatsız eder. Doğru ayar, ikisinin ortasında ve sisteme özel bulunur.",
+        p: "Farkı açmak ise konforu düşürür: musluk basıncı 2 bar ile 4 bar arasında gidip gelir, duşta sıcak–soğuk dengesi bozulur. Dolayısıyla 1,2–1,5 bar, konfor ile pompa ömrü arasındaki dengeli aralık olarak kabul edilir.",
       },
 
       { h2: "Ayar sonrası üç test" },
@@ -395,10 +380,7 @@ export const hidroforPosts = [
 
       { h2: "Değerleri kaydetmek neden işe yarıyor?" },
       {
-        p: "Pano kapağının içine yapıştırılan küçük bir etiket, sonraki her müdahaleyi kolaylaştırır. Üzerinde şu değerler bulunmalı: devreye girme basıncı, durma basıncı, tank hava basıncı ve son ayar tarihi.",
-      },
-      {
-        p: "Sistem zamanla kendiliğinden ayardan çıkmaz; birisi müdahale ettiğinde ya da bir parça yıprandığında değişir. Kayıt varsa, bir sonraki kontrolde değerlerin sapıp sapmadığı saniyeler içinde anlaşılır ve arıza aramaya nereden başlanacağı belli olur.",
+        p: "Pano kapağının içine yapıştırılan küçük bir etiket, sonraki her müdahaleyi kolaylaştırır. Üzerinde şu değerler bulunmalı: devreye girme basıncı, durma basıncı, tank hava basıncı ve son ayar tarihi. Sistem zamanla kendiliğinden ayardan çıkmaz; birisi müdahale ettiğinde ya da bir parça yıprandığında değişir. Kayıt varsa, bir sonraki kontrolde değerlerin sapıp sapmadığı saniyeler içinde anlaşılır ve arıza aramaya nereden başlanacağı belli olur.",
       },
       {
         p: "Apartmanlarda bu etiket ayrıca yönetim değişikliklerinde bilgi kaybını önlüyor. Aynı sistemi yıllar sonra farklı bir ekip açtığında, hangi değerlerde çalışması gerektiğini tahmin etmek zorunda kalmıyor.",
@@ -418,7 +400,7 @@ export const hidroforPosts = [
         ],
       },
       {
-        p: "Bu ayrımı yapmak zaman kazandırır. Ayarla çözülmeyecek bir sorunu ayarla çözmeye çalışmak, çoğu zaman şalterin yayını da bozarak yeni bir arıza ekler.",
+        p: "Bu ayrımı yapmak zaman kazandırır. Ayarla çözülmeyecek bir sorunu ayarla çözmeye çalışmak, şalterin yayını da bozarak yeni bir arıza ekler.",
       },
 
       { h2: "Şalter tipleri: hangisi sizde var?" },
@@ -437,7 +419,7 @@ export const hidroforPosts = [
         },
       },
       {
-        p: "Akış anahtarlı sistemlerde tank çoğu zaman bulunmaz; cihaz akış kesildiğinde pompayı durdurur. Bu tip elemanlarda \"fark ayarı\" yoktur, dolayısıyla sık kalkma şikâyeti farklı yöntemlerle çözülür.",
+        p: "Akış anahtarlı sistemlerde tank genelde bulunmaz; cihaz akış kesildiğinde pompayı durdurur. Bu tip elemanlarda \"fark ayarı\" yoktur, dolayısıyla sık kalkma şikâyeti farklı yöntemlerle çözülür.",
       },
 
       { h2: "Manometreyi doğru okumak" },
@@ -464,10 +446,7 @@ export const hidroforPosts = [
 
       { h2: "Şalter mi, invertör mü?" },
       {
-        p: "Basınç şalteri ucuz, dayanıklı ve tamir edilebilir bir çözümdür. Buna karşılık sabit basınç veremez ve pompayı sürekli açıp kapatır. Kullanım yoğunsa ya da konfor beklentisi yüksekse, frekans kontrollü sistemler basıncı sabit tutar ve kalkış sayısını neredeyse sıfırlar.",
-      },
-      {
-        p: "Karar verirken kullanım profiline bakıyoruz: günde birkaç kez su kullanılan bir dairede şalter yeterlidir. Çok katlı bir binada, bahçe sulaması olan bir evde veya iş yerinde ise invertörlü çözüm hem konfor hem ömür açısından öne geçiyor.",
+        p: "Basınç şalteri ucuz, dayanıklı ve tamir edilebilir bir çözümdür. Buna karşılık sabit basınç veremez ve pompayı sürekli açıp kapatır. Kullanım yoğunsa ya da konfor beklentisi yüksekse, frekans kontrollü sistemler basıncı sabit tutar ve kalkış sayısını neredeyse sıfırlar. Karar verirken kullanım profiline bakıyoruz: günde birkaç kez su kullanılan bir dairede şalter yeterlidir. Çok katlı bir binada, bahçe sulaması olan bir evde veya iş yerinde ise invertörlü çözüm hem konfor hem ömür açısından öne geçiyor.",
       },
     ],
     faqs: [
@@ -481,7 +460,7 @@ export const hidroforPosts = [
       },
       {
         q: "Basıncı yükseltmek pompaya zarar verir mi?",
-        a: "Pompanın kapasitesi içinde kalındığı sürece hayır. Ancak durma basıncı, pompanın üretebileceği en yüksek basınca yaklaşırsa pompa hedefe ulaşamaz ve hiç durmadan çalışır. Bu durumda motor ısınır, termik atar ve zamanla sargı zarar görür.",
+        a: "Pompanın kapasitesi içinde kalındığı sürece hayır. Ancak durma basıncı, pompanın üretebileceği en yüksek basınca yaklaşırsa pompa hedefe ulaşamaz ve hiç durmadan çalışır. Böyle olunca motor ısınır, termik atar ve zamanla sargı zarar görür.",
       },
       {
         q: "Şalteri ayarladım, pompa yine sık kalkıyor. Neden?",
@@ -529,9 +508,9 @@ export const hidroforPosts = [
     intro:
       "Apartmanlarda en çok şikâyet edilen konulardan biri hidrofor gürültüsü. Çoğu zaman \"pompa eskidi\" diye değiştiriliyor ve ses aynı şekilde devam ediyor. Çünkü sesin kaynağı genelde pompanın kendisi değil; montaj, emiş hattı veya basınç ayarıdır.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Sesin kaynağı nerede?" },
       {
-        p: "<strong>Hidrofor gürültüsünün üç ana kaynağı vardır: yapıya iletilen titreşim, emişteki kavitasyon ve vana–çekvalf kaynaklı su darbesi.</strong> Sesin türü hangisi olduğunu söyler; sürekli uğultu montaj kaynaklı, çakıl sesine benzeyen cızırtı kavitasyon, tek seferlik güm sesi ise su darbesidir.",
+        p: "Hidrofor gürültüsünün üç ana kaynağı vardır: yapıya iletilen titreşim, emişteki kavitasyon ve vana–çekvalf kaynaklı su darbesi. Sesin türü hangisi olduğunu söyler; sürekli uğultu montaj kaynaklı, çakıl sesine benzeyen cızırtı kavitasyon, tek seferlik güm sesi ise su darbesidir.",
       },
       {
         p: "Çözüm sırası da buna göre değişir. Titreşim takozu ve esnek bağlantı montaj sesini keser; emiş hattı düzeltmesi kavitasyonu bitirir; yavaş kapanan vana veya darbe emici su darbesini önler.",
@@ -568,7 +547,7 @@ export const hidroforPosts = [
           "Pompa, betona doğrudan değil; kauçuk takoz veya titreşim yastığı üzerine oturtulmalı.",
           "Emiş ve basma hattında esnek bağlantı (kompansatör) kullanılmalı.",
           "Boru askıları lastik contalı olmalı, boru duvara metal metale temas etmemeli.",
-          "Pompa kaidesi duvara bitişik olmamalı; birkaç santimlik boşluk sesi belirgin azaltır.",
+          "Pompa kaidesi duvara bitişik olmamalı; birkaç santimlik boşluk sesi epeyce azaltır.",
           "Zemin çok inceyse ayrı bir beton kaide dökülmesi ses yalıtımını artırır.",
         ],
       },
@@ -606,15 +585,12 @@ export const hidroforPosts = [
           "Su darbesi olan bir tesisatta yıllar sonra ortaya çıkan sızıntıların yeri neredeyse hep aynıdır: darbenin en sert hissedildiği dirsekler ve makine bağlantıları.",
       },
       {
-        p: "Basıncın gereğinden yüksek ayarlanması darbeyi şiddetlendirir. Bu yüzden gürültü şikâyetlerinde basınç şalteri ayarını da gözden geçiriyoruz; 5 bara ayarlanmış bir sistemi 3,5 bara indirmek bazen tek başına yeterli oluyor.",
+        p: "Basıncın gereğinden yüksek ayarlanması darbeyi şiddetlendirir. gürültü şikâyetlerinde basınç şalteri ayarını da gözden geçiriyoruz; 5 bara ayarlanmış bir sistemi 3,5 bara indirmek bazen tek başına yeterli oluyor.",
       },
 
       { h2: "Tank ve şalter kaynaklı sesler" },
       {
-        p: "Basınç tankının havası bittiğinde pompa saniyeler içinde açılıp kapanır. Bu durumda duyulan ses, tek bir sürekli uğultu değil; art arda gelen kalkış–duruş serisidir. Şalter kontakları da her seferinde klik sesi çıkarır.",
-      },
-      {
-        p: "Bu ses türü, ekipmanın en hızlı yıprandığı çalışma biçimine işaret ettiği için önceliklidir. Tank havasının ölçülmesi ve şalter farkının açılması, hem sesi hem yıpranmayı aynı anda azaltır.",
+        p: "Basınç tankının havası bittiğinde pompa saniyeler içinde açılıp kapanır. Bu durumda duyulan ses, tek bir sürekli uğultu değil; art arda gelen kalkış–duruş serisidir. Şalter kontakları da her seferinde klik sesi çıkarır. Bu ses türü, ekipmanın en hızlı yıprandığı çalışma biçimine işaret ettiği için önceliklidir. Tank havasının ölçülmesi ve şalter farkının açılması, hem sesi hem yıpranmayı aynı anda azaltır.",
       },
       {
         p: "Kontaklardan gelen cızırtı ve yanık kokusu ise ayrı bir uyarıdır: şalter değişmelidir. Ark yapan kontak, kısa sürede tamamen yapışabilir ve pompa durmadan çalışmaya devam eder.",
@@ -622,7 +598,7 @@ export const hidroforPosts = [
 
       { h2: "Titreşim yalıtımında ne kullanılır?" },
       {
-        p: "Malzeme seçimi, sesin ne kadar kesileceğini doğrudan belirler. Ucuz bir sünger parçası birkaç ayda ezilir ve pompa yine betona oturur; doğru malzeme yıllarca görev yapar.",
+        p: "Malzeme seçimi, sesin ne kadar kesileceğini belirler. Ucuz bir sünger parçası birkaç ayda ezilir ve pompa yine betona oturur; doğru malzeme yıllarca görev yapar.",
       },
       {
         table: {
@@ -675,15 +651,15 @@ export const hidroforPosts = [
         p: "Duvarlarda çıplak beton yüzey sesi yansıtır. Akustik sünger veya taşyünü panel kaplaması, yansımaları emerek dairenin içindeki ses seviyesini düşürür. Bu kaplama pompanın üzerine değil, duvarlara ve tavana uygulanır.",
       },
       {
-        p: "Havalandırma menfezi kapatılmamalıdır. Motorun soğuması hava akışına bağlı; ses için havalandırmayı kapatmak, birkaç ay sonra çok daha pahalı bir motor arızası olarak geri döner. Menfez, ses tuzağı biçiminde (labirentli) yapılırsa hem hava geçer hem ses kırılır.",
+        p: "Havalandırma menfezi kapatılmamalıdır. Motorun soğuması hava akışına bağlı; ses için havalandırmayı kapatmak, birkaç ay sonra çok daha pahalı bir motor arızası olarak geri döner.",
+      },
+      {
+        p: "Menfez, ses tuzağı biçiminde (labirentli) yapılırsa hem hava geçer hem ses kırılır.",
       },
 
       { h2: "Ne kadar ses normal?" },
       {
-        p: "Konut tipi bir hidrofor, pompa dairesinin içinde yaklaşık bir bulaşık makinesi kadar ses üretir. Bu sesin dairelerde duyulmaması gerekir. Yatak odasında fark edilebilir bir uğultu varsa, sorun pompanın gürültü seviyesi değil; sesin yapıya iletiliyor olmasıdır.",
-      },
-      {
-        p: "Karşılaştırma için pratik bir ölçü: pompa dairesinin kapısı kapalıyken koridorda normal sesle konuşmak zorlaşıyorsa, seviye yüksektir ve önlem gerekir. Telefonların ses ölçer uygulamaları hassas olmasa da, önce–sonra karşılaştırması için yeterli fikir verir.",
+        p: "Konut tipi bir hidrofor, pompa dairesinin içinde yaklaşık bir bulaşık makinesi kadar ses üretir. Bu sesin dairelerde duyulmaması gerekir. Yatak odasında fark edilebilir bir uğultu varsa, sorun pompanın gürültü seviyesi değil; sesin yapıya iletiliyor olmasıdır. Karşılaştırma için pratik bir ölçü: pompa dairesinin kapısı kapalıyken koridorda normal sesle konuşmak zorlaşıyorsa, seviye yüksektir ve önlem gerekir. Telefonların ses ölçer uygulamaları hassas olmasa da, önce–sonra karşılaştırması için yeterli fikir verir.",
       },
       {
         p: "Yeni kurulumlarda gürültüyü baştan engellemek, sonradan çözmekten çok daha ucuz. Bu yüzden proje aşamasında pompa dairesini yatak odalarının altına veya bitişiğine yerleştirmemeye özen gösteriyoruz.",
@@ -728,7 +704,7 @@ export const hidroforPosts = [
       },
       {
         q: "Gece duyulan uğultu neden gündüz duyulmuyor?",
-        a: "Ses gündüz de vardır; ortam gürültüsü içinde fark edilmez. Gece arka plan sesi düştüğü için düşük frekanslı uğultu belirginleşir. Bu tür sesler genellikle yapıya iletilen titreşimden kaynaklanır ve takoz ile esnek bağlantı uygulandığında belirgin şekilde azalır.",
+        a: "Ses gündüz de vardır; ortam gürültüsü içinde fark edilmez. Gece arka plan sesi düştüğü için düşük frekanslı uğultu öne çıkar. Bu tür sesler sıklıkla yapıya iletilen titreşimden kaynaklanır ve takoz ile esnek bağlantı uygulandığında hissedilir ölçüde azalır.",
       },
       {
         q: "Su darbesi tesisata zarar verir mi?",
@@ -736,7 +712,7 @@ export const hidroforPosts = [
       },
       {
         q: "Frekans kontrollü hidrofor daha mı sessiz?",
-        a: "Genellikle evet. Pompa tam devirde açılıp kapanmak yerine ihtiyaca göre devir ayarlayarak çalışır; kalkış sayısı ve ani debi değişimleri azalır. Bu da hem mekanik sesi hem su darbesini düşürür. Ancak montaj kötüyse invertörlü sistem de titreşimi yapıya iletir.",
+        a: "Çoğunlukla evet. Pompa tam devirde açılıp kapanmak yerine ihtiyaca göre devir ayarlayarak çalışır; kalkış sayısı ve ani debi değişimleri azalır. Bu da hem mekanik sesi hem su darbesini düşürür. Ancak montaj kötüyse invertörlü sistem de titreşimi yapıya iletir.",
       },
       {
         q: "Pompayı yalıtım malzemesiyle sarabilir miyim?",
@@ -776,9 +752,9 @@ export const hidroforPosts = [
     intro:
       "Klasik hidrofor pompayı açar ve kapatır; frekans kontrollü hidrofor ise pompanın devrini ayarlar. Aradaki fark kulağa küçük geliyor ama sonuçları büyük: basınç dalgalanması, gürültü, kalkış sayısı ve pompa ömrü doğrudan bu tercihle belirleniyor.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "İki sistem arasındaki fark" },
       {
-        p: "<strong>Frekans kontrollü (invertörlü) hidrofor, pompanın devrini ihtiyaca göre değiştirerek sabit basınç tutar; klasik sistemde ise pompa tam devirde çalışıp durur ve basınç iki değer arasında dalgalanır.</strong> İnvertörlü çözüm; çok katlı binalarda, değişken debili kullanımlarda ve gürültünün sorun olduğu yerlerde açık farkla öne geçer.",
+        p: "Frekans kontrollü (invertörlü) hidrofor, pompanın devrini ihtiyaca göre değiştirerek sabit basınç tutar; klasik sistemde ise pompa tam devirde çalışıp durur ve basınç iki değer arasında dalgalanır. İnvertörlü çözüm; çok katlı binalarda, değişken debili kullanımlarda ve gürültünün sorun olduğu yerlerde açık farkla öne geçer.",
       },
       {
         p: "Tek daireli, günde birkaç kez su kullanılan basit bir sistemde klasik hidrofor hâlâ mantıklıdır. İlk maliyeti düşüktür, tamiri kolaydır ve yedek parçası her yerde bulunur.",
@@ -786,10 +762,7 @@ export const hidroforPosts = [
 
       { h2: "İki sistem nasıl çalışır?" },
       {
-        p: "Klasik hidroforda basınç şalteri bir anahtar gibi davranır: basınç alt sınıra düşünce pompa tam devirde çalışır, üst sınıra çıkınca durur. Musluktaki basınç bu iki değer arasında sürekli gidip gelir.",
-      },
-      {
-        p: "Frekans kontrollü sistemde ise hatta bir basınç sensörü vardır ve sürücü, ölçülen basıncı hedef değerde tutmak için motorun devrini sürekli ayarlar. Az su çekildiğinde pompa yavaş, çok su çekildiğinde hızlı döner. Basınç neredeyse sabit kalır.",
+        p: "Klasik hidroforda basınç şalteri bir anahtar gibi davranır: basınç alt sınıra düşünce pompa tam devirde çalışır, üst sınıra çıkınca durur. Musluktaki basınç bu iki değer arasında sürekli gidip gelir. Frekans kontrollü sistemde ise hatta bir basınç sensörü vardır ve sürücü, ölçülen basıncı hedef değerde tutmak için motorun devrini sürekli ayarlar. Az su çekildiğinde pompa yavaş, çok su çekildiğinde hızlı döner. Basınç neredeyse sabit kalır.",
       },
       {
         p: "Bu fark en çok duşta hissedilir. Klasik sistemde biri mutfakta musluk açtığında duştaki basınç düşer ve su ısısı değişir; invertörlü sistemde pompa devri artırarak açığı kapatır.",
@@ -803,7 +776,7 @@ export const hidroforPosts = [
             ["Basınç davranışı", "İki değer arasında dalgalı", "Sabit, hedef değerde"],
             ["Kalkış sayısı", "Yüksek, tanka bağlı", "Çok düşük"],
             ["Gürültü", "Kalkış–duruş sesi belirgin", "Daha sessiz, kademeli"],
-            ["Enerji", "Her kalkışta yüksek akım", "Kısmi yükte belirgin tasarruf"],
+            ["Enerji", "Her kalkışta yüksek akım", "Kısmi yükte ciddi tasarruf"],
             ["Su darbesi", "Sık görülür", "Nadir"],
             ["İlk maliyet", "Düşük", "Yüksek"],
             ["Yedek parça ve tamir", "Basit, her yerde", "Elektronik kart, servis gerekir"],
@@ -823,7 +796,7 @@ export const hidroforPosts = [
         p: "Ancak bu kazanç, sistemin kısmi yükte ne kadar zaman geçirdiğine bağlıdır. Gün boyu değişken debiyle çalışan bir apartman sisteminde tasarruf anlamlıdır. Günde toplam yarım saat çalışan bir daire hidroforunda ise fatura farkı fark edilmez.",
       },
       {
-        p: "Bu yüzden invertörlü sistemi \"elektrik faturasını düşürür\" diye değil, \"pompayı ve tesisatı korur, konforu artırır\" diye öneriyoruz. Enerji kazancı bunların yanında ikincil bir sonuçtur.",
+        p: "İnvertörlü sistemi \"elektrik faturasını düşürür\" diye değil, \"pompayı ve tesisatı korur, konforu artırır\" diye öneriyoruz. Enerji kazancı bunların yanında ikincil bir sonuçtur.",
       },
 
       { h2: "Konfor farkı nerede hissedilir?" },
@@ -834,14 +807,14 @@ export const hidroforPosts = [
         p: "Klasik sistemde duş alırken çamaşır makinesi su aldığında basınç düşer ve karışım bozulur. İnvertörlü sistemde pompa devri artırarak açığı kapatır; sıcaklık dalgalanması büyük ölçüde ortadan kalkar.",
       },
       {
-        p: "Gece tarafı da önemli: klasik sistemde tek bir sifon çekilişi pompayı uyandırır ve tüm bina bunu duyar. İnvertörlü sistemde küçük kullanımlar tank tarafından karşılanır, pompa çoğu zaman hiç devreye girmez.",
+        p: "Gece tarafı da önemli: klasik sistemde tek bir sifon çekilişi pompayı uyandırır ve tüm bina bunu duyar. İnvertörlü sistemde küçük kullanımlar tank tarafından karşılanır, pompa ekseriyetle hiç devreye girmez.",
       },
 
       { h2: "Hangi binada hangisi?" },
       {
         ul: [
           "Tek daire, tek banyo, düşük kullanım: klasik hidrofor yeterli.",
-          "İki–üç katlı müstakil ev, birden fazla banyo: invertörlü sistem konforu belirgin artırır.",
+          "İki–üç katlı müstakil ev, birden fazla banyo: invertörlü sistem konforu epeyce artırır.",
           "Apartman ve site: invertörlü, tercihen çift pompalı grup.",
           "Gürültü şikâyeti olan binalar: invertörlü sistem kalkış sesini büyük ölçüde ortadan kaldırır.",
           "Bahçe sulaması olan evler: debisi sürekli değişen sistem, invertörden en çok fayda görenlerden.",
@@ -854,10 +827,7 @@ export const hidroforPosts = [
 
       { h2: "İnvertör pompanın kapasitesini artırır mı?" },
       {
-        p: "Hayır. Sürücü, motorun devrini nominal değerin altında ayarlar; pompayı olduğundan güçlü yapmaz. Yetersiz seçilmiş bir pompa invertörle de yetersiz kalır, sadece daha düzenli çalışır.",
-      },
-      {
-        p: "Bu yüzden invertörlü sete geçerken pompanın debi ve basma yüksekliği yeniden hesaplanmalıdır. Binanın en üst noktası, aynı anda kaç musluğun açılabileceği ve boru hattındaki kayıplar birlikte değerlendirilir.",
+        p: "Hayır. Sürücü, motorun devrini nominal değerin altında ayarlar; pompayı olduğundan güçlü yapmaz. Yetersiz seçilmiş bir pompa invertörle de yetersiz kalır, sadece daha düzenli çalışır. O nedenle invertörlü sete geçerken pompanın debi ve basma yüksekliği yeniden hesaplanmalıdır. Binanın en üst noktası, aynı anda kaç musluğun açılabileceği ve boru hattındaki kayıplar birlikte değerlendirilir.",
       },
       {
         p: "Sahada gördüğümüz yaygın hayal kırıklığı buradan doğuyor: basınç sorunu olan bir sisteme invertör takılıyor, sorun çözülmüyor ve suç elektronikte aranıyor. Halbuki eksik olan kapasite; çözüm de doğru pompa seçimi.",
@@ -868,7 +838,7 @@ export const hidroforPosts = [
         p: "Evet, ama daha küçüğü. Frekans kontrollü sistemde tank, pompanın kalkış sayısını sınırlamak için değil; küçük sızıntı ve damlamalarda pompanın gereksiz devreye girmesini önlemek ve basınç dalgalanmasını yumuşatmak için kullanılır.",
       },
       {
-        p: "Bu nedenle 8–24 litrelik bir membranlı tank çoğu uygulama için yeterlidir. Tankın hava basıncı, hedef basıncın yaklaşık %70'i civarına ayarlanır; üretici talimatı varsa ona uyulur.",
+        p: "O yüzden 8–24 litrelik bir membranlı tank çoğu uygulama için yeterlidir. Tankın hava basıncı, hedef basıncın yaklaşık %70'i civarına ayarlanır; üretici talimatı varsa ona uyulur.",
       },
       {
         p: "Tanksız kurulan invertörlü sistemlerde, gece damlayan tek bir musluk bile pompayı sürekli uyandırabilir. Küçük tank bu sorunu ucuza çözer.",
@@ -976,11 +946,7 @@ export const hidroforPosts = [
         p: "Buna karşılık invertörlü sistemde arıza sıklığı düşüktür, çünkü mekanik yıpranmanın ana kaynağı olan kalkış–duruş döngüsü neredeyse ortadan kalkar. Kalkış sayısı düştükçe salmastra, rulman ve kontaktör ömrü uzar.",
       },
       {
-        quote:
-          "Klasik sistemde parça ucuz ama sık değişir; invertörlü sistemde parça pahalı ama nadiren değişir. Toplam sahip olma maliyeti çoğu binada ikincisinde daha düşük çıkıyor.",
-      },
-      {
-        p: "İnvertörlü sistemlerde bir de kurulum kalitesi belirleyici. Sensör yeri, parametre ayarları ve topraklama doğru yapılmadığında sistem hedef basıncı tutmakta zorlanır; bu bir ürün sorunu değil, uygulama sorunudur.",
+        p: "İnvertörlü sistemlerde bir de kurulum kalitesi belirleyici. Sensör yeri, parametre ayarları ve topraklama doğru yapılmadığında sistem hedef basıncı tutmakta zorlanır; arıza pompada aranır ama hata kurulumdadır.",
       },
     ],
     faqs: [
@@ -990,7 +956,7 @@ export const hidroforPosts = [
       },
       {
         q: "İnvertörlü sistem daha mı çok arıza yapar?",
-        a: "Arıza sayısı genelde daha azdır, çünkü pompanın kalkış–duruş döngüsü ortadan kalkar. Ancak arıza olduğunda elektronik kart devreye girdiği için maliyet daha yüksek olabilir. Gerilim dalgalanmasının yüksek olduğu hatlarda koruma ekipmanı kullanmak bu riski belirgin azaltır.",
+        a: "Arıza sayısı genelde daha azdır, çünkü pompanın kalkış–duruş döngüsü ortadan kalkar. Ancak arıza olduğunda elektronik kart devreye girdiği için maliyet daha yüksek olabilir. Gerilim dalgalanmasının yüksek olduğu hatlarda koruma ekipmanı kullanmak bu riski ciddi ölçüde azaltır.",
       },
       {
         q: "Tek daire için invertörlü hidrofor gereksiz mi?",
@@ -1011,6 +977,10 @@ export const hidroforPosts = [
       {
         q: "İnvertörlü sistem gerilim düşmesinde ne yapar?",
         a: "Çoğu sürücü düşük gerilimde kendini korumaya alır ve hata vererek durur. Kırsal hatlarda bu durum sık yaşandığı için, sistemin gerilim koruma rölesiyle desteklenmesi ve hata sonrası otomatik yeniden başlatma ayarının doğru yapılması gerekir.",
+      },
+      {
+        q: "Sürücü panosu neden ıslak hacimden uzakta olmalı?",
+        a: "İnvertör bir güç elektroniği cihazıdır; yoğuşma, damlama ve toz devre kartını vurur. Pompayla aynı hacimde duracaksa pano su sıçramayan bir kotta, havalandırması açık ve önünde servis boşluğu kalacak biçimde asılır. Yaz sıcağında kapalı dolapta bırakılan sürücü ısınıp korumaya geçer.",
       },
       {
         q: "Çift pompalı grup gerçekten gerekli mi?",

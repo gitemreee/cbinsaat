@@ -130,7 +130,7 @@ export const yapimPosts = [
       { p: "Betonarmede her kat kalıp, demir, döküm ve kür sürecinden geçiyor. Bu, doğası gereği daha uzun bir takvim demek." },
 
       { h2: "Temel ve zemin" },
-      { p: "Hafif çelik yapı daha hafif olduğu için temel yükü düşük; zayıf zeminlerde temel maliyeti belirgin azalıyor." },
+      { p: "Hafif çelik yapı daha hafif olduğu için temel yükü düşük; zayıf zeminlerde temel maliyeti epeyce azalıyor." },
       { p: "Betonarmede yapı ağırlığı fazla olduğu için temel de buna göre boyutlanıyor. Zemin zayıfsa temel maliyeti hızla yükseliyor." },
 
       { h2: "Arazi ulaşımı" },
@@ -181,7 +181,7 @@ export const yapimPosts = [
     excerpt: "Temel tipi tercihe değil zemine göre belirleniyor. Zemin etüdünün ne söylediği ve hangi durumda hangi temelin seçildiği.",
     services: ["kaba-insaat", "anahtar-teslim-mustakil-ev"],
     intro:
-      "Temel, yapının tüm yükünü zemine aktaran eleman. Tipi tercihle değil, zemin etüdünün verileriyle belirleniyor. Bu yüzden \"komşu radye yaptı biz de yapalım\" mantığı burada geçerli değil.",
+      "Temel, yapının tüm yükünü zemine aktaran eleman. Tipi tercihle değil, zemin etüdünün verileriyle belirleniyor. Bunun için \"komşu radye yaptı biz de yapalım\" mantığı burada geçerli değil.",
     body: [
       { h2: "Zemin etüdü ne söyler?" },
       { p: "Etüt, zeminin taşıma gücünü, tabakalanmasını, yeraltı su seviyesini ve deprem parametrelerini veriyor. Temel tipi ve boyutları bu verilere göre hesaplanıyor." },
@@ -212,7 +212,7 @@ export const yapimPosts = [
         "Paspayı takozları yerleştirilmeli",
         "Topraklama iletkeni temele döşenmeli",
       ] },
-      { p: "Son madde sık atlanıyor: temel topraklaması, binanın elektrik güvenliğinin temeli. Beton dökülmeden yerleştirilmesi gerekiyor." },
+      { p: "Temel topraklaması sık atlanıyor, oysa binanın elektrik güvenliğinin temeli orası. Beton dökülmeden yerleştirilmesi gerekiyor." },
     ],
     faqs: [
       { q: "Zemin etüdü zorunlu mu?", a: "Ruhsatlı yapılarda etüt süreç gereği yapılıyor. Etütsüz temel imalatına başlamıyoruz." },
@@ -396,8 +396,8 @@ export const yapimPosts = [
       "İstinat duvarı hasarlarının büyük kısmı hesap hatasından değil, drenaj eksikliğinden çıkıyor. Duvarın arkasında biriken su, kuru toprağın uyguladığı basıncın çok üstünde bir yük oluşturuyor.",
     body: [
       { h2: "Su basıncı ne kadar fark eder?" },
-      { p: "Duvarın arkasındaki dolgu suya doyduğunda, kuru durumdakine göre belirgin şekilde daha büyük bir yatay basınç oluşuyor. Duvar bu ek yüke göre hesaplanmadıysa çatlıyor ya da öne doğru eğiliyor." },
-      { p: "Bu yüzden istinat duvarı hesabında drenajın varlığı bir varsayım olarak kabul ediliyor. Drenaj yapılmadığında hesap geçersiz hâle geliyor." },
+      { p: "Duvarın arkasındaki dolgu suya doyduğunda, kuru durumdakine göre çok daha büyük bir yatay basınç oluşuyor. Duvar bu ek yüke göre hesaplanmadıysa çatlıyor ya da öne doğru eğiliyor." },
+      { p: "Dolayısıyla istinat duvarı hesabında drenajın varlığı bir varsayım olarak kabul ediliyor. Drenaj yapılmadığında hesap geçersiz hâle geliyor." },
 
       { h2: "Drenaj nasıl yapılır?" },
       { ul: [
@@ -423,7 +423,7 @@ export const yapimPosts = [
 
       { h2: "Mevcut duvarda çatlak varsa" },
       { p: "Önce çatlağın türüne bakılıyor: yüzeysel büzülme çatlağı mı, yoksa duvarın hareket ettiğini gösteren yapısal bir çatlak mı." },
-      { p: "Duvarda öne eğilme, üstte açılma ve kademeli çatlak varsa bu yapısal. Bu durumda sıvayla kapatmak yerine drenaj ve gerekiyorsa takviye konuşulmalı." },
+      { p: "Duvarda öne eğilme, üstte açılma ve kademeli çatlak varsa bu yapısal. Böyle olunca sıvayla kapatmak yerine drenaj ve gerekiyorsa takviye konuşulmalı." },
     ],
     faqs: [
       { q: "Bahçe duvarı ile istinat duvarı aynı mı?", a: "Değil. Bahçe duvarı sadece kendi ağırlığını taşır; istinat duvarı arkasındaki toprağı tutar. İkisinin hesabı ve detayı farklı." },
@@ -477,10 +477,10 @@ export const yapimPosts = [
         "Kaçak akım koruması bölgelere ayrılmalı",
         "Pano etiketlenmeli ve şeması iş yerinde bulunmalı",
       ] },
-      { p: "Son madde küçük görünüyor ama bir arıza anında dakikalar kazandırıyor. Yaptığımız her panonun şemasını teslimde bırakıyoruz." },
+      { p: "Sondaki madde küçük görünüyor ama bir arıza anında dakikalar kazandırıyor. Yaptığımız her panonun şemasını teslimde bırakıyoruz." },
     ],
     faqs: [
-      { q: "Güç artırımı ne kadar sürer?", a: "Dağıtım şirketinin yoğunluğuna ve talep edilen güce göre değişiyor. Bu yüzden ilk hafta başvurmayı öneriyoruz; iş bitse bile bekleyen bir açılış istemezsiniz." },
+      { q: "Güç artırımı ne kadar sürer?", a: "Dağıtım şirketinin yoğunluğuna ve talep edilen güce göre değişiyor. O yüzden ilk hafta başvurmayı öneriyoruz; iş bitse bile bekleyen bir açılış istemezsiniz." },
       { q: "Jeneratör gerekli mi?", a: "Kesintinin doğrudan zarar yazdığı işletmelerde (soğuk zincir, üretim hattı) gerekli olabiliyor. Kritik yükleri ayırıp sadece onları besleyen bir çözüm çoğu zaman yeterli." },
       { q: "Kompanzasyon her iş yerinde gerekli mi?", a: "Motor yükü düşük olan ofis ve mağazalarda genelde gerekmiyor. Atölye, üretim ve büyük soğutma sistemi olan yerlerde gerekiyor." },
     ],
@@ -635,7 +635,7 @@ export const yapimPosts = [
 
       { h2: "Ses yalıtımı: tavan üstü meselesi" },
       { p: "Toplantı odalarında yapılan klasik hata, bölme duvarı asma tavana kadar örüp orada bırakmak. Ses asma tavanın üstünden komşu odaya geçiyor." },
-      { p: "Duvarın döşemeye kadar devam etmesi ve profil arasına yalıtım dolgusu konması gerekiyor. Maliyeti çok artırmıyor, sonucu belirgin değiştiriyor." },
+      { p: "Duvarın döşemeye kadar devam etmesi ve profil arasına yalıtım dolgusu konması gerekiyor. Maliyeti çok artırmıyor, sonucu baştan değiştiriyor." },
 
       { h2: "Cam bölme mi alçıpan mı?" },
       { p: "Cam ışığı geçirir ve alanı büyük gösterir; alçıpan daha iyi ses yalıtır ve daha ekonomiktir. Yaygın çözüm ikisini karıştırmak." },

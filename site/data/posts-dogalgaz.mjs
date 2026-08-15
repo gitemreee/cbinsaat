@@ -148,8 +148,8 @@ export const dogalgazPosts = [
       { p: "Yazın uzun süre kullanılmayan kombide pompa sıkışması sık görülüyor. Sezon öncesi bakım bunu da ortaya çıkarıp çözüyor." },
 
       { h2: "Garantili cihazlarda durum" },
-      { p: "Garantisi devam eden cihazlarda yetkili servis dışında yapılan işlemler garantiyi etkileyebiliyor. Bu durumda cihaz bakımını yetkili servise bırakmak doğru olan." },
-      { p: "Buna karşılık tesisat kaynaklı sorunlar — basınç düşmesi, petek çamurlanması, denge ayarı — garanti kapsamı dışında. O tarafta biz çalışabiliyoruz." },
+      { p: "Garantisi devam eden cihazlarda yetkili servis dışında yapılan işlemler garantiyi etkileyebiliyor. Böyle bir durumda cihaz bakımını yetkili servise bırakmak doğru olan." },
+      { p: "Buna karşılık tesisat kaynaklı sorunlar (basınç düşmesi, petek çamurlanması, denge ayarı) garanti kapsamı dışında. O tarafta biz çalışabiliyoruz." },
     ],
     faqs: [
       { q: "Yoğuşmalı kombide bakım farklı mı?", a: "İşlem sırası benzer ama yoğuşmalı cihazlarda kondens tahliyesi ve sifonun temizliği ayrıca kontrol ediliyor. Tıkanan kondens sifonu cihazın kilitlenmesine yol açan yaygın bir arıza." },
@@ -236,8 +236,8 @@ export const dogalgazPosts = [
       { p: "Kaplama kararını sistem kararıyla birlikte vermek gerekiyor. Yerden ısıtma yaptırıp üstüne kalın halı sermek, sistemin faydasını ciddi biçimde azaltıyor." },
 
       { h2: "4. Zaten tadilat yapılacak mı?" },
-      { p: "Zemin nasılsa sökülecekse yerden ısıtmanın ek maliyeti belirgin düşüyor. Sadece yerden ısıtma için sağlam bir zemini sökmek çoğu evde ekonomik olmuyor." },
-      { p: "Bu yüzden karar, tadilat kararıyla aynı anda verilmesi gereken bir konu. Tadilat bittikten sonra gündeme geldiğinde iş baştan başlıyor." },
+      { p: "Zemin nasılsa sökülecekse yerden ısıtmanın ek maliyeti epeyce düşüyor. Sadece yerden ısıtma için sağlam bir zemini sökmek çoğu evde ekonomik olmuyor." },
+      { p: "O yüzden karar, tadilat kararıyla aynı anda verilmesi gereken bir konu. Tadilat bittikten sonra gündeme geldiğinde iş baştan başlıyor." },
 
       { h2: "5. Yalıtımınız ne durumda?" },
       { p: "Yerden ısıtma düşük su sıcaklığıyla çalışır; bu da yalıtımı iyi olan evlerde avantaja dönüşür. Yalıtımsız bir evde düşük sıcaklıkla istenen konforu yakalamak zorlaşıyor." },
@@ -254,7 +254,7 @@ export const dogalgazPosts = [
     ],
     faqs: [
       { q: "Yerden ısıtma daha mı ekonomik?", a: "Düşük su sıcaklığıyla çalıştığı ve ısıyı daha dengeli dağıttığı için iyi yalıtılmış evlerde tasarruf sağlıyor. Yalıtımı zayıf evlerde bu fark kayboluyor." },
-      { q: "Boru patlarsa ne olur?", a: "Serpantin şap içinde eksiz döşenir, ek yeri olmadığı için patlama riski çok düşüktür. Asıl risk şap dökümü sırasındaki darbedir; bu yüzden hat basınçlıyken dökülür." },
+      { q: "Boru patlarsa ne olur?", a: "Serpantin şap içinde eksiz döşenir, ek yeri olmadığı için patlama riski çok düşüktür. Asıl risk şap dökümü sırasındaki darbedir; o yüzden hat basınçlıyken dökülür." },
       { q: "Mevcut peteklerle birlikte kullanılabilir mi?", a: "Kullanılabilir. Kolektör buna göre planlanır ve iki sistem farklı su sıcaklıklarıyla çalışacak şekilde ayrılır." },
     ],
     related: ["dogalgaza-gecerken-dikkat", "petek-isinmiyor-ne-yapmali", "sap-kurumadan-parke-doseme"],
@@ -289,7 +289,7 @@ export const dogalgazPosts = [
       { p: "Doğru ayar dış hava sıcaklığına göre değişiyor. Çok soğuk günlerde yükseltip ılık günlerde düşürmek, sabit tutmaktan daha verimli." },
 
       { h2: "4. Termostat kullanımı" },
-      { p: "Termostatı sürekli açıp kapatmak yerine sabit bir sıcaklıkta bırakmak genellikle daha verimli. Evi tamamen soğutup sonra hızla ısıtmak, sabit tutmaktan daha çok gaz harcıyor." },
+      { p: "Termostatı sürekli açıp kapatmak yerine sabit bir sıcaklıkta bırakmak çoğu durumda daha verimli. Evi tamamen soğutup sonra hızla ısıtmak, sabit tutmaktan daha çok gaz harcıyor." },
       { p: "Gece ve evde kimse yokken 2–3 derece düşürmek yeterli. 10 derece düşürüp akşam ısıtmaya çalışmak tasarruf değil, ek maliyet." },
 
       { h2: "5. Petek dengesi ve temizliği" },
@@ -306,7 +306,7 @@ export const dogalgazPosts = [
     ],
     faqs: [
       { q: "Kombiyi gece kapatmalı mıyım?", a: "Kapatmak yerine 2–3 derece düşürmek daha verimli. Tamamen soğuyan evi sabah ısıtmak, geceyi düşük sıcaklıkta geçirmekten daha çok gaz harcıyor." },
-      { q: "Yalıtım yaptırsam ne kadar tasarruf ederim?", a: "Mevcut durumunuza bağlı. Yalıtımsız bir binada fark belirgin oluyor; kısmen yalıtılmış binada daha sınırlı. Keşifte binanızın durumuna göre gerçekçi bir aralık söylüyoruz." },
+      { q: "Yalıtım yaptırsam ne kadar tasarruf ederim?", a: "Mevcut durumunuza bağlı. Yalıtımsız bir binada fark açık oluyor; kısmen yalıtılmış binada daha sınırlı. Keşifte binanızın durumuna göre gerçekçi bir aralık söylüyoruz." },
       { q: "Faturamda kaçak olabilir mi?", a: "Sayaç, hiçbir cihaz çalışmazken dönmemeli. Tüm vanaları kapatıp sayacı izleyin; hareket varsa dağıtım şirketini arayın." },
     ],
     related: ["dogalgaza-gecerken-dikkat", "kombi-bakimi-neden-gerekli", "mantolama-ne-kazandirir"],
@@ -380,7 +380,7 @@ export const dogalgazPosts = [
     excerpt: "Havlupan güzel görünüyor ama aynı ölçüdeki panel peteğin ısıtma gücünü vermiyor. Banyonuz için doğru seçim nasıl yapılır?",
     services: ["kombi-petek-montaji", "banyo-tadilati", "sihhi-tesisat"],
     intro:
-      "Banyo tadilatlarında havlupan neredeyse otomatik tercih hâline geldi. Görüntü olarak haklı bir tercih ama ısıtma tarafında bilinmesi gereken bir gerçek var: aynı ölçüdeki bir panel petek, havlupandan belirgin şekilde daha fazla ısı veriyor.",
+      "Banyo tadilatlarında havlupan neredeyse otomatik tercih hâline geldi. Görüntü olarak haklı bir tercih ama ısıtma tarafında bilinmesi gereken bir gerçek var: aynı ölçüdeki bir panel petek, havlupandan gözle görülür ölçüde fazla ısı veriyor.",
     body: [
       { h2: "Isı gücü farkı nereden geliyor?" },
       { p: "Panel peteklerde arka yüzeyde ısı transferini artıran kanatçıklar bulunur. Havlupanda ise düz borular vardır; yüzey alanı daha az olduğu için aynı ölçüde daha az ısı verir." },
@@ -405,7 +405,7 @@ export const dogalgazPosts = [
 
       { h2: "Karma çözüm" },
       { p: "Geniş banyolarda en pratik çözüm ikisini birden kullanmak: duvarda bir panel petek, lavabo yanında dekoratif bir havlupan. Isıtma yükünü petek taşıyor, havlupan işlevini görüyor." },
-      { p: "Yerden ısıtma varsa havlupan tamamen dekoratif bir eleman hâline geliyor; bu durumda ölçü ve model seçimi tamamen zevke kalıyor." },
+      { p: "Yerden ısıtma varsa havlupan tamamen dekoratif bir eleman hâline geliyor; böyle bir durumda ölçü ve model seçimi tamamen zevke kalıyor." },
     ],
     faqs: [
       { q: "Havlupan ısıtmıyor, ne yapmalıyım?", a: "Önce havasını alın; havlupanlar hava yapmaya çok yatkındır. Isınmıyorsa vana ve termostatik başlığı kontrol edin. Yine olmuyorsa ölçüsü banyonuz için yetersiz olabilir." },
@@ -452,7 +452,7 @@ export const dogalgazPosts = [
       { p: "Bu iki kalem çoğu teklifte olmuyor; biz ayrı satır olarak yazıyor ve neden gerektiğini anlatıyoruz." },
     ],
     faqs: [
-      { q: "Kombi kaç yıl kullanılır?", a: "Bakımlı bir cihaz 12–18 yıl arasında kullanılabiliyor. Bakımsız cihazlarda bu süre belirgin kısalıyor." },
+      { q: "Kombi kaç yıl kullanılır?", a: "Bakımlı bir cihaz 12–18 yıl arasında kullanılabiliyor. Bakımsız cihazlarda bu süre iyice kısalıyor." },
       { q: "Yeni kombiyi ben alsam montajını yapar mısınız?", a: "Yaparız. Aynı yere montajda tesisat, tahliye ve baca bağlantısını biz yapıyoruz. Yeri değişiyorsa gaz hattı tarafı yetkili firmayla birlikte yürüyor." },
       { q: "Değişimde eski kombiyi ne yapıyorsunuz?", a: "Sökümü ve tahliyesi bizde. Talep ederseniz eski cihazı size bırakıyoruz." },
     ],

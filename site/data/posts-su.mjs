@@ -116,7 +116,7 @@ export const suPosts = [
         "Klozete ıslak mendil ve bez atmayın",
         "Apartman ana giderini yılda bir basınçlı su ile temizletin",
       ] },
-      { p: "Son madde özellikle önemli. Apartmanlarda ana gider hattının yıllık temizliği, hem daire içi tıkanıklıkları hem bodrum su baskınlarını ciddi oranda azaltıyor ve yönetim bütçesinde küçük bir kalem." },
+      { p: "Listenin en değerli maddesi sonuncusu. Apartmanlarda ana gider hattının yıllık temizliği, hem daire içi tıkanıklıkları hem bodrum su baskınlarını ciddi oranda azaltıyor ve yönetim bütçesinde küçük bir kalem." },
     ],
     faqs: [
       { q: "Pompa (lastik) ile açamadım, ne yapmalıyım?", a: "Pompa yalnızca yüzeysel ve yeni oluşmuş tıkanıklıklarda işe yarar. Sonuç alamadıysanız daha derinde bir birikim var demektir; spiral makine veya basınçlı su ile açma gerekir. Zorlamak sifonu ve bağlantıları gevşetebilir." },
@@ -143,14 +143,14 @@ export const suPosts = [
     body: [
       { h2: "Ne zaman yenileme gerekir?" },
       { ul: [
-        "Su basıncında belirgin ve giderek artan düşüş",
+        "Su basıncında açık ve giderek artan düşüş",
         "Musluktan paslı veya bulanık su gelmesi",
         "Sık tekrarlayan ek yeri damlamaları",
         "Duvarda nem, kabarma ve küf oluşumu",
         "Galvaniz boru kullanılan 30+ yaşındaki tesisat",
         "Banyo veya mutfak tadilatı planlanması (fırsat penceresi)",
       ] },
-      { p: "Son madde önemli: duvar zaten açılacaksa tesisatı da yenilemek, ileride ikinci bir kırım ihtimalini bitirir. Aynı işi iki kez yaptırmanın maliyeti, bir kez fazladan yapmanın maliyetinden yüksektir." },
+      { p: "Duvar zaten açılacaksa tesisatı da yenilemek, ileride ikinci bir kırım ihtimalini bitirir. Aynı işi iki kez yaptırmanın maliyeti, bir kez fazladan yapmanın maliyetinden yüksektir." },
 
       { h2: "Malzeme seçimi" },
       {
@@ -193,7 +193,7 @@ export const suPosts = [
       { p: "Aynı kırımda atık hattının da gözden geçirilmesi, ileride tekrarlayan tıkanıklık sorununu baştan çözer. Ek maliyeti sınırlıdır çünkü kırım ve işçiliğin büyük kısmı zaten yapılmış olur." },
 
       { h2: "Vana konumunu öğrenin" },
-      { p: "Daire giriş vanasının nerede olduğunu bilmek, bir su baskınında yaşanacak zararın büyüklüğünü doğrudan belirler. Yenileme sonrası vananın kolay erişilebilir bir noktada ve rahat dönebilir durumda olmasını sağlıyoruz." },
+      { p: "Daire giriş vanasının nerede olduğunu bilmek, bir su baskınında yaşanacak zararın büyüklüğünü tek başına belirler. Yenileme sonrası vananın kolay erişilebilir bir noktada ve rahat dönebilir durumda olmasını sağlıyoruz." },
       { p: "Vanası sıkışmış ve dönmeyen daireler beklediğimizden çok daha fazla. Bu, küçük ama çok değerli bir iyileştirme." },
     ],
     faqs: [
@@ -376,7 +376,7 @@ export const suPosts = [
       { h2: "2. Genleşme tankı" },
       { p: "Genleşme tankı, ısınan suyun hacim artışını karşılar. İçinde bir membran ve arkasında sıkıştırılmış hava vardır. Bu hava kaçtığında tank görevini yapamaz." },
       { p: "Belirtisi tipiktir: sistem ısındığında basınç hızla yükselir, emniyet ventili açar ve su dışarı atılır; sistem soğuduğunda ise basınç düşük kalır. Yani su kaybı vardır ama kaçak yoktur, su emniyet ventilinden atılmıştır." },
-      { p: "Kontrolü basittir: sistem basıncı boşaltılıp tankın sibobundan hava basıncı ölçülür. Genelde 1–1,2 bar civarında olmalıdır. Membran yırtılmışsa siboptan hava yerine su gelir; bu durumda tank değişir." },
+      { p: "Kontrolü basittir: sistem basıncı boşaltılıp tankın sibobundan hava basıncı ölçülür. Genelde 1–1,2 bar civarında olmalıdır. Membran yırtılmışsa siboptan hava yerine su gelir; böyle olunca tank değişir." },
 
       { h2: "3. Emniyet ventili" },
       { p: "Emniyet ventili, basınç güvenli sınırı aştığında açarak sistemi korur. Ancak yayı yorulmuş veya oturma yüzeyine tortu kaçmış bir ventil, gerekmediği hâlde damlatır." },
@@ -402,7 +402,7 @@ export const suPosts = [
     ],
     faqs: [
       { q: "Kendim su takviyesi yapabilir miyim?", a: "Evet, kombi altındaki dolum vanasından yapılır. Basıncı 1,5 barın üzerine çıkarmamaya dikkat edin ve vanayı işlem sonrası tam kapattığınızdan emin olun; açık kalan dolum vanası basıncın sürekli yükselmesine yol açar." },
-      { q: "Isıtma hattı kaçağı sayaçta görünür mü?", a: "Hayır. Isıtma devresi kapalı bir sistemdir ve su sayacından beslenmez. Bu nedenle ısıtma kaçakları su faturasında görünmez; tek göstergesi basınç düşüşüdür." },
+      { q: "Isıtma hattı kaçağı sayaçta görünür mü?", a: "Hayır. Isıtma devresi kapalı bir sistemdir ve su sayacından beslenmez. Dolayısıyla ısıtma kaçakları su faturasında görünmez; tek göstergesi basınç düşüşüdür." },
     ],
     related: ["peteklerin-alti-neden-soguk", "su-kacagi-erken-belirtileri", "donmus-boru-ne-yapilir"],
   },
@@ -515,7 +515,7 @@ export const suPosts = [
       { p: "Kontrolü basittir: sistem basıncı boşaltılır ve tank üzerindeki sibobtan manometreli bir pompa ile ölçüm yapılır. Değer, pompanın devreye girme basıncının yaklaşık 0,2 bar altında olmalıdır. Düşükse hava basılır." },
 
       { h2: "Membran yırtıksa" },
-      { p: "Sibobtan hava yerine su geliyorsa membran yırtılmıştır ve tank değişmelidir. Bu durumda hava basmak geçici bir çözüm bile olmaz; hava doğrudan suya karışır." },
+      { p: "Sibobtan hava yerine su geliyorsa membran yırtılmıştır ve tank değişmelidir. Böyle bir durumda hava basmak geçici bir çözüm bile olmaz; hava doğrudan suya karışır." },
       { p: "Tank gövdesinde pas, şişme veya kaynak yerinde sızıntı varsa da değişim gerekir. Sadece havası kaçmışsa hava basmak yeterlidir, tank değişmez. Bu ayrım maliyet açısından önemli." },
 
       { h2: "Çekvalf ve gizli kaçak" },
@@ -528,10 +528,10 @@ export const suPosts = [
 
       { h2: "Sık devreye girmenin maliyeti" },
       { p: "Pompanın ömrünü belirleyen en önemli faktörlerden biri devreye girme sayısıdır. Her kalkışta motor yüksek akım çeker ve mekanik parçalar zorlanır. Günde 200 kez devreye giren bir pompa, günde 20 kez devreye girenden çok daha hızlı yıpranır." },
-      { p: "Yılda bir yapılan on dakikalık tank basıncı kontrolü, bu sayıyı gözle görülür şekilde düşürüyor. Bu, tüm tesisatta getirisi en yüksek bakım kalemlerinden biri." },
+      { p: "Yılda bir yapılan on dakikalık tank basıncı kontrolü, bu sayıyı hissedilir ölçüde düşürüyor. Bu, tüm tesisatta getirisi en yüksek bakım kalemlerinden biri." },
     ],
     faqs: [
-      { q: "Hidrofor gürültüsü azaltılabilir mi?", a: "Çoğu durumda evet. Titreşim takozu, esnek bağlantı elemanı ve doğru montaj yüksekliği gürültüyü belirgin azaltır. Ses kavitasyondan geliyorsa emiş hattının çapı ve dirsek sayısı gözden geçirilmelidir." },
+      { q: "Hidrofor gürültüsü azaltılabilir mi?", a: "Çoğu durumda evet. Titreşim takozu, esnek bağlantı elemanı ve doğru montaj yüksekliği gürültüyü epeyce azaltır. Ses kavitasyondan geliyorsa emiş hattının çapı ve dirsek sayısı gözden geçirilmelidir." },
       { q: "Frekans kontrollü hidrofor sık devreye girme sorununu çözer mi?", a: "Büyük ölçüde çözer. Frekans kontrollü sistemde pompa açılıp kapanmak yerine devrini ayarlayarak sabit basınç tutar. Hem gürültü hem yıpranma azalır; ilk maliyeti klasik sistemden yüksektir." },
     ],
     related: ["hidrofor-tank-havasi-ayari", "hidrofor-basinc-salteri-ayari", "su-deposu-hidrofor-birlikte", "su-deposu-ne-zaman-temizlenmeli", "kuyu-pompasi-basinc-sorunu"],
@@ -662,7 +662,7 @@ export const suPosts = [
         "Aspiratör için ayrı hat veya aydınlatma ile birlikte kontrol",
         "Eş potansiyel bağlantı: metal borular ve küvet topraklamaya bağlanır",
       ] },
-      { p: "Son madde tadilatlarda en çok atlanan kalem. Metal borular plastikle değiştirildiğinde eski hattın sağladığı doğal süreklilik de kalmaz." },
+      { p: "Sondaki madde tadilatlarda en çok atlanan kalem. Metal borular plastikle değiştirildiğinde eski hattın sağladığı doğal süreklilik de kalmaz." },
 
       { h2: "Gerçekçi süre" },
       {

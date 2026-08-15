@@ -66,7 +66,7 @@ export const sulamaEkPosts = [
 
       { h2: "Baş başa örtüşme kuralı" },
       {
-        p: "Bir yağmurlama başlığı, attığı suyu eşit dağıtmaz: en çok su başlığa yakın bölgeye düşer, uzaklaştıkça azalır. Bu nedenle tek bir başlığın kapsadığı alan, tek başına eşit sulanmaz.",
+        p: "Bir yağmurlama başlığı, attığı suyu eşit dağıtmaz: en çok su başlığa yakın bölgeye düşer, uzaklaştıkça azalır. O yüzden tek bir başlığın kapsadığı alan, tek başına eşit sulanmaz.",
       },
       {
         p: "Çözüm, başlıkların birbirinin sınırına su atmasıdır. Böylece bir başlığın zayıf kaldığı uç bölge, komşusunun güçlü bölgesiyle tamamlanır ve toplamda eşit bir dağılım oluşur.",
@@ -81,10 +81,7 @@ export const sulamaEkPosts = [
 
       { h2: "Yağış hızı ve toprak" },
       {
-        p: "Yağış hızı, sistemin alana saatte kaç milimetre su verdiğidir. Toprağın emebileceğinden hızlı su verilirse yüzeyde birikme ve akış başlar; verilen su kök bölgesine inmeden kaybolur.",
-      },
-      {
-        p: "Killi ve sıkışmış topraklar suyu yavaş emer; bu alanlarda düşük yağış hızlı başlıklar seçilir veya sulama bölünerek uygulanır. Kumlu topraklarda ise emme hızlıdır, kısa ve sık sulama daha uygundur.",
+        p: "Yağış hızı, sistemin alana saatte kaç milimetre su verdiğidir. Toprağın emebileceğinden hızlı su verilirse yüzeyde birikme ve akış başlar; verilen su kök bölgesine inmeden kaybolur. Killi ve sıkışmış topraklar suyu yavaş emer; bu alanlarda düşük yağış hızlı başlıklar seçilir veya sulama bölünerek uygulanır. Kumlu topraklarda ise emme hızlıdır, kısa ve sık sulama daha uygundur.",
       },
       {
         p: "Eğimli alanlarda akış riski artar. Bu durumda \"döngüsel sulama\" uygulanır: örneğin on dakika sulanır, on dakika beklenir, tekrar sulanır. Toplam su aynı kalır ama tamamı toprağa girer.",
@@ -115,7 +112,7 @@ export const sulamaEkPosts = [
         p: "Her başlığın çalışması için belirli bir basınç aralığı vardır. Basınç düşükse atış mesafesi kısalır ve örtüşme bozulur; yüksekse su sisleşir, rüzgârla uçar ve dağılım bozulur.",
       },
       {
-        p: "Aynı zonda kot farkı varsa alt ve üst başlıklar farklı basınçta çalışır. Bu durumda basınç regülatörlü başlıklar tercih edilir; her biri kendi çıkışında basıncı sabitler.",
+        p: "Aynı zonda kot farkı varsa alt ve üst başlıklar farklı basınçta çalışır. Böyle olunca basınç regülatörlü başlıklar tercih edilir; her biri kendi çıkışında basıncı sabitler.",
       },
       {
         p: "Sistem devreye alınırken en uzak başlıkta basınç ölçülmeli. Katalog değerinin altındaysa çap, hat uzunluğu veya zon bölünmesi gözden geçirilir.",
@@ -136,7 +133,7 @@ export const sulamaEkPosts = [
         ],
       },
       {
-        p: "Son madde ihmal edildiğinde bahçede yapılan her küçük iş risk hâline geliyor. Kroki, montaj günü on dakika süren ama yıllarca fayda veren bir kayıt.",
+        p: "Kroki maddesi ihmal edildiğinde bahçede yapılan her küçük iş risk hâline geliyor. Kroki, montaj günü on dakika süren ama yıllarca fayda veren bir kayıt.",
       },
 
       { h2: "Kurulum adımları" },
@@ -163,18 +160,15 @@ export const sulamaEkPosts = [
         p: "Sistemin gerçekten eşit sulayıp sulamadığını anlamanın tek yolu ölçmektir. Bahçeye eşit boyutta birkaç düz kap yerleştirilir ve sistem belirli bir süre çalıştırılır.",
       },
       {
-        p: "Süre sonunda kaplardaki su yüksekliği karşılaştırılır. Aralarındaki fark belirginse dağılım dengesizdir ve nedeni aranır: başlık aralığı, basınç farkı, tıkalı meme ya da yanlış açı ayarı.",
+        p: "Süre sonunda kaplardaki su yüksekliği karşılaştırılır. Aralarındaki fark büyükse dağılım dengesizdir ve nedeni aranır: başlık aralığı, basınç farkı, tıkalı meme ya da yanlış açı ayarı.",
       },
       {
-        p: "Bu test aynı zamanda sulama süresini belirlemenin de en doğru yolu. Kaplarda biriken su yüksekliği, alana verilen su miktarını doğrudan gösterir.",
+        p: "Bu test aynı zamanda sulama süresini belirlemenin de en doğru yolu. Kaplarda biriken su yüksekliği, alana verilen su miktarını gösterir.",
       },
 
       { h2: "Rüzgâr ve zamanlama" },
       {
-        p: "Yağmurlamanın en büyük düşmanı rüzgârdır. Suyun bir kısmı hedefe ulaşmadan uçar, deseni bozulur ve alanın bir tarafı sürekli az su alır.",
-      },
-      {
-        p: "Bu yüzden sulama saatleri sabahın erken saatlerine alınır: rüzgâr en zayıf, buharlaşma en düşük seviyededir. Yapraklar da gün içinde kuruduğu için mantar hastalığı riski azalır.",
+        p: "Yağmurlamanın en büyük düşmanı rüzgârdır. Suyun bir kısmı hedefe ulaşmadan uçar, deseni bozulur ve alanın bir tarafı sürekli az su alır. Bu yüzden sulama saatleri sabahın erken saatlerine alınır: rüzgâr en zayıf, buharlaşma en düşük seviyededir. Yapraklar da gün içinde kuruduğu için mantar hastalığı riski azalır.",
       },
       {
         p: "Akşam sulaması yapraklarında gece boyunca ıslak kalmasına yol açtığı için özellikle çimde önerilmez. Öğle saatleri ise hem buharlaşma hem rüzgâr açısından en verimsiz zaman.",
@@ -199,7 +193,7 @@ export const sulamaEkPosts = [
 
       { h2: "Çim alanda program" },
       {
-        p: "Çimin kökleri yüzeye yakındır; bu nedenle derin sulamanın karşılığı yoktur, su kök bölgesinin altına indiğinde boşa gider. Buna karşılık çok sık sulama da kökleri yüzeyde tutar ve sıcağa dayanıksız hâle getirir.",
+        p: "Çimin kökleri yüzeye yakındır; o yüzden derin sulamanın karşılığı yoktur, su kök bölgesinin altına indiğinde boşa gider. Buna karşılık çok sık sulama da kökleri yüzeyde tutar ve sıcağa dayanıksız hâle getirir.",
       },
       {
         p: "Doğru denge, kök bölgesini dolduracak kadar su vermek ve toprağın üst kısmı kurumaya başlayınca tekrarlamaktır. Sıklık mevsime göre değişir; kontrol ünitesinin mevsimsel ayar özelliği bu geçişi kolaylaştırır.",
@@ -226,7 +220,7 @@ export const sulamaEkPosts = [
 
       { h2: "Su kaynağına göre planlama" },
       {
-        p: "Yağmurlama, damlamaya göre çok daha yüksek anlık debi ister. Bu nedenle sistem tasarımı kaynağın kapasitesiyle başlar; başlık seçimi ondan sonra gelir.",
+        p: "Yağmurlama, damlamaya göre çok daha yüksek anlık debi ister. sistem tasarımı kaynağın kapasitesiyle başlar; başlık seçimi ondan sonra gelir.",
       },
       {
         p: "Şebekeden beslenen bahçelerde gün içindeki basınç değişimi hesaba katılmalı. Sabah yeterli olan basınç akşam düştüğünde, aynı program bambaşka bir sonuç veriyor.",
@@ -255,10 +249,7 @@ export const sulamaEkPosts = [
 
       { h2: "Kışa hazırlık" },
       {
-        p: "Malatya kışında yağmurlama hatları donma riski taşır. Sezon sonunda hatların basınçlı hava veya tahliye vanalarıyla boşaltılması gerekir.",
-      },
-      {
-        p: "Başlık gövdeleri içinde kalan su da donabilir. Tahliye sırasında her zonun ayrı ayrı çalıştırılıp içindeki suyun atılması, bahar açılışında kırık gövdeyle uğraşmayı önlüyor.",
+        p: "Malatya kışında yağmurlama hatları donma riski taşır. Sezon sonunda hatların basınçlı hava veya tahliye vanalarıyla boşaltılması gerekir. Başlık gövdeleri içinde kalan su da donabilir. Tahliye sırasında her zonun ayrı ayrı çalıştırılıp içindeki suyun atılması, bahar açılışında kırık gövdeyle uğraşmayı önlüyor.",
       },
       {
         p: "Bahar açılışında sistem doğrudan tam basınçla çalıştırılmaz: önce düşük basınçta yıkama yapılır, ardından basınç kademeli yükseltilir ve her zon gözle kontrol edilir.",
@@ -287,11 +278,15 @@ export const sulamaEkPosts = [
       },
       {
         q: "Kaç zon kurmam gerekir?",
-        a: "Kaynağın saatlik debisini başlıkların toplam debisine bölerek aynı anda kaç başlık çalışabileceğini bulun; toplam başlık sayısını buna bölünce zon sayısı çıkar. Zon sayısı arttıkça toplam sulama süresi uzar, bu yüzden günlük sulama penceresine sığdığından emin olun.",
+        a: "Kaynağın saatlik debisini başlıkların toplam debisine bölerek aynı anda kaç başlık çalışabileceğini bulun; toplam başlık sayısını buna bölünce zon sayısı çıkar. Zon sayısı arttıkça toplam sulama süresi uzar, o yüzden günlük sulama penceresine sığdığından emin olun.",
       },
       {
         q: "Ne zaman sulamalı?",
         a: "Sabahın erken saatleri en uygunudur: rüzgâr zayıf, buharlaşma düşüktür ve yapraklar gün içinde kurur. Akşam sulaması yaprakları gece boyunca ıslak bıraktığı için özellikle çimde mantar hastalığı riskini artırır. Öğle saatleri hem rüzgâr hem buharlaşma açısından en verimsiz zamandır.",
+      },
+      {
+        q: "Yağmurlama doğrudan şebeke suyuyla çalışır mı?",
+        a: "Basınç ve debi yetiyorsa çalışır. Sprey başlıklar 2 bar civarında iş görür, rotorlar 2,5–3,5 bar ister; ölçüm bunun altındaysa ya zon küçültülür ya depo ve pompa devreye alınır. Şebekeden çekerken ikinci sınır saatlik debidir: aynı anda açılacak başlık sayısı ona göre bölünür.",
       },
       {
         q: "Kışın ne yapmalıyım?",
@@ -318,17 +313,17 @@ export const sulamaEkPosts = [
       "ilkbahar geç donu",
     ],
     excerpt:
-      "Buz tutan bir dal, çıplak bir daldan daha sıcak olabilir. Kulağa ters gelen bu cümle, don koruma sulamasının tüm mantığını özetliyor — ama tek bir hata her şeyi tersine çeviriyor.",
+      "Buz tutan bir dal, çıplak bir daldan daha sıcak olabilir. Kulağa ters gelen bu cümle, don koruma sulamasının tüm mantığını özetliyor. Ama tek bir hata her şeyi tersine çeviriyor.",
     services: ["kayisi-bahcesi-sulama", "tarimsal-sulama-sistemleri", "anahtar-teslim-sulama-sistemi"],
     intro:
-      "Malatya'da bir gecelik don, bir yılın emeğini alıp götürebiliyor. Bu yüzden don koruma yöntemleri bölgede sıkça konuşuluyor. Sulamayla koruma bunların en bilineni; doğru kurulduğunda gerçekten işe yarıyor, yarım uygulandığında ise zarar veriyor. Bu yazıda nasıl çalıştığını ve neyin şart olduğunu anlatıyoruz.",
+      "Malatya'da bir gecelik don, bir yılın emeğini alıp götürebiliyor. don koruma yöntemleri bölgede sıkça konuşuluyor. Sulamayla koruma bunların en bilineni; doğru kurulduğunda gerçekten işe yarıyor, yarım uygulandığında ise zarar veriyor. Bu yazıda nasıl çalıştığını ve neyin şart olduğunu anlatıyoruz.",
     body: [
       { h2: "Kısa cevap" },
       {
         p: "<strong>Üstten yağmurlama ile don koruma, suyun donarken ısı açığa çıkarması ilkesine dayanır.</strong> Sürekli su verildiği sürece, buz tabakasının altındaki tomurcuk sıfır derece civarında kalır ve hava sıcaklığından daha az etkilenir.",
       },
       {
-        p: "Kritik kural şudur: <strong>bir kez başlandığında, buz tamamen çözülene kadar durmadan devam edilmelidir.</strong> Ortada bırakılan bir uygulama, hiç yapmamaktan daha büyük zarar verir. Damlama sulamanın bu koruma üzerinde etkisi yoktur.",
+        p: "Kritik kural şudur: bir kez başlandığında, buz tamamen çözülene kadar durmadan devam edilmelidir. Ortada bırakılan bir uygulama, hiç yapmamaktan daha büyük zarar verir. Damlama sulamanın bu koruma üzerinde etkisi yoktur.",
       },
 
       { h2: "Fiziksel mantık" },
@@ -353,10 +348,7 @@ export const sulamaEkPosts = [
         },
       },
       {
-        p: "Radyasyon donunda hava durgundur, sıcaklık yerden yukarı doğru artar ve koruma yöntemleri işe yarar. Advektif donda ise rüzgârla gelen soğuk hava sürekli yenilenir; sulama suyu buharlaşarak ek soğuma yaratabilir ve fayda beklenmez.",
-      },
-      {
-        p: "Bu ayrım, gecenin hava durumuna bakılarak yapılır. Rüzgârlı ve kapalı bir gecede sulamayla korumaya girişmek, faydadan çok risk taşıyor.",
+        p: "Radyasyon donunda hava durgundur, sıcaklık yerden yukarı doğru artar ve koruma yöntemleri işe yarar. Advektif donda ise rüzgârla gelen soğuk hava sürekli yenilenir; sulama suyu buharlaşarak ek soğuma yaratabilir ve fayda beklenmez. Bu ayrım, gecenin hava durumuna bakılarak yapılır. Rüzgârlı ve kapalı bir gecede sulamayla korumaya girişmek, faydadan çok risk taşıyor.",
       },
 
       { h2: "Ne zaman başlanır?" },
@@ -364,7 +356,7 @@ export const sulamaEkPosts = [
         p: "Uygulama, sıcaklık kritik eşiğe inmeden önce başlatılır. Beklemek ve \"biraz daha düşsün\" demek, koruma penceresini kaçırmak anlamına gelir.",
       },
       {
-        p: "Kritik eşik bitkinin gelişim dönemine göre değişir: tomurcuk kabardıkça, çiçek açtıkça ve küçük meyve oluştukça dayanıklılık azalır. Bu nedenle sabit bir sıcaklık vermek doğru olmaz; dönemin durumu izlenerek karar verilir.",
+        p: "Kritik eşik bitkinin gelişim dönemine göre değişir: tomurcuk kabardıkça, çiçek açtıkça ve küçük meyve oluştukça dayanıklılık azalır. O yüzden sabit bir sıcaklık vermek doğru olmaz; dönemin durumu izlenerek karar verilir.",
       },
       {
         p: "Ölçüm için bahçenin en soğuk noktasına, bitki yüksekliğinde bir termometre konur. Bahçenin çukur bölümleri her zaman daha soğuktur; karar oradaki değere göre verilmelidir.",
@@ -379,7 +371,7 @@ export const sulamaEkPosts = [
           "Don korumasında en pahalı hata, gece yarısı suyun bitmesi ya da elektriğin kesilmesidir. Yarım kalan koruma, hiç yapılmamış korumadan daha çok zarar verir.",
       },
       {
-        p: "Bu yüzden sistem, gecenin tamamını kesintisiz karşılayacak kapasitede planlanmalıdır. Sadece başlamak yetmez; bitirebilecek olmak gerekir.",
+        p: "O nedenle sistem, gecenin tamamını kesintisiz karşılayacak kapasitede planlanmalıdır. Sadece başlamak yetmez; bitirebilecek olmak gerekir.",
       },
 
       { h2: "Su kapasitesi: asıl kısıt" },
@@ -399,15 +391,12 @@ export const sulamaEkPosts = [
         ],
       },
       {
-        p: "Dördüncü madde çoğu zaman en zayıf halka. Don gecelerinde şebeke arızaları da sık yaşandığı için, yedek güç olmadan kurulan bir sistem tam ihtiyaç anında durabiliyor.",
+        p: "Dördüncü madde çoğunlukla en zayıf halka. Don gecelerinde şebeke arızaları da sık yaşandığı için, yedek güç olmadan kurulan bir sistem tam ihtiyaç anında durabiliyor.",
       },
 
       { h2: "Sistem nasıl tasarlanır?" },
       {
-        p: "Don koruma için kullanılan yağmurlama sistemi, sulama amaçlı olandan farklı kriterlerle boyutlandırılır. Amaç toprağı ıslatmak değil, bitkiyi sürekli ince bir su filmiyle kaplamaktır.",
-      },
-      {
-        p: "Bu nedenle başlıkların dönüş süresi kritiktir: bir başlık turunu tamamlayana kadar geçen süre uzarsa, iki geçiş arasında su filmi kesilir ve koruma bozulur. Dönüş süresi kısa tutulan özel başlıklar kullanılır.",
+        p: "Don koruma için kullanılan yağmurlama sistemi, sulama amaçlı olandan farklı kriterlerle boyutlandırılır. Amaç toprağı ıslatmak değil, bitkiyi sürekli ince bir su filmiyle kaplamaktır. Başlıkların dönüş süresi kritiktir: bir başlık turunu tamamlayana kadar geçen süre uzarsa, iki geçiş arasında su filmi kesilir ve koruma bozulur. Dönüş süresi kısa tutulan özel başlıklar kullanılır.",
       },
       {
         p: "Alanın tamamının eşit kaplanması da şart. Örtüşmenin zayıf kaldığı bir bölge, tam da korumasız kalan bölge olur; oradaki zarar bahçenin geri kalanından bağımsız gerçekleşir.",
@@ -474,10 +463,7 @@ export const sulamaEkPosts = [
 
       { h2: "Kararı gece vermek zorunda kalmamak" },
       {
-        p: "Don gecelerinde en zor kısım, saat üçte doğru kararı verebilmek. Bunu kolaylaştırmanın yolu, kararı önceden yazılı hâle getirmek.",
-      },
-      {
-        p: "Basit bir plan yeterli: hangi sıcaklıkta sistem devreye alınacak, kim uyanacak, kim depoyu ve pompayı kontrol edecek, elektrik kesilirse ne yapılacak. Bu dört soru gündüz cevaplandığında gece tereddüt kalmıyor.",
+        p: "Don gecelerinde en zor kısım, saat üçte doğru kararı verebilmek. Bunu kolaylaştırmanın yolu, kararı önceden yazılı hâle getirmek. Basit bir plan yeterli: hangi sıcaklıkta sistem devreye alınacak, kim uyanacak, kim depoyu ve pompayı kontrol edecek, elektrik kesilirse ne yapılacak. Bu dört soru gündüz cevaplandığında gece tereddüt kalmıyor.",
       },
       {
         p: "Hava tahminlerinin düzenli takibi de planın parçası. Risk taşıyan geceler genelde bir–iki gün önceden belli oluyor; hazırlık o zaman yapılırsa gece sadece uygulama kalıyor.",
@@ -507,7 +493,7 @@ export const sulamaEkPosts = [
         ],
       },
       {
-        p: "Son madde teknik değil ama belirleyici: sistem hazır olsa bile gece yarısı kimin ne yapacağı belli değilse, karar gecikiyor ve pencere kaçıyor.",
+        p: "Sondaki madde teknik değil ama belirleyici: sistem hazır olsa bile gece yarısı kimin ne yapacağı belli değilse, karar gecikiyor ve pencere kaçıyor.",
       },
 
       { h2: "Ölçüm ve kayıt" },
@@ -518,18 +504,15 @@ export const sulamaEkPosts = [
         p: "Bu kayıt aynı zamanda sistemin gerçekten işe yarayıp yaramadığını gösteren tek veri. Uygulanan ve uygulanmayan gecelerin karşılaştırılması, yatırımın karşılığını somutlaştırıyor.",
       },
       {
-        p: "Bahçenin farklı noktalarına konan birkaç termometre ile hangi bölgelerin daha riskli olduğu da ortaya çıkıyor. Bu bilgi, ileride yapılacak dikim ve çeşit tercihlerini doğrudan etkiliyor.",
+        p: "Bahçenin farklı noktalarına konan birkaç termometre ile hangi bölgelerin daha riskli olduğu da ortaya çıkıyor. Bu bilgi, ileride yapılacak dikim ve çeşit tercihlerini birebir etkiliyor.",
       },
 
       { h2: "Malatya bağlamı" },
       {
-        p: "Bölgede ilkbahar geç donları, kayısı üretiminin en büyük risk kalemi. Tomurcuk kabarma ve çiçeklenme dönemine denk gelen bir don gecesi, o yılın ürününü belirleyebiliyor.",
+        p: "Bölgede ilkbahar geç donları, kayısı üretiminin en büyük risk kalemi. Tomurcuk kabarma ve çiçeklenme dönemine denk gelen bir don gecesi, o yılın ürününü belirleyebiliyor. Bahçelerin konumu da belirleyici: soğuk hava ağır olduğu için çukur alanlarda birikiyor. Aynı köyde birkaç yüz metre arayla iki bahçenin zarar tablosu tamamen farklı çıkabiliyor.",
       },
       {
-        p: "Bahçelerin konumu da belirleyici: soğuk hava ağır olduğu için çukur alanlarda birikiyor. Aynı köyde birkaç yüz metre arayla iki bahçenin zarar tablosu tamamen farklı çıkabiliyor.",
-      },
-      {
-        p: "Bu nedenle karar bahçe bazında veriliyor. Bir komşuda işe yarayan çözüm, konumu farklı bir bahçede aynı sonucu vermeyebiliyor; planlama her zaman kendi arazinizin verisiyle yapılmalı.",
+        p: "O yüzden karar bahçe bazında veriliyor. Bir komşuda işe yarayan çözüm, konumu farklı bir bahçede aynı sonucu vermeyebiliyor; planlama her zaman kendi arazinizin verisiyle yapılmalı.",
       },
     ],
     faqs: [
@@ -560,6 +543,14 @@ export const sulamaEkPosts = [
       {
         q: "Termometreyi nereye koymalıyım?",
         a: "Bahçenin en soğuk noktasına, bitki yüksekliğinde. Soğuk hava ağır olduğu için çukur bölümlerde birikir; karar oradaki değere göre verilmelidir. Tek bir noktadan okuma yapmak yanıltıcı olabilir, bu yüzden birden fazla nokta izlenmesi tercih edilir.",
+      },
+      {
+        q: "Don gecesinde hangi başlık tipi kullanılmalı?",
+        a: "Sürekli dönen, düşük debili mikro yağmurlama başlıkları tercih edilir. Dönüş turu bir dakikayı geçmemeli; iki ıslatma arasındaki boşluk uzarsa donma gizli ısısı kesilir ve koruma tersine döner. İri damlalı, uzun turlu başlıklar bu iş için uygun değildir.",
+      },
+      {
+        q: "Gece boyu sulama kökü fazla ıslatmaz mı?",
+        a: "Islatır, ve bu göz ardı edilecek bir yan etki değildir. Sabaha kadar süren sulama tabanı doyurur, kök bölgesi birkaç gün havasız kalabilir. Ağır killi topraklarda risk daha yüksektir; don gecesinden sonra normal sulama programı bir süre duraklatılır, suyun çekilmediği yerlerde drenaj açılır.",
       },
       {
         q: "Başka hangi yöntemler var?",

@@ -108,7 +108,7 @@ export const anahtarTeslimServices = [
       { p: "Bu tespit sonucunda hangi kalemin acil, hangisinin bekleyebileceğini gösteren bir rapor çıkarıyoruz. Bütün binayı bir seferde yenilemek her zaman gerekmiyor; öncelikli kalemleri ayırmak yönetim bütçesi açısından belirleyici." },
 
       { h2: "Etaplı çalışma: bina boşalmadan" },
-      { p: "Bir apartmanı yenilerken kimse taşınmıyor. Bu yüzden iş etaplara bölünüyor: kat kat ilerleniyor, günün sonunda enerji ve su geri veriliyor, kesintiler önceden duyuruluyor." },
+      { p: "Bir apartmanı yenilerken kimse taşınmıyor. Bunun için iş etaplara bölünüyor: kat kat ilerleniyor, günün sonunda enerji ve su geri veriliyor, kesintiler önceden duyuruluyor." },
       { ul: [
         "Kesinti saatleri yönetimle belirlenip panoya asılıyor",
         "Her gün sonunda elektrik ve su devrede bırakılıyor",
@@ -141,7 +141,7 @@ export const anahtarTeslimServices = [
       { q: "Daireler boşaltılacak mı?", a: "Hayır. Etaplı çalışıyoruz, her gün sonunda elektrik ve su devrede bırakılıyor. Şaft üzerinden yapılabilen kolon işlerinde daire içine hiç girilmiyor; girilmesi gereken durumlarda randevu ile ve kısa süreli oluyor." },
       { q: "Ne kadar sürer?", a: "16 daireli bir binada elektrik kolon yenilemesi 10–15 iş günü, su kolonu 12–20 iş günü sürüyor. Hepsi birden yapılıyorsa 25–35 iş günü. Etap planını yönetimle birlikte kuruyoruz." },
       { q: "Yönetime sunum dosyası hazırlıyor musunuz?", a: "Evet. Tespit raporu, kalem kalem maliyet, süre ve etap planı içeren bir dosya hazırlıyoruz. Genel kurula katılıp teknik soruları cevaplandırıyoruz." },
-      { q: "Sadece elektrik kolonunu yenilesek yeterli mi?", a: "Tespit sonucuna bağlı. Su tarafında sorun yoksa sadece elektrik yapılabilir. Ancak ikisi de yenilenecekse aynı programda yapmak, merdiven ve şaftın iki kez açılmasını önlediği için belirgin şekilde ekonomik oluyor." },
+      { q: "Sadece elektrik kolonunu yenilesek yeterli mi?", a: "Tespit sonucuna bağlı. Su tarafında sorun yoksa sadece elektrik yapılabilir. Ancak ikisi de yenilenecekse aynı programda yapmak, merdiven ve şaftın iki kez açılmasını önlediği için açıkça ekonomik oluyor." },
       { q: "Deprem sonrası güçlendirilen binalarda yapılabilir mi?", a: "Yapılabilir. Güçlendirme sırasında kolon hatları zarar görmüş olabiliyor; ilk bakışta çalışır görünen kablonun yalıtımı zedelenmiş olabilir. Bu tür binalarda tespit ölçümü ayrıca önem taşıyor." },
     ],
     localAngle: "1990 öncesi apartman stoğunda alüminyum kolon ve galvaniz su borusu ile deprem sonrası güçlendirme gören binalar",
@@ -196,7 +196,7 @@ export const anahtarTeslimServices = [
         "IP54 ve üzeri pano: dış ortam koşullarına dayanır",
         "Mesafeye göre hesaplanmış kablo kesiti",
       ] },
-      { p: "Sezon ortasında yanan bir pompanın maliyeti sadece cihaz değil; kaybedilen sulama zamanı ve ürün. Bu yüzden korumaları standart uygulama olarak ekliyoruz, opsiyon olarak sunmuyoruz." },
+      { p: "Sezon ortasında yanan bir pompanın maliyeti sadece cihaz değil; kaybedilen sulama zamanı ve ürün. Dolayısıyla korumaları standart uygulama olarak ekliyoruz, opsiyon olarak sunmuyoruz." },
 
       { h2: "Otomasyon" },
       { p: "Zonların sırayla ve programlı çalışması, işçiliği ortadan kaldırıyor. Gece sulaması hem buharlaşma kaybını azaltıyor hem elektrik tarifesinden yararlanma imkânı veriyor." },
@@ -238,7 +238,7 @@ export const anahtarTeslimServices = [
       "Malatya'da kayısı bahçesi sulama sistemi: ağaç yaşına göre damlatıcı planı, kuyu ve pompa, filtre istasyonu, otomasyon ve fertigasyon.",
     keywords: ["kayısı bahçesi sulama", "Malatya kayısı sulama sistemi", "kayısı damlama sulama", "meyve bahçesi sulama", "bahçe sulama Malatya"],
     intro:
-      "Kayısı, Malatya'nın en büyük tarımsal değeri ve sulaması kendine özgü. Ağaç yaşına göre değişen kök yayılımı, sıra aralığı ve hasat dönemindeki su ihtiyacı, sistemin nasıl kurulacağını doğrudan belirliyor.",
+      "Kayısı, Malatya'nın en büyük tarımsal değeri ve sulaması kendine özgü. Ağaç yaşına göre değişen kök yayılımı, sıra aralığı ve hasat dönemindeki su ihtiyacı, sistemin nasıl kurulacağını birebir belirliyor.",
     symptoms: [
       { title: "Salma sulamadan damlamaya geçmek istiyorsunuz", text: "Su tüketimi ve işçilik ciddi oranda düşer, sistem planlanmalı." },
       { title: "Bahçenin uzak ucuna su gitmiyor", text: "Hat çapı veya pompa basıncı yetersiz; zonlama gerekebilir." },
@@ -293,7 +293,7 @@ export const anahtarTeslimServices = [
       "Fertigasyon ünitesi dahil mi",
     ],
     faqs: [
-      { q: "Salma sulamadan damlamaya geçersem ne kazanırım?", a: "Su tüketiminde belirgin düşüş, sulama işçiliğinde neredeyse tamamen ortadan kalkma ve gübrenin sulama suyuyla verilebilmesi. Ayrıca su kök bölgesine gittiği için yabancı ot baskısı da azalıyor." },
+      { q: "Salma sulamadan damlamaya geçersem ne kazanırım?", a: "Su tüketiminde ciddi düşüş, sulama işçiliğinde neredeyse tamamen ortadan kalkma ve gübrenin sulama suyuyla verilebilmesi. Ayrıca su kök bölgesine gittiği için yabancı ot baskısı da azalıyor." },
       { q: "Kaç dekardan itibaren otomasyon mantıklı?", a: "10 dekar üzerinde otomasyon kendini hızlı amorti ediyor. Altındaki bahçelerde manuel vana ile de çalışılabilir; kararı arazi yapısı ve sizin zamanınıza göre birlikte veriyoruz." },
       { q: "Sistemi kışın ne yapmalıyım?", a: "Sezon sonunda hatlar boşaltılmalı, filtreler temizlenip kuru saklanmalı, pompa ve pano nemden korunmalı. Yerüstü hatlarında kalan su donunca boru patlıyor. Sezon kapatma işini biz de yapıyoruz." },
       { q: "Devlet destekli sulama projelerine uygun mu?", a: "Kurulumlarımız damlama sulama standartlarına uygun yapılıyor. Destek başvurusu için gereken teknik hesap ve çizimleri hazırlıyoruz; başvuru sürecini siz veya danışmanınız yürütüyor." },
@@ -321,7 +321,7 @@ export const anahtarTeslimServices = [
       { title: "Sera kuruldu, altyapı yapılacak", text: "Elektrik ve sulama birlikte planlanmalı; sonradan eklemek zor." },
       { title: "Panoda sık arıza çıkıyor", text: "Nem koruma sınıfı yetersiz; IP65 ve üzeri gerekir." },
       { title: "Sulama elle yapılıyor", text: "Otomasyon ile işçilik ve su tüketimi ciddi oranda düşer." },
-      { title: "Havalandırma ve ısıtma manuel", text: "Sıcaklık ve nem kontrolü verimi doğrudan etkiliyor." },
+      { title: "Havalandırma ve ısıtma manuel", text: "Sıcaklık ve nem kontrolü verimi hemen etkiliyor." },
     ],
     scope: [
       "Sera elektrik tesisatı ve dağıtım panosu",
@@ -391,7 +391,7 @@ export const anahtarTeslimServices = [
       "Malatya'da anahtar teslim iş yeri: elektrik ve data altyapısı, aydınlatma, tesisat, bölme, zemin ve tabela beslemesi. Açılış tarihine göre program.",
     keywords: ["Malatya anahtar teslim iş yeri", "dükkan tadilatı", "ofis kurulumu", "sanayi sitesi dükkan", "atölye elektrik tesisatı"],
     intro:
-      "Ticari alanda her gecikme gün doğrudan ciro kaybı. Bu yüzden iş yeri projelerinde programı açılış tarihinden geriye doğru kuruyor, tedarik süresi uzun kalemleri en başta siparişe çıkarıyoruz.",
+      "Ticari alanda her gecikme gün doğrudan ciro kaybı. O yüzden iş yeri projelerinde programı açılış tarihinden geriye doğru kuruyor, tedarik süresi uzun kalemleri en başta siparişe çıkarıyoruz.",
     symptoms: [
       { title: "Açılış tarihi belli, süre dar", text: "Program sondan başa kurulmalı, kritik yol belirlenmeli." },
       { title: "Sanayi sitesinde dükkan alındı", text: "Kuvvet hattı, kompresör beslemesi ve aydınlatma birlikte planlanmalı." },

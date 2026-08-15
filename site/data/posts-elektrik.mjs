@@ -182,7 +182,7 @@ export const elektrikPosts = [
     ],
     faqs: [
       { q: "Isınan prizi kendim değiştirebilir miyim?", a: "Sigortayı indirip kalem tipi kontakla teyit ettikten sonra teknik olarak mümkündür. Ancak ısınmanın nedeni prizin kendisi değil hat veya buat ise, değişim sorunu çözmez ve riski gizler. Isınma tekrarlıyorsa ölçüm yaptırın." },
-      { q: "Hangi priz markası daha iyi?", a: "Mekanizmanın kontak kalitesi ve vida tutuşu belirleyicidir. Bilinen üreticilerin orta segment serileri, çok ucuz ürünlere göre gözle görülür şekilde uzun ömürlüdür. Kapak ve çerçeve neredeyse tamamen estetik tercihtir." },
+      { q: "Hangi priz markası daha iyi?", a: "Mekanizmanın kontak kalitesi ve vida tutuşu belirleyicidir. Bilinen üreticilerin orta segment serileri, çok ucuz ürünlere göre açık şekilde uzun ömürlüdür. Kapak ve çerçeve neredeyse tamamen estetik tercihtir." },
     ],
     related: ["sigorta-surekli-neden-atar", "elektrik-tesisati-yenileme-belirtileri", "acil-elektrik-arizasinda-ne-yapilir"],
   },
@@ -201,7 +201,7 @@ export const elektrikPosts = [
     excerpt: "Kaçak akım rölesinin atması arıza değil, korumanın çalışmasıdır. Kaynağını evde adım adım daraltmanın yolu ve en sık karşılaşılan nedenler.",
     services: ["elektrik-ariza", "elektrik-panosu", "topraklama-paratoner"],
     intro:
-      "Kaçak akım rölesi, panodaki en değerli koruma elemanıdır. Görevi cihazı korumak değil, insanı korumaktır. Bu nedenle atmasına \"arıza\" demek yerine \"uyarı\" demek daha doğru.",
+      "Kaçak akım rölesi, panodaki en değerli koruma elemanıdır. Görevi cihazı korumak değil, insanı korumaktır. Dolayısıyla atmasına \"arıza\" demek yerine \"uyarı\" demek daha doğru.",
     body: [
       { h2: "Röle tam olarak neyi ölçer?" },
       { p: "Bir devrede faz üzerinden giden akım ile nötr üzerinden dönen akım normalde birbirine eşittir. Kaçak akım rölesi bu iki değeri sürekli karşılaştırır. Aradaki fark 30 miliamperi aştığında, akımın bir kısmının devre dışına, toprağa, bir metal gövdeye ya da bir insana, kaçtığını anlar ve devreyi keser." },
@@ -229,7 +229,7 @@ export const elektrikPosts = [
       { p: "Yağmurlu havada atıp kuru havada atmıyorsa dış mekân hattına, sadece belirli bir cihaz çalışırken atıyorsa o cihaza odaklanmak gerekir. Bu iki bilgi tespiti epey hızlandırır." },
 
       { h2: "Birikimli kaçak: hiçbiri tek başına suçlu değilse" },
-      { p: "Bazen tek bir cihazda değil, birkaç cihazın küçük kaçaklarının toplamında sorun olur. Her biri tek başına 8–10 mA kaçırıyorsa ve aynı anda çalışıyorlarsa toplam 30 mA'yı aşar ve röle atar. Bu durumda hangi cihazı çıkarsanız sorun geçiyormuş gibi görünür ama asıl mesele toplam kaçaktır." },
+      { p: "Bazen tek bir cihazda değil, birkaç cihazın küçük kaçaklarının toplamında sorun olur. Her biri tek başına 8–10 mA kaçırıyorsa ve aynı anda çalışıyorlarsa toplam 30 mA'yı aşar ve röle atar. Böyle olunca hangi cihazı çıkarsanız sorun geçiyormuş gibi görünür ama asıl mesele toplam kaçaktır." },
       { p: "Çözüm, hatları birden fazla röleye bölmektir. Aydınlatma ve priz gruplarının ayrı rölelere alınması hem bu sorunu çözer hem de bir kaçak oluştuğunda tüm dairenin karanlıkta kalmasını önler." },
 
       { h2: "Yapılmaması gerekenler" },
@@ -387,7 +387,7 @@ export const elektrikPosts = [
       { p: "Ana şalter genelde daire giriş panosunun en üstündeki büyük şalterdir. Nerede olduğunu şimdiden öğrenmek, o an aramaktan çok daha iyidir." },
 
       { h2: "Su baskını veya sızıntı varsa" },
-      { p: "Su ile elektrik bir aradaysa öncelik enerjinin kesilmesidir. Ancak panoya giden yolda su birikintisi varsa üzerinden geçmeyin. Bu durumda mümkünse binanın ana kesicisinden veya sayaç panosundan enerji kestirilmeli." },
+      { p: "Su ile elektrik bir aradaysa öncelik enerjinin kesilmesidir. Ancak panoya giden yolda su birikintisi varsa üzerinden geçmeyin. Öyle bir durumda mümkünse binanın ana kesicisinden veya sayaç panosundan enerji kestirilmeli." },
       { quote: "Islak zeminde durarak elektrikli bir cihaza, prize veya panoya dokunmayın. Enerji kesilmeden hiçbir müdahale yapılmamalıdır." },
       { p: "Alt kata sızıntı varsa komşuyu haberdar edin; onun dairesinde de enerji kesilmesi gerekebilir. Su kaynağını kesmek (daire giriş vanası) ikinci adımdır." },
 
@@ -627,7 +627,7 @@ export const elektrikPosts = [
 
       { h2: "Pano planı" },
       { p: "Pano, hat sayısına göre değil hat sayısı artı yedek modül yerine göre seçilir. En az %25 boş modül yeri bırakılmasını öneriyoruz; ileride klima, elektrikli araç şarjı veya yeni bir hat eklendiğinde pano değiştirmek gerekmez." },
-      { p: "Aydınlatma ve priz gruplarının ayrı kaçak akım rölelerine bağlanması, bir kaçakta dairenin tamamen karanlıkta kalmasını önler. Küçük bir maliyet farkıyla belirgin bir konfor kazanılır." },
+      { p: "Aydınlatma ve priz gruplarının ayrı kaçak akım rölelerine bağlanması, bir kaçakta dairenin tamamen karanlıkta kalmasını önler. Küçük bir maliyet farkıyla fark edilir bir konfor kazanılır." },
 
       { h2: "Kapatmadan önce fotoğraflayın" },
       { p: "Sıva atılmadan önce tüm duvarların fotoğrafını çekin ve saklayın. İleride bir raf takarken, klima montajı yaptırırken veya tadilat sırasında bu fotoğraflar kablo güzergâhını gösterir ve delme kazalarını önler." },

@@ -4,7 +4,7 @@
 export const serviceExtra2 = {
   "mutfak-tadilati": [
     { h2: "Mutfakta karar sırası neden önemli?" },
-    { p: "Mutfak, evin en çok altyapı barındıran odası. Su, gider, elektrik, ankastre besleme ve havalandırma; hepsi dolap yerleşimine bağlı. Bu yüzden mutfakta karar sırası, uygulama sırasından bile belirleyici." },
+    { p: "Mutfak, evin en çok altyapı barındıran odası. Su, gider, elektrik, ankastre besleme ve havalandırma; hepsi dolap yerleşimine bağlı. O yüzden mutfakta karar sırası, uygulama sırasından bile belirleyici." },
     { p: "Doğru sıra şu: önce yerleşim (eviye nereye, ocak nereye, buzdolabı nereye), sonra ankastre cihaz seçimi, sonra altyapı, sonra fayans ve boya, sonra dolap montajı, en son tezgâh şablonu ve montajlar. Bu sıra bozulduğunda ya duvar ikinci kez açılıyor ya dolap yeniden üretiliyor." },
     { p: "Yerleşim kararını dolap firmasının ön çizimiyle birlikte veriyoruz. Çizim netleştikten sonra su ve elektrik noktalarını işaretleyip tesisatı ona göre çekiyoruz." },
 
@@ -48,7 +48,7 @@ export const serviceExtra2 = {
   "komple-ev-tadilati": [
     { h2: "Komple tadilat gerçekten gerekli mi?" },
     { p: "Her eski daire komple tadilat istemez. Karar, üç şeye bakılarak verilir: tesisatın durumu, ıslak hacimlerin durumu ve yerleşimden memnun olup olmadığınız." },
-    { p: "Tesisat sağlamsa, banyoda sızıntı yoksa ve plan size uygunsa; boya, zemin ve mutfak-banyo yenilemesiyle sınırlı bir iş çoğu zaman yeterli olur. Maliyeti komple tadilatın belirgin altındadır." },
+    { p: "Tesisat sağlamsa, banyoda sızıntı yoksa ve plan size uygunsa; boya, zemin ve mutfak-banyo yenilemesiyle sınırlı bir iş çoğu zaman yeterli olur. Maliyeti komple tadilatın epeyce altındadır." },
     { p: "Buna karşılık alüminyum kablo, galvaniz boru ya da yalıtımsız banyo varsa, kozmetik tadilat parayı duvarın üstüne harcamak demektir. Birkaç yıl içinde aynı duvarları yeniden açmak gerekir." },
 
     { h2: "Söküm kararı: neyi koruyabiliriz?" },
@@ -57,13 +57,13 @@ export const serviceExtra2 = {
     { p: "Islak hacimlerde ise yarım söküm genelde işe yaramaz. Banyoda seramiği bırakıp sadece vitrifiye değiştirmek, altındaki yalıtımsız katmanı olduğu gibi bırakmaktır." },
 
     { h2: "Plan değişikliği: hangi duvar kalkar?" },
-    { p: "Betonarme binalarda kolon, kiriş ve perde duvarlar taşıyıcıdır; aradaki tuğla duvarlar genellikle bölmedir. Ama her binada istisna olabilir, özellikle eski yığma yapılarda hemen her duvar taşıyıcı olabilir." },
+    { p: "Betonarme binalarda kolon, kiriş ve perde duvarlar taşıyıcıdır; aradaki tuğla duvarlar çoğu durumda bölmedir. Ama her binada istisna olabilir, özellikle eski yığma yapılarda hemen her duvar taşıyıcı olabilir." },
     { p: "Kararı gözle vermiyoruz. Projeye bakıyor, gerekiyorsa yetkili statik ekibe inceletiyoruz. Şüpheli bir durumda \"olur herhalde\" demiyoruz." },
     { p: "Duvarda kapı veya pencere boşluğu açılacaksa üst yükü taşıyacak lento gerekir. Lentosuz açılan boşluk, üstündeki duvarda çatlakla kendini gösterir." },
 
     { h2: "Zemin kotu ve kapılar" },
     { p: "Komple tadilatta en çok atlanan detay kot hesabıdır. Yeni şap, yeni yalıtım ve yeni kaplama zemini birkaç santim yükseltir. Kapı altları, balkon eşiği ve merdiven basamağı buna göre planlanmazsa kapıları kesmek gerekir." },
-    { p: "Bu yüzden kaplama seçimini şap dökülmeden önce soruyoruz. Seramik, parke ve laminatın kalınlıkları farklıdır; kot hesabı buna göre yapılır." },
+    { p: "Bunun için kaplama seçimini şap dökülmeden önce soruyoruz. Seramik, parke ve laminatın kalınlıkları farklıdır; kot hesabı buna göre yapılır." },
     { p: "Odalar arası geçişlerde farklı kaplama kullanılacaksa geçiş profili ve kot farkı da baştan planlanmalıdır." },
 
     { h2: "Yaşam düzeni: oturarak mı, boşaltarak mı?" },
@@ -74,7 +74,7 @@ export const serviceExtra2 = {
     { h2: "Süre: 3+1 dairede ne kadar?" },
     { p: "Komple tadilatta tipik süre 25–35 iş günüdür. Bunu belirleyen üç kalem vardır: tesisat yenileme kapsamı, mutfak üretim süresi ve şap kuruma süresi." },
     { p: "Şap kuruması klasik uygulamada her santim için kabaca bir hafta sürer. Program sıkışıksa hızlı kuruyan şap ürünleri kullanılabilir; maliyeti yüksektir ama kaybedilen zamanla karşılaştırıldığında bazı işlerde mantıklıdır." },
-    { p: "Uzun temin süreli kalemlerin (mutfak, doğrama, özel seramik) karar tarihini programa yazıyoruz. Geciken karar, teslimi doğrudan öteler." },
+    { p: "Uzun temin süreli kalemlerin (mutfak, doğrama, özel seramik) karar tarihini programa yazıyoruz. Geciken karar, teslimi aynı gün sayısınca öteler." },
 
     { h2: "Teslimde elinize geçenler" },
     { ul: [
@@ -107,7 +107,7 @@ export const serviceExtra2 = {
     { h2: "Ölçüm cihazı olmadan tahmin yürütmüyoruz" },
     { p: "Elektrik arızasında gözle teşhis yanıltıcıdır. Kullandığımız ölçümler: gerilim ve akım ölçümü, yalıtım direnci (megger), topraklama direnci ve hat sürekliliği." },
     { p: "Yalıtım direnci ölçümü, kablonun yalıtımının bozulup bozulmadığını gösterir. Bu ölçüm olmadan \"kablo iyidir\" demek tahmin olur; biz tahminle kapatmıyoruz." },
-    { p: "Termal kamera da ısınan bağlantıları görünür kılar. Panoda kararmış bir klemens gözle görülür ama henüz kararmamış, sadece ısınan bir bağlantı ancak kamerayla fark edilir." },
+    { p: "Termal kamera da ısınan bağlantıları görünür kılar. Panoda kararmış bir klemens açık ama henüz kararmamış, sadece ısınan bir bağlantı ancak kamerayla fark edilir." },
 
     { h2: "Acil kabul ettiğimiz durumlar" },
     { ul: [
@@ -196,7 +196,7 @@ export const serviceExtra2 = {
     { h2: "Gürültü sorunu" },
     { p: "Bodrumda çalışan bir hidroforun sesi, betonarme yapıda üst katlara kolayca taşınır. Sesin kaynağı genelde motor değil, titreşimin yapıya aktarılmasıdır." },
     { p: "Çözüm üç adımdır: pompayı titreşim takozu üzerine oturtmak, boru bağlantılarında esnek kompansatör kullanmak ve boruları duvara rijit bağlamamak." },
-    { p: "Bu üçü uygulandığında gürültü belirgin şekilde düşer. Ses yalıtım kabini ise son çare; önce titreşim yolunu kesmek gerekir." },
+    { p: "Bu üçü uygulandığında gürültü ciddi biçimde düşer. Ses yalıtım kabini ise son çare; önce titreşim yolunu kesmek gerekir." },
   ],
 
   "bina-tesisat-yenileme": [
@@ -240,14 +240,14 @@ export const serviceExtra2 = {
     { h2: "Panoda ne olmalı?" },
     { ul: [
       "Ana kesici (tüm evi kesen şalter)",
-      "Kaçak akım rölesi — konutta 30 mA",
+      "Kaçak akım rölesi (konutta 30 mA)",
       "Hat bazında ayrı otomatik sigortalar",
       "Yüksek çekişli cihazlar için ayrı sigortalar",
       "Gerekiyorsa parafudr (yıldırım/aşırı gerilim koruması)",
       "Etiketleme ve pano şeması",
       "İleride hat eklemek için boş yer",
     ] },
-    { p: "Son madde küçük görünür ama panoyu tıka basa doldurmak, birkaç yıl sonra panonun tamamen değişmesi demektir. Yedek yer bırakmanın maliyeti düşük, faydası yüksektir." },
+    { p: "Yedek yer maddesi küçük görünür ama panoyu tıka basa doldurmak, birkaç yıl sonra panonun tamamen değişmesi demektir. Yedek yer bırakmanın maliyeti düşük, faydası yüksektir." },
 
     { h2: "Kaçak akım rölesi kaç tane olmalı?" },
     { p: "Tek röleye bağlı bir evde, herhangi bir hattaki kaçak tüm evi karartır. Buzdolabı da söner, aydınlatma da gider. Arızayı bulmak zorlaşır." },
@@ -255,7 +255,7 @@ export const serviceExtra2 = {
     { p: "Banyo hattı her durumda kaçak akım korumalı olmalıdır. Bu, tartışma konusu değil kuraldır." },
 
     { h2: "Sigorta seçimi: kabloya göre" },
-    { p: "Sigortanın görevi kabloyu korumaktır. Bu yüzden sigorta, kablonun taşıyabileceği akımdan büyük seçilemez. \"Sigorta atıyor, büyütelim\" yaklaşımı korumayı devre dışı bırakır." },
+    { p: "Sigortanın görevi kabloyu korumaktır. Dolayısıyla sigorta, kablonun taşıyabileceği akımdan büyük seçilemez. \"Sigorta atıyor, büyütelim\" yaklaşımı korumayı devre dışı bırakır." },
     { p: "Sigortanın karakteristiği (B, C tipi) de önemlidir. Motorlu cihazların bulunduğu hatlarda açılış akımı yüksek olduğu için C tipi tercih edilir; konut aydınlatma ve priz hatlarında B tipi yeterlidir." },
     { p: "Sigorta atıyorsa önce nedenini buluruz. Aşırı yük mü, kısa devre mi, kaçak mı; üçünün çözümü farklıdır ve hiçbirinin çözümü sigortayı büyütmek değildir." },
 

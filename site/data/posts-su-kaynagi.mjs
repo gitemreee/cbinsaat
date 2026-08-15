@@ -23,9 +23,8 @@ export const suKaynagiPosts = [
     intro:
       "Depolu sistemlerde su kesintisi çoğu zaman şebekeden değil, deponun kendi dolum düzeninden kaynaklanır. Şamandıra takılır, filtre tıkanır, bir vana yarı kapalı kalır. Hepsi küçük şeyler; ama depo boşaldığında sonuç aynı: evde su yok ve pompa susuz çalışma riskiyle karşı karşıya.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Sırayla üç şeye bakın: şebekede su var mı, deponun giriş vanası açık mı, şamandıra veya seviye kontrolü çalışıyor mu?</strong> Depo dolum sorunlarının büyük bölümü bu üç adımda çözülür.",
+        p: "Sırayla üç şeye bakın: şebekede su var mı, deponun giriş vanası açık mı, şamandıra veya seviye kontrolü çalışıyor mu? Depo dolum sorunlarının büyük bölümü bu üç adımda çözülür.",
       },
       {
         p: "Depo boşaldıysa ikinci bir konu daha var: pompanın kuru çalışma koruması. Koruma yoksa pompa susuz çalışmış olabilir; su geldiğinde sistemi çalıştırmadan önce pompanın durumu kontrol edilmeli.",
@@ -49,14 +48,14 @@ export const suKaynagiPosts = [
       {
         ul: [
           "Giriş vanası yarı kapalı bırakılmış olabilir; kolun konumu tam açık olmalı.",
-          "Filtre kartuşu tıkandığında dolum belirgin yavaşlar.",
+          "Filtre kartuşu tıkandığında dolum gözle görülür ölçüde yavaşlar.",
           "Çekvalf ters takılmışsa su hiç geçmez.",
           "Bağlantı hortumu kıvrılmış veya ezilmiş olabilir.",
           "Sayaç sonrası ara musluk kapalı kalmış olabilir.",
         ],
       },
       {
-        p: "Filtre kaynaklı yavaşlama sinsi ilerler: dolum süresi haftalar içinde uzar, kimse fark etmez, sonra bir gün depo yetişemez hâle gelir. Bu yüzden ilk kurulumda dolum süresini ölçüp not etmek işe yarıyor.",
+        p: "Filtre kaynaklı yavaşlama sinsi ilerler: dolum süresi haftalar içinde uzar, kimse fark etmez, sonra bir gün depo yetişemez hâle gelir. O yüzden ilk kurulumda dolum süresini ölçüp not etmek işe yarıyor.",
       },
 
       { h2: "3. Şamandıra çalışıyor mu?" },
@@ -81,10 +80,7 @@ export const suKaynagiPosts = [
 
       { h2: "Elektrikli seviye kontrolü" },
       {
-        p: "Daha büyük sistemlerde dolum, elektrot veya seviye şalteri ile yönetilir. Kontrol rölesi suyun iletkenliğini ölçer ve giriş vanasını elektrikli olarak açıp kapatır.",
-      },
-      {
-        p: "Bu sistemlerde en sık görülen arıza elektrot uçlarının kireçlenmesidir. Röle suyu göremez hâle gelir ve ya sürekli dolum yapar ya da hiç yapmaz.",
+        p: "Daha büyük sistemlerde dolum, elektrot veya seviye şalteri ile yönetilir. Kontrol rölesi suyun iletkenliğini ölçer ve giriş vanasını elektrikli olarak açıp kapatır. Bu sistemlerde en sık görülen arıza elektrot uçlarının kireçlenmesidir. Röle suyu göremez hâle gelir ve ya sürekli dolum yapar ya da hiç yapmaz.",
       },
       {
         p: "İkinci sık neden kumanda kablosunun kopması veya nemden etkilenmesidir. Elektrot kabloları depo dışında, kuru ve neme dayanıklı bir kutuda toplanmalıdır.",
@@ -92,7 +88,7 @@ export const suKaynagiPosts = [
 
       { h2: "Kuyudan depoya dolan sistemler" },
       {
-        p: "Depo şebekeden değil kuyudan besleniyorsa, kontrol listesi değişir. Bu durumda dolumu yapan pompadır ve sorun büyük ihtimalle pompa tarafındadır.",
+        p: "Depo şebekeden değil kuyudan besleniyorsa, kontrol listesi değişir. Böyle olunca dolumu yapan pompadır ve sorun büyük ihtimalle pompa tarafındadır.",
       },
       {
         ol: [
@@ -105,7 +101,7 @@ export const suKaynagiPosts = [
         ],
       },
       {
-        p: "Bu sistemlerde depo boşaldığında iki risk aynı anda doğar: evde su kalmaması ve pompanın susuz çalışması. Bu yüzden kuru çalışma koruması, kuyudan depoya çalışan her sistemde bulunmalı.",
+        p: "Bu sistemlerde depo boşaldığında iki risk aynı anda doğar: evde su kalmaması ve pompanın susuz çalışması. kuru çalışma koruması, kuyudan depoya çalışan her sistemde bulunmalı.",
       },
 
       { h2: "Depo taşıyorsa" },
@@ -116,11 +112,7 @@ export const suKaynagiPosts = [
         p: "Taşma borusu tam da bunun için vardır: suyu güvenli bir noktaya yönlendirir ve bodrumun su basmasını önler. Ancak taşmanın kendisi bir arıza işaretidir, normal kabul edilmemelidir.",
       },
       {
-        quote:
-          "Taşma borusundan su akıyorsa sistem kendini koruyor demektir; ama koruma devreye girmişse arıza zaten başlamıştır.",
-      },
-      {
-        p: "Taşma borusunun ucunun görünür bir yere yönlendirilmesi bu yüzden faydalı. Gözden uzak bir gidere bağlandığında, arıza aylarca fark edilmiyor.",
+        p: "Taşma borusunun ucunun görünür bir yere yönlendirilmesi bu sebeple faydalı. Gözden uzak bir gidere bağlandığında, arıza aylarca fark edilmiyor.",
       },
 
       { h2: "Dolum süresini ölçmek" },
@@ -128,7 +120,7 @@ export const suKaynagiPosts = [
         p: "Sistem sağlıklıyken deponun ne kadar sürede dolduğunu bir kez ölçün ve not edin. Bu değer, ileride yaşanacak yavaşlamaları fark etmenin en pratik yolu.",
       },
       {
-        p: "Ölçüm basit: depo boşken giriş açılır ve dolum süresi tutulur. Aynı ölçüm bir yıl sonra tekrarlandığında süre belirgin uzamışsa, giriş tarafında birikim var demektir.",
+        p: "Ölçüm basit: depo boşken giriş açılır ve dolum süresi tutulur. Aynı ölçüm bir yıl sonra tekrarlandığında süre epeyce uzamışsa, giriş tarafında birikim var demektir.",
       },
       {
         p: "Apartmanlarda bu değerin yönetim tarafından kayıt altına alınması, arıza günlerinde tartışmayı kısaltıyor: sistemin normalde nasıl çalıştığı biliniyor.",
@@ -136,10 +128,7 @@ export const suKaynagiPosts = [
 
       { h2: "Şebeke basıncı ve dolum saatleri" },
       {
-        p: "Bazı bölgelerde şebeke basıncı gün içinde belirgin değişir. Sabah ve akşam yoğunluğunda düşen basınç, deponun o saatlerde hiç dolmamasına yol açabilir.",
-      },
-      {
-        p: "Bu durumda depo gece dolar ve gündüz dolmuyormuş gibi görünür. Ayırt etmek kolay: gece geç saatte deponun seviyesine bakmak yeterli.",
+        p: "Bazı bölgelerde şebeke basıncı gün içinde epeyce değişir. Sabah ve akşam yoğunluğunda düşen basınç, deponun o saatlerde hiç dolmamasına yol açabilir. Bu durumda depo gece dolar ve gündüz dolmuyormuş gibi görünür. Ayırt etmek kolay: gece geç saatte deponun seviyesine bakmak yeterli.",
       },
       {
         p: "Kalıcı çözüm, giriş hattının çapını büyütmek veya depo hacmini tüketime göre yeniden değerlendirmek. Gece dolan bir depo, gündüz talebi karşılayacak kadar büyük olmalı.",
@@ -202,10 +191,7 @@ export const suKaynagiPosts = [
 
       { h2: "Depo yerine doğrudan şebeke olur mu?" },
       {
-        p: "Şebeke basıncı ve süreklilik yeterliyse depo kullanmadan doğrudan beslenmek mümkündür. Ancak bu, kesinti riskini tamamen kabul etmek anlamına gelir.",
-      },
-      {
-        p: "Ayrıca şebekeden doğrudan emiş yapan bir pompa, komşu abonelerin basıncını düşürebilir ve genelde uygun görülmez. Bu nedenle basınç artırımı gerekiyorsa doğru kurgu depo–hidrofor düzenidir.",
+        p: "Şebeke basıncı ve süreklilik yeterliyse depo kullanmadan doğrudan beslenmek mümkündür. Ancak bu, kesinti riskini tamamen kabul etmek anlamına gelir. Ayrıca şebekeden doğrudan emiş yapan bir pompa, komşu abonelerin basıncını düşürebilir ve genelde uygun görülmez. Bu nedenle basınç artırımı gerekiyorsa doğru kurgu depo–hidrofor düzenidir.",
       },
       {
         p: "Kesintinin nadir olduğu yerlerde küçük hacimli bir yedek depo iyi bir orta yol: gündelik kullanımda şebeke doğrudan besler, kesintide devreye girer.",
@@ -245,7 +231,7 @@ export const suKaynagiPosts = [
         ],
       },
       {
-        p: "Son madde çoğu binada atlanıyor: kesinti sonrası şebekede hareketlenen tortu doğrudan depoya giriyor. Girişte bir filtre bulunması, bu tortunun tesisata yayılmasını önlüyor.",
+        p: "Listedeki son kalem çoğu binada atlanıyor: kesinti sonrası şebekede hareketlenen tortu doğrudan depoya giriyor. Girişte bir filtre bulunması, bu tortunun tesisata yayılmasını önlüyor.",
       },
 
       { h2: "İki depolu sistemlerde" },
@@ -300,6 +286,14 @@ export const suKaynagiPosts = [
         a: "Kesinlikle alevle ısıtmayın. Isıtma yavaş ve kontrollü yapılmalıdır; ani ısıtma donmuş bölümün çatlamasına yol açar. Kalıcı çözüm, dış hatların yalıtılması ve gerekiyorsa ısıtıcı kablo kullanılmasıdır. Mevsimlik depolar kış öncesi boşaltılmalıdır.",
       },
       {
+        q: "Şebeke girişindeki filtre dolumu yavaşlatır mı?",
+        a: "Yavaşlatır. Girişteki tortu filtresi zamanla dolar ve ilk anda fark edilmeyen bir debi kaybı yaratır; depo eskiden bir saatte dolarken artık yarısına ancak gelir. Filtre kabı şeffafsa gözle bakmak yeter. Değilse kartuş sökülüp temizlenir, sonra dolum süresi yeniden ölçülür.",
+      },
+      {
+        q: "Depo girişine ayrı vana koymanın faydası ne?",
+        a: "Arıza aramayı kısaltır. Kolay ulaşılan bir küresel vana varsa hattı depoya çıkmadan kapatıp açabilir, dolum testini tek başınıza yapabilirsiniz. Aynı vana temizlik sırasında depoyu şebekeden ayırmak için de kullanılır.",
+      },
+      {
         q: "Deponun dolduğunu bakmadan nasıl anlarım?",
         a: "Seviye göstergesi ve alt seviye ikaz lambası bu işi görür. İkisi de ucuz elemanlardır ve depo boşalmadan önce uyarı verir. Kesinti dönemlerinde özellikle işe yarar; ayrıca taşma borusunun ucunun görünür bir yere yönlendirilmesi de arızayı erken gösterir.",
       },
@@ -331,10 +325,7 @@ export const suKaynagiPosts = [
     body: [
       { h2: "Kısa cevap" },
       {
-        p: "<strong>Pompa hava yapıyorsa kaçak, pompanın emiş tarafındadır ve dışarı su sızdırmaz — içeri hava çeker.</strong> En sık noktalar: rakor ve dişli bağlantılar, pislik tutucu contası, dip klepe (ayak vanası) ve pompa salmastrası.",
-      },
-      {
-        p: "İkinci büyük neden emiş yüksekliğinin veya hat direncinin sınırı zorlamasıdır. Bu durumda hiçbir yerde kaçak olmadan da pompa hava yapar; suyun içindeki çözünmüş hava basınç düşünce serbest kalır.",
+        p: "Pompa hava yapıyorsa kaçak, pompanın emiş tarafındadır: dışarı su sızdırmaz, içeri hava çeker. En sık noktalar: rakor ve dişli bağlantılar, pislik tutucu contası, dip klepe (ayak vanası) ve pompa salmastrası. İkinci büyük neden emiş yüksekliğinin veya hat direncinin sınırı zorlamasıdır. Öyle bir durumda hiçbir yerde kaçak olmadan da pompa hava yapar; suyun içindeki çözünmüş hava basınç düşünce serbest kalır.",
       },
 
       { h2: "Belirtiler" },
@@ -376,7 +367,7 @@ export const suKaynagiPosts = [
         p: "Yüzey pompaları suyu emerken atmosfer basıncından yararlanır ve bu fiziksel bir sınır getirir. Pratikte emiş yüksekliği yaklaşık yedi–sekiz metreyle sınırlıdır; hat direnci ve sıcaklık bu sınırı daha da düşürür.",
       },
       {
-        p: "Sınıra yaklaşan sistemlerde pompa \"hava yapıyor\" gibi davranır. Aslında dışarıdan hava girmez; suyun içindeki çözünmüş gazlar düşük basınçta serbest kalır ve aynı sonucu doğurur.",
+        p: "Sınıra yaklaşan sistemlerde pompa \"hava yapıyor\" gibi davranır. Dışarıdan hava girmiyordur; suyun içindeki çözünmüş gazlar düşük basınçta serbest kalır ve aynı sonucu doğurur.",
       },
       {
         p: "Bu durumun tek kalıcı çözümü emiş yüksekliğini azaltmaktır: pompayı su kaynağına yaklaştırmak veya dalgıç tipi bir çözüme geçmek. Bağlantıları kaç kez sıksanız da sonuç değişmiyor.",
@@ -403,7 +394,7 @@ export const suKaynagiPosts = [
         p: "Dip klepe, emiş hattının ucundaki tek yönlü vanadır. Pompa durduğunda suyun geri kaçmasını engeller ve hattı dolu tutar. Tutmadığında hat boşalır, pompa her çalıştırmada kendini yeniden doldurmak zorunda kalır.",
       },
       {
-        p: "Kum, tortu ve kireç bu vananın sızdırmazlık yüzeyine oturur. Kuyularda ve tortulu depolarda ömrü belirgin kısalır; düzenli kontrol gerektiren bir parçadır.",
+        p: "Kum, tortu ve kireç bu vananın sızdırmazlık yüzeyine oturur. Kuyularda ve tortulu depolarda ömrü iyice kısalır; düzenli kontrol gerektiren bir parçadır.",
       },
       {
         quote:
@@ -415,10 +406,7 @@ export const suKaynagiPosts = [
 
       { h2: "Pompayı doldurmak (priming)" },
       {
-        p: "Kendinden emişli olmayan pompalar, çalışmaya başlamadan önce gövdesinin ve emiş hattının suyla dolu olmasını ister. Boş çalıştırılan pompa suyu çekemez ve salmastra kuru sürtünmeyle zarar görür.",
-      },
-      {
-        p: "Doldurma işlemi, pompa üzerindeki dolum tapasından yapılır: hava tamamen çıkana kadar su eklenir, tapa kapatılır ve pompa çalıştırılır.",
+        p: "Kendinden emişli olmayan pompalar, çalışmaya başlamadan önce gövdesinin ve emiş hattının suyla dolu olmasını ister. Boş çalıştırılan pompa suyu çekemez ve salmastra kuru sürtünmeyle zarar görür. Doldurma işlemi, pompa üzerindeki dolum tapasından yapılır: hava tamamen çıkana kadar su eklenir, tapa kapatılır ve pompa çalıştırılır.",
       },
       {
         p: "Doldurmaya rağmen su gelmiyorsa ya dip klepe tutmuyordur ya emiş hattında hava kaçağı vardır. İkisi de aynı yere işaret ediyor: emiş tarafı.",
@@ -432,7 +420,7 @@ export const suKaynagiPosts = [
         p: "Yani bu tip bir pompa, sızdıran bir bağlantıya rağmen çalışmaya devam eder; sorun görünmez hâle gelir ama ortadan kalkmaz. Verim düşer, motor daha uzun çalışır ve enerji tüketimi artar.",
       },
       {
-        p: "Belirtiler hafiflediği için arıza geç fark ediliyor. Bu pompalarda da emiş hattı, sızdırmazlık açısından aynı titizlikle kurulmalı.",
+        p: "Belirtiler hafiflediği için arıza geç fark ediliyor. Bu pompalarda da emiş hattı, sızdırmazlık açısından aynı dikkatle kurulmalı.",
       },
 
       { h2: "Kavitasyonla karıştırmayın" },
@@ -448,10 +436,7 @@ export const suKaynagiPosts = [
 
       { h2: "Pislik tutucu ve süzgeçler" },
       {
-        p: "Emiş hattındaki pislik tutucu, pompayı korumak için vardır; ama tıkandığında tam tersi etkiyi yapar. Akış zorlanır, emiş basıncı düşer ve sistem hava yapıyormuş gibi davranır.",
-      },
-      {
-        p: "Bu parça temizlik sonrası da sorun kaynağı olabiliyor: kapağı kaçık oturduğunda veya contası ezildiğinde içeri hava çeker. Temizlikten hemen sonra başlayan hava şikâyetlerinin klasik nedeni budur.",
+        p: "Emiş hattındaki pislik tutucu, pompayı korumak için vardır; ama tıkandığında tam tersi etkiyi yapar. Akış zorlanır, emiş basıncı düşer ve sistem hava yapıyormuş gibi davranır. Bu parça temizlik sonrası da sorun kaynağı olabiliyor: kapağı kaçık oturduğunda veya contası ezildiğinde içeri hava çeker. Temizlikten hemen sonra başlayan hava şikâyetlerinin klasik nedeni budur.",
       },
       {
         p: "Kapak sıkılırken conta yuvasının temiz olduğundan emin olun ve contayı zorlanmış görüyorsanız yenisiyle değiştirin. Birkaç liralık bir parça, günlerce sürebilecek bir arıza aramasını önlüyor.",
@@ -459,13 +444,13 @@ export const suKaynagiPosts = [
 
       { h2: "Salmastradan gelen hava" },
       {
-        p: "Pompanın mil salmastrası yıprandığında iki yönlü çalışır: durduğunda dışarı damlar, çalışırken içeri hava çeker. Bu yüzden gövde altında ıslaklık varsa hava sorununun kaynağı orada olabilir.",
+        p: "Pompanın mil salmastrası yıprandığında iki yönlü çalışır: durduğunda dışarı damlar, çalışırken içeri hava çeker. O nedenle gövde altında ıslaklık varsa hava sorununun kaynağı orada olabilir.",
       },
       {
         p: "Mekanik salmastralar tamir edilmez, değiştirilir. Değişim sırasında milin yüzeyi de kontrol edilmeli; çizik bir mil, yeni salmastrayı kısa sürede bitiriyor.",
       },
       {
-        p: "Salmastra ömrünü en çok kısaltan şey kuru çalışmadır. Bu nedenle salmastra değişiminde kuru çalışma korumasının varlığı da gözden geçirilmeli; yoksa aynı arıza tekrar eder.",
+        p: "Salmastra ömrünü en çok kısaltan şey kuru çalışmadır. salmastra değişiminde kuru çalışma korumasının varlığı da gözden geçirilmeli; yoksa aynı arıza tekrar eder.",
       },
 
       { h2: "Test yöntemleri" },
@@ -500,7 +485,7 @@ export const suKaynagiPosts = [
         ],
       },
       {
-        p: "Son madde ileride çok işe yarıyor: sistem sağlıklıyken ölçülen vakum değeri, yıllar sonra bir sorun çıktığında karşılaştırma noktası oluyor.",
+        p: "Şu sonuncusu ileride çok işe yarıyor: sistem sağlıklıyken ölçülen vakum değeri, yıllar sonra bir sorun çıktığında karşılaştırma noktası oluyor.",
       },
 
       { h2: "Depolu sistemlerde emiş kotu" },
@@ -516,10 +501,7 @@ export const suKaynagiPosts = [
 
       { h2: "Sulama sistemlerinde hava" },
       {
-        p: "Sulama hatlarında hava yalnızca pompadan gelmez; hat boşaldığında da içeri dolar. Program başladığında bu hava yüksek hızla ilerler ve hat sonunda basınç darbesi yaratır.",
-      },
-      {
-        p: "Bunu önlemek için hava tahliye vanaları kullanılır. Hattın yüksek noktalarına konan bu vanalar, dolum sırasında havayı dışarı atar ve boşalma sırasında vakum oluşmasını engeller.",
+        p: "Sulama hatlarında hava yalnızca pompadan gelmez; hat boşaldığında da içeri dolar. Program başladığında bu hava yüksek hızla ilerler ve hat sonunda basınç darbesi yaratır. Bunu önlemek için hava tahliye vanaları kullanılır. Hattın yüksek noktalarına konan bu vanalar, dolum sırasında havayı dışarı atar ve boşalma sırasında vakum oluşmasını engeller.",
       },
       {
         p: "Vakum kırıcı olmayan hatlarda kapanış anında laterallere toprak çekilebiliyor; damlatıcı tıkanmalarının bir bölümü doğrudan bu nedenden kaynaklanıyor.",
@@ -530,7 +512,7 @@ export const suKaynagiPosts = [
         p: "Emişte sürekli sorun yaşanan sistemlerde en sağlam çözüm, pompanın konumunu değiştirmektir. Pompa su seviyesinin altına alınırsa emiş yapmak zorunda kalmaz; su ona kendi basıncıyla gelir.",
       },
       {
-        p: "Bu düzenlemede pompa artık \"emmez\", sadece basar. Hava kaçağı riski büyük ölçüde ortadan kalkar, gürültü azalır ve verim artar.",
+        p: "Bu düzenlemede pompa artık \"emmez\", sadece basar. Hava kaçağı riski büyük ölçüde ortadan kalkar, gürültü azalır ve verim artar. Yer değişikliği mümkün değilse ikinci en iyi seçenek emiş hattını kısaltmak ve çapı bir kademe büyütmektir; dirsek sayısını azaltmak da aynı kapıya çıkar.",
       },
       {
         p: "Yer koşulları buna izin vermiyorsa dalgıç tipi pompa alternatifi değerlendirilir. Kuyularda zaten standart olan bu çözüm, derin depolarda da uygulanabiliyor.",
@@ -569,7 +551,7 @@ export const suKaynagiPosts = [
       },
       {
         q: "Emiş hattındaki kaçak neden su sızdırmaz?",
-        a: "Emiş hattı pompa çalışırken vakum altındadır; yani içerideki basınç dışarıdan düşüktür. Bu nedenle açıklıktan su dışarı çıkmaz, hava içeri girer. Kaçağı bulmak için hattın basınçlandırılması gerekir; ancak o zaman dışarı su verir.",
+        a: "Emiş hattı pompa çalışırken vakum altındadır; yani içerideki basınç dışarıdan düşüktür. Bu yüzden açıklıktan su dışarı çıkmaz, hava içeri girer. Kaçağı bulmak için hattın basınçlandırılması gerekir; ancak o zaman dışarı su verir.",
       },
       {
         q: "Dip klepe nedir, neden bozulur?",
@@ -590,10 +572,6 @@ export const suKaynagiPosts = [
       {
         q: "Hava yapan pompa zarar görür mü?",
         a: "Evet. Su hem soğutucu hem yağlayıcı olduğu için hava çeken pompada salmastra ısınır ve aşınır. Uzun süren durumlarda çark ve gövde de etkilenir. Ayrıca sürekli çalışıp hedef basınca ulaşamayan motor ısınır ve termikten atabilir.",
-      },
-      {
-        q: "Kalıcı çözüm nedir?",
-        a: "Emiş yüksekliğini azaltmak ve hattı rahatlatmaktır: pompayı su kaynağına yaklaştırmak, çapı bir kademe büyütmek, dirsekleri azaltmak ve hattı sürekli yükselen eğimde döşemek. Mümkünse pompayı su seviyesinin altına almak, hava sorununu neredeyse tamamen ortadan kaldırır.",
       },
     ],
     related: ["hidrofor-ses-ve-titresim", "kuru-calisma-korumasi", "hidrofor-tank-havasi-ayari"],
@@ -619,14 +597,11 @@ export const suKaynagiPosts = [
       "Kuyu, sonradan düzeltilmesi en zor yatırımlardan biri. Doğru kararların neredeyse tamamı sondaj başlamadan önce veriliyor.",
     services: ["tarimsal-sulama-sistemleri", "hidrofor-pompa-sistemleri", "kayisi-bahcesi-sulama"],
     intro:
-      "Bir kuyu açıldıktan sonra yeri değişmez, derinliği kolay kolay artmaz, filtre borusunun konumu düzeltilemez. Bu yüzden kuyu işinde asıl iş sondajda değil, sondaj öncesindeki kararlardadır. Bu yazıda o kararları ve sonradan pişmanlık yaratan atlamaları anlatıyoruz.",
+      "Bir kuyu açıldıktan sonra yeri değişmez, derinliği kolay kolay artmaz, filtre borusunun konumu düzeltilemez. Bunun için kuyu işinde asıl iş sondajda değil, sondaj öncesindeki kararlardadır. Bu yazıda o kararları ve sonradan pişmanlık yaratan atlamaları anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Sondajdan önce dört karar" },
       {
-        p: "<strong>Kuyu açtırmadan önce dört şey netleşmelidir: gerekli izinler, kuyunun yeri, hedeflenen su ihtiyacı ve sondaj sonrası yapılacak testler.</strong> Pompa seçimi bu listenin en sonunda gelir; kuyunun ne verdiği bilinmeden pompa alınmaz.",
-      },
-      {
-        p: "Yeraltı suyu kullanımı izne tabidir. İzinsiz açılan kuyular yasal sorun yaratabildiği gibi, belge olmadığı için sonraki her aşamada — elektrik aboneliğinden desteklere kadar — engelle karşılaşır. Süreç ve gerekli belgeler için bağlı olduğunuz idareye başvurmak ilk adımdır.",
+        p: "Kuyu açtırmadan önce dört şey netleşmelidir: gerekli izinler, kuyunun yeri, hedeflenen su ihtiyacı ve sondaj sonrası yapılacak testler. Pompa seçimi bu listenin en sonunda gelir; kuyunun ne verdiği bilinmeden pompa alınmaz. Yeraltı suyu kullanımı izne tabidir. İzinsiz açılan kuyular yasal sorun yaratabildiği gibi, belge olmadığı için elektrik aboneliğinden tarımsal desteklere kadar her aşamada engelle karşılaşır. Süreç ve gerekli belgeler için bağlı olduğunuz idareye başvurmak ilk adımdır.",
       },
 
       { h2: "İzin süreci" },
@@ -637,7 +612,7 @@ export const suKaynagiPosts = [
         p: "Bölgeye göre kısıtlamalar farklıdır. Bazı havzalarda yeni kuyu açımı sınırlanmış olabilir; bu bilgi ancak yetkili idareden öğrenilir. Sondaj firmasının sözüne değil, resmî yanıta göre hareket edilmeli.",
       },
       {
-        p: "İzin süreci zaman alabildiği için, sulama sezonuna yetiştirme planı buna göre yapılmalı. Sezon başlamadan hemen önce başlatılan süreçler çoğu zaman o yıla yetişmiyor.",
+        p: "İzin süreci zaman alabildiği için, sulama sezonuna yetiştirme planı buna göre yapılmalı. Sezon başlamadan hemen önce başlatılan süreçler çoğunlukla o yıla yetişmiyor.",
       },
 
       { h2: "Yer seçimi" },
@@ -693,14 +668,7 @@ export const suKaynagiPosts = [
 
       { h2: "Kuyu geliştirme neden atlanmamalı?" },
       {
-        p: "Sondajdan sonra filtre çevresinde ince malzeme kalır. Geliştirme işlemi bu malzemeyi kontrollü biçimde dışarı alır. Doğru yapıldığında kuyu temiz su verir ve verimi artar.",
-      },
-      {
-        p: "Atlandığında ya da yetersiz yapıldığında ise kum yıllarca gelmeye devam eder. Pompa çarkı aşınır, damlatıcılar tıkanır, armatürler bozulur; her yıl ödenen sessiz bir fatura oluşur.",
-      },
-      {
-        quote:
-          "Kuyu geliştirmeden tasarruf etmek, ilk yıl ucuz görünüp sonraki her yıl pompa parasıyla ödenen bir tercih.",
+        p: "Sondajdan sonra filtre çevresinde ince malzeme kalır. Geliştirme işlemi bu malzemeyi kontrollü biçimde dışarı alır. Doğru yapıldığında kuyu temiz su verir ve verimi artar. Atlandığında ya da yetersiz yapıldığında ise kum yıllarca gelmeye devam eder. Pompa çarkı aşınır, damlatıcılar tıkanır, armatürler bozulur; her yıl ödenen sessiz bir fatura oluşur.",
       },
       {
         p: "Geliştirme sonrası suyun berraklaşması gözle takip edilebilir. Teslim alırken bu aşamanın yapıldığını ve suyun ne kadar sürede berraklaştığını görmek doğal bir talep.",
@@ -739,7 +707,7 @@ export const suKaynagiPosts = [
         p: "Kuyunun debisi ve dinamik seviyesi bilinmeden pompa seçilemez. Seçim; çekilecek debi, basma yüksekliği ve hat kayıpları hesaplanarak yapılır.",
       },
       {
-        p: "Aynı hesap kablo kesitini ve pano ekipmanını da belirler. Bu yüzden elektrik altyapısı, pompa kararından sonra planlanır; önce çekilen bir kablo çoğu zaman yetersiz kalır.",
+        p: "Aynı hesap kablo kesitini ve pano ekipmanını da belirler. elektrik altyapısı, pompa kararından sonra planlanır; önce çekilen bir kablo sıklıkla yetersiz kalır.",
       },
       {
         p: "Pompayla birlikte planlanması gereken elemanlar: kuru çalışma koruması, faz koruma rölesi, emniyet halatı, kablo kelepçeleri ve kuyu ağzı sızdırmaz kapağı. Hepsi küçük kalemler ama sistemin ömrünü belirliyorlar.",
@@ -747,7 +715,7 @@ export const suKaynagiPosts = [
 
       { h2: "Kuyu ağzı ve saha düzeni" },
       {
-        p: "Sondaj bittiğinde iş bitmiş sayılmaz. Kuyu ağzının nasıl bırakıldığı, kuyunun uzun vadeli sağlığını doğrudan etkiler.",
+        p: "Sondaj bittiğinde iş bitmiş sayılmaz. Kuyu ağzının nasıl bırakıldığı, kuyunun uzun vadeli sağlığını etkiler.",
       },
       {
         ul: [
@@ -764,10 +732,7 @@ export const suKaynagiPosts = [
 
       { h2: "Su analizi" },
       {
-        p: "Kuyu suyunun ne için kullanılacağı analiz ihtiyacını belirler. Sulama için tuzluluk ve sertlik, içme–kullanma için mikrobiyolojik ve kimyasal analiz gerekir.",
-      },
-      {
-        p: "Analiz sonucu yalnızca kullanım kararını değil, sistem seçimini de etkiler: filtre tipi, gübreleme programı ve gerekiyorsa arıtma çözümü bu sonuca göre planlanır.",
+        p: "Kuyu suyunun ne için kullanılacağı analiz ihtiyacını belirler. Sulama için tuzluluk ve sertlik, içme–kullanma için mikrobiyolojik ve kimyasal analiz gerekir. Analiz sonucu yalnızca kullanım kararını değil, sistem seçimini de etkiler: filtre tipi, gübreleme programı ve gerekiyorsa arıtma çözümü bu sonuca göre planlanır.",
       },
       {
         p: "Sığ kuyularda yüzey sularının karışma ihtimali nedeniyle analizin tekrarlanması gerekir. Tek seferlik bir sonuç, özellikle yağışlı dönemlerden sonra geçerliliğini kaybedebiliyor.",
@@ -778,7 +743,7 @@ export const suKaynagiPosts = [
         table: {
           head: ["Kalem", "Etkisi"],
           rows: [
-            ["Derinlik", "Metre başına sondaj bedelini doğrudan belirler"],
+            ["Derinlik", "Metre başına sondaj bedelini belirler"],
             ["Zemin yapısı", "Sert formasyon ilerlemeyi yavaşlatır"],
             ["Kuyu çapı", "Boru ve çakıl miktarını değiştirir"],
             ["Kaplama borusu cinsi", "Ömür ve maliyet dengesi"],
@@ -834,7 +799,7 @@ export const suKaynagiPosts = [
         p: "Kuyu tek başına bir yatırım değil; kendisinden sonra gelen her şeyi belirleyen bir başlangıç noktası. Debisi sulama planını, dinamik seviyesi pompayı, suyun kalitesi filtre seçimini şekillendirir.",
       },
       {
-        p: "Bu yüzden kuyu kararı verilirken sadece sondaj bedeline değil, kuracağınız sistemin tamamına bakmak gerekir. Yetersiz debili bir kuyu, arkasına ne kurarsanız kurun sınırı belirlemeye devam eder.",
+        p: "Dolayısıyla kuyu kararı verilirken sadece sondaj bedeline değil, kuracağınız sistemin tamamına bakmak gerekir. Yetersiz debili bir kuyu, arkasına ne kurarsanız kurun sınırı belirlemeye devam eder.",
       },
       {
         p: "Tersi de geçerli: iyi bir kuyu, yıllar içinde eklenecek yeni alanlara imkân tanır. Manifold üzerinde bırakılan yedek çıkışlar gibi, kuyu tarafında bırakılan kapasite payı da ileride değer kazanıyor.",
@@ -853,13 +818,10 @@ export const suKaynagiPosts = [
 
       { h2: "Malatya'da tipik tablo" },
       {
-        p: "Bölgede kuyuların önemli bölümü kayısı bahçelerini ve tarımsal sulamayı besliyor. Sulama sezonunda bölgesel yeraltı su seviyesi düşüyor; kuyular yaz ortasında kışa göre belirgin farklı davranıyor.",
+        p: "Bölgede kuyuların önemli bölümü kayısı bahçelerini ve tarımsal sulamayı besliyor. Sulama sezonunda bölgesel yeraltı su seviyesi düşüyor; kuyular yaz ortasında kışa göre epey farklı davranıyor. Debi testinin mümkünse sezon koşullarını yansıtacak şekilde değerlendirilmesi gerekiyor. Kışın ölçülen bir debiye göre kurulan sistem, temmuzda yetersiz kalabiliyor.",
       },
       {
-        p: "Bu nedenle debi testinin mümkünse sezon koşullarını yansıtacak şekilde değerlendirilmesi gerekiyor. Kışın ölçülen bir debiye göre kurulan sistem, temmuzda yetersiz kalabiliyor.",
-      },
-      {
-        p: "İkinci yaygın durum, komşu kuyuların birbirini etkilemesi. Aynı bölgede aynı saatlerde çalışan çok sayıda pompa, hattın sonundaki kuyunun verimini düşürüyor; sulama saatlerini bölmek çoğu zaman fark yaratıyor.",
+        p: "İkinci yaygın durum, komşu kuyuların birbirini etkilemesi. Aynı bölgede aynı saatlerde çalışan çok sayıda pompa, hattın sonundaki kuyunun verimini düşürüyor; sulama saatlerini bölmek fark yaratıyor.",
       },
     ],
     faqs: [
@@ -890,6 +852,10 @@ export const suKaynagiPosts = [
       {
         q: "Kuyu suyu içilebilir mi?",
         a: "Ancak analizle karar verilir. İçme–kullanma amacıyla mikrobiyolojik ve kimyasal analiz gerekir; sulama için tuzluluk ve sertlik değerleri önemlidir. Sığ kuyularda yüzey sularının karışma ihtimali nedeniyle analiz düzenli tekrarlanmalıdır.",
+      },
+      {
+        q: "Komşunun kuyusu kaç metredeyse benimki de o derinlikte mi olur?",
+        a: "Yakın parselde benzer bir tablo çıkma ihtimali yüksektir, garanti değildir. Aynı köyde 60 metrede su veren bir formasyon iki yüz metre ötede fay ya da kil merceği yüzünden aynı kotta kuru çıkabilir. Komşu kuyunun logu iyi bir başlangıç verisidir; karar kendi sahanızdaki sonuçla netleşir.",
       },
       {
         q: "Kuyunun verimi zamanla düşer mi?",

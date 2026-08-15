@@ -83,7 +83,7 @@ export const arizaPosts = [
       {
         ul: [
           "Toprağın belirli bir noktasının sürekli ıslak kalması.",
-          "O bölgedeki bitkilerin çevresine göre belirgin daha yeşil olması.",
+          "O bölgedeki bitkilerin çevresine göre koyu yeşil kalması.",
           "Sulama yapılmadığı hâlde hattın basıncının düşmesi.",
           "Sezon dışında kapatılmayan bahçe vanası.",
         ],
@@ -94,13 +94,10 @@ export const arizaPosts = [
 
       { h2: "Isıtma tarafından gelen tüketim" },
       {
-        p: "Kombili sistemlerde tesisat basıncı düştükçe su takviyesi yapılır. Isıtma devresinde bir kaçak varsa bu takviye sürekli hâle gelir ve harcanan su faturaya yansır.",
+        p: "Kombili sistemlerde tesisat basıncı düştükçe su takviyesi yapılır. Isıtma devresinde bir kaçak varsa bu takviye sürekli hâle gelir ve harcanan su faturaya yansır. Belirtisi tanıdıktır: kombi basıncı birkaç günde bir düşer ve tekrar su eklemek gerekir. Kaçak; petek vanalarında, gömme borularda veya kombi içindeki bir contada olabilir.",
       },
       {
-        p: "Belirtisi tanıdıktır: kombi basıncı birkaç günde bir düşer ve tekrar su eklemek gerekir. Kaçak; petek vanalarında, gömme borularda veya kombi içindeki bir contada olabilir.",
-      },
-      {
-        p: "Bu durumda su faturasından önce dikkat edilmesi gereken şey ısıtma sisteminin kendisidir; sürekli taze su alan bir tesisatta kireçlenme ve korozyon hızlanır.",
+        p: "Böyle bir durumda su faturasından önce dikkat edilmesi gereken şey ısıtma sisteminin kendisidir; sürekli taze su alan bir tesisatta kireçlenme ve korozyon hızlanır.",
       },
 
       { h2: "Apartmanda ortak sayaç payı" },
@@ -111,7 +108,7 @@ export const arizaPosts = [
         p: "Böyle bir şüphe varsa yönetimden ana sayaç ile daire sayaçları toplamının karşılaştırılmasını istemek doğru adımdır. Aradaki fark büyük ve süreklilik kazanmışsa, sorun bir dairede değil ortak hattadır.",
       },
       {
-        p: "Bina hattındaki kaçaklar genelde bodrum, kolon dibi ve bahçe sulama kolunda çıkıyor. Yerinde yapılan bir kontrol, aylardır paylaştırılan farkın kaynağını çoğu zaman aynı gün buluyor.",
+        p: "Bina hattındaki kaçaklar genelde bodrum, kolon dibi ve bahçe sulama kolunda çıkıyor. Yerinde yapılan bir kontrol, aylardır paylaştırılan farkın kaynağını çoğunlukla aynı gün buluyor.",
       },
 
       { h2: "Sayacın kendisi arızalı olabilir mi?" },
@@ -142,15 +139,12 @@ export const arizaPosts = [
         },
       },
       {
-        p: "Doğru yöntem, kaçağın soğuk mu sıcak hatta olduğuna ve zemin yapısına göre seçilir. Birden fazla yöntemin birlikte kullanılması, tek nokta açarak çözme oranını belirgin artırıyor.",
+        p: "Doğru yöntem, kaçağın soğuk mu sıcak hatta olduğuna ve zemin yapısına göre seçilir. Birden fazla yöntemin birlikte kullanılması, tek nokta açıp çözme oranını epeyce artırıyor.",
       },
 
       { h2: "Havuz, araç yıkama ve mevsimsel kullanım" },
       {
-        p: "Faturadaki artış her zaman arıza demek değil. Bahçe sulamasının başladığı ilk ay, şişme havuz doldurmak, araç yıkamak ve misafir yoğunluğu tüketimi belirgin yükseltir.",
-      },
-      {
-        p: "Bu kalemleri elemek için kendi kullanımınızı hatırlamak yeterli. Geçen yılın aynı dönemine göre benzer bir kullanım varsa ve fatura yine de yüksekse, sıra teknik nedenlere gelir.",
+        p: "Faturadaki artış her zaman arıza demek değil. Bahçe sulamasının başladığı ilk ay, şişme havuz doldurmak, araç yıkamak ve misafir yoğunluğu tüketimi epeyce yükseltir. Bu kalemleri elemek için kendi kullanımınızı hatırlamak yeterli. Geçen yılın aynı dönemine göre benzer bir kullanım varsa ve fatura yine de yüksekse, sıra teknik nedenlere gelir.",
       },
       {
         p: "Kısa bir not tutmak da yardımcı oluyor: havuz doldurulan gün, sulamanın başladığı hafta. Ertesi yıl karşılaştırma yaparken bu notlar tahmini ortadan kaldırıyor.",
@@ -197,10 +191,7 @@ export const arizaPosts = [
 
       { h2: "Sayaç eşleşmesi doğru mu?" },
       {
-        p: "Çok daireli binalarda sayaçlar aynı bölmede sıralanır ve montaj sırasında karışabilir. Sizin sayacınız komşunun hattını ölçüyorsa, kendi tüketiminizle açıklanamayan bir fatura alırsınız.",
-      },
-      {
-        p: "Kontrolü basit: dairenizde bir musluğu açık bırakın, birinin sayaç bölmesinde hangi sayacın döndüğünü izlemesini isteyin. Dönen sayaç sizin numaranız değilse eşleşme hatalıdır.",
+        p: "Çok daireli binalarda sayaçlar aynı bölmede sıralanır ve montaj sırasında karışabilir. Sizin sayacınız komşunun hattını ölçüyorsa, kendi tüketiminizle açıklanamayan bir fatura alırsınız. Kontrolü basit: dairenizde bir musluğu açık bırakın, birinin sayaç bölmesinde hangi sayacın döndüğünü izlemesini isteyin. Dönen sayaç sizin numaranız değilse eşleşme hatalıdır.",
       },
       {
         p: "Uzun süredir devam eden bir karışıklıkta düzeltme, idare ve yönetimle birlikte yürütülür. Testin sonucunu fotoğraflı olarak kayda almak süreci hızlandırıyor.",
@@ -214,7 +205,7 @@ export const arizaPosts = [
         p: "Onarılan noktanın fotoğrafı ve tarihi kaydedilmeli. Aynı hatta tekrar eden kaçaklar, artık nokta onarımının değil hat yenilemesinin zamanı geldiğini gösterir.",
       },
       {
-        p: "Bazı idareler, tespit edilip belgelenen gizli kaçak durumlarında fatura düzeltmesi değerlendirebiliyor. Onarım belgesini ve kaçak tespit raporunu saklamak bu nedenle işe yarıyor.",
+        p: "Bazı idareler, tespit edilip belgelenen gizli kaçak durumlarında fatura düzeltmesi değerlendirebiliyor. Onarım belgesini ve kaçak tespit raporunu saklamak bunun için işe yarıyor.",
       },
 
       { h2: "Yıllık kontrol takvimi" },
@@ -274,7 +265,7 @@ export const arizaPosts = [
       },
       {
         q: "Sayacım arızalı olabilir mi?",
-        a: "Nadiren olur; mekanik sayaçlar zamanla yanlış okuyabilir. Ancak önce tesisatta kaçak olmadığını testlerle kanıtlamak gerekir. Bunlar temiz çıkarsa ilgili idareye başvurup sayaç kontrolü talep edilebilir. Testler yapılmadan yapılan başvurular çoğu zaman sonuçsuz kalıyor.",
+        a: "Nadiren olur; mekanik sayaçlar zamanla yanlış okuyabilir. Ancak önce tesisatta kaçak olmadığını testlerle kanıtlamak gerekir. Bunlar temiz çıkarsa ilgili idareye başvurup sayaç kontrolü talep edilebilir. Testler yapılmadan yapılan başvurular sıklıkla sonuçsuz kalıyor.",
       },
       {
         q: "Kaçak onarımından sonra ne yapmalıyım?",
@@ -301,17 +292,13 @@ export const arizaPosts = [
       "gömme rezervuar tamiri",
     ],
     excerpt:
-      "Ses çıkarmadan akan bir rezervuar, evdeki en pahalı sessizliktir. Neyse ki nedeni çoğu zaman tek bir parçada ve değişimi yarım saat sürüyor.",
+      "Ses çıkarmadan akan bir rezervuar, evdeki en pahalı sessizliktir. Neyse ki nedeni tek bir parçada ve değişimi yarım saat sürüyor.",
     services: ["vitrifiye-armatur-montaji", "sihhi-tesisat", "su-kacagi-tespiti"],
     intro:
       "Rezervuardan klozete sürekli ince bir su akıyorsa, o su doğrudan gidere gidiyor demektir. Kimse duymaz, kimse görmez; sadece fatura büyür. Bu yazıda hangi parçanın ne yaptığını, arızayı nasıl ayırt edeceğinizi ve neyi kendiniz değiştirebileceğinizi anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Sürekli akan bir rezervuarda sorun neredeyse her zaman iki parçadan birindedir: hazneye açılan tahliye klapesi (sızdırıyor) veya suyu dolduran dolum valfi (kapanmıyor).</strong>",
-      },
-      {
-        p: "Ayrımı yapmak kolay: su, taşma borusundan mı akıyor yoksa klapenin altından mı sızıyor? Taşma borusundan akıyorsa dolum valfi veya seviye ayarı, klapenin altından sızıyorsa klape suçludur.",
+        p: "Sürekli akan bir rezervuarda sorun neredeyse her zaman iki parçadan birindedir: hazneye açılan tahliye klapesi (sızdırıyor) veya suyu dolduran dolum valfi (kapanmıyor). Ayrımı yapmak kolay: su, taşma borusundan mı akıyor yoksa klapenin altından mı sızıyor? Taşma borusundan akıyorsa dolum valfi veya seviye ayarı, klapenin altından sızıyorsa klape suçludur.",
       },
 
       { h2: "Rezervuar nasıl çalışır?" },
@@ -322,7 +309,7 @@ export const arizaPosts = [
         p: "Bir de emniyet elemanı vardır: taşma borusu. Dolum valfi kapanmazsa su, rezervuarın dışına taşmak yerine bu borudan klozete akar. Yani sürekli akan su bazen arızanın kendisi değil, arızanın kontrollü tahliyesidir.",
       },
       {
-        p: "Bu üç parçanın hangisinin sorun çıkardığını anlamak, onarımın tamamını belirler. Kapağı açıp otuz saniye izlemek çoğu zaman yeterli oluyor.",
+        p: "Bu üç parçanın hangisinin sorun çıkardığını anlamak, onarımın tamamını belirler. Kapağı açıp otuz saniye izlemek genelde yeterli oluyor.",
       },
 
       { h2: "Hangi parça arızalı? Ayırt etme" },
@@ -367,15 +354,12 @@ export const arizaPosts = [
         ],
       },
       {
-        p: "Son madde önemli: seviyeyi gereğinden fazla düşürmek su tasarrufu gibi görünse de sifonun temizleme gücünü azaltır ve iki kez çekmek gerekir. Sonuçta daha çok su harcanır.",
+        p: "Seviyeyi gereğinden fazla düşürmek su tasarrufu gibi görünse de sifonun temizleme gücünü azaltır ve iki kez çekmek gerekir. Sonuçta daha çok su harcanır.",
       },
 
       { h2: "Dolum valfi arızası" },
       {
-        p: "Dolum valfi, içindeki küçük bir membran veya piston ile suyu keser. Şebekeden gelen kum ve kireç parçacıkları bu yüzeye oturduğunda valf tam kapanmaz ve ince bir akış devam eder.",
-      },
-      {
-        p: "Çoğu valfte girişte küçük bir süzgeç bulunur. Ara musluk kapatılıp valf sökülerek bu süzgecin temizlenmesi, arızayı parça değiştirmeden çözebiliyor.",
+        p: "Dolum valfi, içindeki küçük bir membran veya piston ile suyu keser. Şebekeden gelen kum ve kireç parçacıkları bu yüzeye oturduğunda valf tam kapanmaz ve ince bir akış devam eder. Çoğu valfte girişte küçük bir süzgeç bulunur. Ara musluk kapatılıp valf sökülerek bu süzgecin temizlenmesi, arızayı parça değiştirmeden çözebiliyor.",
       },
       {
         p: "Temizlik sonrası akış devam ediyorsa valf değiştirilir. Değişim sırasında ara musluğun ve bağlantı hortumunun da yenilenmesi, birkaç yıl sonra aynı iş için tekrar gelinmesini önlüyor.",
@@ -403,11 +387,7 @@ export const arizaPosts = [
         p: "Duvar içine alınan gömme rezervuarlarda tüm bakım, kumanda paneli çıkarılarak yapılır. Panel arkasındaki servis açıklığı, iç takıma erişim için özellikle bırakılmıştır.",
       },
       {
-        p: "Bu sistemlerde klape ve dolum valfi çıkarılabilir tasarlanır; duvarı kırmak gerekmez. Buna karşılık parçalar markaya özgüdür, bu yüzden montaj sırasında marka ve model bilgisinin kaydedilmesi büyük kolaylık sağlar.",
-      },
-      {
-        quote:
-          "Gömme rezervuarda asıl sorun arıza değil, servis kapağının seramikle kapatılmış olması. O zaman basit bir conta değişimi duvar kırma işine dönüşüyor.",
+        p: "Bu sistemlerde klape ve dolum valfi çıkarılabilir tasarlanır; duvarı kırmak gerekmez. Buna karşılık parçalar markaya özgüdür, o yüzden montaj sırasında marka ve model bilgisinin kaydedilmesi büyük kolaylık sağlar.",
       },
       {
         p: "Yeni banyo yaparken bu noktayı özellikle kontrol ediyoruz: panelin sökülebilir olması, ilerideki her müdahaleyi yarım saatlik bir işe indiriyor.",
@@ -415,7 +395,7 @@ export const arizaPosts = [
 
       { h2: "Rezervuar dolmuyorsa" },
       {
-        p: "Ters yöndeki şikâyet de sık gelir: rezervuar çok yavaş doluyor ya da hiç dolmuyor. Bu durumda sorun genelde giriş tarafındadır.",
+        p: "Ters yöndeki şikâyet de sık gelir: rezervuar çok yavaş doluyor ya da hiç dolmuyor. Böyle olunca sorun genelde giriş tarafındadır.",
       },
       {
         p: "Sırasıyla bakılacaklar: ara musluk tam açık mı, bağlantı hortumu kıvrılmış mı, dolum valfinin girişindeki süzgeç tıkalı mı, dairenin genel su basıncı düşmüş mü? İlk üçü birkaç dakikada kontrol edilir.",
@@ -426,10 +406,7 @@ export const arizaPosts = [
 
       { h2: "Basıncın etkisi" },
       {
-        p: "Şebeke basıncı yüksek olan binalarda dolum valfleri daha çok zorlanır ve daha erken sızdırır. Aynı şekilde yüksek basınç, klapenin kapanma anında titremesine ve ses yapmasına yol açabilir.",
-      },
-      {
-        p: "Daire girişinde basınç düşürücü vana varsa ayarı gözden geçirilmeli. Basıncı makul aralığa çekmek, sadece rezervuarı değil tüm armatürlerin ömrünü uzatır.",
+        p: "Şebeke basıncı yüksek olan binalarda dolum valfleri daha çok zorlanır ve daha erken sızdırır. Aynı şekilde yüksek basınç, klapenin kapanma anında titremesine ve ses yapmasına yol açabilir. Daire girişinde basınç düşürücü vana varsa ayarı gözden geçirilmeli. Basıncı makul aralığa çekmek, sadece rezervuarı değil tüm armatürlerin ömrünü uzatır.",
       },
       {
         p: "Basıncın çok düşük olduğu durumlarda ise rezervuar yavaş dolar ve dolum valfi uzun süre açık kalır. Bu da parçanın yorulmasını hızlandırır.",
@@ -493,10 +470,7 @@ export const arizaPosts = [
 
       { h2: "Su tasarrufu tarafı" },
       {
-        p: "Rezervuar, evdeki en büyük su tüketicilerinden biridir. Sızdıran bir klapenin onarımı, tek başına farkedilir bir tasarruf sağlar.",
-      },
-      {
-        p: "Bunun ötesinde çift kademeli sistemler, doğru ayarlanmış su seviyesi ve zamanında değiştirilen contalar tüketimi düşürür. Hiçbiri konfordan ödün gerektirmiyor.",
+        p: "Rezervuar, evdeki en büyük su tüketicilerinden biridir. Sızdıran bir klapenin onarımı, tek başına farkedilir bir tasarruf sağlar. Bunun ötesinde çift kademeli sistemler, doğru ayarlanmış su seviyesi ve zamanında değiştirilen contalar tüketimi düşürür. Hiçbiri konfordan ödün gerektirmiyor.",
       },
       {
         p: "Yapılmaması gereken tek şey, sifon gücünü zayıflatacak kadar seviyeyi düşürmek: iki kez çekmek gerektiğinde tasarruf tersine dönüyor.",
@@ -533,7 +507,7 @@ export const arizaPosts = [
         ],
       },
       {
-        p: "Son madde özellikle önemli: taban contasından sızan su seramiğin altına girer ve alt kata geçebilir. Görünen su miktarı az olsa bile ertelenmemesi gereken bir durum.",
+        p: "Taban contası listenin en sinsi maddesi. Oradan sızan su seramiğin altına girer ve alt kata geçebilir. Görünen su miktarı az olsa bile ertelenmemesi gereken bir durum.",
       },
 
       { h2: "Kireçli suda ömür nasıl uzar?" },
@@ -574,7 +548,11 @@ export const arizaPosts = [
       },
       {
         q: "Sık sık aynı arıza tekrar ediyor, neden?",
-        a: "En yaygın sebep suyun sert olmasıdır; kireç sızdırmazlık yüzeylerinde birikerek klape ömrünü kısaltır. İkinci sebep yüksek şebeke basıncıdır. Yıllık basit bir temizlik ve gerekiyorsa basınç düşürücü vana ayarı, tekrar sıklığını belirgin azaltır.",
+        a: "En yaygın sebep suyun sert olmasıdır; kireç sızdırmazlık yüzeylerinde birikerek klape ömrünü kısaltır. İkinci sebep yüksek şebeke basıncıdır. Yıllık basit bir temizlik ve gerekiyorsa basınç düşürücü vana ayarı, tekrar sıklığını epeyce azaltır.",
+      },
+      {
+        q: "İç takım değişiminde marka uyumu şart mı?",
+        a: "Sifon gövdesi ve klape genelde markaya özgü ölçüdedir; tutmayan bir takım klozet deliğine oturmaz ya da oturuyormuş gibi görünüp sızdırır. Gömme rezervuarda kural daha katıdır, çünkü kapak boşluğu ve buton mili aynı üreticinin ölçüsüne göre planlanmıştır. Markası okunmayan eski rezervuarlarda gövdeyi komple değiştirmek daha az uğraştırır.",
       },
       {
         q: "Onarım mı, iç takım değişimi mi daha mantıklı?",
@@ -606,9 +584,9 @@ export const arizaPosts = [
     intro:
       "Banyoyu ne kadar temizlerseniz temizleyin geçmeyen bir koku varsa, kaynağı yüzeyde değil. Kanalizasyon ile eviniz arasında suyla oluşan görünmez bir bariyer vardır; koku geliyorsa o bariyer bir noktada kalkmıştır. Bu yazıda nerede kalktığını nasıl bulacağınızı anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Dört olası kaynak" },
       {
-        p: "<strong>Kanalizasyon kokusunun dört ana nedeni vardır: kuruyan sifon, sifonsuz veya yanlış bağlanmış gider, tıkalı gider havalandırması ve boru içinde biriken organik tabaka.</strong>",
+        p: "Kanalizasyon kokusunun dört ana nedeni vardır: kuruyan sifon, sifonsuz veya yanlış bağlanmış gider, tıkalı gider havalandırması ve boru içinde biriken organik tabaka.",
       },
       {
         p: "En sık karşılaşılan ve en kolay çözüleni birincisidir: az kullanılan bir giderin sifonundaki su buharlaşır ve koku serbestçe içeri girer. Çözümü bir bardak su dökmektir.",
@@ -616,13 +594,10 @@ export const arizaPosts = [
 
       { h2: "Su kilidi nasıl çalışır?" },
       {
-        p: "Her giderin altında U veya S biçiminde bir kıvrım bulunur. Bu kıvrımda sürekli bir miktar su kalır ve kanalizasyon gazının yukarı çıkmasını engeller. Buna su kilidi denir.",
+        p: "Her giderin altında U veya S biçiminde bir kıvrım bulunur. Bu kıvrımda sürekli bir miktar su kalır ve kanalizasyon gazının yukarı çıkmasını engeller. Buna su kilidi denir. Sistem basittir ama kırılgandır: kıvrımdaki su herhangi bir nedenle boşalırsa bariyer ortadan kalkar. Su buharlaşabilir, emilebilir veya basınç farkıyla dışarı itilebilir.",
       },
       {
-        p: "Sistem basittir ama kırılgandır: kıvrımdaki su herhangi bir nedenle boşalırsa bariyer ortadan kalkar. Su buharlaşabilir, emilebilir veya basınç farkıyla dışarı itilebilir.",
-      },
-      {
-        p: "Bu yüzden koku sorununda ilk soru hep aynı: hangi giderin su kilidi boşalmış? Cevabı bulmak, çözümün yarısını hallediyor.",
+        p: "O yüzden koku sorununda ilk soru hep aynı: hangi giderin su kilidi boşalmış? Cevabı bulmak, çözümün yarısını hallediyor.",
       },
 
       { h2: "1. Kuruyan sifon" },
@@ -638,7 +613,7 @@ export const arizaPosts = [
         ],
       },
       {
-        p: "Bu kadar basit bir nedenin bu kadar sık karşımıza çıkması şaşırtıcı olmuyor: koku geldiğinde akla ilk gelen şey tıkanıklık oluyor, oysa sorun tam tersi — hiç kullanılmayan bir gider.",
+        p: "Bu kadar basit bir nedenin bu kadar sık karşımıza çıkması şaşırtıcı olmuyor: koku geldiğinde akla ilk gelen şey tıkanıklık oluyor, oysa sorun tam tersidir. Hiç kullanılmayan bir gider.",
       },
 
       { h2: "2. Sifonu olmayan veya yanlış bağlanmış gider" },
@@ -660,22 +635,15 @@ export const arizaPosts = [
         p: "Belirtisi tipiktir: bir gider kullanıldığında başka bir giderden \"lok lok\" sesi gelir ve kısa süre sonra o giderden koku çıkar. Sifon boşaldığı için bariyer kalkmıştır.",
       },
       {
-        quote:
-          "Klozet çekildiğinde lavabo giderinden gurultu geliyorsa, sorun lavaboda değil; tesisatın nefes alamamasında.",
-      },
-      {
         p: "Çatıdaki havalandırma ağzı kuş yuvası, yaprak veya kar nedeniyle kapanabilir. Bina içinde ise tadilat sırasında kesilip kapatılmış olabilir; sık karşılaştığımız bir uygulama hatası.",
       },
 
       { h2: "4. Boru içindeki organik tabaka" },
       {
-        p: "Mutfak giderinde yağ, banyo giderinde saç ve sabun kalıntısı boru cidarında yapışkan bir tabaka oluşturur. Bu tabaka zamanla kokar ve tıkanmanın da ilk aşamasıdır.",
+        p: "Mutfak giderinde yağ, banyo giderinde saç ve sabun kalıntısı boru cidarında yapışkan bir tabaka oluşturur. Bu tabaka zamanla kokar ve tıkanmanın da ilk aşamasıdır. Bu durumda koku sifon kurumasından farklıdır: kanalizasyon kokusundan çok, ekşimiş ve yağlı bir kokudur, gidere yaklaştıkça ağırlaşır.",
       },
       {
-        p: "Bu durumda koku sifon kurumasından farklıdır: kanalizasyon kokusundan çok, ekşimiş ve yağlı bir kokudur ve gidere yaklaştıkça belirginleşir.",
-      },
-      {
-        p: "Çözüm mekanik temizliktir. Sifonun sökülüp elle temizlenmesi çoğu zaman yeterli olur; hat boyunca birikim varsa spiral veya basınçlı su ile temizlik gerekir.",
+        p: "Çözüm mekanik temizliktir. Sifonun sökülüp elle temizlenmesi ekseriyetle yeterli olur; hat boyunca birikim varsa spiral veya basınçlı su ile temizlik gerekir.",
       },
 
       { h2: "Koku türünü tanımak" },
@@ -738,10 +706,7 @@ export const arizaPosts = [
 
       { h2: "Duş teknesi ve gizli sifonlar" },
       {
-        p: "Duş tekneleri ve küvetler, altlarına yerleştirilen gizli sifonlarla bağlanır. Bu sifonlar görünmediği için temizlik listesine hiç girmez; oysa saç ve sabun kalıntısının en çok biriktiği yer orasıdır.",
-      },
-      {
-        p: "Çoğu modelde süzgeç kapağı çıkarıldığında sifonun iç kısmına erişilebilir. Erişilemeyen tasarımlarda ise temizlik için tekne altındaki servis kapağı gerekir; montaj sırasında bu kapağın bırakılmış olması önemlidir.",
+        p: "Duş tekneleri ve küvetler, altlarına yerleştirilen gizli sifonlarla bağlanır. Bu sifonlar görünmediği için temizlik listesine hiç girmez; oysa saç ve sabun kalıntısının en çok biriktiği yer orasıdır. Çoğu modelde süzgeç kapağı çıkarıldığında sifonun iç kısmına erişilebilir. Erişilemeyen tasarımlarda ise temizlik için tekne altındaki servis kapağı gerekir; montaj sırasında bu kapağın bırakılmış olması önemlidir.",
       },
       {
         p: "Küvet ve duş teknesi montajlarında en sık gördüğümüz eksik bu: erişim bırakılmadığı için, basit bir tıkanıklık seramik sökümü gerektiren bir işe dönüşüyor.",
@@ -752,7 +717,7 @@ export const arizaPosts = [
         p: "Kokusuz yer süzgeçleri, su kilidine ek olarak mekanik bir kapak veya membran içerir. Sifondaki su buharlaşsa bile bu kapak kapalı kaldığı için koku geçmez.",
       },
       {
-        p: "Az kullanılan banyolarda ve bodrum katlarında bu tip süzgeçler belirgin fark yaratıyor. Değişimi basittir; çoğu durumda mevcut süzgecin yerine takılabiliyor.",
+        p: "Az kullanılan banyolarda ve bodrum katlarında bu tip süzgeçler gözle görülür fark yaratıyor. Değişimi basittir; çoğu durumda mevcut süzgecin yerine takılabiliyor.",
       },
       {
         p: "Süzgeç seçerken temizlik kolaylığına da bakmak gerekir. Sökülüp temizlenemeyen bir süzgeç, birkaç ay içinde kendi başına koku kaynağına dönüşüyor.",
@@ -771,10 +736,7 @@ export const arizaPosts = [
 
       { h2: "Apartmanda ortak hat sorunu" },
       {
-        p: "Koku birden fazla dairede aynı anda başladıysa neden daire içinde değildir. Ortak kolonda birikim, kırık ya da havalandırma tıkanıklığı söz konusudur.",
-      },
-      {
-        p: "Bu durumda tek tek dairelerde yapılan temizlikler sonuç vermez; kolon hattının kamerayla görüntülenmesi ve gerekiyorsa basınçlı su ile temizlenmesi gerekir.",
+        p: "Koku birden fazla dairede aynı anda başladıysa neden daire içinde değildir. Ortak kolonda birikim, kırık ya da havalandırma tıkanıklığı söz konusudur. Öyle bir durumda tek tek dairelerde yapılan temizlikler sonuç vermez; kolon hattının kamerayla görüntülenmesi ve gerekiyorsa basınçlı su ile temizlenmesi gerekir.",
       },
       {
         p: "Maliyeti dairelere paylaştırıldığında küçük kalan bir iş, tek tek yapılan başarısız denemelerin toplamından çok daha ucuza geliyor.",
@@ -797,7 +759,7 @@ export const arizaPosts = [
 
       { h2: "Koku ve sağlık" },
       {
-        p: "Kanalizasyon gazı sadece rahatsız edici değildir; kapalı ve havalandırması zayıf ortamlarda baş ağrısı ve mide bulantısına yol açabilir. Bu nedenle koku sorunu ertelenmemeli.",
+        p: "Kanalizasyon gazı sadece rahatsız edici değildir; kapalı ve havalandırması zayıf ortamlarda baş ağrısı ve mide bulantısına yol açabilir. Bunun için koku sorunu ertelenmemeli.",
       },
       {
         p: "Özellikle bodrum katlarda ve penceresi olmayan banyolarda dikkat gerekir. Aspiratörün çalışır durumda olması hem kokuyu hem nemi kontrol altında tutar.",
@@ -808,7 +770,7 @@ export const arizaPosts = [
 
       { h2: "Nem ve küf kokusunu ayırmak" },
       {
-        p: "Her koku kanalizasyon kaynaklı değildir. Küf ve rutubet kokusu farklıdır: gidere yaklaşınca artmaz, duvara ve zemine yakın hissedilir, yağmurlu havalarda belirginleşir.",
+        p: "Her koku kanalizasyon kaynaklı değildir. Küf ve rutubet kokusu farklıdır: gidere yaklaşınca artmaz, duvara ve zemine yakın hissedilir, yağmurlu havalarda kuvvetlenir.",
       },
       {
         p: "Bu durumda aranacak şey sızıntı ve yalıtım sorunudur: duş teknesi altındaki nem, komşu daireden gelen kaçak veya dış duvardan çeken rutubet.",
@@ -819,10 +781,7 @@ export const arizaPosts = [
 
       { h2: "Rögar ve bahçe giderleri" },
       {
-        p: "Müstakil evlerde koku kaynağı bazen bina içinde değil, bahçedeki rögar veya sifon kutusudur. Kapağı tam oturmayan bir rögar, özellikle rüzgârlı havalarda kokuyu eve taşır.",
-      },
-      {
-        p: "Bahçe giderleri de yaprak ve toprakla dolduğunda su tutmaz hâle gelir. Bu giderler genelde hiç temizlenmediği için birikim yıllar içinde katılaşır.",
+        p: "Müstakil evlerde koku kaynağı bazen bina içinde değil, bahçedeki rögar veya sifon kutusudur. Kapağı tam oturmayan bir rögar, özellikle rüzgârlı havalarda kokuyu eve taşır. Bahçe giderleri de yaprak ve toprakla dolduğunda su tutmaz hâle gelir. Bu giderler genelde hiç temizlenmediği için birikim yıllar içinde katılaşır.",
       },
       {
         p: "Yılda bir kez bahçedeki tüm gider ve rögar kapaklarını açıp kontrol etmek, hem koku hem yağmurlu havalarda su birikmesi sorununu birlikte çözüyor.",
@@ -851,10 +810,6 @@ export const arizaPosts = [
       {
         q: "Çamaşır makinesi hortumunu doğrudan gidere takabilir miyim?",
         a: "Takılmamalıdır. Araya sifonlu bir bağlantı ağzı konmazsa koku için açık bir yol kalır; ayrıca pis suyun geri tepme riski doğar. Sifonlu bağlantı parçası küçük ve ucuzdur, kalıcı olarak sorunu bitirir.",
-      },
-      {
-        q: "Gider açıcı kimyasallar koku sorununu çözer mi?",
-        a: "Genelde hayır. Kuruyan sifona veya tıkalı havalandırmaya etkisi yoktur; yalnızca organik birikimde kısmi fayda sağlar. Sık kullanıldığında contaları ve bazı boru malzemelerini yıpratır. Mekanik temizlik hem daha etkili hem daha güvenlidir.",
       },
       {
         q: "Koku sadece bazı günler geliyor, neden?",
@@ -896,22 +851,22 @@ export const arizaPosts = [
       "Kireç görünmez bir yalıtım malzemesi gibi çalışır: ısıtıcı yüzeye oturur, ısıyı geçirmez, faturayı büyütür. Sonra da cihazı bitirir.",
     services: ["kombi-bakim-ariza", "sihhi-tesisat", "petek-temizligi"],
     intro:
-      "Duş başlığındaki beyaz kabuk, çaydanlığın dibindeki tabaka, birkaç yılda bir arızalanan kombi. Hepsinin ortak sebebi aynı: suyun sertliği. Kireç yavaş çalışır, bu yüzden fark edilmez; ama sistemin ömrünü belirleyen etkenlerin başında gelir.",
+      "Duş başlığındaki beyaz kabuk, çaydanlığın dibindeki tabaka, birkaç yılda bir arızalanan kombi. Hepsinin ortak sebebi aynı: suyun sertliği. Kireç yavaş çalışır, bu sebeple fark edilmez; ama sistemin ömrünü belirleyen etkenlerin başında gelir.",
     body: [
       { h2: "Kısa cevap" },
       {
         p: "<strong>Kireç, suda çözünmüş kalsiyum ve magnezyum tuzlarının ısınan yüzeylerde çökelmesiyle oluşur.</strong> En çok zararı ısıtıcı yüzeylerde verir: kombi eşanjörü, boyler direnci ve çamaşır makinesi rezistansı.",
       },
       {
-        p: "Su çok sertse merkezi bir yumuşatma sistemi mantıklıdır. Sertlik ortaysa düzenli bakım ve nokta çözümleri yeterli olur. Karar, tahminle değil sertlik ölçümüyle verilmelidir.",
+        p: "Su çok sertse merkezi bir yumuşatma sistemi mantıklıdır. Sertlik ortaysa düzenli bakım ve nokta çözümleri yeterli olur.",
+      },
+      {
+        p: "Karar, tahminle değil sertlik ölçümüyle verilmelidir.",
       },
 
       { h2: "Sertlik nedir, nasıl ölçülür?" },
       {
-        p: "Suyun sertliği, içindeki kalsiyum ve magnezyum miktarını ifade eder. Yüksekse su \"sert\", düşükse \"yumuşak\" sayılır. Sertlik arttıkça sabun daha az köpürür ve ısınan yüzeylerde birikim hızlanır.",
-      },
-      {
-        p: "Ölçüm için eczanelerde ve tesisat malzemecilerinde bulunan basit test kitleri kullanılabilir; birkaç damlayla sonuç verirler. Daha kesin sonuç için su analizi yaptırılır.",
+        p: "Suyun sertliği, içindeki kalsiyum ve magnezyum miktarını ifade eder. Yüksekse su \"sert\", düşükse \"yumuşak\" sayılır. Sertlik arttıkça sabun daha az köpürür ve ısınan yüzeylerde birikim hızlanır. Ölçüm için eczanelerde ve tesisat malzemecilerinde bulunan basit test kitleri kullanılabilir; birkaç damlayla sonuç verirler. Daha kesin sonuç için su analizi yaptırılır.",
       },
       {
         p: "İdarelerin yayımladığı su kalite raporlarında da bölgenizin sertlik değeri bulunabilir. Kuyu suyu kullanılıyorsa bu bilgi mevcut olmaz; ölçüm zorunlu hâle gelir.",
@@ -933,7 +888,7 @@ export const arizaPosts = [
         },
       },
       {
-        p: "Listedeki her kalem birbirinden bağımsız gibi görünse de kaynak aynı. Bu yüzden kireç sorununa tek tek cihaz bazında değil, sistem bazında bakmak gerekiyor.",
+        p: "Listedeki her kalem birbirinden bağımsız gibi görünse de kaynak aynı. kireç sorununa tek tek cihaz bazında değil, sistem bazında bakmak gerekiyor.",
       },
 
       { h2: "Isıtmada görünmeyen maliyet" },
@@ -941,7 +896,7 @@ export const arizaPosts = [
         p: "Kireç, ısı iletimini zayıflatan bir tabaka oluşturur. Isıtıcı yüzeyde biriken ince bir katman bile aynı sıcaklığı elde etmek için daha fazla yakıt harcanmasına yol açar.",
       },
       {
-        p: "Bu maliyet faturaya yayıldığı için fark edilmez. Kullanıcı genelde sorunu ancak sıcak su debisi belirgin düştüğünde veya kombi arıza verdiğinde anlar.",
+        p: "Bu maliyet faturaya yayıldığı için fark edilmez. Kullanıcı genelde sorunu ancak sıcak su debisi epeyce düştüğünde veya kombi arıza verdiğinde anlar.",
       },
       {
         p: "Aynı tabaka, ısıtıcı yüzeyin aşırı ısınmasına da yol açar. Rezistans ve eşanjör arızalarının önemli bölümü doğrudan bu nedene bağlanabiliyor.",
@@ -961,7 +916,7 @@ export const arizaPosts = [
         },
       },
       {
-        p: "Manyetik ve elektronik olarak tanıtılan bazı cihazların kireç üzerindeki etkisi tartışmalıdır; bağımsız ölçümlerle desteklenen sonuçlar sınırlıdır. Bu nedenle merkezi bir çözüm ararken iyon değişimli sistemler öne çıkıyor.",
+        p: "Manyetik ve elektronik olarak tanıtılan bazı cihazların kireç üzerindeki etkisi tartışmalıdır; bağımsız ölçümlerle desteklenen sonuçlar sınırlıdır. merkezi bir çözüm ararken iyon değişimli sistemler öne çıkıyor.",
       },
       {
         p: "Doğru yaklaşım, sertlik değerine ve korunacak cihaza göre seçim yapmak. Sadece kombiyi korumak isteyen bir evde tüm eve yumuşatıcı kurmak gereksiz olabiliyor.",
@@ -981,18 +936,15 @@ export const arizaPosts = [
         ],
       },
       {
-        p: "Son madde işletme maliyetini düşüren pratik bir detay: sulama suyunun yumuşatılmasına gerek yoktur, hat ayrımı yapıldığında hem tuz hem su tasarrufu sağlanır.",
+        p: "Sondaki kalem işletme maliyetini düşüren pratik bir detay: sulama suyunun yumuşatılmasına gerek yoktur, hat ayrımı yapıldığında hem tuz hem su tasarrufu sağlanır.",
       },
 
       { h2: "İçme suyu tarafı" },
       {
-        p: "Yumuşatılmış suyun sodyum içeriği bir miktar artar. Bu nedenle mutfaktaki içme–kullanma musluğunu yumuşatıcının öncesinden beslemek yaygın bir uygulamadır.",
+        p: "Yumuşatılmış suyun sodyum içeriği bir miktar artar. Bu yüzden mutfaktaki içme–kullanma musluğunu yumuşatıcının öncesinden beslemek yaygın bir uygulamadır. İçme suyu için ayrı bir arıtma isteniyorsa ters ozmoz sistemleri tercih edilir. Bu cihazlar tezgâh altına kurulur ve yalnızca tek bir musluğu besler.",
       },
       {
-        p: "İçme suyu için ayrı bir arıtma isteniyorsa ters ozmoz sistemleri tercih edilir. Bu cihazlar tezgâh altına kurulur ve yalnızca tek bir musluğu besler.",
-      },
-      {
-        p: "Sağlıkla ilgili bir beklenti varsa karar, suyun analiz sonucuna göre verilmeli. Cihaz seçimi bir tercih meselesi değil, suyun içeriğine verilen bir cevap olmalı.",
+        p: "Sağlıkla ilgili bir beklenti varsa karar, suyun analiz sonucuna göre verilmeli. Hangi cihazın alınacağına suyun içeriği karar verir.",
       },
 
       { h2: "Cihaz kapasitesi nasıl belirlenir?" },
@@ -1008,18 +960,18 @@ export const arizaPosts = [
 
       { h2: "Isıtma devresinde kireç" },
       {
-        p: "Kalorifer tesisatı kapalı bir devredir; içindeki su sürekli dolaşır ve normalde yenilenmez. Bu nedenle kireç sorunu, ancak devreye sık su takviyesi yapıldığında büyür.",
+        p: "Kalorifer tesisatı kapalı bir devredir; içindeki su sürekli dolaşır ve normalde yenilenmez. kireç sorunu, ancak devreye sık su takviyesi yapıldığında büyür.",
       },
       {
         p: "Yani ısıtma tarafında kireci besleyen şey kaçaktır. Basıncı sürekli düşen bir sistemde her takviye, devreye yeni kireç ve oksijen taşır; petekler ve eşanjör iki kat hızlı yıpranır.",
       },
       {
-        p: "Bu yüzden ısıtmada önce kaçak aranır. Kaçak giderildiğinde devre kendi suyuyla çalışmaya devam eder ve kireç sorunu kendiliğinden durur.",
+        p: "O nedenle ısıtmada önce kaçak aranır. Kaçak giderildiğinde devre kendi suyuyla çalışmaya devam eder ve kireç sorunu kendiliğinden durur.",
       },
 
       { h2: "Mevcut kireci temizlemek" },
       {
-        p: "Yumuşatma, gelecekteki birikimi önler; halihazırda oluşmuş tabakayı çözmez. Onun için ayrı bir temizlik gerekir.",
+        p: "Yumuşatma, gelecekteki birikimi önler; halihazırda oluşmuş tabakayı çözmez. Onun için ayrı bir temizlik gerekir. Sıralama da bellidir: önce mevcut kireç sökülür, sonra cihaz devreye alınır. Tersi yapıldığında yumuşak su eski tabakayı parça parça koparır ve bu parçalar süzgeçleri tıkar.",
       },
       {
         ol: [
@@ -1036,10 +988,10 @@ export const arizaPosts = [
 
       { h2: "Kireç mi, başka bir birikinti mi?" },
       {
-        p: "Beyaz ve pütürlü birikinti genelde kireçtir; ama her birikinti kireç değildir. Kırmızı–kahve renkli iz demir, siyah lekeler manganez, kaygan yeşilimsi tabaka ise organik gelişim işareti olabilir.",
+        p: "Beyaz ve pütürlü birikinti genelde kireçtir; ama her birikinti kireç değildir. Kırmızı–kahve renkli iz demir, siyah lekeler manganez, kaygan yeşilimsi tabaka ise organik gelişim işareti olabilir. Ayrım önemli çünkü çözümleri farklıdır: kireç için yumuşatma, demir için özel filtre, organik yük için dezenfeksiyon ve depo temizliği gerekir.",
       },
       {
-        p: "Ayrım önemli çünkü çözümleri farklıdır: kireç için yumuşatma, demir için özel filtre, organik yük için dezenfeksiyon ve depo temizliği gerekir. Yanlış teşhis, alınan cihazın işe yaramamasına yol açar.",
+        p: "Yanlış teşhis, alınan cihazın işe yaramamasına yol açar.",
       },
       {
         p: "Basit bir ayrım yöntemi: birikintiyi sirkeye koyun. Kireç köpürerek çözünür, demir oksit ve organik kalıntılar aynı tepkiyi vermez. Kesin sonuç için su analizi gerekir.",
@@ -1050,7 +1002,7 @@ export const arizaPosts = [
         p: "Damlama sulamada kireç, damlatıcıların içinde birikerek debiyi düşürür. Filtre bu birikimi engellemez; çünkü kireç suda çözünmüş hâldedir ve filtreden geçer.",
       },
       {
-        p: "Bu nedenle sert su kullanılan sistemlerde sezon sonu asit yıkaması standart bakımın parçasıdır. İşlem sonrası hattın bol temiz suyla yıkanması gerekir.",
+        p: "O yüzden sert su kullanılan sistemlerde sezon sonu asit yıkaması standart bakımın parçasıdır. İşlem sonrası hattın bol temiz suyla yıkanması gerekir.",
       },
       {
         p: "Tarımsal sistemlerde suyun sertliği aynı zamanda gübreleme programını da ilgilendirir; bazı gübrelerle birlikte çökelme riski artar. Analiz sonucuna göre planlamak bu riski azaltıyor.",
@@ -1082,7 +1034,7 @@ export const arizaPosts = [
         ul: [
           "Kombi, boyler, çamaşır ve bulaşık makinesi: kireçten en çok etkilenenler.",
           "Yerden ısıtmalı sistemler: devre suyunun kalitesi ekstra önemli.",
-          "Çok banyolu ve kalabalık haneler: tüketim yüksek, kazanç belirgin.",
+          "Çok banyolu ve kalabalık haneler: tüketim yüksek, kazanç büyük.",
           "Az kullanılan yazlık veya bağ evi: nokta çözümler daha mantıklı.",
         ],
       },
@@ -1120,10 +1072,7 @@ export const arizaPosts = [
 
       { h2: "Kombi ve boylerde kireç sökme zamanı" },
       {
-        p: "Kireç sökme işlemi, cihaz tamamen verim kaybetmeden yapılmalı. Sıcak su debisi belirgin düştüğünde ya da ısınma süresi uzadığında zaten geç kalınmış olur.",
-      },
-      {
-        p: "Doğru yaklaşım yıllık bakımı aksatmamak: her bakımda eşanjörün durumu değerlendirilir ve gerekiyorsa temizlik o sırada yapılır. Ayrı bir müdahale gerekmez.",
+        p: "Kireç sökme işlemi, cihaz tamamen verim kaybetmeden yapılmalı. Sıcak su debisi iyice düştüğünde ya da ısınma süresi uzadığında zaten geç kalınmış olur. Doğru yaklaşım yıllık bakımı aksatmamak: her bakımda eşanjörün durumu değerlendirilir ve gerekiyorsa temizlik o sırada yapılır. Ayrı bir müdahale gerekmez.",
       },
       {
         p: "Boylerlerde ise magnezyum anot çubuğu da kontrol edilmeli. Bu çubuk korozyona karşı feda edilen parçadır; tükendiğinde tankın kendisi korozyona açık kalıyor.",
@@ -1131,7 +1080,7 @@ export const arizaPosts = [
 
       { h2: "Malatya'da durum" },
       {
-        p: "Bölgede su sertliği yerleşime göre değişiyor; bazı mahallelerde belirgin şekilde yüksek. Bu yüzden \"Malatya suyu şöyledir\" gibi genel bir cümle kurmak doğru olmuyor, kendi adresinizin değerine bakmak gerekiyor.",
+        p: "Bölgede su sertliği yerleşime göre değişiyor; bazı mahallelerde fark edilir biçimde yüksek. Bunun için \"Malatya suyu şöyledir\" gibi genel bir cümle kurmak doğru olmuyor, kendi adresinizin değerine bakmak gerekiyor.",
       },
       {
         p: "Kuyu suyu kullanılan bahçe ve bağ evlerinde tablo daha da değişken. Aynı bölgedeki iki kuyunun sertliği farklı çıkabiliyor; karar her zaman analizle veriliyor.",
@@ -1197,7 +1146,7 @@ export const arizaPosts = [
       "Depremden sonra gözle görülen çatlaklar konuşulur; asıl riskli olan ise duvarın içinde kalan hatlardır. Kontrolün doğru sırası, güvenliği de maliyeti de belirliyor.",
     services: ["deprem-sonrasi-tadilat", "elektrik-tesisati", "bina-tesisat-yenileme"],
     intro:
-      "Sarsıntı bittikten sonra yapılan ilk kontrol, çoğu zaman gözle görülen hasara odaklanır. Oysa tesisat hasarı sinsi ilerler: gaz hattındaki küçük bir gevşeme, elektrik panosunda oynayan bir bağlantı, gömme borudaki ince bir çatlak. Bu yazı, neye hangi sırayla bakılacağını anlatıyor.",
+      "Sarsıntı bittikten sonra yapılan ilk kontrol, çoğunlukla gözle görülen hasara odaklanır. Oysa tesisat hasarı sinsi ilerler: gaz hattındaki küçük bir gevşeme, elektrik panosunda oynayan bir bağlantı, gömme borudaki ince bir çatlak. Bu yazı, neye hangi sırayla bakılacağını anlatıyor.",
     body: [
       { h2: "Kısa cevap" },
       {
@@ -1211,7 +1160,7 @@ export const arizaPosts = [
       {
         ol: [
           "Gaz kokusu alıyorsanız: ışık açmayın, priz kullanmayın, çakmak yakmayın. Doğalgaz vanasını kapatın, pencereleri açın, binayı terk edin ve ilgili kuruma bildirin.",
-          "Koku yoksa da yapıda belirgin hasar varsa doğalgaz vanasını kapatın.",
+          "Koku yoksa da yapıda ciddi hasar varsa doğalgaz vanasını kapatın.",
           "Elektrikte yanık kokusu, kıvılcım veya su teması varsa ana şalteri indirin.",
           "Su akışı, tavandan damlama veya duvarda hızla yayılan nem varsa ana su vanasını kapatın.",
           "Bina boşaltıldıysa üç hattı da kapalı bırakın.",
@@ -1223,18 +1172,18 @@ export const arizaPosts = [
 
       { h2: "Doğalgaz tarafı" },
       {
-        p: "Doğalgaz iç tesisatı, esnek bağlantıları ve vidalı ekleriyle sarsıntıdan etkilenebilir. Sayaç bağlantısı, kombi girişi ve ocak bağlantısı en çok zorlanan noktalardır.",
+        p: "Doğalgaz iç tesisatı, esnek bağlantıları ve vidalı ekleriyle sarsıntıdan etkilenebilir. Sayaç bağlantısı, kombi girişi ve ocak bağlantısı en çok zorlanan noktalardır. Sızdırmazlık kontrolü köpük testiyle yapılır; asla alevle aranmaz.",
       },
       {
-        p: "Sızdırmazlık kontrolü köpük testiyle yapılır; asla alevle aranmaz. Bu kontrolün yetkili kişilerce yapılması gerekir, çünkü sonuç sadece koku ile değil ölçümle doğrulanır.",
+        p: "Bu kontrolün yetkili kişilerce yapılması gerekir, çünkü sonuç sadece koku ile değil ölçümle doğrulanır.",
       },
       {
-        p: "Yapıda belirgin hasar varsa gaz, kontrol tamamlanana kadar kapalı tutulmalı. Isınma ihtiyacı bu kararın önüne geçmemeli; kontrolsüz açılan bir hat, en yüksek riski taşıyan seçenek.",
+        p: "Yapıda gözle görülür hasar varsa gaz, kontrol tamamlanana kadar kapalı tutulmalı. Isınma ihtiyacı bu kararın önüne geçmemeli; kontrolsüz açılan bir hat, en yüksek riski taşıyan seçenek.",
       },
 
       { h2: "Elektrik tesisatı" },
       {
-        p: "Elektrikte iki tür risk vardır: doğrudan hasar ve gizli hasar. Doğrudan hasar görülebilir — kopmuş kablo, düşmüş armatür, kırılmış priz. Gizli hasar ise duvar içindeki bağlantıların gevşemesi veya kablonun zorlanmasıdır.",
+        p: "Elektrikte iki tür risk vardır: doğrudan hasar ve gizli hasar. Doğrudan hasar görülebilir: kopmuş kablo, düşmüş armatür, kırılmış priz. Gizli hasar ise duvar içindeki bağlantıların gevşemesi veya kablonun zorlanmasıdır.",
       },
       {
         ul: [
@@ -1276,7 +1225,7 @@ export const arizaPosts = [
         },
       },
       {
-        p: "Bu hasarların ortak özelliği, hemen belirti vermemeleri. Bu yüzden deprem sonrası kontrolü tek seferlik bir iş olarak değil, birkaç hafta sürecek bir gözlem dönemi olarak düşünmek gerekiyor.",
+        p: "Bu hasarların ortak özelliği, hemen belirti vermemeleri. deprem sonrası kontrolü tek seferlik bir iş olarak değil, birkaç hafta sürecek bir gözlem dönemi olarak düşünmek gerekiyor.",
       },
 
       { h2: "Duvar çatlağı ile tesisat ilişkisi" },
@@ -1287,19 +1236,12 @@ export const arizaPosts = [
         p: "Çatlağın onarımı sırasında hattın kontrol edilmesi, aynı duvarı iki kez açmayı önler. Sıva kapatıldıktan sonra ortaya çıkan bir sızıntı, yapılan işin bir bölümünü baştan yaptırır.",
       },
       {
-        quote:
-          "Duvar zaten açıksa, içinden geçen hattın kontrolü neredeyse bedavadır. Kapatıldıktan sonra aynı iş, kırım maliyetiyle birlikte geri gelir.",
-      },
-      {
         p: "Yapısal hasar değerlendirmesi ayrı bir uzmanlık alanıdır ve yetkili kişilerce yapılmalıdır. Tesisat kontrolü, o değerlendirmenin yerine geçmez; onunla birlikte yürütülür.",
       },
 
       { h2: "Depo, hidrofor ve mekanik hacimler" },
       {
-        p: "Su deposu ve hidrofor grubu, ağırlıkları nedeniyle sarsıntıda yer değiştirebilir. Bağlantı rakorları zorlanır, esnek bağlantılar yorulur, kaide sabitlemesi gevşer.",
-      },
-      {
-        p: "Kontrolde şunlara bakılır: deponun kaidesi üzerinde oturuşu, giriş–çıkış bağlantılarında sızıntı, pompa kaidesinin sabitliği, pano bağlantılarının durumu.",
+        p: "Su deposu ve hidrofor grubu, ağırlıkları nedeniyle sarsıntıda yer değiştirebilir. Bağlantı rakorları zorlanır, esnek bağlantılar yorulur, kaide sabitlemesi gevşer. Kontrolde şunlara bakılır: deponun kaidesi üzerinde oturuşu, giriş–çıkış bağlantılarında sızıntı, pompa kaidesinin sabitliği, pano bağlantılarının durumu.",
       },
       {
         p: "Bu hacimler genelde bodrumda ve gözden uzak olduğu için kontrol atlanabiliyor. Oysa buradaki küçük bir sızıntı, günlerce fark edilmeden ciddi bir su kaybına dönüşüyor.",
@@ -1380,10 +1322,7 @@ export const arizaPosts = [
 
       { h2: "Kayıt tutmak" },
       {
-        p: "Kontrol sırasında gördüklerinizi fotoğraflayın ve tarih atın. Hangi noktada ne bulunduğu, ne yapıldığı ve kim tarafından kontrol edildiği yazılı olmalı.",
-      },
-      {
-        p: "Bu kayıt iki işe yarar: ilerleyen haftalarda yeni bir belirti çıktığında karşılaştırma imkânı verir ve sigorta ya da yönetim süreçlerinde dayanak oluşturur.",
+        p: "Kontrol sırasında gördüklerinizi fotoğraflayın ve tarih atın. Hangi noktada ne bulunduğu, ne yapıldığı ve kim tarafından kontrol edildiği yazılı olmalı. Bu kayıt iki işe yarar: ilerleyen haftalarda yeni bir belirti çıktığında karşılaştırma imkânı verir ve sigorta ya da yönetim süreçlerinde dayanak oluşturur.",
       },
       {
         p: "Apartmanlarda ortak alanlara ait kontrollerin yönetim tarafından toplu yaptırılması hem maliyeti düşürüyor hem kayıt bütünlüğü sağlıyor.",
@@ -1416,7 +1355,7 @@ export const arizaPosts = [
         p: "Onarımdan önce fotoğraf çekmek, yapılan işin faturasını ve raporunu saklamak bu süreçte belirleyici oluyor. Onarım tamamlandıktan sonra geriye dönük belgelemek çok daha zor.",
       },
       {
-        p: "Poliçe kapsamının ne olduğu şirkete göre değişir; bu nedenle işlem başlamadan önce sigortacıya bilgi vermek en pratik yol. Süreç, tespit sırasına göre ilerlediğinde tartışma çıkmıyor.",
+        p: "Poliçe kapsamının ne olduğu şirkete göre değişir; o yüzden işlem başlamadan önce sigortacıya bilgi vermek en pratik yol. Süreç, tespit sırasına göre ilerlediğinde tartışma çıkmıyor.",
       },
 
       { h2: "Sonraki haftalarda izlenecekler" },
@@ -1458,6 +1397,10 @@ export const arizaPosts = [
       {
         q: "Nokta onarımı mı, komple yenileme mi?",
         a: "Tek noktada sorun varsa ve hat yeniyse nokta onarımı yeterlidir. Birden fazla noktada belirti çıkıyorsa hattın bütünü değerlendirilmelidir. Tadilat zaten planlanıyorsa ve duvarlar açılacaksa, tesisat kararını öne almak ikinci bir kırımı ortadan kaldırır.",
+      },
+      {
+        q: "Kontrolün hangi kısmını kendim yapabilirim?",
+        a: "Gözle bakılan kısmı ev sahibi yapabilir: gaz kokusu, tavan ve duvarda ıslaklık, priz ile anahtarlarda kararma, kimse su kullanmazken sayacın dönüp dönmediği. Ölçüm isteyen her şey ustalık işidir. Topraklama ve izolasyon ölçümü, gaz hattı sızdırmazlık testi ve gizli kaçak tespiti cihazla yapılır; bu üçünde tahminle karar verilmez.",
       },
       {
         q: "Kontrol sonrası neleri takip etmeliyim?",

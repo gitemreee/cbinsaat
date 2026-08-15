@@ -55,7 +55,7 @@ export const cepheBahceServices = [
     ],
     faqs: [
       { q: "Mantolama kendini kaç yılda amorti eder?", a: "Isıtma gideri ve yalıtımsız duruma göre değişiyor. Yalıtımsız bir binada tipik olarak 5–8 yıl aralığı konuşuluyor. Keşifte binanızın mevcut durumuna göre gerçekçi bir aralık veriyoruz; kesin rakam vaat etmiyoruz." },
-      { q: "Tek daireye mantolama yapılır mı?", a: "Yapılabiliyor ama verim binanın tamamına yapıldığındaki kadar olmuyor; komşu duvarlardan ısı köprüsü devam ediyor. Yine de dış duvarı çok olan köşe dairelerde belirgin fark yaratıyor." },
+      { q: "Tek daireye mantolama yapılır mı?", a: "Yapılabiliyor ama verim binanın tamamına yapıldığındaki kadar olmuyor; komşu duvarlardan ısı köprüsü devam ediyor. Yine de dış duvarı çok olan köşe dairelerde gözle görülür fark yaratıyor." },
       { q: "Ne kadar sürer?", a: "5 katlı bir apartmanın cephesi 3–5 hafta. İskele kurulumu ve hava koşulları süreyi etkiliyor; yağışta sıva ve boya yapılmıyor." },
       { q: "Dış cephe boyası da dahil mi?", a: "Dekoratif kaplama ve son kat boya teklife dahil ediliyor. Hangi ürün ve kaç kat uygulanacağı yazılı belirtiliyor." },
     ],
@@ -76,12 +76,12 @@ export const cepheBahceServices = [
       "Malatya'da dış cephe boyası, cephe çatlak onarımı, yüzey temizliği ve bina giriş cephesi düzenlemesi. İskele ve güvenlik dahil yazılı teklif.",
     keywords: ["Malatya dış cephe boya", "bina cephe boyası Malatya", "cephe yenileme Malatya", "apartman dış boya"],
     intro:
-      "Dış cephe boyası, iç boyadan farklı bir iş. Güneş, yağmur ve donma-çözülme döngüsü, iç mekânda hiç karşılaşmadığınız bir yük bindiriyor. Bu yüzden ürün ve hazırlık burada çok daha belirleyici.",
+      "Dış cephe boyası, iç boyadan farklı bir iş. Güneş, yağmur ve donma-çözülme döngüsü, iç mekânda hiç karşılaşmadığınız bir yük bindiriyor. O yüzden ürün ve hazırlık burada çok daha belirleyici.",
     symptoms: [
       { title: "Cephe rengi soldu, kirlendi", text: "Ömrünü doldurmuş boya; temizlik ve yenileme gerekiyor." },
       { title: "Boya kabarıp dökülüyor", text: "Altta nem var ya da astar atlanmış." },
       { title: "Cephede saç çatlakları var", text: "Onarılmadan boya atılırsa çatlaklar boyanın altından çıkıyor." },
-      { title: "Bina girişi eskimiş", text: "Cephe boyasıyla birlikte giriş düzenlemesi binanın değerini belirgin değiştiriyor." },
+      { title: "Bina girişi eskimiş", text: "Cephe boyasıyla birlikte giriş düzenlemesi binanın değerini epeyce değiştiriyor." },
     ],
     scope: [
       "İskele kurulumu ve güvenlik önlemleri",
@@ -158,7 +158,7 @@ export const cepheBahceServices = [
     body: [
       { h2: "Yalıtımın zayıf noktası: birleşimler" },
       { p: "Su, yüzeyin ortasından değil kenarlarından giriyor. Duvar ile döşemenin birleştiği yer, gider çevresi ve parapet dibi; sızıntıların neredeyse tamamı bu üç noktadan başlıyor." },
-      { p: "Bu yüzden yalıtımı duvara doğru 20–30 cm yukarı taşıyoruz ve köşelere ilave bant uyguluyoruz. Bu detay, uygulamanın diğer kısmından daha önemli." },
+      { p: "Bunun için yalıtımı duvara doğru 20–30 cm yukarı taşıyoruz ve köşelere ilave bant uyguluyoruz. Bu detay, uygulamanın diğer kısmından daha önemli." },
 
       { h2: "Eğim yoksa yalıtım tek başına yetmez" },
       { p: "Terasta ve balkonda su gidere yönelmelidir. Eğimi olmayan bir yüzeyde su birikiyor ve en küçük zayıflıktan içeri giriyor. Sadece yalıtım yapıp eğim düzeltmemek sorunu ertelemek oluyor." },
@@ -221,7 +221,7 @@ export const cepheBahceServices = [
     body: [
       { h2: "Önce kablo ve boru, sonra taş" },
       { p: "Bahçe işlerinde en sık yapılan hata sıralamayı bozmak. Kilit taşı döşendikten sonra sulama hattı veya aydınlatma kablosu çekmek, taşları sökmek demek." },
-      { p: "Bu yüzden bahçe projesinde önce şunu konuşuyoruz: nereye ışık, nereye sulama, nereye priz. Şimdilik istemediğiniz noktalar için bile boş boru bırakıyoruz; maliyeti neredeyse yok, sonradan kazandırdığı çok." },
+      { p: "Dolayısıyla bahçe projesinde önce şunu konuşuyoruz: nereye ışık, nereye sulama, nereye priz. Şimdilik istemediğiniz noktalar için bile boş boru bırakıyoruz; maliyeti neredeyse yok, sonradan kazandırdığı çok." },
 
       { h2: "Drenaj: binanın temeline yapılan yatırım" },
       { p: "Bahçede biriken su, bina temeline ve bodrum duvarına yöneliyor. Yıllar içinde bu, rutubet ve sıva dökülmesi olarak kendini gösteriyor." },
@@ -243,7 +243,7 @@ export const cepheBahceServices = [
     faqs: [
       { q: "Kilit taşı mı beton zemin mi?", a: "Kilit taşı sökülüp yeniden döşenebiliyor; altına sonradan müdahale kolay. Beton zemin daha düz ve temizliği kolay ama müdahale gerektiğinde kırmak gerekiyor. Otoparkta beton, yaya alanında kilit taşı yaygın tercih." },
       { q: "Bahçe aydınlatmasını da siz yapıyor musunuz?", a: "Evet. Kablolama, dış mekân armatürleri, koruma ve otomatik kontrol bizde. Elektrik ekibi bizim ekibimizde olduğu için bahçe işiyle birlikte yürüyor." },
-      { q: "Otomatik sulama kurar mısınız?", a: "Kuruyoruz. Zon planı, vana, kontrol ünitesi ve yağmur sensörü dahil. Bahçe düzenlemesiyle birlikte yapıldığında maliyeti belirgin düşüyor." },
+      { q: "Otomatik sulama kurar mısınız?", a: "Kuruyoruz. Zon planı, vana, kontrol ünitesi ve yağmur sensörü dahil. Bahçe düzenlemesiyle birlikte yapıldığında maliyeti epeyce düşüyor." },
       { q: "İstinat duvarı için proje gerekiyor mu?", a: "Yüksekliğe ve zemin durumuna göre değişiyor. Belirli yüksekliği aşan duvarlarda yetkili statik ekibin hesabı gerekiyor; hesapsız duvar yapmıyoruz." },
     ],
     localAngle: "Malatya'da bağ evi ve müstakil ev bahçelerinde otopark ve sulama talebi",
@@ -283,7 +283,7 @@ export const cepheBahceServices = [
     ],
     body: [
       { h2: "Yüzey işlemi, demirin ömrü" },
-      { p: "Kaynak sonrası cüruf temizliği, taşlama, yağ alma ve antipas astar; bu dört adım yapılmadan atılan boya kısa ömürlü oluyor. Dış mekânda bu daha da belirgin." },
+      { p: "Kaynak sonrası cüruf temizliği, taşlama, yağ alma ve antipas astar; bu dört adım yapılmadan atılan boya kısa ömürlü oluyor. Dış mekânda fark daha da açık." },
       { p: "Uzun ömür isteniyorsa galvaniz kaplama en iyi çözüm; maliyeti yüksek ama bakım gerektirmiyor. Bütçeye göre iki seçeneği de sunuyoruz." },
 
       { h2: "Korkulukta güvenlik ölçüleri" },
@@ -364,7 +364,7 @@ export const cepheBahceServices = [
       "Raporlama sıklığı",
     ],
     faqs: [
-      { q: "Sadece proje yönetimi hizmeti alabilir miyim?", a: "Alabilirsiniz. Kendi ustalarınızla çalışıyorsanız metraj, program, koordinasyon ve kontrol tarafını üstlenebiliyoruz. Bu durumda bedel işin kapsamına göre ayrıca belirleniyor." },
+      { q: "Sadece proje yönetimi hizmeti alabilir miyim?", a: "Alabilirsiniz. Kendi ustalarınızla çalışıyorsanız metraj, program, koordinasyon ve kontrol tarafını üstlenebiliyoruz. Öyle bir durumda bedel işin kapsamına göre ayrıca belirleniyor." },
       { q: "İş programını görebiliyor muyum?", a: "Evet. Program sözleşme ekinde yer alıyor ve haftalık olarak güncelleniyor. Nerede olduğumuzu ve sıradaki kalemi her zaman görüyorsunuz." },
       { q: "Teslim sonrası destek ne kadar sürüyor?", a: "Teslimden sonra ortaya çıkan eksikler için bir dönem boyunca ücretsiz dönüyoruz. Süre ve kapsam sözleşmede yazılı oluyor; sözlü söz vermiyoruz." },
       { q: "Yetkili proje ekipleriyle nasıl çalışıyorsunuz?", a: "Mimari, statik ve mekanik proje ile ruhsat süreçleri yetkili ekiplerin sorumluluğunda. Biz bu ekiplerle koordineli çalışıp uygulamayı yürütüyoruz; kimin neyi imzaladığı baştan belli oluyor." },

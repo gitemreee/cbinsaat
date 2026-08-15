@@ -147,7 +147,7 @@ export const bahcePosts = [
 
       { h2: "Filtreleme: damlamanın olmazsa olmazı" },
       { p: "Damlatıcı delikleri çok küçük; kum, tortu ve alg tıkanmaya yol açıyor. Kuyu ve gölet suyunda filtre istasyonu zorunlu." },
-      { p: "Hidrosiklon (kum ayırıcı) ve disk/eleman filtre kombinasyonu yaygın. Filtrelerin düzenli temizliği sistemin ömrünü doğrudan belirliyor." },
+      { p: "Hidrosiklon (kum ayırıcı) ve disk/eleman filtre kombinasyonu yaygın. Filtrelerin düzenli temizliği sistemin ömrünü tek başına belirliyor." },
 
       { h2: "Kayısı bahçesinde" },
       { p: "Malatya'da kayısıda damlama sulama, salma sulamaya göre hem su hem işçilik tasarrufu sağlıyor. Ağaç başına damlatıcı sayısı toprak yapısına göre belirleniyor." },
@@ -155,7 +155,7 @@ export const bahcePosts = [
 
       { h2: "Karma çözüm" },
       { p: "Aynı arazide iki sistem birlikte kullanılabiliyor: ağaçlarda damlama, ara çim alanda yağmurlama. Zonlar ayrı kurulup ayrı programlanıyor." },
-      { p: "Bu durumda pompa ve filtre istasyonu her iki sistemin ihtiyacına göre boyutlanıyor." },
+      { p: "Böyle bir durumda pompa ve filtre istasyonu her iki sistemin ihtiyacına göre boyutlanıyor." },
     ],
     faqs: [
       { q: "Damlama hattı kaç yıl kullanılır?", a: "Kaliteli boru ve düzgün filtrelemeyle uzun yıllar kullanılıyor. Ömrü kısaltan ana etken tıkanma ve UV; hattın toprak altına alınması ömrü uzatıyor." },
@@ -367,7 +367,7 @@ export const bahcePosts = [
       { p: "Sıcak renk sıcaklığı (2700–3000K) hem daha davetkâr hem böcekleri daha az çekiyor. Bahçede soğuk beyaz ışık genelde iyi sonuç vermiyor." },
     ],
     faqs: [
-      { q: "Bahçe aydınlatması ne kadar elektrik harcar?", a: "LED armatürlerle tüketim çok düşük. Asıl belirleyici armatür sayısı ve yanma süresi; zaman kontrolüyle gece yarısından sonra kapatmak tüketimi belirgin düşürüyor." },
+      { q: "Bahçe aydınlatması ne kadar elektrik harcar?", a: "LED armatürlerle tüketim çok düşük. Asıl belirleyici armatür sayısı ve yanma süresi; zaman kontrolüyle gece yarısından sonra kapatmak tüketimi epeyce düşürüyor." },
       { q: "Solar bahçe armatürleri işe yarar mı?", a: "Dekoratif ve düşük ışık ihtiyacında yarıyor. Yol ve merdiven aydınlatması gibi güvenlik amaçlı yerlerde kablolu sistem daha güvenilir." },
       { q: "Mevcut bahçeye sonradan kurulabilir mi?", a: "Kurulabiliyor. Kilit taşı varsa kenar kanallardan geçiş yapılabiliyor; çim alanda kanal açma yöntemiyle minimum hasarla çalışılıyor." },
     ],
@@ -404,7 +404,7 @@ export const bahcePosts = [
 
       { h2: "Sulama otomasyonu" },
       { p: "Zon vanaları, kontrol ünitesi ve gerekiyorsa nem sensörü. Otomasyon, sulamayı bitkinin ihtiyacına göre yapmayı sağlıyor." },
-      { p: "Gübreli sulama (fertigasyon) yapılacaksa dozaj pompası ve karışım tankı sisteme entegre ediliyor. Bu durumda filtreleme daha da kritik." },
+      { p: "Gübreli sulama (fertigasyon) yapılacaksa dozaj pompası ve karışım tankı sisteme entegre ediliyor. Böyle olunca filtreleme daha da kritik." },
 
       { h2: "Havalandırma ve ısıtma kontrolü" },
       { p: "Yan perde ve tepe pencere motorları, sıcaklık sensörüne bağlı olarak otomatik çalışabiliyor. Bu, seranın iç iklimini dengeliyor." },
@@ -507,7 +507,7 @@ export const bahcePosts = [
 
       { h2: "Akustik dinleme" },
       { p: "Basınçlı hattan sızan su, borularda ve zeminde belirli bir frekansta ses üretiyor. Yer mikrofonuyla bu ses dinlenip kaynak noktası daraltılıyor." },
-      { p: "Basınç ne kadar yüksekse ses o kadar net. Bu yüzden tespit sırasında hat basınçlandırılıyor." },
+      { p: "Basınç ne kadar yüksekse ses o kadar net. Dolayısıyla tespit sırasında hat basınçlandırılıyor." },
 
       { h2: "Basınç testi" },
       { p: "Hat izole edilip basınç altına alınıyor ve manometre izleniyor. Basınç düşüyorsa o hatta kaçak var demektir." },

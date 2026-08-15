@@ -23,14 +23,14 @@ export const kuyuPosts = [
       "Kablodan yapılan tasarruf, ilk yıl içinde motor sarımı olarak geri dönüyor. Kesit hesabı aslında tek satırlık bir formül; asıl mesele hangi değerlerin kullanıldığı.",
     services: ["hidrofor-pompa-sistemleri", "elektrik-panosu", "tarimsal-sulama-sistemleri"],
     intro:
-      "Derin kuyularda kablo uzunluğu yüz metreyi rahatlıkla geçiyor. Bu mesafede kablonun kendi direnci üzerinde kaybolan gerilim, motora düşük gerilim olarak yansıyor; motor daha fazla akım çekiyor ve zamanla sargı yanıyor. Kesit seçimi bu yüzden bir tercih değil, hesap işi.",
+      "Derin kuyularda kablo uzunluğu yüz metreyi rahatlıkla geçiyor. Bu mesafede kablonun kendi direnci üzerinde kaybolan gerilim, motora düşük gerilim olarak yansıyor; motor daha fazla akım çekiyor ve zamanla sargı yanıyor. Kesit seçimi o yüzden bir tercih değil, hesap işi.",
     body: [
-      { h2: "Kısa cevap" },
+      { h2: "Hesabın özeti" },
       {
-        p: "<strong>Kablo kesiti; motorun etiket akımı, kablonun toplam uzunluğu ve kabul edilen gerilim düşümü üzerinden hesaplanır.</strong> Uygulamada motor besleme hatlarında gerilim düşümü %3–5 aralığında tutulur; hesap sonucu çıkan değer bir üst standart kesite yuvarlanır.",
+        p: "Kablo kesiti; motorun etiket akımı, kablonun toplam uzunluğu ve kabul edilen gerilim düşümü üzerinden hesaplanır. Uygulamada motor besleme hatlarında gerilim düşümü %3–5 aralığında tutulur; hesap sonucu çıkan değer bir üst standart kesite yuvarlanır.",
       },
       {
-        p: "Pratik kural: aynı motor için kablo uzunluğu iki katına çıktığında kesit de kabaca iki katına çıkar. Tek fazlı motorlar, aynı güçte üç fazlıya göre çok daha yüksek akım çektiği için belirgin şekilde kalın kablo ister.",
+        p: "Pratik kural: aynı motor için kablo uzunluğu iki katına çıktığında kesit de kabaca iki katına çıkar. Tek fazlı motorlar, aynı güçte üç fazlıya göre çok daha yüksek akım çektiği için gözle görülür biçimde kalın kablo ister.",
       },
 
       { h2: "Gerilim düşümü neden bu kadar önemli?" },
@@ -38,7 +38,7 @@ export const kuyuPosts = [
         p: "Motor, etiketinde yazan gerilimin belirli bir toleransı içinde çalışmak üzere tasarlanır. Gerilim düştüğünde motorun ürettiği moment azalır; aynı işi yapabilmek için daha fazla akım çeker. Akım arttıkça sargı ısınır ve yalıtım ömrü kısalır.",
       },
       {
-        p: "Isınmanın yalıtım üzerindeki etkisi doğrusal değildir. Sargı sıcaklığındaki sürekli birkaç derecelik artış bile ömrü belirgin biçimde kısaltır. Dolayısıyla \"biraz ince kablo çektik, çalışıyor işte\" durumu, arızayı ortadan kaldırmaz; sadece ertelenmiş hâle getirir.",
+        p: "Isınmanın yalıtım üzerindeki etkisi doğrusal değildir. Sargı sıcaklığındaki sürekli birkaç derecelik artış bile ömrü gözle görülür şekilde kısaltır. Dolayısıyla \"biraz ince kablo çektik, çalışıyor işte\" durumu, arızayı ortadan kaldırmaz; sadece ertelenmiş hâle getirir.",
       },
       {
         p: "İkinci etki kalkışta ortaya çıkar. Motor kalkarken nominal akımın birkaç katını çeker ve o anda gerilim düşümü de aynı oranda büyür. Zaten sınırda olan bir hatta motor kalkamaz, uğuldar ve termik atar.",
@@ -63,7 +63,7 @@ export const kuyuPosts = [
 
       { h2: "Yaklaşık kesit tablosu" },
       {
-        p: "Aşağıdaki tablo, 400 volt üç fazlı besleme ve yaklaşık %3 gerilim düşümü kabulüyle hazırlanmış <strong>yol gösterici</strong> değerler içerir. Kesin seçim; üretici tablosu, yol verme yöntemi ve proje koşullarına göre yapılır.",
+        p: "Aşağıdaki tablo, 400 volt üç fazlı besleme ve yaklaşık %3 gerilim düşümü kabulüyle hazırlanmış yol gösterici değerler içerir. Kesin seçim; üretici tablosu, yol verme yöntemi ve proje koşullarına göre yapılır.",
       },
       {
         table: {
@@ -79,10 +79,7 @@ export const kuyuPosts = [
         },
       },
       {
-        p: "Tek fazlı motorlarda aynı güç için akım yaklaşık üç katına çıkar; bu nedenle tabloya göre bir–iki kademe kalın kesit gerekir. Tek fazlı derin kuyu uygulamalarında kablo maliyeti, üç fazlı çözüme geçmeyi çoğu zaman mantıklı kılar.",
-      },
-      {
-        p: "Yumuşak yol verici veya frekans sürücü kullanılıyorsa kalkış akımı düştüğü için koşullar rahatlar; buna karşılık sürücülerde ekranlı kablo ve topraklama düzeni ayrı bir gereklilik hâline gelir.",
+        p: "Tek fazlı motorlarda aynı güç için akım yaklaşık üç katına çıkar; bu nedenle tabloya göre bir–iki kademe kalın kesit gerekir. Tek fazlı derin kuyu uygulamalarında kablo maliyeti, üç fazlı çözüme geçmeyi çoğu zaman mantıklı kılar. Yumuşak yol verici veya frekans sürücü kullanılıyorsa kalkış akımı düştüğü için koşullar rahatlar; buna karşılık sürücülerde ekranlı kablo ve topraklama düzeni ayrı bir gereklilik hâline gelir.",
       },
 
       { h2: "Hangi kablo tipi kullanılmalı?" },
@@ -119,7 +116,7 @@ export const kuyuPosts = [
 
       { h2: "Pano nerede durmalı?" },
       {
-        p: "Panonun yeri, kablo hesabını doğrudan etkiler. Kuyuya yakın konumlandırılan bir pano toplam kablo boyunu kısaltır; hem kesit küçülür hem maliyet düşer. Buna karşılık pano açık alanda, güneşte ve yağmurda kalacaksa uygun koruma sınıfında bir kabin gerekir.",
+        p: "Panonun yeri, kablo hesabını etkiler. Kuyuya yakın konumlandırılan bir pano toplam kablo boyunu kısaltır; hem kesit küçülür hem maliyet düşer. Buna karşılık pano açık alanda, güneşte ve yağmurda kalacaksa uygun koruma sınıfında bir kabin gerekir.",
       },
       {
         p: "Uygulamada tercih edilen çözüm, panoyu kuyu ağzına yakın bir gölgelikte veya küçük bir kabinde konumlandırmak ve besleme hattını daha kalın kesitle uzaktan getirmektir. Böylece motor hattı kısa kalır, uzun mesafedeki kayıp ise besleme tarafında yönetilir.",
@@ -159,15 +156,15 @@ export const kuyuPosts = [
         ],
       },
       {
-        p: "Kesit farkını anlamanın pratik yolu, kablonun ucundan bir kesit alıp ölçmektir. Etiketinde yazandan ince çıkan kablo, hesaplanan gerilim düşümünü tutturamaz ve yapılan tüm hesabı geçersiz kılar.",
-      },
-      {
-        p: "Kuyu sistemlerinde kablo, sonradan değiştirilmesi en zahmetli parçadır; pompanın çıkarılmasını gerektirir. Bu yüzden ilk kurulumda kaliteden ödün vermemek, sonraki yıllarda zamandan ve paradan tasarruf sağlar.",
+        p: "Kesit farkını anlamanın pratik yolu, kablonun ucundan bir kesit alıp ölçmektir. Etiketinde yazandan ince çıkan kablo, hesaplanan gerilim düşümünü tutturamaz ve yapılan tüm hesabı geçersiz kılar. Kuyu sistemlerinde kablo, sonradan değiştirilmesi en zahmetli parçadır; pompanın çıkarılmasını gerektirir. Dolayısıyla ilk kurulumda kaliteden ödün vermemek, sonraki yıllarda zamandan ve paradan tasarruf sağlar.",
       },
 
       { h2: "İzolasyon ölçümü ile erken teşhis" },
       {
-        p: "Motor sargısının toprağa karşı yalıtım direnci, megger adı verilen cihazla ölçülür. Bu ölçüm, henüz arıza çıkmadan sorunu görmenin en güvenilir yolu. Değer zamanla düşüyorsa motor veya kablo su alıyor demektir.",
+        p: "Motor sargısının toprağa karşı yalıtım direnci, megger adı verilen cihazla ölçülür. Bu ölçüm, henüz arıza çıkmadan sorunu görmenin en güvenilir yolu.",
+      },
+      {
+        p: "Değer zamanla düşüyorsa motor veya kablo su alıyor demektir.",
       },
       {
         p: "Ölçümü yıllık bakımın parçası hâline getirmek, özellikle tarımsal sulamada büyük fark yaratıyor. Sezon ortasında beklenmedik şekilde duran bir pompa, sadece tamir maliyeti değil; sulanamayan günler anlamına da geliyor.",
@@ -198,21 +195,18 @@ export const kuyuPosts = [
 
       { h2: "Tarımsal hatlarda gerilim sorunu" },
       {
-        p: "Kırsal besleme hatlarında gerilim, özellikle sulama sezonunda belirgin şekilde düşer. Aynı trafodan beslenen çok sayıda pompa aynı saatlerde çalıştığında, hattın sonundaki abonede gerilim nominal değerin altına iner.",
+        p: "Kırsal besleme hatlarında gerilim, özellikle sulama sezonunda hissedilir ölçüde düşer. Aynı trafodan beslenen çok sayıda pompa aynı saatlerde çalıştığında, hattın sonundaki abonede gerilim nominal değerin altına iner.",
       },
       {
         p: "Bu durumda kablo kesiti doğru seçilmiş olsa bile motor düşük gerilimle çalışır. Çözüm iki yönlüdür: pano tarafında gerilim koruma rölesi kullanmak ve mümkünse çalışma saatlerini yoğun olmayan zamanlara kaydırmak.",
       },
       {
-        p: "Ölçüm yapılmadan yorum yapılmaz. Pompa çalışırken pano girişinde ölçülen gerilim, sorunun kaynağının hat mı yoksa kendi tesisatınız mı olduğunu doğrudan gösterir.",
+        p: "Ölçüm yapılmadan yorum yapılmaz. Pompa çalışırken pano girişinde ölçülen gerilim, sorunun kaynağının hat mı yoksa kendi tesisatınız mı olduğunu gösterir.",
       },
 
       { h2: "Malatya ve çevresinde sık gördüğümüz durum" },
       {
-        p: "Bölgede kuyu sistemlerinin önemli bölümü kayısı bahçelerinde ve tarımsal sulamada çalışıyor. Kuyular derin, arazi hatları uzun ve pano çoğu zaman kuyudan hayli uzakta konumlanıyor.",
-      },
-      {
-        p: "Bu üçlü bir araya geldiğinde hesap dışı gerilim düşümü kaçınılmaz oluyor. Kurulum sırasında iki kademe kalın seçilen bir kablo, sonradan yapılacak motor sarımlarının maliyetiyle kıyaslandığında küçük bir kalem olarak kalıyor.",
+        p: "Bölgede kuyu sistemlerinin önemli bölümü kayısı bahçelerinde ve tarımsal sulamada çalışıyor. Kuyular derin, arazi hatları uzun ve pano çoğunlukla kuyudan hayli uzakta konumlanıyor. Bu üçlü bir araya geldiğinde hesap dışı gerilim düşümü kaçınılmaz oluyor. Kurulum sırasında iki kademe kalın seçilen bir kablo, sonradan yapılacak motor sarımlarının maliyetiyle kıyaslandığında küçük bir kalem olarak kalıyor.",
       },
       {
         p: "Sezon başlamadan yapılan basit bir kontrol; kablo ekleri, izolasyon direnci ve pano gerilimi üçlüsüne bakmak, sezon ortasındaki acil çağrıların çoğunu ortadan kaldırıyor.",
@@ -236,7 +230,7 @@ export const kuyuPosts = [
     faqs: [
       {
         q: "Dalgıç pompa kablosunda gerilim düşümü ne kadar olmalı?",
-        a: "Motor besleme hatlarında genellikle %3–5 aralığı kabul edilir. Hesap %3 üzerinden yapıldığında kalkış anındaki ek düşüm için pay kalmış olur. Sınırda kalan bir seçim, motor kalkarken gerilimin çok düşmesine ve termik atmasına yol açabilir.",
+        a: "Motor besleme hatlarında çoğunlukla %3–5 aralığı kabul edilir. Hesap %3 üzerinden yapıldığında kalkış anındaki ek düşüm için pay kalmış olur. Sınırda kalan bir seçim, motor kalkarken gerilimin çok düşmesine ve termik atmasına yol açabilir.",
       },
       {
         q: "Kablo uzunluğuna kuyu derinliği mi yoksa toplam mesafe mi yazılır?",
@@ -244,15 +238,11 @@ export const kuyuPosts = [
       },
       {
         q: "Tek fazlı dalgıç pompa için kablo daha mı kalın olmalı?",
-        a: "Evet. Tek fazlı motorlar aynı güç için çok daha yüksek akım çeker, dolayısıyla aynı uzunlukta belirgin kalın kesit gerekir. Derin kuyularda bu fark maliyeti hızla büyütür; bu nedenle uygun altyapı varsa üç fazlı çözüm hem teknik hem ekonomik olarak öne çıkar.",
+        a: "Evet. Tek fazlı motorlar aynı güç için çok daha yüksek akım çeker, dolayısıyla aynı uzunlukta daha kalın kesit gerekir. Derin kuyularda bu fark maliyeti hızla büyütür; bunun için uygun altyapı varsa üç fazlı çözüm hem teknik hem ekonomik olarak öne çıkar.",
       },
       {
         q: "Kuyu içinde kablo eki yapılabilir mi?",
         a: "Mümkünse yapılmamalıdır. Zorunlu hâllerde su altı kullanımı için üretilmiş reçineli veya ısıyla daralan ek kitleri kullanılır. Bant, makaron veya standart buat kısa sürede su alır; izolasyon direnci düşer ve kaçak akım rölesi atmaya başlar. Ek yapılan derinlik not edilmelidir.",
-      },
-      {
-        q: "Alüminyum kablo kullanılabilir mi?",
-        a: "Uzun arazi hatlarında maliyet nedeniyle tercih edilebilir, ancak aynı kesitte bakırdan daha yüksek direnç gösterdiği için kesitin büyütülmesi gerekir. Ayrıca bağlantı noktalarında oksitlenmeye karşı uygun klemens ve macun kullanılmalıdır. Kuyu içi bölümde bakır dalgıç kablo tercih edilir.",
       },
       {
         q: "Motor sık sık termikten atıyor, kablo mu suçlu?",
@@ -261,10 +251,6 @@ export const kuyuPosts = [
       {
         q: "İzolasyon direnci kaçın altına düşerse müdahale gerekir?",
         a: "Mutlak eşikten çok eğilim önemlidir. Yıllık ölçümlerde değer sürekli düşüyorsa, kablo veya motor su almaya başlamıştır. Ani ve büyük düşüşler ise acil müdahale gerektirir. Ölçüm sonuçlarının kaydedilmesi, arızayı oluşmadan görmenin en pratik yoludur.",
-      },
-      {
-        q: "Frekans sürücü kullanınca kablo seçimi değişir mi?",
-        a: "Evet. Kalkış akımı düştüğü için gerilim düşümü açısından koşullar rahatlar, ancak sürücü çıkışında ekranlı kablo ve doğru topraklama gerekir. Uzun motor kablolarında ayrıca çıkış filtresi gerekebilir. Bu detaylar atlandığında parazit ve yalıtım zorlanması sorunları ortaya çıkar.",
       },
     ],
     related: ["dalgic-pompa-calismiyor", "kuru-calisma-korumasi", "kuyu-pompasi-basinc-sorunu"],
@@ -287,14 +273,13 @@ export const kuyuPosts = [
       "pompa yeniden indirme",
     ],
     excerpt:
-      "Pompayı kuyudan çıkarmak, arıza aramanın ilk adımı değil son adımı olmalı. Doğru sırayla yapıldığında çoğu zaman hiç çıkarmaya gerek kalmıyor.",
+      "Pompayı kuyudan çıkarmak, arıza aramanın ilk adımı değil son adımı olmalı. Doğru sırayla yapıldığında sıklıkla hiç çıkarmaya gerek kalmıyor.",
     services: ["hidrofor-pompa-sistemleri", "tarimsal-sulama-sistemleri", "elektrik-panosu"],
     intro:
       "Kuyudan pompa çıkarmak; vinç, ekip ve zaman isteyen pahalı bir işlem. Buna rağmen arıza anında ilk akla gelen çözüm oluyor. Halbuki sahada gördüğümüz arızaların önemli bölümü elektriksel ve pompa hiç çıkarılmadan çözülüyor. Bu yazıda hem çıkarma öncesi kontrol sırasını hem de çıkarma gerektiğinde izlenecek yolu anlatıyoruz.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Pompa çıkarılmadan önce enerji, koruma elemanları, kumanda devresi ve motor izolasyon direnci sırayla kontrol edilir.</strong> Bu dört adım temiz çıkarsa arıza mekaniktir ve çıkarma gerekir; aksi hâlde sorun kuyunun dışındadır.",
+        p: "Pompa çıkarılmadan önce enerji, koruma elemanları, kumanda devresi ve motor izolasyon direnci sırayla kontrol edilir. Bu dört adım temiz çıkarsa arıza mekaniktir ve çıkarma gerekir; aksi hâlde sorun kuyunun dışındadır.",
       },
       {
         p: "Çıkarma işlemi en az iki kişiyle, uygun kaldırma ekipmanıyla ve kuyu ağzı güvenliği sağlanarak yapılır. Elle çekmeye çalışmak hem tehlikeli hem de boru ve kablonun zarar görmesine yol açar.",
@@ -346,7 +331,7 @@ export const kuyuPosts = [
         ],
       },
       {
-        p: "Kuyu ağzı, saha güvenliği açısından ciddiye alınması gereken bir açıklıktır. Çıkarma sırasında bir parçanın kuyuya düşmesi, işi bambaşka bir sorunla büyütür; düşen parçayı çıkarmak çoğu zaman pompayı çıkarmaktan zordur.",
+        p: "Kuyu ağzı, saha güvenliği açısından ciddiye alınması gereken bir açıklıktır. Çıkarma sırasında bir parçanın kuyuya düşmesi, işi bambaşka bir sorunla büyütür; düşen parçayı çıkarmak pompayı çıkarmaktan zordur.",
       },
 
       { h2: "Çıkarma sırası" },
@@ -367,7 +352,7 @@ export const kuyuPosts = [
 
       { h2: "Pompa çıktığında neye bakılır?" },
       {
-        p: "Kuyudan çıkan pompa, kuyu hakkında da bilgi verir. Yüzeydeki izler çoğu zaman arızanın neden oluştuğunu anlatır:",
+        p: "Kuyudan çıkan pompa, kuyu hakkında da bilgi verir. Yüzeydeki izler genelde arızanın neden oluştuğunu anlatır:",
       },
       {
         ul: [
@@ -411,10 +396,7 @@ export const kuyuPosts = [
         ],
       },
       {
-        p: "Bu hataların ortak özelliği, hepsinin zaman kazanmak için yapılıyor olması. Uygulamada ise her biri işi uzatan, bazen tamamen kurtarma operasyonuna çeviren sonuçlar doğuruyor.",
-      },
-      {
-        p: "İşe başlamadan önce beş dakikalık bir plan yapmak; kimin neyi kontrol edeceği, yükün nereden alınacağı ve boruların nereye dizileceği konuşulduğunda, çıkarma işlemi belirgin şekilde hızlanıyor.",
+        p: "Bu hataların ortak özelliği, hepsinin zaman kazanmak için yapılıyor olması. Uygulamada ise her biri işi uzatan, bazen tamamen kurtarma operasyonuna çeviren sonuçlar doğuruyor. İşe başlamadan önce beş dakikalık bir plan yapmak; kimin neyi kontrol edeceği, yükün nereden alınacağı ve boruların nereye dizileceği konuşulduğunda, çıkarma işlemi hızlanıyor.",
       },
 
       { h2: "Boru ve bağlantı seçimi" },
@@ -482,10 +464,7 @@ export const kuyuPosts = [
 
       { h2: "Kendiniz yapmalı mısınız?" },
       {
-        p: "Sığ kuyularda, hafif PE borulu ve küçük güçlü sistemlerde çıkarma işlemi deneyimli bir kişi için yapılabilir. Ancak derin kuyularda toplam yük yüzlerce kiloyu bulur ve kontrolsüz bir kayma ciddi yaralanmaya yol açar.",
-      },
-      {
-        p: "Karar verirken üç soruya bakın: toplam yükü güvenle kaldıracak ekipmanınız var mı, kuyu ağzı güvenliğini sağlayabiliyor musunuz ve bir parça düştüğünde ne yapacağınızı biliyor musunuz? Üçünden birine \"hayır\" diyorsanız iş profesyonele bırakılmalıdır.",
+        p: "Sığ kuyularda, hafif PE borulu ve küçük güçlü sistemlerde çıkarma işlemi deneyimli bir kişi için yapılabilir. Ancak derin kuyularda toplam yük yüzlerce kiloyu bulur ve kontrolsüz bir kayma ciddi yaralanmaya yol açar. Karar verirken üç soruya bakın: toplam yükü güvenle kaldıracak ekipmanınız var mı, kuyu ağzı güvenliğini sağlayabiliyor musunuz ve bir parça düştüğünde ne yapacağınızı biliyor musunuz? Üçünden birine \"hayır\" diyorsanız iş profesyonele bırakılmalıdır.",
       },
       {
         p: "Elektriksel kontrolleri ise kendiniz yaptırıp sonucu paylaşmanız işi hızlandırır. Arızanın elektriksel mi mekanik mi olduğu önceden bilindiğinde, sahaya gelen ekip doğru ekipmanla gelir ve iş tek seferde biter.",
@@ -639,10 +618,7 @@ export const kuyuPosts = [
 
       { h2: "Şamandıra mı, elektrot mu?" },
       {
-        p: "Şamandıra mekaniktir; suyla birlikte yükselip alçalan bir yüzücü içindeki kontağı açar veya kapatır. Basit ve ucuzdur, elektriksel iletkenliğe bağlı değildir. Buna karşılık hareketli parçası vardır ve zamanla takılabilir.",
-      },
-      {
-        p: "Elektrotta hareketli parça yoktur, arıza olasılığı düşüktür; ancak kireç ve suyun iletkenliği performansını etkiler. Depoda köpük veya yağ tabakası varsa yanlış okuma yapabilir.",
+        p: "Şamandıra mekaniktir; suyla birlikte yükselip alçalan bir yüzücü içindeki kontağı açar veya kapatır. Basit ve ucuzdur, elektriksel iletkenliğe bağlı değildir. Buna karşılık hareketli parçası vardır ve zamanla takılabilir. Elektrotta hareketli parça yoktur, arıza olasılığı düşüktür; ancak kireç ve suyun iletkenliği performansını etkiler. Depoda köpük veya yağ tabakası varsa yanlış okuma yapabilir.",
       },
       {
         p: "Uygulamada seçim depo tipine göre yapılır: küçük ve kolay erişilen depolarda şamandıra pratiktir; büyük, kapalı ve erişimi zor depolarda elektrot daha az bakım ister.",
@@ -650,7 +626,7 @@ export const kuyuPosts = [
 
       { h2: "Kuyularda akım izlemeli koruma" },
       {
-        p: "Dalgıç pompalarda seviye ölçmek her zaman kolay değildir. Bu nedenle yaygın yöntem, motorun çektiği akımı izlemektir. Pompa susuz kaldığında yük azalır, akım belirgin biçimde düşer; röle bunu algılayıp pompayı durdurur.",
+        p: "Dalgıç pompalarda seviye ölçmek her zaman kolay değildir. yaygın yöntem, motorun çektiği akımı izlemektir. Pompa susuz kaldığında yük azalır, akım açıkça düşer; röle bunu algılayıp pompayı durdurur.",
       },
       {
         p: "Ayar, pompanın normal çalışma akımı ölçülerek yapılır. Eşik çok yakın seçilirse gereksiz duruşlar olur; çok uzak seçilirse koruma geç devreye girer. Devreye alma sırasında yapılan doğru ayar, sonraki yılların sorunsuz geçmesini sağlar.",
@@ -671,7 +647,7 @@ export const kuyuPosts = [
         ],
       },
       {
-        p: "Bu nedenlerin çoğu tesadüf değil, tekrar eden durumlar. Kesintinin sık yaşandığı bölgelerde koruma ihtiyacı çok daha belirgin; çünkü depo boşaldığında sistem kendi başına yanlış bir şey yapmaya devam eder.",
+        p: "Bu nedenlerin çoğu tesadüf değil, tekrar eden durumlar. Kesintinin sık yaşandığı bölgelerde koruma ihtiyacı çok daha ağır basıyor; çünkü depo boşaldığında sistem kendi başına yanlış bir şey yapmaya devam eder.",
       },
 
       { h2: "Depolu sistemde koruma zinciri" },
@@ -696,7 +672,7 @@ export const kuyuPosts = [
         p: "Sulamada kuru çalışma riski, konut sistemlerinden daha yüksektir. Sistem çoğu zaman programlıdır ve kimsenin başında olmadığı saatlerde çalışır. Kaynak kuruduğunda ya da ana vana kapalı kaldığında pompa saatlerce boşa çalışabilir.",
       },
       {
-        p: "Bu nedenle otomatik sulama sistemlerinde koruma, kontrol ünitesiyle birlikte kurgulanır. Pompa rölesi, koruma devresi üzerinden beslenir; koruma attığında hem pompa durur hem program iptal olur.",
+        p: "Bu yüzden otomatik sulama sistemlerinde koruma, kontrol ünitesiyle birlikte kurgulanır. Pompa rölesi, koruma devresi üzerinden beslenir; koruma attığında hem pompa durur hem program iptal olur.",
       },
       {
         p: "İkinci bir önlem, sulama programını gündüz saatlerine almak. Gece yapılan sulamanın buharlaşma açısından avantajı var; ancak arızanın fark edilmesi açısından dezavantajlı. İkisi arasındaki denge, sistemin izlenebilirliğine göre kurulur.",
@@ -704,10 +680,7 @@ export const kuyuPosts = [
 
       { h2: "Elektrik kesintisinden sonra ne olmalı?" },
       {
-        p: "Kesinti sonrası enerji geldiğinde sistemin ne yapacağı önceden belirlenmelidir. Otomatik devreye girme, kullanıcı açısından konforludur; fakat depo hâlâ boşsa pompa yine susuz çalışmaya başlar.",
-      },
-      {
-        p: "Doğru kurgu, korumanın enerji geldiğinde de aktif olması ve pompanın ancak yeterli su varken çalışmasıdır. Bunun için koruma rölesinin kendi kendini sıfırlamayan tipte seçilmesi ya da gecikmeli yeniden başlatma ayarı yapılması gerekir.",
+        p: "Kesinti sonrası enerji geldiğinde sistemin ne yapacağı önceden belirlenmelidir. Otomatik devreye girme, kullanıcı açısından konforludur; fakat depo hâlâ boşsa pompa yine susuz çalışmaya başlar. Doğru kurgu, korumanın enerji geldiğinde de aktif olması ve pompanın ancak yeterli su varken çalışmasıdır. Bunun için koruma rölesinin kendi kendini sıfırlamayan tipte seçilmesi ya da gecikmeli yeniden başlatma ayarı yapılması gerekir.",
       },
       {
         p: "Şebeke kesintisinin sık yaşandığı bölgelerde bu detay belirleyici. Kesinti sırasında boşalan bir depo, enerji geldiği anda korumasız bir sistemi doğrudan arızaya sürüklüyor.",
@@ -746,7 +719,7 @@ export const kuyuPosts = [
         p: "Kuru çalışma yalnızca kuyu sistemlerinin sorunu değil. Şebekeden doğrudan beslenen bir hidroforda su kesildiğinde pompa aynı şekilde susuz çalışır ve aynı hasarı görür.",
       },
       {
-        p: "Bu nedenle şebeke kesintisinin sık yaşandığı bölgelerde hidrofor emişine düşük basınç anahtarı konulması öneriliyor. Basınç belirlenen eşiğin altına indiğinde pompa durur ve su geldiğinde tekrar devreye girer.",
+        p: "Şebeke kesintisinin sık yaşandığı bölgelerde hidrofor emişine düşük basınç anahtarı konulması öneriliyor. Basınç belirlenen eşiğin altına indiğinde pompa durur ve su geldiğinde tekrar devreye girer.",
       },
       {
         p: "Depolu sistemlerde ise koruma deponun içindedir. Depo boşaldığında pompayı durduran seviye kontrolü, bu sistemlerde en kritik güvenlik elemanı; kesintide boşalan depo, korumasız bir pompayı birkaç saat içinde bitirir.",
@@ -766,10 +739,6 @@ export const kuyuPosts = [
             ["Yeniden başlamıyor", "Bekleme süresi çok uzun ayarlı", "Parametre düzeltmesi"],
           ],
         },
-      },
-      {
-        quote:
-          "Korumayı köprüleyerek çözülen her gereksiz duruş, birkaç ay sonra çok daha pahalı bir motor arızası olarak geri geliyor.",
       },
 
       { h2: "Koruma varken pompa neden yandı?" },
@@ -793,13 +762,10 @@ export const kuyuPosts = [
 
       { h2: "Maliyet karşılaştırması" },
       {
-        p: "Kuru çalışma koruması, bir pompa sisteminin en ucuz bileşenlerinden biridir. Buna karşılık önlediği arıza; motor sarımı, salmastra değişimi, pompanın kuyudan çıkarılması ve kaybedilen kullanım günleri anlamına gelir.",
+        p: "Kuru çalışma koruması, bir pompa sisteminin en ucuz bileşenlerinden biridir. Buna karşılık önlediği arıza; motor sarımı, salmastra değişimi, pompanın kuyudan çıkarılması ve kaybedilen kullanım günleri anlamına gelir. Tarımsal sulamada hesap daha da netleşir. Sezon ortasında üç gün duran bir sulama, sadece tamir masrafı değil; verim kaybı olarak da geri döner. Koruma elemanının bedeli bu tablonun yanında ihmal edilebilir kalıyor.",
       },
       {
-        p: "Tarımsal sulamada hesap daha da netleşir. Sezon ortasında üç gün duran bir sulama, sadece tamir masrafı değil; verim kaybı olarak da geri döner. Koruma elemanının bedeli bu tablonun yanında ihmal edilebilir kalıyor.",
-      },
-      {
-        p: "Bu yüzden yeni kurulumlarda kuru çalışma korumasını pazarlık konusu yapmıyoruz. Sistem tasarımının bir parçası olarak, seviye kontrolü ve gerilim koruması ile birlikte planlanıyor.",
+        p: "Yeni kurulumlarda kuru çalışma korumasını pazarlık konusu yapmıyoruz. Sistem tasarımının bir parçası olarak, seviye kontrolü ve gerilim koruması ile birlikte planlanıyor.",
       },
     ],
     faqs: [
@@ -861,9 +827,8 @@ export const kuyuPosts = [
     intro:
       "Kuyudan gelen suda kum görmek çoğu kişiye normal gelir; \"kuyu suyu böyle olur\" denip geçilir. Halbuki sağlıklı çalışan bir kuyudan sürekli kum gelmez. Kum, kuyunun ya da pompanın bir şeyi yanlış yaptığını söyler ve bunun bedelini önce pompa, sonra tesisat öder.",
     body: [
-      { h2: "Kısa cevap" },
       {
-        p: "<strong>Sürekli kum gelmesinin başlıca nedenleri şunlardır: pompanın kuyu dibine fazla yakın konumlandırılması, kuyunun verebileceğinden fazla su çekilmesi, filtre borusu ve çakıl zarfındaki eksiklik ve kuyu geliştirmesinin yetersiz yapılmış olması.</strong>",
+        p: "Sürekli kum gelmesinin başlıca nedenleri şunlardır: pompanın kuyu dibine fazla yakın konumlandırılması, kuyunun verebileceğinden fazla su çekilmesi, filtre borusu ve çakıl zarfındaki eksiklik ve kuyu geliştirmesinin yetersiz yapılmış olması.",
       },
       {
         p: "Yeni açılan bir kuyudan ilk günlerde kum gelmesi beklenir ve zamanla azalır. Aylar sonra hâlâ kum geliyorsa bu artık normal değil; kuyu veya pompa tarafında müdahale gerekir.",
@@ -874,7 +839,7 @@ export const kuyuPosts = [
         p: "Kuyu, çevresindeki zeminden su çeker. Suyun geçtiği noktada filtre borusu ve etrafındaki çakıl zarfı, ince taneleri tutup suyu geçirecek şekilde tasarlanır. Bu tasarım doğru yapılmadığında ince taneler suyla birlikte kuyuya taşınır.",
       },
       {
-        p: "İkinci kaynak kuyu dibinde biriken tortudur. Pompa çok aşağıda konumlandırılmışsa, emiş bu birikintiyi doğrudan çeker. Bu durumda kuyunun kendisi sağlam olsa bile su kumlu gelir.",
+        p: "İkinci kaynak kuyu dibinde biriken tortudur. Pompa çok aşağıda konumlandırılmışsa, emiş bu birikintiyi doğrudan çeker. Böyle bir durumda kuyunun kendisi sağlam olsa bile su kumlu gelir.",
       },
       {
         p: "Üçüncü kaynak kaplama borusundaki hasardır. Korozyon veya deformasyonla açılan bir noktadan zemin malzemesi kuyuya dolabilir. Bu, en zor düzeltilen durumdur ve genelde kuyu içi kamera incelemesiyle tespit edilir.",
@@ -882,13 +847,10 @@ export const kuyuPosts = [
 
       { h2: "Aşırı çekimin rolü" },
       {
-        p: "Her kuyunun bir verimi vardır: birim zamanda güvenle çekilebilecek su miktarı. Bu sınır aşıldığında kuyu çevresindeki akış hızlanır ve normalde yerinde kalan ince taneler suyla birlikte sürüklenir.",
+        p: "Her kuyunun bir verimi vardır: birim zamanda güvenle çekilebilecek su miktarı. Bu sınır aşıldığında kuyu çevresindeki akış hızlanır ve normalde yerinde kalan ince taneler suyla birlikte sürüklenir. Belirtisi tipiktir: pompa çalışmaya başladıktan bir süre sonra su bulanıklaşır, durunca berraklaşır. Sulama sezonunda kumun artması, kışın azalması da aynı nedene işaret eder.",
       },
       {
-        p: "Belirtisi tipiktir: pompa çalışmaya başladıktan bir süre sonra su bulanıklaşır, durunca berraklaşır. Sulama sezonunda kumun artması, kışın azalması da aynı nedene işaret eder.",
-      },
-      {
-        p: "Çözüm çoğu zaman daha güçlü pompa değil, daha ölçülü çekimdir. Debinin düşürülmesi veya sulamanın gün içinde bölünmesi, kum sorununu tek başına belirgin biçimde azaltabiliyor.",
+        p: "Çözüm ekseriyetle daha güçlü pompa değil, daha ölçülü çekimdir. Debinin düşürülmesi veya sulamanın gün içinde bölünmesi, kum sorununu tek başına azaltabiliyor.",
       },
 
       { h2: "Pompa kotu doğru mu?" },
@@ -904,7 +866,10 @@ export const kuyuPosts = [
         },
       },
       {
-        p: "Doğru kot kararı kuyu logu ile verilir. Log yoksa, dinamik seviye ölçümü yapılarak güvenli bir aralık belirlenir. Pompanın birkaç metre yukarı alınması, bazı kuyularda kum sorununu tek başına çözüyor.",
+        p: "Doğru kot kararı kuyu logu ile verilir. Log yoksa, dinamik seviye ölçümü yapılarak güvenli bir aralık belirlenir.",
+      },
+      {
+        p: "Pompanın birkaç metre yukarı alınması, bazı kuyularda kum sorununu tek başına çözüyor.",
       },
       {
         p: "Kot değişikliği pompanın çıkarılmasını gerektirdiği için, aynı işlemde emniyet halatı, kablo kelepçeleri ve boru ekleri de gözden geçirilmelidir. Tek seferde yapılan iş, ayrı ayrı yapılan işlerden hem ucuz hem hızlı olur.",
@@ -915,7 +880,7 @@ export const kuyuPosts = [
         p: "Kuyu açıldıktan sonra yapılan geliştirme işlemi, filtre çevresindeki ince malzemeyi kontrollü şekilde dışarı almayı amaçlar. Doğru yapıldığında kuyu temiz su verir ve verimi artar; eksik yapıldığında ince taneler yıllarca gelmeye devam eder.",
       },
       {
-        p: "Geliştirme yetersizse sonradan da yapılabilir. Uygulanan yönteme göre kuyu içinde basınçlı hava, mekanik fırçalama veya kontrollü pompaj kullanılır. İşlem sonrası su berraklığı belirgin şekilde iyileşir.",
+        p: "Geliştirme yetersizse sonradan da yapılabilir. Uygulanan yönteme göre kuyu içinde basınçlı hava, mekanik fırçalama veya kontrollü pompaj kullanılır. İşlem sonrası su berraklığı epeyce iyileşir.",
       },
       {
         p: "Bu işlemi yaptırmadan pompa değiştirmek çoğu zaman para kaybı. Kum kaynağı yerinde durduğu sürece yeni pompa da aynı şekilde aşınır.",
@@ -952,7 +917,7 @@ export const kuyuPosts = [
         ],
       },
       {
-        p: "İlk üç adım genelde bir gün içinde tamamlanır ve maliyet gerektirmez. Doğrudan altıncı adımdan başlamak, çoğu zaman gereksiz bir masraf olarak kalıyor.",
+        p: "İlk üç adım genelde bir gün içinde tamamlanır ve maliyet gerektirmez. Doğrudan altıncı adımdan başlamak, çoğunlukla gereksiz bir masraf olarak kalıyor.",
       },
 
       { h2: "Kum ayırıcı ve filtre seçenekleri" },
@@ -969,15 +934,12 @@ export const kuyuPosts = [
         },
       },
       {
-        p: "Kuyu çıkışına konan siklon ayırıcı, en yaygın ve pratik çözümdür. Ağır taneleri suyun dönüş hareketiyle ayırır ve altındaki hazneye biriktirir. Haznenin düzenli boşaltılması, işin devamlılığı için şart.",
-      },
-      {
-        p: "Filtre seçimi tek başına yeterli değildir; nereye konulduğu da önemlidir. Pompadan sonra konan filtre pompayı korumaz, sadece tesisatı korur. Pompayı korumanın yolu kuyu tarafındaki nedeni gidermekten geçer.",
+        p: "Kuyu çıkışına konan siklon ayırıcı, en yaygın ve pratik çözümdür. Ağır taneleri suyun dönüş hareketiyle ayırır ve altındaki hazneye biriktirir. Haznenin düzenli boşaltılması, işin devamlılığı için şart. Filtre seçimi tek başına yeterli değildir; nereye konulduğu da önemlidir. Pompadan sonra konan filtre pompayı korumaz, sadece tesisatı korur. Pompayı korumanın yolu kuyu tarafındaki nedeni gidermekten geçer.",
       },
 
       { h2: "Ne kadar kum normal?" },
       {
-        p: "Pratik bir kontrol yöntemi var: temiz bir kap suyla doldurulup birkaç dakika bekletilir. Kabın dibinde gözle görülür bir tabaka oluşuyorsa miktar yüksektir. Berrak kalan suda ise sorun yoktur.",
+        p: "Pratik bir kontrol yöntemi var: temiz bir kap suyla doldurulup birkaç dakika bekletilir. Kabın dibinde açık bir tabaka oluşuyorsa miktar yüksektir. Berrak kalan suda ise sorun yoktur.",
       },
       {
         p: "Kontrolü sezon boyunca aynı noktada, aynı yöntemle tekrarlamak daha anlamlı. Mutlak miktardan çok, miktarın artması veya azalması bilgi verir; artış varsa kuyu tarafında bir şey değişiyor demektir.",
@@ -988,7 +950,7 @@ export const kuyuPosts = [
 
       { h2: "Kuyu içi kamera incelemesi" },
       {
-        p: "Kum kaynağı yüzeyden anlaşılamıyorsa, kuyu içi kamera ile inceleme yapılır. Kamera; kaplama borusundaki hasarı, filtre borusunun durumunu ve dipteki tortu seviyesini doğrudan gösterir.",
+        p: "Kum kaynağı yüzeyden anlaşılamıyorsa, kuyu içi kamera ile inceleme yapılır. Kamera; kaplama borusundaki hasarı, filtre borusunun durumunu ve dipteki tortu seviyesini ortaya koyar.",
       },
       {
         p: "Bu inceleme özellikle tekrar eden kum sorunlarında zaman kazandırır. Pompayı çıkarıp indirerek deneme yapmak yerine, sorunun hangi derinlikte olduğu görülür ve müdahale doğrudan oraya yapılır.",
@@ -999,7 +961,7 @@ export const kuyuPosts = [
 
       { h2: "Kumlu suda pompa seçimi" },
       {
-        p: "Kum tamamen ortadan kaldırılamıyorsa, pompa tarafında da tedbir alınır. Aşınmaya dayanıklı malzemeden üretilmiş çark ve difüzör kullanan modeller, kumlu sularda belirgin şekilde uzun ömür gösterir.",
+        p: "Kum tamamen ortadan kaldırılamıyorsa, pompa tarafında da tedbir alınır. Aşınmaya dayanıklı malzemeden üretilmiş çark ve difüzör kullanan modeller, kumlu sularda ciddi biçimde uzun ömür gösterir.",
       },
       {
         ul: [
@@ -1051,10 +1013,7 @@ export const kuyuPosts = [
 
       { h2: "Depolu sistemlerde ne yapılmalı?" },
       {
-        p: "Kuyudan gelen su doğrudan kullanılmıyor, önce depoya alınıyorsa deponun kendisi bir çökeltme havuzu gibi çalışır. Ağır taneler dibe çöker ve tesisata daha temiz su gider.",
-      },
-      {
-        p: "Bunun bedeli deponun daha sık temizlenmesidir. Emiş ağzının depo tabanından birkaç santim yukarıda olması, çöken tortunun tekrar emilmesini engeller; bu küçük detay depolu sistemlerde en çok fark yaratan uygulamalardan biri.",
+        p: "Kuyudan gelen su doğrudan kullanılmıyor, önce depoya alınıyorsa deponun kendisi bir çökeltme havuzu gibi çalışır. Ağır taneler dibe çöker ve tesisata daha temiz su gider. Bunun bedeli deponun daha sık temizlenmesidir. Emiş ağzının depo tabanından birkaç santim yukarıda olması, çöken tortunun tekrar emilmesini engeller; bu küçük detay depolu sistemlerde en çok fark yaratan uygulamalardan biri.",
       },
       {
         p: "Depo temizliği ihmal edildiğinde biriken tortu zamanla emiş seviyesine yaklaşır ve sistem yeniden kumlu su basmaya başlar. Yıllık temizlik takvimi bu yüzden önemli.",
@@ -1088,7 +1047,7 @@ export const kuyuPosts = [
         p: "İkincisi ilk bakışta tuhaf gelir ama sık yaşanıyor: yıllar içinde kuyu dibinde tortu birikiyor, pompanın kotu değişmediği hâlde tortuya olan mesafe azalıyor. Kuyu temizliği yapılmadığında bu mesafe her yıl biraz daha kısalıyor.",
       },
       {
-        p: "Sezon öncesi yapılan bir kuyu kontrolü, dinamik seviye ölçümü ve gerekiyorsa pompa kotunun yeniden ayarlanması; hem kum miktarını hem sezon içi arıza riskini belirgin şekilde düşürüyor.",
+        p: "Sezon öncesi yapılan bir kuyu kontrolü, dinamik seviye ölçümü ve gerekiyorsa pompa kotunun yeniden ayarlanması; hem kum miktarını hem sezon içi arıza riskini düşürüyor.",
       },
     ],
     faqs: [
@@ -1106,11 +1065,11 @@ export const kuyuPosts = [
       },
       {
         q: "Pompayı yukarı almak kum sorununu çözer mi?",
-        a: "Kum kaynağı kuyu dibindeki tortuysa büyük ölçüde çözer. Kaynak filtre borusu veya çakıl zarfındaki bir eksiklikse kot değişikliği yalnızca kısmi fayda sağlar. Bu yüzden karar öncesi dinamik seviye ölçümü yapılması ve mümkünse kuyu logunun incelenmesi gerekir.",
+        a: "Kum kaynağı kuyu dibindeki tortuysa büyük ölçüde çözer. Kaynak filtre borusu veya çakıl zarfındaki bir eksiklikse kot değişikliği yalnızca kısmi fayda sağlar. O nedenle karar öncesi dinamik seviye ölçümü yapılması ve mümkünse kuyu logunun incelenmesi gerekir.",
       },
       {
         q: "Sulama sezonunda kum artıyor, neden?",
-        a: "Sezonda hem çekim süresi hem debi artar; kuyu çevresindeki akış hızlanır ve ince taneler sürüklenir. Ayrıca bölgesel su seviyesi düştüğü için pompa daha zorlu koşullarda çalışır. Sulamayı gün içinde bölmek ve debiyi düşürmek çoğu zaman gözle görülür fark yaratır.",
+        a: "Sezonda hem çekim süresi hem debi artar; kuyu çevresindeki akış hızlanır ve ince taneler sürüklenir. Ayrıca bölgesel su seviyesi düştüğü için pompa daha zorlu koşullarda çalışır. Sulamayı gün içinde bölmek ve debiyi düşürmek sıklıkla gözle görülür fark yaratır.",
       },
       {
         q: "Damlatıcılarım sürekli tıkanıyor, kum yüzünden mi?",

@@ -109,11 +109,11 @@ export const yapimServices = [
       { p: "Keşifte bunları tek tek soruyoruz. \"Şimdilik olmasın ama ileride isteyebilirim\" dediğiniz kalemler için boru ve boş kanal bırakıyoruz; maliyeti çok küçük, sonradan kazandırdığı çok büyük." },
 
       { h2: "Isı yalıtımı, villada daha kritik" },
-      { p: "Dış cephesi geniş, hacmi yüksek yapılarda ısı kaybı daireden çok daha fazla. Mantolama kalınlığı, çatı yalıtımı ve doğrama sınıfı burada işletme maliyetini doğrudan belirliyor." },
+      { p: "Dış cephesi geniş, hacmi yüksek yapılarda ısı kaybı daireden çok daha fazla. Mantolama kalınlığı, çatı yalıtımı ve doğrama sınıfı burada işletme maliyetini tek başına belirliyor." },
       { p: "Isıtma sisteminin kapasitesi de bu üçüne bağlı. Yalıtımı zayıf bir villada büyük kazan almak sorunu çözmüyor, sadece faturayı büyütüyor." },
 
       { h2: "Bahçeyi işin sonuna bırakmayın" },
-      { p: "Bahçe düzenlemesi genellikle en sona kalıyor ve bütçe bittiğinde yarım bırakılıyor. Oysa istinat duvarı, drenaj, sulama hattı ve aydınlatma kabloları en başta, kaba inşaat makineleri sahadayken yapılırsa maliyeti belirgin düşüyor." },
+      { p: "Bahçe düzenlemesi sıklıkla en sona kalıyor ve bütçe bittiğinde yarım bırakılıyor. Oysa istinat duvarı, drenaj, sulama hattı ve aydınlatma kabloları en başta, kaba inşaat makineleri sahadayken yapılırsa maliyeti iyice düşüyor." },
       { p: "Bitki ve peyzaj kısmı sonraya kalabilir; altyapı kalmasın." },
     ],
     priceFactors: [
@@ -171,7 +171,7 @@ export const yapimServices = [
       { p: "Keşifte önce bu üçünü çözüyoruz: enerji nereden gelecek, su nereden gelecek, atık su nereye gidecek. Bina yerleşimini bunlara göre öneriyoruz." },
 
       { h2: "Kışın kapatılan evde tesisat" },
-      { p: "Malatya'da bağ evlerinin çoğu kışın boş kalıyor. Donan boru, ilkbaharda açılan bir su faturası ve sökülmüş bir duvar demek. Bu yüzden tesisatı baştan boşaltılabilir kuruyoruz: ana vana, tahliye noktaları ve eğimler buna göre planlanıyor." },
+      { p: "Malatya'da bağ evlerinin çoğu kışın boş kalıyor. Donan boru, ilkbaharda açılan bir su faturası ve sökülmüş bir duvar demek. Bunun için tesisatı baştan boşaltılabilir kuruyoruz: ana vana, tahliye noktaları ve eğimler buna göre planlanıyor." },
       { p: "Dalgıç pompa ve hidrofor için de kış modu bırakıyoruz. Gitmeden önce yapılacak üç işlemi yazılı veriyoruz." },
 
       { h2: "Yapı tipi seçimi" },
@@ -209,7 +209,7 @@ export const yapimServices = [
       "Malatya'da sıfırdan dükkan, showroom ve iş yeri yapımı: yapı, vitrin, elektrik ve aydınlatma projesi, zayıf akım ve açılışa yetişen iş programı.",
     keywords: ["Malatya dükkan yapımı", "Malatya iş yeri inşaatı", "showroom yapımı Malatya", "mağaza inşaatı Malatya"],
     intro:
-      "Ticari yapıda tek bir tarih vardır: açılış. Kira işlemeye başladığı andan itibaren her gecikme doğrudan cepten çıkıyor. Bu yüzden iş yeri işlerinde programı geriye doğru kuruyoruz; açılış tarihinden bugüne.",
+      "Ticari yapıda tek bir tarih vardır: açılış. Kira işlemeye başladığı andan itibaren her gecikme doğrudan cepten çıkıyor. Dolayısıyla iş yeri işlerinde programı geriye doğru kuruyoruz; açılış tarihinden bugüne.",
     symptoms: [
       { title: "Kira başladı, iş bitmedi", text: "Program açılış tarihine göre kurulmadığında en pahalı kalem gecikme oluyor." },
       { title: "Elektrik gücü yetersiz", text: "Mutfaklı ve soğutmalı işletmelerde abonelik gücü baştan hesaplanmalı." },
@@ -397,7 +397,7 @@ export const yapimServices = [
     intro:
       "Prefabrik ve hafif çelik, betonarmenin ucuz alternatifi değil; farklı bir çözüm. Hızlı kurulması, hafif temelle yetinmesi ve sökülüp taşınabilmesi bazı işlerde onu doğrudan doğru seçenek yapıyor.",
     symptoms: [
-      { title: "Kısa sürede yapı gerekiyor", text: "Montaj süresi betonarmeye göre belirgin kısa; imalat fabrikada sürerken saha hazırlanıyor." },
+      { title: "Kısa sürede yapı gerekiyor", text: "Montaj süresi betonarmeye göre epeyce kısa; imalat fabrikada sürerken saha hazırlanıyor." },
       { title: "Araziye mikser giremiyor", text: "Hafif temel ve panel montajı, ulaşımı zor arazilerde avantaj sağlıyor." },
       { title: "İleride taşınabilir olmalı", text: "Şantiye ve geçici kullanım yapılarında sökülüp yeniden kurulabiliyor." },
       { title: "Zemin zayıf", text: "Yapı hafif olduğu için temel maliyeti düşüyor." },
@@ -420,7 +420,7 @@ export const yapimServices = [
 
       { h2: "Hız nereden geliyor?" },
       { p: "Kazanç, imalatın fabrikada ve sahadaki hazırlığın aynı anda yürümesinden geliyor. Temel dökülürken panel ve karkas üretiliyor; saha hazır olduğunda montaj günler sürüyor." },
-      { p: "Bu yüzden karar ve sipariş tarihini erken vermek gerekiyor. Geç verilen sipariş, prefabriğin en büyük avantajını yok ediyor." },
+      { p: "O yüzden karar ve sipariş tarihini erken vermek gerekiyor. Geç verilen sipariş, prefabriğin en büyük avantajını yok ediyor." },
 
       { h2: "Nerede uygun değil?" },
       { p: "Sürekli oturulacak, uzun ömür beklenen ve ileride kat eklenmesi düşünülen yapılarda betonarme hâlâ daha uygun. Prefabriği, doğru işte kullanıldığında öneriyoruz; her işe uyan bir çözüm gibi anlatmıyoruz." },
