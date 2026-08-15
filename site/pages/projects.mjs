@@ -131,11 +131,7 @@ ${
 
 <section class="section${has ? " section--paper2" : ""}">
   <div class="wrap">
-    ${secHead(
-      "Ne yapıyoruz",
-      "Yürüttüğümüz proje tipleri",
-      "Her başlıkta kapsam, tipik süre ve maliyeti belirleyen kalemler hizmet sayfasında yazılı."
-    )}
+    ${secHead("Ne yapıyoruz", "Yürüttüğümüz proje tipleri")}
     <div class="grid g-3">${projectTypes.map(typeCard).join("")}</div>
   </div>
 </section>

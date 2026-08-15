@@ -123,7 +123,7 @@ ${pageHead({
 
 <section class="section">
   <div class="wrap">
-    ${secHead(`${g.items.length} başlık`, `${g.name} işlerimiz`, "Her başlıkta kapsam, fiyatı belirleyen kalemler ve sık sorulanlar yazılı.")}
+    ${secHead(`${g.items.length} başlık`, `${g.name} işlerimiz`)}
     <div class="grid g-3">${g.items.map(serviceCard).join("")}</div>
   </div>
 </section>

@@ -17,12 +17,15 @@ import { planPosts } from "./posts-plan.mjs";
 import { arizaPosts } from "./posts-ariza.mjs";
 import { suKaynagiPosts } from "./posts-su-kaynagi.mjs";
 import { sulamaEkPosts } from "./posts-sulama-3.mjs";
+import { guvenlikPosts } from "./posts-guvenlik.mjs";
+import { enerjiPosts } from "./posts-enerji.mjs";
 
 const all = [
   ...elektrikPosts, ...suPosts, ...yapiPosts, ...dogalgazPosts, ...tadilatPosts,
   ...yapimPosts, ...cephePosts, ...incePosts, ...bahcePosts,
   ...hidroforPosts, ...kuyuPosts, ...sulamaPosts, ...tesisatPosts, ...planPosts,
   ...arizaPosts, ...suKaynagiPosts, ...sulamaEkPosts,
+  ...guvenlikPosts, ...enerjiPosts,
 ];
 
 // Yayın tarihine göre yeniden eskiye.

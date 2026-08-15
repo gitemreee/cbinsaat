@@ -79,7 +79,7 @@ export function homePage(ctx) {
     <p class="hero-rotator" aria-hidden="true">${heroSlides
       .map((h, i) => `<span class="r-${i + 1}">${icon("check")} ${esc(h.label)}</span>`)
       .join("")}</p>
-    <p>Elektrik, su, dekorasyon ve yapı işleri tek ekipte. Daire, ev, mutfak, banyo ve iş yeri tadilatını yıkımından teslimine kadar biz yürütüyoruz; aradığınızda hep aynı kişiyle konuşursunuz. Bir gelip yerinde bakalım, gerisini birlikte konuşuruz.</p>
+    <p>Elektrik, su, dekorasyon ve yapı işleri tek ekipte. Daire, ev, mutfak, banyo ve iş yeri tadilatını yıkımından teslimine kadar biz yürütüyoruz.</p>
     <div class="btn-row">
       <a class="btn btn--primary" href="/teklif/">${icon("doc")} Ücretsiz keşif iste</a>
       <a class="btn btn--wa" href="${waLink()}" target="_blank" rel="noopener nofollow">${icon("wa")} WhatsApp'tan yazın</a>
