@@ -21,13 +21,14 @@ import { guvenlikPosts } from "./posts-guvenlik.mjs";
 import { enerjiPosts } from "./posts-enerji.mjs";
 import { uzaktanPosts } from "./posts-uzaktan.mjs";
 import { arsaPosts } from "./posts-arsa.mjs";
+import { tavanPosts } from "./posts-tavan.mjs";
 
 const all = [
   ...elektrikPosts, ...suPosts, ...yapiPosts, ...dogalgazPosts, ...tadilatPosts,
   ...yapimPosts, ...cephePosts, ...incePosts, ...bahcePosts,
   ...hidroforPosts, ...kuyuPosts, ...sulamaPosts, ...tesisatPosts, ...planPosts,
   ...arizaPosts, ...suKaynagiPosts, ...sulamaEkPosts,
-  ...guvenlikPosts, ...enerjiPosts, ...uzaktanPosts, ...arsaPosts,
+  ...guvenlikPosts, ...enerjiPosts, ...uzaktanPosts, ...arsaPosts, ...tavanPosts,
 ];
 
 // Yayın tarihine göre yeniden eskiye.

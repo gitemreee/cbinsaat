@@ -266,10 +266,10 @@ export const yapimServices = [
     featured: false,
     priced: true,
     short: "Depo, atölye ve sanayi yapıları; çelik konstrüksiyon, beton zemin, aydınlatma ve güç dağıtımı.",
-    metaTitle: "Malatya Depo ve Atölye Yapımı",
+    metaTitle: "Malatya Depo İnşaatı ve Atölye Yapımı",
     metaDesc:
-      "Malatya'da depo, atölye ve sanayi yapısı yapımı: çelik konstrüksiyon, beton saha, güç dağıtımı, aydınlatma ve yangın tesisatı.",
-    keywords: ["Malatya depo yapımı", "Malatya atölye inşaatı", "sanayi yapısı Malatya", "çelik depo Malatya"],
+      "Malatya'da depo inşaatı, atölye ve sanayi yapısı yapımı. Çelik konstrüksiyon, beton saha, güç dağıtımı, aydınlatma ve yangın tesisatı tek elden.",
+    keywords: ["Malatya depo inşaat firmaları", "Malatya depo yapımı", "Malatya depo inşaatı", "Malatya atölye inşaatı", "sanayi yapısı Malatya", "çelik depo Malatya"],
     intro:
       "Depo ve atölyede yapının kendisi genelde basit. İşi zorlaştıran, içinde ne yapılacağı: makine yükleri, forklift trafiği, aydınlatma seviyesi ve elektrik gücü. Bunlar bilinmeden çizilen bir depo, ilk yılında değiştirilmeye başlıyor.",
     symptoms: [
@@ -301,6 +301,54 @@ export const yapimServices = [
       { h2: "Çelik mi betonarme mi?" },
       { p: "Geniş açıklık gereken depolarda çelik konstrüksiyon hem hızlı hem ekonomik. Makine yükü taşıyan, ara katlı ya da yüksek titreşimli üretim yapılan yapılarda ise betonarme öne çıkabiliyor." },
       { p: "Kararı yetkili statik ekiple birlikte veriyoruz. İkisinin de maliyetini ve süresini yan yana çıkarıp size gösteriyoruz." },
+      { table: {
+        head: ["Konu", "Çelik", "Betonarme"],
+        rows: [
+          ["Geniş açıklık", "Uygun", "Kolon gerekir"],
+          ["Yapım süresi", "Kısa", "Uzun"],
+          ["Ara kat ekleme", "Kolay", "Proje gerektirir"],
+          ["Makine titreşimi", "Sınırlı", "Uygun"],
+          ["Sonradan büyütme", "Kolay", "Zor"],
+          ["Bakım", "Boya ve korozyon", "Neredeyse yok"],
+        ],
+      } },
+
+      { h2: "Depo inşaatında iş sırası" },
+      { p: "Süreç arsanın durumundan başlıyor ve her adımın bir öncekine bağlı olduğu bir sırayla ilerliyor. Adımların yerini değiştirmek, sonradan sökülüp yeniden yapılan işler çıkarıyor." },
+      { ol: [
+        "Arsa ve imar durumu kontrolü; ne yapılabileceği netleşir.",
+        "Zemin etüdü; temel tipi ve saha betonu buna göre seçilir.",
+        "İhtiyaç programı: makine listesi, forklift trafiği, depolama yüksekliği, elektrik gücü.",
+        "Proje ve ruhsat süreci; yetkili proje ekipleriyle koordinasyon.",
+        "Hafriyat, temel ve saha betonu.",
+        "Taşıyıcı sistem: çelik montajı ya da betonarme imalat.",
+        "Çatı, cephe paneli ve yalıtım.",
+        "Elektrik, aydınlatma, yangın ve mekanik tesisat.",
+        "Saha düzenlemesi, otopark ve çevre.",
+        "İskân ve devreye alma.",
+      ] },
+      { p: "Üçüncü adım en çok atlanan yer. İçeride ne olacağı bilinmeden çizilen bir depo, ilk yılında değiştirilmeye başlıyor." },
+
+      { h2: "Yükseklik ve açıklık kararı" },
+      { p: "Depo yüksekliği raf sistemine ve forklift tipine göre belirleniyor. Sonradan yükseltmek mümkün olmadığı için baştan bir pay bırakmak, en ucuz esneklik." },
+      { p: "Açıklık ise içeride kaç kolon olacağını belirliyor. Kolonsuz bir hacim depolama ve manevra açısından rahat ama açıklık büyüdükçe taşıyıcı sistem maliyeti artıyor. Denge, gerçek kullanım planına bakarak kuruluyor." },
+
+      { h2: "Yalıtım ve iklimlendirme" },
+      { p: "Malatya yazında çatı altı sıcaklığı çok yükseliyor, kışın ise sabah saatlerinde çalışılamaz hâle gelebiliyor. Çatı ve cephe panelinin yalıtım kalınlığı bu iki uca göre seçiliyor." },
+      { p: "İçeride insan çalışıyorsa havalandırma da baştan planlanıyor. Sonradan eklenen çatı fanları ve kanal işleri, hem panel kesmeyi hem su yalıtımını yeniden ele almayı gerektiriyor." },
+
+      { h2: "Yangın ve güvenlik" },
+      { p: "Yangın tesisatı gerekliliği yapının büyüklüğüne, kullanımına ve depolanan malzemeye göre belirleniyor; kararı yetkili proje ekibi veriyor, uygulamasını biz yapıyoruz." },
+      { p: "Acil aydınlatma, çıkış yönlendirmesi ve yangın algılama da aynı kapsamda planlanıyor. Kamera ve alarm sistemi ise ayrı bir başlık; depo ve atölyelerde çoğu zaman aynı iş sırasında kuruluyor." },
+
+      { h2: "Mevcut depoyu yenilemek" },
+      { p: "Her iş sıfırdan yapı olmuyor. Elde bir depo varsa yapılan işlerin çoğu şu üç başlıkta toplanıyor: zemin yenileme, elektrik kapasitesi artırma ve çatı onarımı." },
+      { p: "Zemin yenilemede mevcut betonun durumu belirleyici; üzerine kaplama yapılabiliyor ya da sökülüp yeniden dökülüyor. Elektrik tarafında ise güç artırımı, pano yenileme ve kompanzasyon en sık gelen üç iş." },
+      { p: "Çatı akıntısı olan depolarda önce kaynak bulunuyor. Panel eki, mahya, baca dibi ve oluk; dördü de sık çıkan noktalar. Depolanan malzemenin ıslanması, çatı onarımının maliyetini kısa sürede aşıyor." },
+
+      { h2: "Neden tek elden?" },
+      { p: "Depo ve atölyede yapı, elektrik ve mekanik iç içe geçiyor. Vinç hattı taşıyıcıya bağlanıyor, makine beslemesi zemin kanalından geçiyor, aydınlatma çatı makasına asılıyor." },
+      { p: "Bunlar ayrı ekiplere dağıtıldığında koordinasyon size kalıyor ve bir kalemdeki gecikme diğerini bekletiyor. Elektrik ve mekaniğin de bizde olması, bu bekleyişleri ortadan kaldırıyor." },
     ],
     priceFactors: [
       "Kapalı alan, açıklık ve yükseklik",
@@ -312,9 +360,14 @@ export const yapimServices = [
     ],
     faqs: [
       { q: "Çelik depo ne kadar sürede biter?", a: "500 m² tek katlı bir çelik depoda imalat ve montaj 6–10 hafta. Zemin betonu ve saha düzenlemesi buna ek. Süre çelik imalat programına bağlı; sipariş erken verilirse kısalıyor." },
-      { q: "Mevcut depoya ara kat eklenir mi?", a: "Yapının taşıyıcı sistemi uygunsa eklenir; bu kararı yetkili statik ekibin incelemesi olmadan vermiyoruz. Uygun çıkarsa çelik ara kat en hızlı çözüm oluyor." },
+      { q: "Mevcut depoya ara kat eklenir mi?", a: "Yapının taşıyıcı sistemi uygunsa eklenir; bu karar yetkili statik ekibin incelemesiyle veriliyor. Uygun çıkarsa çelik ara kat en hızlı çözüm oluyor." },
       { q: "Yangın tesisatı zorunlu mu?", a: "Yapının büyüklüğüne, kullanımına ve depolanan malzemeye göre değişiyor. Gereklilik yetkili proje ekibince belirleniyor; uygulamayı biz yapıyoruz." },
       { q: "Sanayi sitesindeki dükkânda çalışıyor musunuz?", a: "Çalışıyoruz. Malatya'da sanayi sitesi ve mobilyacılar sitesindeki atölye tadilatı ve elektrik işleri sık yaptığımız işlerden." },
+      { q: "Depo inşaatı nereden başlıyor?", a: "Arsa ve imar durumu kontrolüyle. Sonra zemin etüdü, ihtiyaç programı (makine listesi, forklift trafiği, depolama yüksekliği, elektrik gücü) ve proje geliyor. İçeride ne olacağı netleşmeden çizilen depo, ilk yılında değiştirilmeye başlıyor." },
+      { q: "Depo zemini kaç santim olmalı?", a: "Tek bir rakam yok; forklift tipine, raf yüküne ve trafiğe göre beton sınıfı, kalınlık, donatı ve yüzey uygulaması birlikte seçiliyor. Ev betonu kalınlığındaki bir saha birkaç ay içinde çatlayıp tozumaya başlıyor." },
+      { q: "Elektrik ve mekanik işleri de siz mi yapıyorsunuz?", a: "Evet, ikisi de bizde. Depo ve atölyede yapı, elektrik ve mekanik iç içe geçiyor: vinç hattı taşıyıcıya bağlanıyor, makine beslemesi zemin kanalından geçiyor. Aynı ekipte olunca koordinasyon size kalmıyor." },
+      { q: "Mevcut deponun zeminini yenileyebilir misiniz?", a: "Yenileyebiliyoruz. Mevcut betonun durumuna göre ya üzerine kaplama yapılıyor ya sökülüp yeniden dökülüyor. Karar için yerinde bakıp mevcut zeminin taşıma durumunu görmemiz gerekiyor." },
+      { q: "Depoyu sonradan büyütmek mümkün mü?", a: "Çelik yapıda oldukça kolay; aks devam ettirilerek ek yapılabiliyor. Betonarmede ise proje ve statik hesap gerekiyor. Büyüme ihtimali varsa bunu ilk projede söylemek, ileride çok iş kolaylaştırıyor." },
     ],
     localAngle: "Malatya organize sanayi bölgesi ve sanayi sitelerindeki atölye yoğunluğu",
     related: ["fabrika-elektrik-tesisati", "kompanzasyon-panosu", "yangin-tesisati", "prefabrik-hafif-celik"],

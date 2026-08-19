@@ -153,7 +153,7 @@ export const incePosts = [
       { q: "Boyadan sonra fark ettim, ne yapmalıyım?", a: "Lokal kusurlar macun ve zımparayla düzeltilip o bölge yeniden boyanabiliyor. Yaygınsa saten katı gerekiyor ve tüm duvar yeniden boyanıyor." },
       { q: "Mat boya kusuru gizler mi?", a: "Gizler. Parlak ve yarı mat boyalar ışığı yansıttığı için kusuru büyütüyor. Dalgalı duvarda mat boya tercih etmek işe yarıyor." },
     ],
-    related: ["alci-mi-macun-mu", "boya-neden-kabarir", "alcipan-nerede-kullanilir"],
+    related: ["tavan-dalgali-nasil-duzeltilir", "alci-mi-macun-mu", "boya-neden-kabarir", "alcipan-nerede-kullanilir"],
   },
 
   {
